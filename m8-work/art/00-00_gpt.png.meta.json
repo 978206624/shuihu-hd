@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "out": "m8-work/art/00-00_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1920x1280",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 408,
+      "elapsed": 98.4,
+      "error": "{'code': 'request_body_timeout', 'message': 'Timed out reading image upload', 'type': 'invalid_request_error'}"
+    },
+    {
+      "attempt": 2,
+      "status": 200,
+      "elapsed": 251.6,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session, including survey-art or rom-gate. Read context FROM FILES. Keep this session compact and checkpoint often.
+
+# Task
+Region 3 is closed. Live accepted runtime is m8-work/runtime/. Do NOT modify m8-work/runtime/, m8-work/scripts/, m8-work/art/ (read-only), m8-work/freeze-sha256.json, frozen M8 results, the ROM, or the binjgb core.
+
+Work only under m9-work/. Helper scripts go in m9-work/scripts/ or m9-work/outer-runs/, never m8-work/scripts/. Append m9-work/progress.md with zoned timestamps. If 38811 drops, STOP and report. Sandbox EPERM for host sockets is known: do not retry network; do not run GPT generation or browser/QA. This session is prepare-art + region4-scope only.
+
+# Established official-start evidence (do not re-explore)
+Official start: m9-work/checkpoints/story12-meeting-end.bin (SHA-256 2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2). ROM SHA ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95. Core SHA 52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b.
+
+Natural official-start route at story 12, no RAM edits: 00-08 east -> 00-1f (banner 黄泥岗) -> 00-21 -> 00-24 -> 00-2b inn. Front 吴用 talk from (4,3) facing up reached story 13 with DAA1=f2. Rear 00-2c 史进 talk from (4,4) facing up reached story 14 with DAA1=72 DAA2=1. Fast native binjgb exploration of the talks is in m9-work/native/m9-native-huangnigang-inn-v2/ (result.json COMPLETE). The full official-start joypad list is m9-work/outer-runs/huangnigang-inn-actions.json (262 actions). The supervisor will run ONE official browser replay of that list for evidence; do not wait for it and do not launch browser play.
+
+# Region 4 maps to prepare (only these five)
+- 00-1f 黄泥岗林道. Natural replay: m9-work/play/m9-huangnigang-s01-forest-settle (end map 00-1f, story 12). Use the last action-*.bin as the settled state (these browser plays have no latest.bin).
+- 00-21 黄泥岗街区. Natural replay: m9-work/play/m9-huangnigang-s01-maze-cont (end map 00-21, story 12). Last action-*.bin.
+- 00-24 黄泥岗客栈外 (酒 door). Natural replay: m9-work/play/m9-huangnigang-s01-town-cont (end map 00-24, story 12, cell 4,14). Last action-*.bin.
+- 00-2b 黄泥岗客栈前厅. Natural replay: m9-work/play/m9-huangnigang-s01-inn (entry arrival) and/or m9-work/native/m9-native-huangnigang-inn-v2/front-10.bin (story 13, cell 4,3, field settled). Prefer a field-settled bin whose result/map is 00-2b.
+- 00-2c 黄泥岗客栈后室. Natural replay: m9-work/native/m9-native-huangnigang-inn-v2/rear-19.bin (story 14, DAA1=72, DAA2=1, cell 4,4).
+
+# Exclusions (do not add unless you find a settled official-start save showing they were naturally entered on this path)
+- 00-08 already used in M6 野道 art; not a region-4 plate.
+- 00-20, 00-22, 00-23 were not entered on this path.
+- 00-09 / 00-0b / 神木林 is a separate party-ability gate, not this inn episode.
+- Battles and system menus are not plates.
+
+# What to write
+1. New prepare-art script under m9-work/ (adapt method from read-only m8-work/scripts/prepare-art.py). ROM-only character-free full-map natives and 4x nearest-neighbor geometry inputs ONLY (never HD backgrounds or gap fills). Reuse V4 style refs by copying bytes into m9-work/art/: town_style.png, room_style.png, forest_style.png from m8-work/art/. Suggested styles: 00-1f forest, 00-21 and 00-24 town, 00-2b and 00-2c room. Confirm against the actual native images.
+
+2. Write m9-work/region4-scope.json in the region3-scope.json schema: id, name, nativeSize, geometrySHA256, naturalReplay, nativeEndSHA256 (hash the settled .bin), independentDoorSurvey, nameBasis; plus identificationEvidence, nextStoryGate, exclusions, artStatus=PREPARED_NOT_GENERATED, notAllConnectedWorldMaps=true, candidateMapCount. nextStoryGate is after story 14 (the 客栈会合/乔装/埋伏 briefing is done; do not invent later chapter maps). nameBasis must be from banners, dialogue, or confirmed use; no invented proper names.
+
+3. Per-map prompts + batch-manifest.json under m9-work/art/, medium / gpt-image-2, native 4x + style ref. Prompt rules:
+   - Full-map V4 style-transfer plates, not tilesets, not an upscaled/smoothed fallback.
+   - Lock original aligned overhead geometry; exact identity, count, and footprints of buildings, doors, roads, furniture, trees, walls, floors, black void.
+   - ZERO characters, monsters, portraits, sprites, silhouettes, UI, dialogue, watermarks.
+   - CRITICAL glyph rule (00-06 lesson): faithfully preserve every background text glyph that exists on the native map (signs, plaques, labels, banners painted on the background). Same characters, count, order, colors, and positions. Do NOT blank signs into decorative panels or floral ornaments. Do NOT copy the old 00-00/00-06 wording that said signboards should be blank. If a map has no background glyphs, say so explicitly and still forbid invented text.
+   - Layout fidelity has priority over decoration.
+
+4. When finished, write m9-work/ART_PREPARED.md listing the five natives, 4x inputs, prompts, manifest path, scope path, and any map with visible background glyphs that the supervisor must check before GPT. Then stop. Do not call gpt_image.py, do not integrate a runtime, do not start QA.

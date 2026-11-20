@@ -1,0 +1,25 @@
+{
+  "status": "ready for GPT edit",
+  "purpose": "Presentation-only forest background tile atlas; never a whole-screen illustration",
+  "target_output_path": "/workspace/shawu/web/assets/forest/atlas_hd.png",
+  "reference_atlas_path": "/workspace/shawu/m1-work/forest_reference.png",
+  "mapping_path": "/workspace/shawu/web/assets/forest/mapping.json",
+  "grid": {
+    "source_tile_px": 8,
+    "output_tile_px": 32,
+    "columns": 16,
+    "rows": 6
+  },
+  "layout": "Each reference cell maps to exactly the same row/column in output; no gutters; preserve boundary connections, transparent pixels where reference mask says preserve. Do not draw actors, text, window or UI. Atlas must be a regular tile sheet, no perspective or whole scene.",
+  "provenance": "Supervisor arranges art via user GPT gateway. No other image provider used.",
+  "next": "Exact dimensions and reference/mask will be updated after emulator extraction.",
+  "width": 512,
+  "height": 192,
+  "tile_count": 94,
+  "rows": 6,
+  "columns": 16,
+  "source_screenshot_path": "/workspace/shawu/m1-work/forest_source_1.png",
+  "preserve_mask_path": "/workspace/shawu/m1-work/forest_preserve_mask_1.png",
+  "unused_cells": "Trailing magenta cells are unused; keep them magenta",
+  "instructions": "Redraw each 32x32 cell in place as detailed top-down RPG forest texture. Each is one original 8x8 tile, not a whole tree or scene. Preserve exact edge connections, terrain geometry, water/land boundaries, major color regions. Never move, merge or rearrange cells. No actors, letters, UI or perspective. Output exactly the same atlas dimensions. Use source screenshot only for environmental context."
+}

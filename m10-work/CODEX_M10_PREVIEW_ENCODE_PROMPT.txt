@@ -1,0 +1,44 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any earlier session. Read context FROM FILES.
+
+Work only under m10-work/. You may READ m9-work/scripts/region4-preview.cjs for the accepted encode cut logic. Do not modify m8-work/, m9-work/, m10-work/runtime/, ROM bytes, the binjgb core, art plates, official evidence, or any QA/perf/contact results. Do not delete or rewrite these capture artifacts (encode will reuse them):
+
+- m10-work/results/m10-region5-20261119T021341364667010Z/preview/capture.json
+- m10-work/results/m10-region5-20261119T021341364667010Z/preview/region5-raw.webm
+- m10-work/results/m10-region5-20261119T021341364667010Z/preview/marker-frames.log
+- m10-work/results/m10-region5-20261119T021341364667010Z/preview/progress.json
+
+If 38811 drops, STOP and report. Your sandbox cannot use host sockets: do NOT run Playwright, do NOT hit :8765, do NOT launch run-region5-outer.sh, and do NOT recapture or encode the preview.
+
+CONTEXT:
+Preview capture already succeeded for RUN_ID m10-region5-20261119T021341364667010Z. All 6 official excerpts were recorded, start/end evidence verified, and real-time playback bounds passed. encode() then failed:
+
+AssertionError: Enter the west forest recording duration differs from live playback
+at m10-work/scripts/region5-preview.cjs:197
+
+Current M10 encode() requires Math.abs(nominal - (cut.end-cut.start)) <= 0.12, where nominal is elapsedMs/1000, plus 0.35s on the last clip. Measured on the existing marker-frames.log (6 cuts, exact 0.04s / 25fps steps):
+
+0 Enter the west forest: elapsed=5.3479 cut=18.16-23.76 dur=5.600 delta=-0.252
+1 West forest story scene: elapsed=9.2568 cut=33.64-43.16 dur=9.520 delta=-0.263
+2 Story 19 at the inn exterior: elapsed=10.566 cut=195.72-206.52 dur=10.800 delta=-0.234
+3 Exit path: elapsed=8.1599 cut=209.40-217.80 dur=8.400 delta=-0.240
+4 Forest mountain road: elapsed=8.9668 cut=220.08-229.28 dur=9.200 delta=-0.233
+5 Stone stairs arrival: elapsed=7.2136 nominal(+0.35)=7.5636 cut=254.60-263.28 dur=8.680 delta=-1.116
+
+This is systematic recorder/marker tail, not a bad capture. The accepted M9 m9-work/scripts/region4-preview.cjs encode() does NOT require the white-bar duration to equal elapsedMs. It does:
+
+  const timestampSlack=.041; // One 25 fps recording frame plus the WebM timestamp resolution.
+  const duration=clip.elapsedMs/1000;
+  const end=cut.start+duration;
+  assert(end<=cut.end+timestampSlack, clip.name+' playback exceeds the white marker interval');
+  return {...clip,start:cut.start,end,duration};
+
+Published segments are [cut.start, cut.start+elapsedMs]. The white marker only has to cover the live playback (plus one 25fps frame). The last-clip 350ms marker hold is a close-out aid and must NOT be added to the published duration. With that M9 method, all 6 current cuts pass (margins 0.23-0.26s on clips 0-4, 1.466s on the last clip).
+
+TASK:
+1. Change only the cut/segment logic inside encode() in m10-work/scripts/region5-preview.cjs so it matches the accepted M9 method above. Keep Region 5 clip count at 6 (do not copy M9's assert of 7 clips). Keep the existing raw SHA check, marker-log parsing, crop=640:576:0:16, vp9 settings, <25,000,000 byte limit, probe checks, and encode-report fields (audio:false, speedMultiplier:1, method text, 6 segments). Do not require abs(cut duration - elapsed) equality. Do not add +0.35 to the published last-clip duration. M10 capture already turns the last marker black, so asserting that the last interval is closed is fine; do not invent a 7th cut. Still fail if the recording ends mid-excerpt or if the marker count is not 6.
+
+2. After the script change, update ONLY the hash for "m10-work/scripts/region5-preview.cjs" in m10-work/integration/outer-freeze.json to the SHA-256 of the new file. Do not change any other freeze entry. verifyFreeze() hashes every entry, so a stale script hash would block the encode-only rerun.
+
+3. Do not run the preview. The supervisor will rerun encode against the existing capture.json.
+
+Write a short note at m10-work/logs/codex-m10-preview-encode-notes.md listing the files you changed and the new script SHA-256.

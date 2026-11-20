@@ -1,0 +1,16 @@
+{
+  "map": "00-21",
+  "entry": 3,
+  "story": 12,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 43,
+  "cell": null,
+  "facing": null,
+  "arrivalBanner": 0,
+  "scriptRunning": 0,
+  "DAA1": "b2",
+  "DAA2": "0",
+  "nextActionIndex": 180,
+  "image": "m9-work/play/m9-huangnigang-s01-town-field-recover-02/action-0179.png"
+}

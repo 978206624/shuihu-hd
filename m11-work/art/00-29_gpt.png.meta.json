@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "out": "/workspace/shawu/m11-work/art/00-29_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "960x800",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 504,
+      "elapsed": 187.0,
+      "error": "{'code': 'upstream_connect_timeout', 'message': 'Upstream preparation exceeded the opening time limit', 'type': 'server_error'}"
+    },
+    {
+      "attempt": 2,
+      "status": 200,
+      "elapsed": 111.0,
+      "error": null
+    }
+  ]
+}

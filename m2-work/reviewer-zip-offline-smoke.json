@@ -1,0 +1,63 @@
+{
+  "pass": true,
+  "externalRequestsBlocked": 0,
+  "httpErrors": [],
+  "pageErrors": [],
+  "scenes": [
+    {
+      "frames": 5,
+      "ticks": 240668740,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "title",
+        "mapResult": null,
+        "titleRedrawn": true,
+        "titleSelection": 0,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        238,
+        0
+      ]
+    },
+    {
+      "frames": 9,
+      "ticks": 2453105112,
+      "pc": 670,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "forest",
+        "mapResult": {
+          "scene": "forest",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 475,
+          "backgroundPixels": 22565,
+          "unsupportedPixels": 0
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        0,
+        0
+      ]
+    }
+  ]
+}

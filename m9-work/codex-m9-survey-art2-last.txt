@@ -1,0 +1,5 @@
+[REQUEST_READY.md](/workspace/shawu/m9-work/REQUEST_READY.md) contains exact supervisor commands for outer play from the verified story12 save. The launcher checks ports 38811 and 8765 and stops play if either listener drops.
+
+The preserved dialogue confirms 黄泥岗客栈 as the meeting point and the 掌柜/小二 disguises. The sandbox’s known socket restriction prevented browser play, so the forest route, inn entry, and next story gate still need natural evidence before scope and art inputs can be prepared.
+
+I checkpointed the handoff in [progress.md](/workspace/shawu/m9-work/progress.md). No browser or GPT job was launched.

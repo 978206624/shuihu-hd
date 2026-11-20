@@ -1,0 +1,7 @@
+Modified only `web/map-renderer.js` and `m5-work/` scripts/reports.
+
+- Continue-arrow and bottom-edge gaps: **0**.
+- Wipe gaps reduced to **1327 / 1430 / 56 / 1768**; unresolved pixels remain native.
+- Seven targeted WASM samples passed: **zero changed actor/text channels**, selected borders fully covered.
+
+Counts, denominator changes, and limitations: [UI_CODE_DONE.txt](/workspace/shawu/m5-work/UI_CODE_DONE.txt). Progress appended. No browser or full coverage run.

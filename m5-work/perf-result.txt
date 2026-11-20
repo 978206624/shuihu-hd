@@ -1,0 +1,42 @@
+# M5.1 性能修复结果
+
+## 复现与根因
+未修改M5从boot真实播放182.94秒（无step快进），录屏整体35.37 GBfps、rAF18.01Hz，最长回调1.995秒；已提取并查看前后联系图，确实是慢动作/长停顿，不只是原版人物动画本来帧数少。
+核心步进平均约0.4ms，Observer约1.5–1.8ms，不是ROM/模拟器本身计算吃满。主要瓶颈是HD合成：标题/字幕卡在144行循环中每行都putImageData整张640x576画布；扫描线调色有整图重复转换；对话框每帧同步getImageData、重复认证快照；所有候选图集反复扫描/生成；缺口审计对象与JSON比较留在热循环。旧rAF会把超过84ms的墙钟截掉，渲染变慢直接造成游戏慢动作。
+
+## 接入的修复（只四个JS文件）
+标题/字幕卡合为每帧一次上传；精确依赖缓存UI边框/认证快照；当前OAM和文字以原生RGBA最近邻修补，减少同步全幅回读；扫描线只调色所需图集行；候选调色图层按实际可见使用生成；帧内tile解码复用；整数palette-pair比较；默认不创建gap对象。audit仍可显式开启。rAF保留完整墙钟积欠、每callback最多4个逐核心+逐HD状态机帧；没有跳核心帧或改时钟常数。
+
+## 顺序真实时间对比（未录屏，同一12秒harness）
+各段测量期间只正常rAF播放；setup可离线快进，但测量没有快进。数值为该段真实播放窗口（优化后进度更快，因此包含更多后续原生帧），不是精确相同帧集合的微基准。嵌套timings不能简单相加。
+
+场景 | 渲染平均ms M5→M5.1 | p95 ms | 实际GBfps
+title fade | 113.94→13.79 | 175.00→39.40 | 8.67→59.57
+card | 122.53→11.30 | 152.20→35.70 | 8.09→59.58
+opening story | 38.78→8.54 | 55.90→16.30 | 24.93→59.58
+impact | 60.50→10.22 | 337.80→34.50 | 15.86→59.58
+forest | 22.27→8.06 | 49.90→14.40 | 38.69→59.58
+normal walking | 16.75→10.50 | 24.50→14.60 | 50.69→59.56
+
+12秒段首个rAF同步带来约1–2帧偏差；模拟时钟常数仍为4194304/70224=59.72750057fps。
+修复后从boot连续录屏180.40秒，整体58.81GBfps、rAF50.65Hz，最长间隔408ms；室内对话段约59.7fps，但heaven字幕/部分转场仍有欠债并在后续较轻帧追赶。录屏有额外开销。不能宣称全程每个显示帧60fps或已完全消除峰值卡顿。
+
+## 验收
+全29160帧回放通过：243/243状态SHA256、243/243原生framebuffer、243次人物与非转场文字像素检查一致（检查178797原生actor像素、1161534文字像素）。完整HD背景28669/29160=98.31618656%；471663068/471723583=99.98717151%像素，与M5精确相同。页面错误0。
+ROM、binjgb JS/WASM、35素材和411字节GBK start.bat不变；没有新生图、没有人物重绘、没有平滑放大。干净解压新包后离线360帧smoke、核心状态、无外网请求通过。
+附加HD逐字节比较发现frame246的一行作者背景存在最大7的RGB差异（1024像素），未影响native角色/文字或coverage。此额外调查未完全解释，未将探索性phase3改动混入发布，不能声称重绘HD输出逐字节相同。
+
+## 交付
+ZIP：/workspace/shawu/shuihu-hd-m5.1-windows.zip
+大小：13903445字节（13.26MiB，<25MB）；SHA256：e3360146e6603ecdb31365df505cec4a850ab0125860a57ee2f8e7c0250fd67b
+
+基线说明：m5-work/perf/BASELINE_OBSERVATION.md
+原始视频：m5-work/perf/m5_realtime.webm（36MB，不直接发聊天）
+分享用基线视频：m5-work/perf/m5_realtime_preview.webm（约2MB，压缩10fps仅供观感，不代表游戏帧率）
+分享用修复视频：m5-work/perf/m51_realtime_preview.webm
+联系图：m5-work/perf/m5_realtime_contact.png、m51_realtime_contact.png
+原始数据：perf/before-final.json、after-final.json、comparison-final.json
+完整回放：m5-work/perf-browser-audit/coverage-report.json
+包验证：m5-work/perf/package-verification.json
+
+Windows说明：关闭旧Python黑窗口和游戏标签，解压新包双击start.bat，再Chrome Ctrl+F5，确认页头M5.1，避免8765仍被旧版本占用。存档key不变，建议先导出sav备份。尚未在真实Windows Chrome/GPU上验证。

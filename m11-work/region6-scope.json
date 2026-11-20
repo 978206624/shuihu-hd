@@ -1,0 +1,627 @@
+{
+  "candidateMapCount": 11,
+  "maps": [
+    {
+      "id": "00-2a",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "639da00558c17e34355364cb7cbeb7618cfefcf8cff707cb0d86a0f4ec3b74aa",
+      "naturalReplay": "m11-work/play/region6-official/initial.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/initial.bin",
+          "snapshotSHA256": "80cd28ba3c1384b90448804d501fb8cb12638b8751fb57c5e131ac7012ac6bc6",
+          "frame": 0,
+          "entry": 0,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-023275.bin",
+          "snapshotSHA256": "f7ea55c311816b32f09ff71c8f7a3418afb25a9cd7d2983dfa9f4d73654c046c",
+          "frame": 23275,
+          "entry": 0,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-060474.bin",
+          "snapshotSHA256": "8e06dac53f8d35e73f18bbddf7a20922d45f9ed58c70a748e9d4f6f93bf1731d",
+          "frame": 60474,
+          "entry": 2,
+          "story": 21
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-2a_native.png",
+      "geometryRef": "m11-work/art/00-2a_native_4x.png",
+      "styleRef": "m11-work/art/forest_style.png",
+      "styleBasis": "石阶两侧的林冠和灌木适合林地图参考。",
+      "nativeCheckpoint": "m11-work/checkpoints/story19-00-2a-official.bin",
+      "nativeEndSHA256": "c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1",
+      "name": "石阶密林",
+      "artStatus": "REUSED_M10",
+      "reusePlate": "m10-work/art/00-2a_gpt.png",
+      "reusePlateSHA256": "feaaafb20609c6404ba2d4c09240f6c54fbd44d637672e0aaf20b6722cc07290",
+      "geometryComparison": {
+        "M10": {
+          "scope": "MATCH",
+          "registry": "MATCH"
+        },
+        "M9": {
+          "scope": "ABSENT",
+          "registry": "ABSENT"
+        },
+        "M8": {
+          "scope": "ABSENT",
+          "registry": "ABSENT"
+        }
+      },
+      "reuseNote": "原生尺寸和几何 SHA-256 与 M10 范围及运行时登记一致，沿用已验收画板。",
+      "nameBasis": "沿用已验收的 M10 名称。"
+    },
+    {
+      "id": "00-0b",
+      "nativeSize": [
+        512,
+        384
+      ],
+      "geometrySHA256": "971f2bb86f535248749293cb3623bb5bbbc6de9aa174c3d0541d784eae18c070",
+      "naturalReplay": "m11-work/play/region6-official/frame-000019.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-000019.bin",
+          "snapshotSHA256": "dc6abf221eca7b130ad2bf221741d4ab351a1157562a7c60f40eafa46b0be26c",
+          "frame": 19,
+          "entry": 1,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-018752.bin",
+          "snapshotSHA256": "03bd6c600adc09f2f88b3c360d11622b94428f280eba07b0d7cc8dec2bc7b684",
+          "frame": 18752,
+          "entry": 0,
+          "story": 19
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-0b_native.png",
+      "geometryRef": "m11-work/art/00-0b_native_4x.png",
+      "styleRef": "m11-work/art/forest_style.png",
+      "styleBasis": "林道、树丛和溪流与林地图参考的材质相符。",
+      "name": "密林山道",
+      "artStatus": "REUSED_M10",
+      "reusePlate": "m10-work/art/00-0b_gpt.png",
+      "reusePlateSHA256": "23e24cf442e74cca71b3fd63bab9befabc1d1c6086e7a028461e9ed9fda944b3",
+      "geometryComparison": {
+        "M10": {
+          "scope": "MATCH",
+          "registry": "MATCH"
+        },
+        "M9": {
+          "scope": "ABSENT",
+          "registry": "ABSENT"
+        },
+        "M8": {
+          "scope": "ABSENT",
+          "registry": "ABSENT"
+        }
+      },
+      "reuseNote": "原生尺寸和几何 SHA-256 与 M10 范围及运行时登记一致，沿用已验收画板。",
+      "nameBasis": "沿用已验收的 M10 名称。"
+    },
+    {
+      "id": "00-09",
+      "nativeSize": [
+        384,
+        160
+      ],
+      "geometrySHA256": "2b928f2417ffde29a502646f85d7d439b15eb824154e4b2c53e875606d9d1b7b",
+      "naturalReplay": "m11-work/play/region6-official/frame-008072.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-008072.bin",
+          "snapshotSHA256": "d2629b273d0a2aea096973035ff39d703ca25c15f8adff1114630d936d3f366e",
+          "frame": 8072,
+          "entry": 1,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-014373.bin",
+          "snapshotSHA256": "81b8a088dc1405f36265e2b1e5fcf295af5009c52bb58d3908c9573bb3540cf0",
+          "frame": 14373,
+          "entry": 0,
+          "story": 19
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-09_native.png",
+      "geometryRef": "m11-work/art/00-09_native_4x.png",
+      "styleRef": "m11-work/art/forest_style.png",
+      "styleBasis": "林间通路及其两侧植被适合林地图参考。",
+      "name": "村东南连通林道",
+      "artStatus": "REUSED_M8",
+      "reusePlate": "m8-work/art/00-09_gpt.png",
+      "reusePlateSHA256": "ce5f58afabbfa937a68cbb1a211a891eff1658514f1411eb80e3a2d32911804c",
+      "geometryComparison": {
+        "M10": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M9": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M8": {
+          "scope": "MATCH",
+          "registry": "MATCH"
+        }
+      },
+      "reuseNote": "原生尺寸和几何 SHA-256 与 M8 范围及运行时登记一致，沿用已验收画板。",
+      "nameBasis": "沿用已验收的 M8 名称。"
+    },
+    {
+      "id": "00-00",
+      "nativeSize": [
+        480,
+        320
+      ],
+      "geometrySHA256": "d089b29a85ad5f2744f1c9fecab5f5a07a8d73ed2ce975ff438ae908d848abc7",
+      "naturalReplay": "m11-work/play/region6-official/frame-011899.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-011899.bin",
+          "snapshotSHA256": "e0c958a73ed97035fbd017486c6890a8f26edc0b70cb33e8e13efde90909f804",
+          "frame": 11899,
+          "entry": 7,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-014053.bin",
+          "snapshotSHA256": "f55f40dc54388d104cb20d31726b491cfbb785a3af36a6351b108f45c9f653f9",
+          "frame": 14053,
+          "entry": 6,
+          "story": 19
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-00_native.png",
+      "geometryRef": "m11-work/art/00-00_native_4x.png",
+      "styleRef": "m11-work/art/town_style.png",
+      "styleBasis": "村落建筑、院落和道路适合城镇参考。",
+      "name": "东溪村",
+      "artStatus": "REUSED_M8",
+      "reusePlate": "m8-work/art/00-00_gpt.png",
+      "reusePlateSHA256": "91df59c53ab4bb4e11c70288e636198e948ab307ae35b7572c2e5821b1a5a717",
+      "geometryComparison": {
+        "M10": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M9": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M8": {
+          "scope": "MATCH",
+          "registry": "MATCH"
+        }
+      },
+      "reuseNote": "原生尺寸和几何 SHA-256 与 M8 范围及运行时登记一致，沿用已验收画板。",
+      "nameBasis": "沿用已验收的 M8 名称。"
+    },
+    {
+      "id": "00-06",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "62e59dbac23d0a1ba9e43740fbe01a7f0f0b87f09260818a6d2a61cb7370effc",
+      "naturalReplay": "m11-work/play/region6-official/frame-012362.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-012362.bin",
+          "snapshotSHA256": "4467bec4152631c547dfe7d4845e5a6b4782881e80472d1ab682493ba83cc4bf",
+          "frame": 12362,
+          "entry": 0,
+          "story": 19
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-06_native.png",
+      "geometryRef": "m11-work/art/00-06_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "庙内墙面、地板和家具适合室内参考。",
+      "nativeCheckpoint": "m11-work/checkpoints/r6-party-restored.bin",
+      "nativeEndSHA256": "2d35c2c33a3fcbe9f3342d109a28b9344f704ecf46665dad5094bd70d8fcdbd4",
+      "name": "东溪村庙宇",
+      "artStatus": "REUSED_M8",
+      "reusePlate": "m8-work/art/00-06_gpt_v2.png",
+      "reusePlateSHA256": "91125e14a469c162db6454acd0d573b812d9908ae8c1c45a90a26fb39676316a",
+      "geometryComparison": {
+        "M10": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M9": {
+          "scope": "ABSENT",
+          "registry": "MATCH"
+        },
+        "M8": {
+          "scope": "MATCH",
+          "registry": "MATCH"
+        }
+      },
+      "reuseNote": "原生尺寸和几何 SHA-256 与 M8 范围及运行时登记一致，沿用已验收画板。 M8 监督记录及 integration/provenance.json 确认 v2，且 v2 源图与 M8 在用画板逐字节一致。",
+      "nameBasis": "沿用已验收的 M8 名称。"
+    },
+    {
+      "id": "00-25",
+      "nativeSize": [
+        192,
+        320
+      ],
+      "geometrySHA256": "3506d2b064a7560783b3767051b81c03cf109c8d5f26b3609effcffc6e1d5527",
+      "naturalReplay": "m11-work/play/region6-official/frame-027622.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-027622.bin",
+          "snapshotSHA256": "c80a1bdba79daf1236cfd9bbfad70f9ef34861edca7612b03c3db4ff204fa98c",
+          "frame": 27622,
+          "entry": 1,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-060322.bin",
+          "snapshotSHA256": "702cba532f5984d1e75935f185f64d9df04a2354be95bde83d7ab6655d02e3cd",
+          "frame": 60322,
+          "entry": 0,
+          "story": 21
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-25_native.png",
+      "geometryRef": "m11-work/art/00-25_native_4x.png",
+      "styleRef": "m11-work/art/town_style.png",
+      "styleBasis": "城镇参考的屋瓦、立面与植被笔触适合塔楼外景。",
+      "name": "云中塔门",
+      "nameBasis": "蓝天白云下有绿顶多层塔楼、紫栏与入塔石路。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        768,
+        1280
+      ],
+      "requestScale": 4
+    },
+    {
+      "id": "00-26",
+      "nativeSize": [
+        384,
+        384
+      ],
+      "geometrySHA256": "cbdb708cc18eb4b254a03f5f3faea3d44ac45366e54dd1b998fdd980c222c0ec",
+      "naturalReplay": "m11-work/play/region6-official/frame-028144.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-028144.bin",
+          "snapshotSHA256": "ec5e4cefd58a5170cc292e58f0ea2250edebe8e028efc97701ef574f49e67195",
+          "frame": 28144,
+          "entry": 0,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-035419.bin",
+          "snapshotSHA256": "8fadf57ca6de36be670338182fcca3151c61b03fbd59c1b4fee08fd2ca796097",
+          "frame": 35419,
+          "entry": 10,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-035960.bin",
+          "snapshotSHA256": "ed7f849f9cee07295ff3a67ea1e9bd073e2de36a95087f0ab7b7ba7b5fccc3cf",
+          "frame": 35960,
+          "entry": 11,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-059795.bin",
+          "snapshotSHA256": "aad2140f59cc11170b6338070f6799fa31f4ce91d75fad5c6cefc6476e86a078",
+          "frame": 59795,
+          "entry": 6,
+          "story": 21
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-26_native.png",
+      "geometryRef": "m11-work/art/00-26_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "迷宫以成排围墙、铺面与固定摆设为主，采用室内参考的材质笔触。",
+      "nativeCheckpoint": "m11-work/checkpoints/r6-maze-entrance.bin",
+      "nativeEndSHA256": "2990c49dcb1e69410e4c8758e5f85e2e2f4f465dbac39f104ab9c252bd88b70a",
+      "name": "回廊迷宫",
+      "nameBasis": "方形金边围墙内有折转绿篱、菱格地面与固定金像。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        1536,
+        1536
+      ],
+      "requestScale": 4,
+      "plateGranularity": {
+        "runtimeMapKey": "00-26",
+        "plates": 1,
+        "entries": [
+          0,
+          10,
+          11,
+          6
+        ],
+        "loadedLayoutAddress": "C100",
+        "layoutBlockCount": 144,
+        "layoutSHA256": "6ca4b2ab0749f941284bdc6907c4733b28548e43b7f787be034986153f6dc8c3",
+        "layoutMatchFrameByEntry": {
+          "0": 28191,
+          "10": 35465,
+          "11": 36007,
+          "6": 59841
+        },
+        "evidence": "Each official entry loaded the same 144-block ROM layout for this map ID. During initial transition frames the buffer can still contain the outgoing map. M10 keys plates by FF9A/FF9B and validates visible tile geometry. FF9C is the entry field."
+      }
+    },
+    {
+      "id": "00-27",
+      "nativeSize": [
+        384,
+        384
+      ],
+      "geometrySHA256": "9cfb7e3002e545625d4381abcca60e3d22a1e2a12f7afb8b7b612fce5451095d",
+      "naturalReplay": "m11-work/play/region6-official/frame-031493.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-031493.bin",
+          "snapshotSHA256": "cdf313e0cd61ef8bac4771d435fc0b71b86e5ce1110d73ddb1cf8090d9321b45",
+          "frame": 31493,
+          "entry": 0,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-035735.bin",
+          "snapshotSHA256": "d787c76e8a60a5386aabcc9ef75dba1dfef88d8a2457ea13df7fd955c8e08fee",
+          "frame": 35735,
+          "entry": 6,
+          "story": 19
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-052074.bin",
+          "snapshotSHA256": "5eaed6d26d5319e6d91140c6a98ca18975bc478273c576156e00dd10b9cc45d1",
+          "frame": 52074,
+          "entry": 2,
+          "story": 20
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-059479.bin",
+          "snapshotSHA256": "f111c6dd8769a5f16e7edf2fba1cf06a249228a8326703d6117d9471e6153cd4",
+          "frame": 59479,
+          "entry": 9,
+          "story": 21
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-27_native.png",
+      "geometryRef": "m11-work/art/00-27_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "云间迷宫的围墙、铺面与地面机关适合室内参考。",
+      "name": "云台迷宫",
+      "nameBasis": "蓝天白云围绕金边方台，台内绿篱分隔出多个格区。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        1536,
+        1536
+      ],
+      "requestScale": 4,
+      "plateGranularity": {
+        "runtimeMapKey": "00-27",
+        "plates": 1,
+        "entries": [
+          0,
+          6,
+          2,
+          9
+        ],
+        "loadedLayoutAddress": "C100",
+        "layoutBlockCount": 144,
+        "layoutSHA256": "8763b56747aa89751c930872f2288718b63a2ed45e666c36ed75319607713b98",
+        "layoutMatchFrameByEntry": {
+          "0": 31537,
+          "6": 35780,
+          "2": 52118,
+          "9": 59524
+        },
+        "evidence": "Each official entry loaded the same 144-block ROM layout for this map ID. During initial transition frames the buffer can still contain the outgoing map. M10 keys plates by FF9A/FF9B and validates visible tile geometry. FF9C is the entry field."
+      }
+    },
+    {
+      "id": "00-28",
+      "nativeSize": [
+        256,
+        256
+      ],
+      "geometrySHA256": "5118d7fbf9403987cc4dcced6a22c25d346006e5a5c5bdfb40996fccbe436407",
+      "naturalReplay": "m11-work/play/region6-official/frame-052345.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-052345.bin",
+          "snapshotSHA256": "6591ee9494bc38eea404ce5715f754509a2806afd5eeb39c6e14a4583279f095",
+          "frame": 52345,
+          "entry": 0,
+          "story": 20
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/frame-059255.bin",
+          "snapshotSHA256": "098679907d928186f4f02ea2f2a71bd443d87d55015bdd54fcd660d2cd14c22a",
+          "frame": 59255,
+          "entry": 2,
+          "story": 21
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-28_native.png",
+      "geometryRef": "m11-work/art/00-28_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "云台围墙和铺地延续相邻迷宫的建筑材质，采用同一室内参考。",
+      "name": "云台回廊",
+      "nameBasis": "较小的金边云台上有相连绿篱、狭道和方形下行口。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "requestScale": 4
+    },
+    {
+      "id": "00-29",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "f07f2fbee74f64eb090f2b8ff746a51fcfc37210f4436a85f27684355003d15e",
+      "naturalReplay": "m11-work/play/region6-official/frame-052567.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-052567.bin",
+          "snapshotSHA256": "09fc1ee2e03881b5c7c13de5d7fcd9d53ab253a49a448bd706af7d19b463732a",
+          "frame": 52567,
+          "entry": 0,
+          "story": 20
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-29_native.png",
+      "geometryRef": "m11-work/art/00-29_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "殿内铺面、墙板、家具和花盆适合室内参考。",
+      "nativeCheckpoint": "m11-work/checkpoints/r6-story21-fan.bin",
+      "nativeEndSHA256": "f368a325662025ac6298b60f9769ac2a294de9cf453af8147c5dafed6d390b4d",
+      "name": "双像殿",
+      "nameBasis": "殿堂中并排摆放两尊金像，后墙有盆栽与成对小面板。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        960,
+        800
+      ],
+      "requestScale": 5
+    },
+    {
+      "id": "00-2e",
+      "nativeSize": [
+        480,
+        480
+      ],
+      "geometrySHA256": "999147e1c79cb41218807efffa1e735dcf682253263d74bdf513ae894f9a5b8f",
+      "naturalReplay": "m11-work/play/region6-official/frame-062740.bin",
+      "naturalReplayVisits": [
+        {
+          "snapshot": "m11-work/play/region6-official/frame-062740.bin",
+          "snapshotSHA256": "9f1ee5501491e49ba3bb3f8d94fd22e56d3090ed4761aa134c8cfea0ea2cb360",
+          "frame": 62740,
+          "entry": 3,
+          "story": 21
+        },
+        {
+          "snapshot": "m11-work/play/region6-official/end.bin",
+          "snapshotSHA256": "9d0f233aa8d141b711ef5b80285ab414e4fd99ec800d300d3c872eff6dea0fb2",
+          "frame": 63131,
+          "entry": 3,
+          "story": 22
+        }
+      ],
+      "independentDoorSurvey": false,
+      "nativePNG": "m11-work/art/00-2e_native.png",
+      "geometryRef": "m11-work/art/00-2e_native_4x.png",
+      "styleRef": "m11-work/art/room_style.png",
+      "styleBasis": "室内参考的石墙、木构和灯具笔触适合洞内砌体、护栏与火把。",
+      "nativeCheckpoint": "m11-work/checkpoints/region6-end-native.bin",
+      "nativeEndSHA256": "f8e87d6ae1b9b23261c2e0a2800151391dd93aed3bd0c4b6267985d32e22f428",
+      "name": "石洞",
+      "nameBasis": "蓝灰砌壁围出曲折的灰色地道，沿路有火把、木栏和红箱。",
+      "artStatus": "PREPARED_NOT_GENERATED",
+      "requestedSize": [
+        1920,
+        1920
+      ],
+      "requestScale": 4,
+      "tiling": {
+        "reason": "Full 1920×1920 request exceeds the largest observed accepted M9/M10 request.",
+        "boxConvention": "zero-based half-open [left, top, right, bottom]",
+        "assemblySize": [
+          1920,
+          1920
+        ],
+        "nativeOverlapBox": [
+          0,
+          224,
+          480,
+          256
+        ],
+        "nativeOverlapPixels": 32,
+        "outputOverlapPixels": 128,
+        "seamReview": "Align both strips to the native crops at one common scale. Compare the shared rows against each other and the ROM geometry. Start seam review at native y=240 (assembled y=960). Approve the join only when corridor edges, masonry, fixtures, colors and black voids agree. Return mismatched strips for repaint and review.",
+        "tiles": [
+          {
+            "id": "00-2e-north",
+            "nativeBox": [
+              0,
+              0,
+              480,
+              256
+            ],
+            "requestedSize": [
+              1920,
+              1024
+            ],
+            "assemblyOrigin": [
+              0,
+              0
+            ],
+            "geometryRef": "m11-work/art/00-2e-north_native_4x.png"
+          },
+          {
+            "id": "00-2e-south",
+            "nativeBox": [
+              0,
+              224,
+              480,
+              480
+            ],
+            "requestedSize": [
+              1920,
+              1024
+            ],
+            "assemblyOrigin": [
+              0,
+              896
+            ],
+            "geometryRef": "m11-work/art/00-2e-south_native_4x.png"
+          }
+        ]
+      }
+    }
+  ],
+  "identificationEvidence": [
+    "m8-work/runtime/assets/game.gbc 为已验收 ROM，SHA-256 ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95。角色为空的原生底图及几何校验使用 m6-work/raw_maps.json。",
+    "m11-work/checkpoints/story19-00-2a-official.bin 为正式起点，00-2a e0 (5,8)，story 19，SHA-256 c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1。",
+    "m11-work/official-chain/official-region6-actions.json 含 717 个动作及 63131 帧。m11-work/official-chain/official-region6-replay/result.json 为连续原生回放记录。",
+    "m11-work/play/region6-official/result.json 为监督者验收的浏览器回放，COMPLETE，errors=[]。m11-work/REQUEST_READY.md 记录路线顺序，m11-work/rom-gate-analysis.md 记录剧情门槛。",
+    "路线经 00-0b、00-09、00-00 至 00-06 恢复队伍，再返回 00-2a。随后经 00-25 进入 00-26、00-27、00-28、00-29，取得伏魔扇后返回至 00-2e。",
+    "m11-work/checkpoints/region6-end-native.bin SHA-256 f8e87d6ae1b9b23261c2e0a2800151391dd93aed3bd0c4b6267985d32e22f428。对应浏览器 m11-work/play/region6-official/end.bin，第 63131 帧为 00-2e e3 (25,5)，朝左，story 22，D2AC=10 01（伏魔扇）。",
+    "M10 的 m10-work/runtime/region-renderer.js 和 assets/region1/maps.json 使用地图 ID 查找画板，并校验视窗的图块几何。两座 384×384 迷宫的原生几何 SHA-256 各异，每张地图的正式入口共用其各自的底图。",
+    "M9/M10 的 batch-manifest.json 及 *_gpt.png.meta.json 中，面积最大的 HTTP 200 请求为 2048×1536（m10-work/art/00-0b_gpt.png.meta.json），返图为 1448×1086。这是已观察到的请求尺寸，返图尺寸须在画板审核时核对。尺寸规则为原生 4 倍面积达到 655360 时请求 4 倍，否则 5 倍。"
+  ],
+  "nextStoryGate": "定格于 00-2e e3 (25,5)，朝左，story 22，已取得伏魔扇。范围止于向左踏上 (24,5) 触发 story 23 之前。",
+  "exclusions": [
+    "战斗画面与系统菜单不计作地图画板。",
+    "00-2e (24,5) 的 story 23 触发、其后路线及未自然进入的连通地图均排除。",
+    "00-2e 画板保留整张 480×480 原生几何。路线证据截止于 (25,5)。"
+  ],
+  "artStatus": "PREPARED_NOT_GENERATED",
+  "notAllConnectedWorldMaps": true
+}

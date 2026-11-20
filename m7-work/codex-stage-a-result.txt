@@ -1,0 +1,12 @@
+Stage A candidate is frozen; **REQUEST_READY** is recorded. Acceptance remains pending.
+
+- Preserved pre-fix runtime and old evidence under `m7-work/stage-a/baseline-m7/`.
+- Changed only `region-renderer.js`: opaque plates use the existing viewport pixel assembly path; buffers prepare during startup. ROM/core, masks, clocks, routing and authentication remain unchanged.
+- Offline checks passed: 352 files verified and 8,847,360 RGBA bytes matched. Evidence: [checks.json](/workspace/shawu/m7-work/stage-a/offline/checks.json), [runtime.diff](/workspace/shawu/m7-work/stage-a/offline/runtime.diff).
+- Supervisor QA retry is running under `m7-work/stage-a/results/candidate-v1-supervised-retry/`. Initial 21 checkpoints match; this is not a complete pass.
+
+Still pending: all 442 checks, unchanged 99.7345% coverage, Chromium visual equality, and repeated exclusive cold/switch performance comparisons.
+
+Exact remaining commands are in [SUPERVISOR_RUN_STAGE_A.md](/workspace/shawu/m7-work/SUPERVISOR_RUN_STAGE_A.md); do not launch a duplicate runner. See the [Chinese report](/workspace/shawu/m7-work/stage-a/REPORT_STAGE_A_zh.md) and [status](/workspace/shawu/m7-work/STAGE_A_STATUS.md).
+
+No Stage B, art, video or ZIP work was started. Awaiting supervisor acceptance.

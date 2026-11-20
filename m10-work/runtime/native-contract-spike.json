@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "nativeSamples": 4153,
+  "bootSamples": 3301,
+  "postStartSamples": 730,
+  "mapMetadataAndHistoryChecks": 3673,
+  "fullyOccludedMapFrames": 250,
+  "certifiedUIFrames": 432,
+  "retainedSnapshotChecks": true,
+  "note": "WASM/native observation and history only. Stub Canvas: no HD pixel or performance claim."
+}

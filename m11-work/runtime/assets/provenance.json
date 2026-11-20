@@ -1,0 +1,29 @@
+{
+  "title_hd.png": {
+    "source": "/workspace/shawu/concepts_v4/title_hd.png",
+    "provider": "Prior user GPT image gateway",
+    "approval": "User explicitly approved V4 title as starting art",
+    "use": "Recognized title only, original menu/cursor composited over image"
+  },
+  "forest": {
+    "provider": "user GPT gateway",
+    "model": "gpt-image-2",
+    "endpoint": "POST /v1/images/edits",
+    "reference": "forest_reference.png: 94 background tiles, 16 columns x 6 rows",
+    "originalGeneratedSize": [
+      2048,
+      768
+    ],
+    "atlasSize": [
+      512,
+      192
+    ],
+    "qualityReturned": "medium",
+    "limitations": "AI surface interpretation; exact RGB match preserves unmatched sprites/window and original geometry; tile seams require visual review"
+  },
+  "ROM": {
+    "source": "User supplied local private ROM",
+    "redistribution": "Not for public redistribution",
+    "sha256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95"
+  }
+}

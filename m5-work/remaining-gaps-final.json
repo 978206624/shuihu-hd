@@ -1,0 +1,3464 @@
+{
+  "interior": {
+    "frames": 143,
+    "pixels": 4186,
+    "intervals": [
+      [
+        2076,
+        2076
+      ],
+      [
+        2085,
+        2085
+      ],
+      [
+        2159,
+        2159
+      ],
+      [
+        2181,
+        2181
+      ],
+      [
+        4932,
+        4936
+      ],
+      [
+        4938,
+        5065
+      ],
+      [
+        5077,
+        5077
+      ],
+      [
+        5137,
+        5137
+      ],
+      [
+        5151,
+        5151
+      ],
+      [
+        5160,
+        5160
+      ],
+      [
+        5180,
+        5180
+      ],
+      [
+        5220,
+        5220
+      ]
+    ],
+    "examples": [
+      {
+        "frame": 2076,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "12b69aba",
+        "palette": "27bb585d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22589,
+        "gptBackgroundPixels": 22585,
+        "uncoveredBackgroundPixels": 4,
+        "uncoveredTiles": [
+          {
+            "tile": 554,
+            "signature": 4245576964,
+            "pixels": 2,
+            "screenBounds": [
+              82,
+              138,
+              82,
+              139
+            ]
+          },
+          {
+            "tile": 555,
+            "signature": 1142667956,
+            "pixels": 2,
+            "screenBounds": [
+              93,
+              138,
+              93,
+              139
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "e07047a5",
+        "uiTransition": null
+      },
+      {
+        "frame": 2085,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "12b69aba",
+        "palette": "27bb585d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22569,
+        "gptBackgroundPixels": 22568,
+        "uncoveredBackgroundPixels": 1,
+        "uncoveredTiles": [
+          {
+            "tile": 522,
+            "signature": 227985332,
+            "pixels": 1,
+            "screenBounds": [
+              87,
+              134,
+              87,
+              134
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "b8846295",
+        "uiTransition": null
+      },
+      {
+        "frame": 2159,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "12b69aba",
+        "palette": "27bb585d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22481,
+        "gptBackgroundPixels": 22479,
+        "uncoveredBackgroundPixels": 2,
+        "uncoveredTiles": [
+          {
+            "tile": 554,
+            "signature": 4245576964,
+            "pixels": 1,
+            "screenBounds": [
+              82,
+              143,
+              82,
+              143
+            ]
+          },
+          {
+            "tile": 555,
+            "signature": 1142667956,
+            "pixels": 1,
+            "screenBounds": [
+              93,
+              143,
+              93,
+              143
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "e6b8dc4d",
+        "uiTransition": null
+      },
+      {
+        "frame": 2181,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "12b69aba",
+        "palette": "27bb585d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22454,
+        "gptBackgroundPixels": 22451,
+        "uncoveredBackgroundPixels": 3,
+        "uncoveredTiles": [
+          {
+            "tile": 522,
+            "signature": 227985332,
+            "pixels": 1,
+            "screenBounds": [
+              85,
+              132,
+              85,
+              132
+            ]
+          },
+          {
+            "tile": 523,
+            "signature": 2597870164,
+            "pixels": 2,
+            "screenBounds": [
+              89,
+              132,
+              90,
+              132
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "a0bda375",
+        "uiTransition": null
+      },
+      {
+        "frame": 4932,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "2d4473a0",
+        "palette": "b5b0f22d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22525,
+        "gptBackgroundPixels": 22514,
+        "uncoveredBackgroundPixels": 11,
+        "uncoveredTiles": [
+          {
+            "tile": 458,
+            "signature": 227985332,
+            "pixels": 1,
+            "screenBounds": [
+              82,
+              113,
+              82,
+              113
+            ]
+          },
+          {
+            "tile": 459,
+            "signature": 2597870164,
+            "pixels": 5,
+            "screenBounds": [
+              93,
+              113,
+              95,
+              119
+            ]
+          },
+          {
+            "tile": 491,
+            "signature": 227985332,
+            "pixels": 4,
+            "screenBounds": [
+              94,
+              120,
+              95,
+              126
+            ]
+          },
+          {
+            "tile": 490,
+            "signature": 2451972157,
+            "pixels": 1,
+            "screenBounds": [
+              82,
+              126,
+              82,
+              126
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "0a001fb5",
+        "uiTransition": null
+      },
+      {
+        "frame": 4933,
+        "scene": "interior",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "05125928",
+        "structural": "2d4473a0",
+        "palette": "b5b0f22d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22518,
+        "gptBackgroundPixels": 22507,
+        "uncoveredBackgroundPixels": 11,
+        "uncoveredTiles": [
+          {
+            "tile": 458,
+            "signature": 227985332,
+            "pixels": 1,
+            "screenBounds": [
+              81,
+              113,
+              81,
+              113
+            ]
+          },
+          {
+            "tile": 459,
+            "signature": 2597870164,
+            "pixels": 4,
+            "screenBounds": [
+              93,
+              113,
+              94,
+              119
+            ]
+          },
+          {
+            "tile": 491,
+            "signature": 227985332,
+            "pixels": 5,
+            "screenBounds": [
+              88,
+              120,
+              94,
+              127
+            ]
+          },
+          {
+            "tile": 490,
+            "signature": 2451972157,
+            "pixels": 1,
+            "screenBounds": [
+              81,
+              126,
+              81,
+              126
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "fcf3de2d",
+        "uiTransition": null
+      }
+    ],
+    "reason": "剩余为人物/效果附近的极短原生栅格与帧末VRAM/OAM不一致像素，部分能与原生OBJ参考匹配、部分仍无严格证据。已确认的UI属性收起另用等时高清擦除；不扩大人物mask掩盖其它缺口。"
+  },
+  "cliff": {
+    "frames": 33,
+    "pixels": 46881,
+    "intervals": [
+      [
+        5486,
+        5486
+      ],
+      [
+        5489,
+        5489
+      ],
+      [
+        5495,
+        5495
+      ],
+      [
+        5534,
+        5534
+      ],
+      [
+        5572,
+        5572
+      ],
+      [
+        5580,
+        5580
+      ],
+      [
+        5588,
+        5588
+      ],
+      [
+        5596,
+        5596
+      ],
+      [
+        5604,
+        5604
+      ],
+      [
+        5612,
+        5612
+      ],
+      [
+        5670,
+        5671
+      ],
+      [
+        5673,
+        5674
+      ],
+      [
+        6121,
+        6123
+      ],
+      [
+        6140,
+        6140
+      ],
+      [
+        6153,
+        6153
+      ],
+      [
+        6164,
+        6164
+      ],
+      [
+        6185,
+        6185
+      ],
+      [
+        6199,
+        6199
+      ],
+      [
+        6210,
+        6210
+      ],
+      [
+        6231,
+        6231
+      ],
+      [
+        6253,
+        6254
+      ],
+      [
+        6256,
+        6257
+      ],
+      [
+        7081,
+        7083
+      ],
+      [
+        7086,
+        7086
+      ],
+      [
+        7090,
+        7090
+      ]
+    ],
+    "examples": [
+      {
+        "frame": 5486,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "58b9f0c5",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 23040,
+        "gptBackgroundPixels": 19680,
+        "uncoveredBackgroundPixels": 3360,
+        "uncoveredTiles": [
+          {
+            "tile": 160,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              0,
+              43,
+              7,
+              47
+            ]
+          },
+          {
+            "tile": 161,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              8,
+              43,
+              15,
+              47
+            ]
+          },
+          {
+            "tile": 162,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              16,
+              43,
+              23,
+              47
+            ]
+          },
+          {
+            "tile": 163,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              24,
+              43,
+              31,
+              47
+            ]
+          },
+          {
+            "tile": 164,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              32,
+              43,
+              39,
+              47
+            ]
+          },
+          {
+            "tile": 165,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              40,
+              43,
+              47,
+              47
+            ]
+          },
+          {
+            "tile": 166,
+            "signature": 665171400,
+            "pixels": 40,
+            "screenBounds": [
+              48,
+              43,
+              55,
+              47
+            ]
+          },
+          {
+            "tile": 167,
+            "signature": 3009129487,
+            "pixels": 40,
+            "screenBounds": [
+              56,
+              43,
+              63,
+              47
+            ]
+          },
+          {
+            "tile": 168,
+            "signature": 1263775825,
+            "pixels": 40,
+            "screenBounds": [
+              64,
+              43,
+              71,
+              47
+            ]
+          },
+          {
+            "tile": 169,
+            "signature": 3968437691,
+            "pixels": 40,
+            "screenBounds": [
+              72,
+              43,
+              79,
+              47
+            ]
+          },
+          {
+            "tile": 170,
+            "signature": 1485521982,
+            "pixels": 40,
+            "screenBounds": [
+              80,
+              43,
+              87,
+              47
+            ]
+          },
+          {
+            "tile": 171,
+            "signature": 2346020563,
+            "pixels": 40,
+            "screenBounds": [
+              88,
+              43,
+              95,
+              47
+            ]
+          },
+          {
+            "tile": 172,
+            "signature": 2982767382,
+            "pixels": 40,
+            "screenBounds": [
+              96,
+              43,
+              103,
+              47
+            ]
+          },
+          {
+            "tile": 173,
+            "signature": 4127784862,
+            "pixels": 40,
+            "screenBounds": [
+              104,
+              43,
+              111,
+              47
+            ]
+          },
+          {
+            "tile": 174,
+            "signature": 85122407,
+            "pixels": 40,
+            "screenBounds": [
+              112,
+              43,
+              119,
+              47
+            ]
+          },
+          {
+            "tile": 175,
+            "signature": 2133475310,
+            "pixels": 40,
+            "screenBounds": [
+              120,
+              43,
+              127,
+              47
+            ]
+          },
+          {
+            "tile": 176,
+            "signature": 3820596272,
+            "pixels": 40,
+            "screenBounds": [
+              128,
+              43,
+              135,
+              47
+            ]
+          },
+          {
+            "tile": 177,
+            "signature": 4202818783,
+            "pixels": 40,
+            "screenBounds": [
+              136,
+              43,
+              143,
+              47
+            ]
+          },
+          {
+            "tile": 178,
+            "signature": 2578529448,
+            "pixels": 40,
+            "screenBounds": [
+              144,
+              43,
+              151,
+              47
+            ]
+          },
+          {
+            "tile": 179,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              152,
+              43,
+              159,
+              47
+            ]
+          },
+          {
+            "tile": 192,
+            "signature": 410575014,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              48,
+              7,
+              55
+            ]
+          },
+          {
+            "tile": 193,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              48,
+              15,
+              55
+            ]
+          },
+          {
+            "tile": 194,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              48,
+              23,
+              55
+            ]
+          },
+          {
+            "tile": 195,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              48,
+              31,
+              55
+            ]
+          },
+          {
+            "tile": 196,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              48,
+              39,
+              55
+            ]
+          },
+          {
+            "tile": 197,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              48,
+              47,
+              55
+            ]
+          },
+          {
+            "tile": 198,
+            "signature": 799937822,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              48,
+              55,
+              55
+            ]
+          },
+          {
+            "tile": 199,
+            "signature": 3628553944,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              48,
+              63,
+              55
+            ]
+          },
+          {
+            "tile": 200,
+            "signature": 2073354212,
+            "pixels": 64,
+            "screenBounds": [
+              64,
+              48,
+              71,
+              55
+            ]
+          },
+          {
+            "tile": 201,
+            "signature": 2707775193,
+            "pixels": 64,
+            "screenBounds": [
+              72,
+              48,
+              79,
+              55
+            ]
+          },
+          {
+            "tile": 202,
+            "signature": 2126043630,
+            "pixels": 64,
+            "screenBounds": [
+              80,
+              48,
+              87,
+              55
+            ]
+          },
+          {
+            "tile": 203,
+            "signature": 657392340,
+            "pixels": 64,
+            "screenBounds": [
+              88,
+              48,
+              95,
+              55
+            ]
+          },
+          {
+            "tile": 204,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              96,
+              48,
+              103,
+              55
+            ]
+          },
+          {
+            "tile": 205,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              104,
+              48,
+              111,
+              55
+            ]
+          },
+          {
+            "tile": 206,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              112,
+              48,
+              119,
+              55
+            ]
+          },
+          {
+            "tile": 207,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              120,
+              48,
+              127,
+              55
+            ]
+          },
+          {
+            "tile": 208,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              128,
+              48,
+              135,
+              55
+            ]
+          },
+          {
+            "tile": 209,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              136,
+              48,
+              143,
+              55
+            ]
+          },
+          {
+            "tile": 210,
+            "signature": 1587854431,
+            "pixels": 64,
+            "screenBounds": [
+              144,
+              48,
+              151,
+              55
+            ]
+          },
+          {
+            "tile": 211,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              152,
+              48,
+              159,
+              55
+            ]
+          },
+          {
+            "tile": 224,
+            "signature": 4064724484,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              56,
+              7,
+              63
+            ]
+          },
+          {
+            "tile": 225,
+            "signature": 318122828,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              56,
+              15,
+              63
+            ]
+          },
+          {
+            "tile": 226,
+            "signature": 2258173708,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              56,
+              23,
+              63
+            ]
+          },
+          {
+            "tile": 227,
+            "signature": 2851515781,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              56,
+              31,
+              63
+            ]
+          },
+          {
+            "tile": 228,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              56,
+              39,
+              63
+            ]
+          },
+          {
+            "tile": 229,
+            "signature": 188539347,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              56,
+              47,
+              63
+            ]
+          },
+          {
+            "tile": 230,
+            "signature": 2719618037,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              56,
+              55,
+              63
+            ]
+          },
+          {
+            "tile": 231,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              56,
+              63,
+              63
+            ]
+          },
+          {
+            "tile": 232,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              64,
+              56,
+              71,
+              63
+            ]
+          },
+          {
+            "tile": 233,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              72,
+              56,
+              79,
+              63
+            ]
+          },
+          {
+            "tile": 234,
+            "signature": 1296430718,
+            "pixels": 64,
+            "screenBounds": [
+              80,
+              56,
+              87,
+              63
+            ]
+          },
+          {
+            "tile": 235,
+            "signature": 1445372253,
+            "pixels": 64,
+            "screenBounds": [
+              88,
+              56,
+              95,
+              63
+            ]
+          },
+          {
+            "tile": 236,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              96,
+              56,
+              103,
+              63
+            ]
+          },
+          {
+            "tile": 237,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              104,
+              56,
+              111,
+              63
+            ]
+          },
+          {
+            "tile": 238,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              112,
+              56,
+              119,
+              63
+            ]
+          },
+          {
+            "tile": 239,
+            "signature": 2346020563,
+            "pixels": 64,
+            "screenBounds": [
+              120,
+              56,
+              127,
+              63
+            ]
+          },
+          {
+            "tile": 240,
+            "signature": 1296430718,
+            "pixels": 64,
+            "screenBounds": [
+              128,
+              56,
+              135,
+              63
+            ]
+          },
+          {
+            "tile": 241,
+            "signature": 1445372253,
+            "pixels": 64,
+            "screenBounds": [
+              136,
+              56,
+              143,
+              63
+            ]
+          },
+          {
+            "tile": 242,
+            "signature": 89588658,
+            "pixels": 64,
+            "screenBounds": [
+              144,
+              56,
+              151,
+              63
+            ]
+          },
+          {
+            "tile": 243,
+            "signature": 876789427,
+            "pixels": 64,
+            "screenBounds": [
+              152,
+              56,
+              159,
+              63
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "82d3b445",
+        "uiTransition": null
+      },
+      {
+        "frame": 5489,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "fb5724dd",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22870,
+        "gptBackgroundPixels": 22844,
+        "uncoveredBackgroundPixels": 26,
+        "uncoveredTiles": [
+          {
+            "tile": 108,
+            "signature": 3936008188,
+            "pixels": 6,
+            "screenBounds": [
+              98,
+              28,
+              103,
+              28
+            ]
+          },
+          {
+            "tile": 109,
+            "signature": 742425332,
+            "pixels": 6,
+            "screenBounds": [
+              106,
+              28,
+              111,
+              28
+            ]
+          },
+          {
+            "tile": 110,
+            "signature": 979082871,
+            "pixels": 8,
+            "screenBounds": [
+              112,
+              28,
+              119,
+              28
+            ]
+          },
+          {
+            "tile": 111,
+            "signature": 2873638304,
+            "pixels": 6,
+            "screenBounds": [
+              120,
+              28,
+              125,
+              28
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "fd3865dd",
+        "uiTransition": null
+      },
+      {
+        "frame": 5495,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "80cadf1d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22870,
+        "gptBackgroundPixels": 22814,
+        "uncoveredBackgroundPixels": 56,
+        "uncoveredTiles": [
+          {
+            "tile": 199,
+            "signature": 3628553944,
+            "pixels": 1,
+            "screenBounds": [
+              57,
+              51,
+              57,
+              51
+            ]
+          },
+          {
+            "tile": 202,
+            "signature": 2126043630,
+            "pixels": 2,
+            "screenBounds": [
+              85,
+              51,
+              86,
+              51
+            ]
+          },
+          {
+            "tile": 203,
+            "signature": 657392340,
+            "pixels": 3,
+            "screenBounds": [
+              93,
+              51,
+              95,
+              51
+            ]
+          },
+          {
+            "tile": 204,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              96,
+              51,
+              103,
+              51
+            ]
+          },
+          {
+            "tile": 205,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              104,
+              51,
+              111,
+              51
+            ]
+          },
+          {
+            "tile": 206,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              112,
+              51,
+              119,
+              51
+            ]
+          },
+          {
+            "tile": 207,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              120,
+              51,
+              127,
+              51
+            ]
+          },
+          {
+            "tile": 208,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              128,
+              51,
+              135,
+              51
+            ]
+          },
+          {
+            "tile": 209,
+            "signature": 2346020563,
+            "pixels": 8,
+            "screenBounds": [
+              136,
+              51,
+              143,
+              51
+            ]
+          },
+          {
+            "tile": 210,
+            "signature": 1587854431,
+            "pixels": 2,
+            "screenBounds": [
+              144,
+              51,
+              145,
+              51
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "450c762d",
+        "uiTransition": null
+      },
+      {
+        "frame": 5534,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "72acc53d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22686,
+        "gptBackgroundPixels": 22648,
+        "uncoveredBackgroundPixels": 38,
+        "uncoveredTiles": [
+          {
+            "tile": 496,
+            "signature": 1144464308,
+            "pixels": 9,
+            "screenBounds": [
+              130,
+              125,
+              133,
+              127
+            ]
+          },
+          {
+            "tile": 497,
+            "signature": 4038794771,
+            "pixels": 11,
+            "screenBounds": [
+              137,
+              125,
+              141,
+              127
+            ]
+          },
+          {
+            "tile": 528,
+            "signature": 1929216880,
+            "pixels": 10,
+            "screenBounds": [
+              130,
+              128,
+              135,
+              130
+            ]
+          },
+          {
+            "tile": 529,
+            "signature": 4228689563,
+            "pixels": 8,
+            "screenBounds": [
+              136,
+              128,
+              141,
+              129
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "99a7ff1d",
+        "uiTransition": null
+      },
+      {
+        "frame": 5572,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "72acc53d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22870,
+        "gptBackgroundPixels": 22737,
+        "uncoveredBackgroundPixels": 133,
+        "uncoveredTiles": [
+          {
+            "tile": 464,
+            "signature": 3503106193,
+            "pixels": 37,
+            "screenBounds": [
+              130,
+              113,
+              135,
+              119
+            ]
+          },
+          {
+            "tile": 465,
+            "signature": 412776925,
+            "pixels": 37,
+            "screenBounds": [
+              136,
+              113,
+              141,
+              119
+            ]
+          },
+          {
+            "tile": 496,
+            "signature": 1144464308,
+            "pixels": 30,
+            "screenBounds": [
+              130,
+              120,
+              135,
+              126
+            ]
+          },
+          {
+            "tile": 497,
+            "signature": 4038794771,
+            "pixels": 29,
+            "screenBounds": [
+              136,
+              120,
+              141,
+              125
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "8c6d19ad",
+        "uiTransition": null
+      },
+      {
+        "frame": 5580,
+        "scene": "cliff",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "958d8044",
+        "structural": "4875af63",
+        "palette": "72acc53d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22875,
+        "gptBackgroundPixels": 22742,
+        "uncoveredBackgroundPixels": 133,
+        "uncoveredTiles": [
+          {
+            "tile": 464,
+            "signature": 3503106193,
+            "pixels": 37,
+            "screenBounds": [
+              130,
+              113,
+              135,
+              119
+            ]
+          },
+          {
+            "tile": 465,
+            "signature": 412776925,
+            "pixels": 37,
+            "screenBounds": [
+              136,
+              113,
+              141,
+              119
+            ]
+          },
+          {
+            "tile": 496,
+            "signature": 1144464308,
+            "pixels": 30,
+            "screenBounds": [
+              130,
+              120,
+              135,
+              126
+            ]
+          },
+          {
+            "tile": 497,
+            "signature": 4038794771,
+            "pixels": 29,
+            "screenBounds": [
+              136,
+              120,
+              141,
+              125
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "545761cd",
+        "uiTransition": null
+      }
+    ],
+    "reason": "含LCD白屏交界及对话收起的混合扫描线；5486可见原生248/255白色混合，保存的场景参考部分仍带旧UI。试验性行调色恢复未充分通过人物保护测试，已撤弃，正式版保留原生并计缺口。"
+  },
+  "palace": {
+    "frames": 41,
+    "pixels": 1248,
+    "intervals": [
+      [
+        7986,
+        7986
+      ],
+      [
+        8007,
+        8007
+      ],
+      [
+        8016,
+        8016
+      ],
+      [
+        8018,
+        8018
+      ],
+      [
+        8044,
+        8044
+      ],
+      [
+        8081,
+        8081
+      ],
+      [
+        8118,
+        8118
+      ],
+      [
+        8121,
+        8121
+      ],
+      [
+        8126,
+        8126
+      ],
+      [
+        8134,
+        8134
+      ],
+      [
+        8142,
+        8142
+      ],
+      [
+        8150,
+        8150
+      ],
+      [
+        8158,
+        8158
+      ],
+      [
+        8208,
+        8208
+      ],
+      [
+        8218,
+        8218
+      ],
+      [
+        8229,
+        8229
+      ],
+      [
+        8239,
+        8239
+      ],
+      [
+        8249,
+        8249
+      ],
+      [
+        8264,
+        8264
+      ],
+      [
+        8273,
+        8273
+      ],
+      [
+        8300,
+        8300
+      ],
+      [
+        8337,
+        8337
+      ],
+      [
+        8374,
+        8374
+      ],
+      [
+        8377,
+        8377
+      ],
+      [
+        8382,
+        8382
+      ],
+      [
+        8390,
+        8390
+      ],
+      [
+        8398,
+        8398
+      ],
+      [
+        8406,
+        8406
+      ],
+      [
+        8414,
+        8414
+      ],
+      [
+        8464,
+        8464
+      ],
+      [
+        8474,
+        8474
+      ],
+      [
+        8485,
+        8485
+      ],
+      [
+        8487,
+        8487
+      ],
+      [
+        8496,
+        8497
+      ],
+      [
+        8509,
+        8509
+      ],
+      [
+        8565,
+        8565
+      ],
+      [
+        9000,
+        9000
+      ],
+      [
+        9891,
+        9891
+      ],
+      [
+        9914,
+        9914
+      ],
+      [
+        9934,
+        9934
+      ]
+    ],
+    "examples": [
+      {
+        "frame": 7986,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22697,
+        "gptBackgroundPixels": 22691,
+        "uncoveredBackgroundPixels": 6,
+        "uncoveredTiles": [
+          {
+            "tile": 334,
+            "signature": 3421515293,
+            "pixels": 2,
+            "screenBounds": [
+              114,
+              85,
+              114,
+              86
+            ]
+          },
+          {
+            "tile": 335,
+            "signature": 3015466100,
+            "pixels": 4,
+            "screenBounds": [
+              125,
+              85,
+              126,
+              86
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 5,
+        "dialogueBorderCoveredPixels": 5,
+        "dialogueFrameCovered": true,
+        "pixelHash": "9c0f3b95",
+        "uiTransition": null
+      },
+      {
+        "frame": 8007,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22691,
+        "gptBackgroundPixels": 22678,
+        "uncoveredBackgroundPixels": 13,
+        "uncoveredTiles": [
+          {
+            "tile": 366,
+            "signature": 1636471078,
+            "pixels": 3,
+            "screenBounds": [
+              115,
+              89,
+              119,
+              91
+            ]
+          },
+          {
+            "tile": 367,
+            "signature": 418874198,
+            "pixels": 4,
+            "screenBounds": [
+              120,
+              89,
+              125,
+              91
+            ]
+          },
+          {
+            "tile": 398,
+            "signature": 3421515293,
+            "pixels": 4,
+            "screenBounds": [
+              114,
+              99,
+              115,
+              100
+            ]
+          },
+          {
+            "tile": 399,
+            "signature": 3015466100,
+            "pixels": 2,
+            "screenBounds": [
+              126,
+              99,
+              126,
+              100
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "47d31b1d",
+        "uiTransition": null
+      },
+      {
+        "frame": 8016,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22700,
+        "gptBackgroundPixels": 22695,
+        "uncoveredBackgroundPixels": 5,
+        "uncoveredTiles": [
+          {
+            "tile": 431,
+            "signature": 418874198,
+            "pixels": 3,
+            "screenBounds": [
+              124,
+              104,
+              125,
+              107
+            ]
+          },
+          {
+            "tile": 430,
+            "signature": 1636471078,
+            "pixels": 2,
+            "screenBounds": [
+              116,
+              108,
+              116,
+              109
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "ba7b027d",
+        "uiTransition": null
+      },
+      {
+        "frame": 8018,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22694,
+        "gptBackgroundPixels": 22677,
+        "uncoveredBackgroundPixels": 17,
+        "uncoveredTiles": [
+          {
+            "tile": 399,
+            "signature": 3015466100,
+            "pixels": 5,
+            "screenBounds": [
+              125,
+              99,
+              125,
+              103
+            ]
+          },
+          {
+            "tile": 430,
+            "signature": 1636471078,
+            "pixels": 4,
+            "screenBounds": [
+              114,
+              106,
+              116,
+              108
+            ]
+          },
+          {
+            "tile": 431,
+            "signature": 418874198,
+            "pixels": 8,
+            "screenBounds": [
+              123,
+              106,
+              126,
+              110
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "30c77b2d",
+        "uiTransition": null
+      },
+      {
+        "frame": 8044,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22700,
+        "gptBackgroundPixels": 22696,
+        "uncoveredBackgroundPixels": 4,
+        "uncoveredTiles": [
+          {
+            "tile": 398,
+            "signature": 3421515293,
+            "pixels": 2,
+            "screenBounds": [
+              114,
+              101,
+              114,
+              102
+            ]
+          },
+          {
+            "tile": 430,
+            "signature": 1636471078,
+            "pixels": 2,
+            "screenBounds": [
+              115,
+              107,
+              116,
+              109
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "a214a945",
+        "uiTransition": null
+      },
+      {
+        "frame": 8081,
+        "scene": "palace",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "521aaad6",
+        "structural": "7a78b710",
+        "palette": "08a75465",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22499,
+        "gptBackgroundPixels": 22451,
+        "uncoveredBackgroundPixels": 48,
+        "uncoveredTiles": [
+          {
+            "tile": 366,
+            "signature": 1636471078,
+            "pixels": 9,
+            "screenBounds": [
+              114,
+              93,
+              117,
+              95
+            ]
+          },
+          {
+            "tile": 367,
+            "signature": 418874198,
+            "pixels": 11,
+            "screenBounds": [
+              121,
+              93,
+              125,
+              95
+            ]
+          },
+          {
+            "tile": 398,
+            "signature": 3421515293,
+            "pixels": 12,
+            "screenBounds": [
+              114,
+              96,
+              119,
+              99
+            ]
+          },
+          {
+            "tile": 399,
+            "signature": 3015466100,
+            "pixels": 9,
+            "screenBounds": [
+              120,
+              96,
+              125,
+              98
+            ]
+          },
+          {
+            "tile": 430,
+            "signature": 1636471078,
+            "pixels": 4,
+            "screenBounds": [
+              114,
+              107,
+              116,
+              110
+            ]
+          },
+          {
+            "tile": 431,
+            "signature": 418874198,
+            "pixels": 3,
+            "screenBounds": [
+              125,
+              107,
+              126,
+              108
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "c81010f5",
+        "uiTransition": null
+      }
+    ],
+    "reason": "人物动作附近少量栅格像素与帧末OAM/原生场景参考不完全对应；已修复继续箭头/已验证UI，未用放宽阈值或人物豁免掩盖残余。"
+  },
+  "disciples": {
+    "frames": 31,
+    "pixels": 1807,
+    "intervals": [
+      [
+        11525,
+        11525
+      ],
+      [
+        11546,
+        11546
+      ],
+      [
+        11557,
+        11557
+      ],
+      [
+        11580,
+        11580
+      ],
+      [
+        11600,
+        11600
+      ],
+      [
+        11892,
+        11892
+      ],
+      [
+        11894,
+        11894
+      ],
+      [
+        11931,
+        11932
+      ],
+      [
+        11939,
+        11939
+      ],
+      [
+        11947,
+        11947
+      ],
+      [
+        11955,
+        11955
+      ],
+      [
+        11963,
+        11963
+      ],
+      [
+        11971,
+        11971
+      ],
+      [
+        12262,
+        12262
+      ],
+      [
+        12493,
+        12493
+      ],
+      [
+        12530,
+        12530
+      ],
+      [
+        12538,
+        12538
+      ],
+      [
+        12546,
+        12546
+      ],
+      [
+        12554,
+        12554
+      ],
+      [
+        12562,
+        12562
+      ],
+      [
+        12570,
+        12570
+      ],
+      [
+        12850,
+        12850
+      ],
+      [
+        12860,
+        12860
+      ],
+      [
+        12936,
+        12936
+      ],
+      [
+        12946,
+        12946
+      ],
+      [
+        13034,
+        13034
+      ],
+      [
+        13112,
+        13112
+      ],
+      [
+        13196,
+        13196
+      ],
+      [
+        13343,
+        13343
+      ],
+      [
+        14061,
+        14061
+      ]
+    ],
+    "examples": [
+      {
+        "frame": 11525,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "2fe2303d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22714,
+        "gptBackgroundPixels": 22709,
+        "uncoveredBackgroundPixels": 5,
+        "uncoveredTiles": [
+          {
+            "tile": 424,
+            "signature": 1636471078,
+            "pixels": 2,
+            "screenBounds": [
+              66,
+              107,
+              66,
+              108
+            ]
+          },
+          {
+            "tile": 425,
+            "signature": 418874198,
+            "pixels": 3,
+            "screenBounds": [
+              77,
+              107,
+              78,
+              108
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "54a10a75",
+        "uiTransition": null
+      },
+      {
+        "frame": 11546,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "2fe2303d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22557,
+        "gptBackgroundPixels": 22552,
+        "uncoveredBackgroundPixels": 5,
+        "uncoveredTiles": [
+          {
+            "tile": 424,
+            "signature": 1636471078,
+            "pixels": 3,
+            "screenBounds": [
+              66,
+              107,
+              67,
+              108
+            ]
+          },
+          {
+            "tile": 425,
+            "signature": 418874198,
+            "pixels": 2,
+            "screenBounds": [
+              78,
+              107,
+              78,
+              108
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "53df68f5",
+        "uiTransition": null
+      },
+      {
+        "frame": 11557,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "2fe2303d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22527,
+        "gptBackgroundPixels": 22525,
+        "uncoveredBackgroundPixels": 2,
+        "uncoveredTiles": [
+          {
+            "tile": 522,
+            "signature": 3421515293,
+            "pixels": 1,
+            "screenBounds": [
+              83,
+              134,
+              83,
+              134
+            ]
+          },
+          {
+            "tile": 523,
+            "signature": 3015466100,
+            "pixels": 1,
+            "screenBounds": [
+              93,
+              134,
+              93,
+              134
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "82a86d35",
+        "uiTransition": null
+      },
+      {
+        "frame": 11580,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "2fe2303d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22527,
+        "gptBackgroundPixels": 22525,
+        "uncoveredBackgroundPixels": 2,
+        "uncoveredTiles": [
+          {
+            "tile": 458,
+            "signature": 3421515293,
+            "pixels": 1,
+            "screenBounds": [
+              83,
+              118,
+              83,
+              118
+            ]
+          },
+          {
+            "tile": 459,
+            "signature": 3015466100,
+            "pixels": 1,
+            "screenBounds": [
+              93,
+              118,
+              93,
+              118
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "288cab4d",
+        "uiTransition": null
+      },
+      {
+        "frame": 11600,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "2fe2303d",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22527,
+        "gptBackgroundPixels": 22525,
+        "uncoveredBackgroundPixels": 2,
+        "uncoveredTiles": [
+          {
+            "tile": 426,
+            "signature": 1636471078,
+            "pixels": 1,
+            "screenBounds": [
+              83,
+              105,
+              83,
+              105
+            ]
+          },
+          {
+            "tile": 427,
+            "signature": 418874198,
+            "pixels": 1,
+            "screenBounds": [
+              93,
+              105,
+              93,
+              105
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "c39ab235",
+        "uiTransition": null
+      },
+      {
+        "frame": 11892,
+        "scene": "disciples",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "08588ca8",
+        "structural": "26d22143",
+        "palette": "f0aea415",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22441,
+        "gptBackgroundPixels": 22436,
+        "uncoveredBackgroundPixels": 5,
+        "uncoveredTiles": [
+          {
+            "tile": 424,
+            "signature": 1636471078,
+            "pixels": 3,
+            "screenBounds": [
+              66,
+              107,
+              67,
+              108
+            ]
+          },
+          {
+            "tile": 425,
+            "signature": 418874198,
+            "pixels": 2,
+            "screenBounds": [
+              78,
+              107,
+              78,
+              108
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 0,
+        "dialogueBorderCoveredPixels": 0,
+        "dialogueFrameCovered": true,
+        "pixelHash": "ba51591d",
+        "uiTransition": null
+      }
+    ],
+    "reason": "人物动作/局部UI附近瞬态像素缺少完整原生对应证据；保留原生。不是GPT整图缺失，也没有重画人物。"
+  },
+  "forest": {
+    "frames": 243,
+    "pixels": 6393,
+    "intervals": [
+      [
+        18390,
+        18390
+      ],
+      [
+        18393,
+        18393
+      ],
+      [
+        20585,
+        20585
+      ],
+      [
+        20671,
+        20671
+      ],
+      [
+        20674,
+        20675
+      ],
+      [
+        20678,
+        20678
+      ],
+      [
+        20681,
+        20681
+      ],
+      [
+        20684,
+        20684
+      ],
+      [
+        20686,
+        20686
+      ],
+      [
+        20688,
+        20688
+      ],
+      [
+        20690,
+        20690
+      ],
+      [
+        20692,
+        20692
+      ],
+      [
+        20694,
+        20695
+      ],
+      [
+        20988,
+        20988
+      ],
+      [
+        23046,
+        23046
+      ],
+      [
+        23055,
+        23055
+      ],
+      [
+        23095,
+        23095
+      ],
+      [
+        23409,
+        23445
+      ],
+      [
+        23447,
+        23483
+      ],
+      [
+        23529,
+        23542
+      ],
+      [
+        23554,
+        23554
+      ],
+      [
+        23574,
+        23574
+      ],
+      [
+        23614,
+        23614
+      ],
+      [
+        23634,
+        23634
+      ],
+      [
+        23674,
+        23674
+      ],
+      [
+        23694,
+        23694
+      ],
+      [
+        23703,
+        23703
+      ],
+      [
+        23712,
+        23712
+      ],
+      [
+        23714,
+        23714
+      ],
+      [
+        23749,
+        23749
+      ],
+      [
+        23753,
+        23753
+      ],
+      [
+        23757,
+        23757
+      ],
+      [
+        23761,
+        23761
+      ],
+      [
+        23765,
+        23765
+      ],
+      [
+        23769,
+        23769
+      ],
+      [
+        23772,
+        23773
+      ],
+      [
+        23777,
+        23777
+      ],
+      [
+        23781,
+        23781
+      ],
+      [
+        23785,
+        23785
+      ],
+      [
+        23789,
+        23789
+      ],
+      [
+        23793,
+        23793
+      ],
+      [
+        24606,
+        24606
+      ],
+      [
+        24611,
+        24611
+      ],
+      [
+        24621,
+        24621
+      ],
+      [
+        24630,
+        24630
+      ],
+      [
+        24730,
+        24730
+      ],
+      [
+        24733,
+        24733
+      ],
+      [
+        24736,
+        24736
+      ],
+      [
+        24739,
+        24739
+      ],
+      [
+        24746,
+        24746
+      ],
+      [
+        24749,
+        24749
+      ],
+      [
+        24752,
+        24753
+      ],
+      [
+        24755,
+        24755
+      ],
+      [
+        24759,
+        24759
+      ],
+      [
+        24762,
+        24762
+      ],
+      [
+        24765,
+        24766
+      ],
+      [
+        24769,
+        24769
+      ],
+      [
+        24771,
+        24771
+      ],
+      [
+        24773,
+        24774
+      ],
+      [
+        24776,
+        24782
+      ],
+      [
+        24789,
+        24800
+      ],
+      [
+        24831,
+        24831
+      ],
+      [
+        24852,
+        24852
+      ],
+      [
+        24863,
+        24863
+      ],
+      [
+        24881,
+        24881
+      ],
+      [
+        24910,
+        24910
+      ],
+      [
+        24921,
+        24921
+      ],
+      [
+        24942,
+        24942
+      ],
+      [
+        24966,
+        24966
+      ],
+      [
+        24974,
+        24974
+      ],
+      [
+        25006,
+        25006
+      ],
+      [
+        25023,
+        25023
+      ],
+      [
+        25026,
+        25026
+      ],
+      [
+        25029,
+        25029
+      ],
+      [
+        25032,
+        25032
+      ],
+      [
+        25039,
+        25039
+      ],
+      [
+        25217,
+        25217
+      ],
+      [
+        25701,
+        25702
+      ],
+      [
+        25807,
+        25807
+      ],
+      [
+        25847,
+        25847
+      ],
+      [
+        25885,
+        25885
+      ],
+      [
+        25893,
+        25893
+      ],
+      [
+        26182,
+        26182
+      ],
+      [
+        26214,
+        26214
+      ],
+      [
+        26229,
+        26229
+      ],
+      [
+        26246,
+        26246
+      ],
+      [
+        26278,
+        26278
+      ],
+      [
+        26301,
+        26301
+      ],
+      [
+        26304,
+        26304
+      ],
+      [
+        26890,
+        26890
+      ],
+      [
+        26922,
+        26922
+      ],
+      [
+        26926,
+        26926
+      ],
+      [
+        26954,
+        26954
+      ],
+      [
+        26986,
+        26986
+      ],
+      [
+        27026,
+        27026
+      ],
+      [
+        27249,
+        27249
+      ],
+      [
+        27281,
+        27281
+      ],
+      [
+        27313,
+        27313
+      ],
+      [
+        27326,
+        27326
+      ],
+      [
+        27345,
+        27345
+      ],
+      [
+        27371,
+        27371
+      ],
+      [
+        27381,
+        27381
+      ],
+      [
+        27394,
+        27394
+      ],
+      [
+        27400,
+        27400
+      ],
+      [
+        27404,
+        27405
+      ],
+      [
+        27438,
+        27438
+      ],
+      [
+        27475,
+        27475
+      ],
+      [
+        27848,
+        27848
+      ],
+      [
+        27856,
+        27856
+      ],
+      [
+        27858,
+        27858
+      ],
+      [
+        27862,
+        27862
+      ],
+      [
+        27864,
+        27864
+      ],
+      [
+        27869,
+        27869
+      ],
+      [
+        27966,
+        27966
+      ],
+      [
+        27995,
+        27995
+      ],
+      [
+        28451,
+        28451
+      ],
+      [
+        28460,
+        28460
+      ],
+      [
+        28465,
+        28465
+      ],
+      [
+        28492,
+        28492
+      ],
+      [
+        28524,
+        28524
+      ],
+      [
+        28556,
+        28556
+      ],
+      [
+        28565,
+        28565
+      ],
+      [
+        28836,
+        28836
+      ],
+      [
+        28930,
+        28930
+      ],
+      [
+        28934,
+        28934
+      ],
+      [
+        28941,
+        28941
+      ],
+      [
+        28952,
+        28952
+      ],
+      [
+        28962,
+        28962
+      ],
+      [
+        28989,
+        28989
+      ],
+      [
+        29005,
+        29005
+      ],
+      [
+        29008,
+        29008
+      ],
+      [
+        29011,
+        29011
+      ],
+      [
+        29014,
+        29014
+      ]
+    ],
+    "examples": [
+      {
+        "frame": 18390,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "d31d5abf",
+        "structural": "9f9bcc2a",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 88,
+            "h": 64
+          }
+        ],
+        "eligibleBackgroundPixels": 22699,
+        "gptBackgroundPixels": 22691,
+        "uncoveredBackgroundPixels": 8,
+        "uncoveredTiles": [
+          {
+            "tile": 418,
+            "signature": 3451619042,
+            "pixels": 8,
+            "screenBounds": [
+              16,
+              111,
+              23,
+              111
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 40,
+        "dialogueBorderCoveredPixels": 40,
+        "dialogueFrameCovered": true,
+        "pixelHash": "c11e644d",
+        "uiTransition": null
+      },
+      {
+        "frame": 18393,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "8154d94b",
+        "structural": "c030df66",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 17183,
+        "gptBackgroundPixels": 17138,
+        "uncoveredBackgroundPixels": 45,
+        "uncoveredTiles": [
+          {
+            "tile": 394,
+            "signature": 263546271,
+            "pixels": 21,
+            "screenBounds": [
+              81,
+              96,
+              86,
+              103
+            ]
+          },
+          {
+            "tile": 426,
+            "signature": 263546271,
+            "pixels": 16,
+            "screenBounds": [
+              81,
+              104,
+              86,
+              111
+            ]
+          },
+          {
+            "tile": 458,
+            "signature": 263546271,
+            "pixels": 8,
+            "screenBounds": [
+              81,
+              112,
+              86,
+              114
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 2100,
+        "dialogueBorderCoveredPixels": 2100,
+        "dialogueFrameCovered": true,
+        "pixelHash": "4a1092c5",
+        "uiTransition": null
+      },
+      {
+        "frame": 20585,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "38789c75",
+        "structural": "c5668f2c",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 88,
+            "h": 64
+          }
+        ],
+        "eligibleBackgroundPixels": 22083,
+        "gptBackgroundPixels": 22075,
+        "uncoveredBackgroundPixels": 8,
+        "uncoveredTiles": [
+          {
+            "tile": 418,
+            "signature": 3451619042,
+            "pixels": 8,
+            "screenBounds": [
+              16,
+              111,
+              23,
+              111
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 40,
+        "dialogueBorderCoveredPixels": 40,
+        "dialogueFrameCovered": true,
+        "pixelHash": "4a94474d",
+        "uiTransition": null
+      },
+      {
+        "frame": 20671,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "3a5b394b",
+        "structural": "d8df467d",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22537,
+        "gptBackgroundPixels": 22535,
+        "uncoveredBackgroundPixels": 2,
+        "uncoveredTiles": [
+          {
+            "tile": 531,
+            "signature": 139402496,
+            "pixels": 1,
+            "screenBounds": [
+              159,
+              135,
+              159,
+              135
+            ]
+          },
+          {
+            "tile": 563,
+            "signature": 1091726139,
+            "pixels": 1,
+            "screenBounds": [
+              159,
+              136,
+              159,
+              136
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 5,
+        "dialogueBorderCoveredPixels": 5,
+        "dialogueFrameCovered": true,
+        "pixelHash": "7ec833f5",
+        "uiTransition": null
+      },
+      {
+        "frame": 20674,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "3a5b394b",
+        "structural": "d8df467d",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22532,
+        "gptBackgroundPixels": 22531,
+        "uncoveredBackgroundPixels": 1,
+        "uncoveredTiles": [
+          {
+            "tile": 531,
+            "signature": 313234233,
+            "pixels": 1,
+            "screenBounds": [
+              159,
+              130,
+              159,
+              130
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 3,
+        "dialogueBorderCoveredPixels": 3,
+        "dialogueFrameCovered": true,
+        "pixelHash": "271faf1d",
+        "uiTransition": null
+      },
+      {
+        "frame": 20675,
+        "scene": "forest",
+        "classification": "raster-transition",
+        "observerValid": true,
+        "geometry": "3a5b394b",
+        "structural": "d8df467d",
+        "palette": "73452345",
+        "scroll": [
+          0,
+          0
+        ],
+        "window": [
+          false,
+          -7,
+          0
+        ],
+        "dialogueRects": [],
+        "eligibleBackgroundPixels": 22531,
+        "gptBackgroundPixels": 22527,
+        "uncoveredBackgroundPixels": 4,
+        "uncoveredTiles": [
+          {
+            "tile": 531,
+            "signature": 139402496,
+            "pixels": 2,
+            "screenBounds": [
+              154,
+              134,
+              155,
+              135
+            ]
+          },
+          {
+            "tile": 563,
+            "signature": 1091726139,
+            "pixels": 1,
+            "screenBounds": [
+              153,
+              138,
+              153,
+              138
+            ]
+          },
+          {
+            "tile": 562,
+            "signature": 2799421737,
+            "pixels": 1,
+            "screenBounds": [
+              151,
+              140,
+              151,
+              140
+            ]
+          }
+        ],
+        "dialogueBorderPixels": 3,
+        "dialogueBorderCoveredPixels": 3,
+        "dialogueFrameCovered": true,
+        "pixelHash": "7bf743cd",
+        "uiTransition": null
+      }
+    ],
+    "reason": "局部对话/头像与人物动画附近的瞬态栅格证据缺口；此次开场SCX/SCY均为0，并非已证实的卷屏边缘缺图。已复用现有256×256 GPT整图，未为错误的扩图假设再发生成请求。"
+  }
+}

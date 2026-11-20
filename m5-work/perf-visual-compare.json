@@ -1,0 +1,24 @@
+{
+  "pass": false,
+  "errors": [],
+  "mismatch": true,
+  "frame": 246,
+  "sceneA": "interior",
+  "sceneB": "interior",
+  "bytesDifferent": 2950,
+  "firstByte": 1198080,
+  "maxDifference": 7,
+  "candidateRoot": "/tmp/shawu-perf-check2",
+  "note": "外层Chromium实际执行。frame246 bytesDifferent2950, maxDifference7; screenshot paths append .original.png / .candidate.png. 请修复/解释，至少native角色和文字必须严格一致。",
+  "localizedDifference": {
+    "bounds": [
+      0,
+      468,
+      639,
+      471
+    ],
+    "pixels": 1024,
+    "nativeRow": 117,
+    "hypothesis": "Likely fadedRow basePixels canvas uses willReadFrequently:true whereas original faded scales map.image on default GPU canvas; CPU/GPU scaling of authored image can differ. Not confined to UI border."
+  }
+}

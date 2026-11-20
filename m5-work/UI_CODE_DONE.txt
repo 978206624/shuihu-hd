@@ -1,0 +1,19 @@
+UI targeted implementation complete; residual raster gaps explicitly retained.
+Changed production file: web/map-renderer.js only. No ROM/state/vendor/art/renderer.js changes.
+
+frame: old eligible/GPT/gap -> new eligible/GPT/gap (denominator delta)
+361: 14641/12522/2119 -> 13940/12613/1327 (-701)
+362: 18674/16450/2224 -> 18211/16781/1430 (-463)
+4767: 12383/12331/52 -> 12336/12336/0 (-47)
+7703: 12486/12434/52 -> 12438/12438/0 (-48)
+11530: 22688/22679/9 -> 22686/22686/0 (-2)
+18360: 12695/12487/208 -> 12681/12625/56 (-14)
+18361: 17866/12575/5291 -> 16713/14945/1768 (-1153)
+
+Implementation: exact per-pixel native-reference fallback when a complete eight-pixel row fails or is unclassified; exact observed UI raster history; currently validated UI interiors always retained; unmatched validated UI pixels counted as native UI, not missing scenery. Int16 source IDs avoid overflow as candidates grow. No widened scene threshold or actor mask.
+
+Proof: node m5-work/ui-invariants.cjs passed seven real-WASM targeted samples with 12-frame rendering history. Every 4x4 output block for current native OAM and validated UI interiors/text matches native RGB exactly (zero changed channels). Every selected verified dialogue border pixel covered. Results: m5-work/ui-invariants.json.
+
+Remaining: 361=1327, 362=1430, 18360=56, 18361=1768 pixels. These mixed dialogue wipe scanlines still lack an exact classified match among current/prior decoded VRAM, observed UI raster, and verified native scenery/palette references. They are retained native, not silently masked or claimed as art-size/scroll limitations (SCX/SCY=0). End-of-frame tile/palette state does not fully describe the displayed raster; exact historical references resolve only part. No arbitrary temporal wipe or fabricated native glyph geometry added. Native actors/text preservation verified for current observation; disappearing historical UI has only exact-reference evidence, not full scanline-time VRAM capture.
+
+52-pixel continue animation gaps and 9-pixel bottom-edge gap are now zero. Border coverages in results reflect exact classified portions, not replacement of the animated UI interior. No full 29160-frame or browser run performed.

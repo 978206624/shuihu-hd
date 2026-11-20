@@ -1,0 +1,19 @@
+**V2 is frozen and REQUEST_READY. Performance improvement remains unproven pending outer testing.**
+
+- Preserved v1’s runtime, freeze, scripts and every result under `m7-work/stage-a/versions/v1/`; original evidence remains unchanged.
+- V2 changes only `region-renderer.js`: batches certified identity-palette runs into rectangles and reuses identical recovered-row mappings.
+- Offline verification passed: 13,271,040 pixel bytes matched, plus identical source selection/palettes/metadata across 2,110 native WASM frames.
+- The measurement function is byte-identical to v1. No definitions, timing, masks, ROM/core or tolerances changed.
+
+After confirming CPU exclusivity, run the 12-sample probe:
+
+```bash
+cd /workspace/shawu
+export STAGE_A_RESULTS="$PWD/m7-work/stage-a/v2/results/probe-$(date -u +%Y%m%dT%H%M%SZ)"
+SUPERVISOR_CONFIRMED_EXCLUSIVE=1 bash m7-work/stage-a/v2/scripts/run.sh probe
+```
+
+[Exact probe, diagnostic and full-validation commands](/workspace/shawu/m7-work/SUPERVISOR_RUN_STAGE_A_V2.md)  
+[Chinese investigation and candidate report](/workspace/shawu/m7-work/stage-a/v2/REPORT_STAGE_A_V2_zh.md) · [Offline evidence](/workspace/shawu/m7-work/stage-a/v2/offline/checks.json) · [V1→V2 diff](/workspace/shawu/m7-work/stage-a/v2/offline/runtime-v1-to-v2.diff)
+
+Final acceptance still requires 442 checks, exact visual/coverage equality and all 72 performance samples. Stage B remains unstarted.

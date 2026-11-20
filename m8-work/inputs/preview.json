@@ -1,0 +1,226 @@
+[
+  {
+    "id": "00-00",
+    "name": "东溪村",
+    "source": "/workspace/shawu/m8-work/inputs/231b26c56d4c0536-latest.bin",
+    "sourceProvenance": "m8-work/play/south-village-settled",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-01",
+    "name": "东溪村室内 00-01",
+    "source": "/workspace/shawu/m8-work/inputs/045ad7f635b87622-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-01",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-02",
+    "name": "东溪村室内 00-02",
+    "source": "/workspace/shawu/m8-work/inputs/b9fa459e9719ea07-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-02",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-03",
+    "name": "东溪村室内 00-03",
+    "source": "/workspace/shawu/m8-work/inputs/2c86af0b00447b74-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-03",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-04",
+    "name": "东溪村室内 00-04",
+    "source": "/workspace/shawu/m8-work/inputs/946871a3d5ce5586-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-04",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-05",
+    "name": "东溪村会合屋",
+    "source": "/workspace/shawu/m8-work/inputs/a709c230a5968cf8-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-05",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-06",
+    "name": "东溪村庙宇",
+    "source": "/workspace/shawu/m8-work/inputs/1c7fbcdc2f70963d-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-06",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "00-09",
+    "name": "村东南连通林道",
+    "source": "/workspace/shawu/m8-work/inputs/c030b0da3623a2cf-latest.bin",
+    "sourceProvenance": "m8-work/play/survey-00-09",
+    "actions": [
+      [
+        "up",
+        16,
+        8
+      ],
+      [
+        "left",
+        16,
+        8
+      ],
+      [
+        "right",
+        16,
+        8
+      ],
+      [
+        "down",
+        16,
+        8
+      ]
+    ]
+  }
+]

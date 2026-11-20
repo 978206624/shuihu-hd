@@ -1,0 +1,324 @@
+{
+  "source": "/workspace/shawu/m7-work/webplay/escape.bin",
+  "actions": [
+    [
+      "right",
+      6,
+      20,
+      "r"
+    ],
+    [
+      "down",
+      6,
+      20,
+      "d"
+    ],
+    [
+      "A",
+      6,
+      220,
+      "a"
+    ],
+    [
+      "B",
+      6,
+      100,
+      "b"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 27,
+      "ticks": 5567819648,
+      "pc": 671,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22990,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 22990,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 22990,
+          "unsupportedPixels": 22990,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        3,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 53,
+      "ticks": 5569645580,
+      "pc": 668,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22990,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 22990,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 22990,
+          "unsupportedPixels": 22990,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        3,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 279,
+      "ticks": 5585516840,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22766,
+          "gptBackgroundPixels": 22766,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            80,
+            112
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 274,
+          "backgroundPixels": 22766,
+          "eligiblePixels": 22766,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        80,
+        112
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 385,
+      "ticks": 5592960904,
+      "pc": 668,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22746,
+          "gptBackgroundPixels": 22746,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            80,
+            112
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 294,
+          "backgroundPixels": 22746,
+          "eligiblePixels": 22746,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        80,
+        112
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    }
+  ],
+  "errors": []
+}

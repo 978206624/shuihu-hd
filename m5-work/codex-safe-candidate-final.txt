@@ -1,0 +1,8 @@
+Finalized the isolated UI-only candidate. Production `web` remains untouched.
+
+- Removed row-palette recovery and diagnostics.
+- Kept only attribute-aware lifecycle wipe recognition/progress.
+- Syntax and strict actor/text/UI/resync tests passed.
+- Targeted UI gaps: **0**. Cliff/OAM residuals remain counted.
+
+Details: [CANDIDATE_DONE.txt](/workspace/shawu/m5-work/CANDIDATE_DONE.txt). Progress appended.

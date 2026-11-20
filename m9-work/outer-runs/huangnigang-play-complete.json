@@ -1,0 +1,47 @@
+{
+  "completedAt": "2026-11-18T15:10:52.794Z",
+  "engine": "native-binjgb",
+  "tag": "m9-native-huangnigang-inn-v2",
+  "officialStart": "m9-work/checkpoints/story12-meeting-end.bin",
+  "observation": {
+    "frame": 14573,
+    "ticks": 11080719940,
+    "map": "00-2c",
+    "story": 14,
+    "dialogue": 0,
+    "mode": 0,
+    "bank": 5,
+    "player": [
+      80,
+      72,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "camera": [
+      0,
+      0
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "entry": 0,
+    "cell": [
+      4,
+      4
+    ],
+    "facing": 1,
+    "arrivalBanner": 0,
+    "scriptRunning": 0,
+    "DAA1": "72",
+    "DAA2": "1",
+    "stateSHA256": "df9e7d222e006562c7963a559ea0c682196ee30e38f044d9c386fc4156a35b55",
+    "nativeFramebufferSHA256": "7452c882dfcec299cb275484aaef399f5e6a39326556107c211b741570262c69"
+  },
+  "actions": "m9-work/outer-runs/huangnigang-inn-actions.json",
+  "notes": "Native official-start exploration through 黄泥岗客栈 front (story 13) and rear (story 14). One official browser replay of this action list is still required for evidence."
+}

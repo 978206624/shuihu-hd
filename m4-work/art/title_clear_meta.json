@@ -1,0 +1,9 @@
+{
+  "model": "gpt-image-2",
+  "requested_quality": "medium",
+  "actual_quality": null,
+  "result": "No image returned before enforced 590-second end-to-end timeout; process exit 124",
+  "references_max_dimension": 600,
+  "prompt_file": "title_clear_prompt.txt",
+  "adopted": false
+}

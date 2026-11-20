@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "frames": 5,
+    "ticks": 2453105112,
+    "pc": 670,
+    "paused": true,
+    "hd": true,
+    "held": [],
+    "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "renderer": {
+      "scene": "forest",
+      "mapResult": {
+        "scene": "forest",
+        "matchedCells": 353,
+        "visibleCells": 360,
+        "preservedPixels": 923,
+        "backgroundPixels": 22117,
+        "unsupportedPixels": 448
+      },
+      "titleRedrawn": false,
+      "titleSelection": null,
+      "knownBackgroundCells": 353,
+      "forestTilesRedrawn": 353,
+      "forestAtlasAvailable": true,
+      "fallback": "WebGL Scale2x",
+      "matching": "whole map RGB tile signatures, read-only VRAM/OAM, original foreground difference mask"
+    },
+    "scroll": [
+      0,
+      0
+    ]
+  },
+  "maskedPixels": 475,
+  "maskedMismatch": 0
+}

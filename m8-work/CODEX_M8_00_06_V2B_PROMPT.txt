@@ -1,0 +1,25 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session, including the dead 00-06-v2 session that hit Reconnecting 5/5 and a 503. Read context FROM FILES. Keep this session compact.
+
+Do the file work FIRST. Do not inspect formal-door dumps, Playwright traces, gzip QA rows, or 84k logs before the copy and bookkeeping are done and REQUEST_READY.md is written. Finish this turn after that.
+
+Previous 00-06 v2 session (PID 118904, log m8-work/codex-m8-00-06-v2.log) died after 5 reconnects and 503 from the 38811 upstream. It wrote nothing: runtime 00-06_hd.png is still v1 SHA-256 3a5a9c9d132690fd38c5ac2836ffa7272ea839737b5148adacfddf52393ce11d. last.txt is empty. Start clean.
+
+Supervisor finished the one-round cold/00-17 experiment and REJECTED the candidate: meetsRoundGate=false. Keep the live accepted tree at m8-work/runtime/. Do not promote, merge, or overwrite it with m8-work/runtime-fix-0017/. Leave the rejected tree in place for audit. If 38811 drops, STOP and report; do not repair auth/routes or read credentials. Checkpoint m8-work/progress.md after each step. HTTP 8765 already serves /workspace/shawu; keep it. Do not start region 黄泥岗 or any new maps.
+
+## This session only: copy 00-06 v2 into the live runtime and prepare verify commands
+
+Supervisor already generated and visually reviewed m8-work/art/00-06_gpt_v2.png. It is better than the live v1 plate (floral ornaments replaced by glyphs). Crop: m8-work/art/00-06_glyphs_before_after.png (native | v1 | v2). Also present: 00-06_gpt_v2.png.meta.json, 00-06_prompt_v2.txt. Do NOT regenerate images and do NOT overwrite art/00-06_gpt.png.
+
+Expected SHA-256 (verify, do not invent):
+- art/00-06_gpt_v2.png = 91125e14a469c162db6454acd0d573b812d9908ae8c1c45a90a26fb39676316a
+- current runtime/assets/region3/00-06_hd.png (v1) = 3a5a9c9d132690fd38c5ac2836ffa7272ea839737b5148adacfddf52393ce11d
+
+Steps, in this order:
+1. Byte-identical copy of art/00-06_gpt_v2.png over m8-work/runtime/assets/region3/00-06_hd.png. Confirm the runtime SHA equals the v2 SHA above.
+2. Update m8-work/integration/provenance.json for map 00-06 so the live source is the v2 plate and runtimeSHA256 matches. Keep the original v1 provenance alongside (do not delete the v1 source SHA or art/00-06_gpt.png references). Do not fabricate metadata; use the existing v2 meta file.
+3. Update the active freeze m8-work/freeze-sha256.json (and any current active freeze pointer the project uses) so runtime 00-06_hd.png and any newly recorded v2 art files have correct hashes. Do not overwrite historical freeze archives such as m8-work/offline/freeze-sha256-outer-20261118T062207Z.json, or the two completed result directories.
+4. ROM/core/JS stay unchanged except this asset/provenance/freeze bookkeeping. No smoothing/upscale fallback. No denominator/mask changes. No other plates.
+5. Prepare exact supervisor outer commands to VERIFY (a) runtime 00-06_hd.png SHA is the v2 SHA, and (b) formal correctness invariants still pass on the affected official 00-06 routes (door/temple evidence). A focused official replay is preferred; only prescribe a full 84,135-frame QA if you can justify it as required. Use a NEW result directory. Env: NODE_PATH=/home/box/opt/test-tools/node_modules, PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers, exclusive locks. Do not overwrite results/outer-20261118T062207Z or results/outer-cold-0017-20261118T092326742885874Z.
+6. Overwrite m8-work/REQUEST_READY.md with those commands and the integration provenance (it currently still contains the old cold/00-17 handoff). Update progress.md. FINISH this turn so the supervisor can run verification. Sandbox EPERM for browser/network is known; do not retry network inside the sandbox. Do not label verification passed until the outer run exists. Do not start the outer browser yourself.
+
+Do not explore formal-door Counter dumps or previous QA gzip rows in this session. Those already exist; the supervisor will run verification outside the sandbox.

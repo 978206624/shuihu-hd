@@ -1,0 +1,5 @@
+Completed the [M10 ROM gate analysis](/workspace/shawu/m10-work/rom-gate-analysis.md) and verified the official checkpoint’s size and SHA-256. The writeup covers post-inn exits, story writes 15–22, and the party, item, and flag gates.
+
+The recommended endpoint is the first settled arrival at `00-2a e0 (5,8)`, at story 19 with `DAA1/DAA2=52/06` and `D284=04 01`, before the row-4 gate consumes the item.
+
+I recorded the ROM-predicted cutscene positions and walking legs in the [supervisor handoff](/workspace/shawu/m10-work/REQUEST_READY.md) and updated [progress.md](/workspace/shawu/m10-work/progress.md). Directed native checks and the official browser replay remain pending.

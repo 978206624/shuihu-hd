@@ -1,0 +1,17 @@
+{
+  "video": "/workspace/shawu/m7-work/region2_preview.webm",
+  "videoBytes": 16905508,
+  "videoDurationSeconds": 100.16,
+  "videoSHA256": "c88ffd879fd0dff4ed54af230eb4abedc9ce2fc714da5b969d7d938a41eee68b",
+  "format": "VP9 640x600 @25fps capture, 640x576 native HD canvas plus 24px header, no audio, unchanged real-time timestamps",
+  "clips": 13,
+  "activeGameWeightedFPS": 59.68193290926806,
+  "videoIsContinuousPlaythrough": false,
+  "comparison": "/workspace/shawu/shots/m7_region2_contact.png",
+  "comparisonBytes": 2698452,
+  "report": "/workspace/shawu/m7-work/REPORT_region2_zh.md",
+  "runtime": "/workspace/shawu/m7-work/runtime",
+  "zipCreated": false,
+  "allGoalsFullySatisfied": false,
+  "remainingPerformanceCaveat": "Mean original-speed fps target met; first-warp tail latency on outer/inner city routes is higher than baseline. See report."
+}

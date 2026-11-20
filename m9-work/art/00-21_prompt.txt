@@ -1,0 +1,11 @@
+Create one full-map, newly painted HD 2D JRPG background plate in the approved V4 style for map 00-21.
+
+Image 1 is the character-free original ROM background at exact 4× nearest-neighbor, provided as a geometry input. Its native size is 384×256. Paint the entire rectangle at 1536×1024, retaining its exact aspect ratio and aligned overhead orthographic view. Keep the original extent, axes and framing. No cropping, margin, frame, vignette, perspective change or comparison panel.
+
+Image 2 supplies V4 brushwork, lighting and material texture only. Use crisp, deliberate painted detail and retain the original map's palette identities. Do not import any layout, fixtures, signs, text or actors from image 2. Output a complete painted plate, never a tileset, an upscale, a smoothing pass or a filtered fallback.
+
+Lock the original identity, count, positions, sizes and exact footprints of every building, roof, door, window, path, road, opening, furniture piece, tree, shrub, wall, floor, step, terrain boundary and decoration in image 1. Keep walkable routes and obstacles where they are. Keep the pure black void regions pure black with their original boundaries. Preserve this map's own winding green corridors, clearings, tree clusters, flower patches, ochre details, and openings. Keep the wooded layout in image 1 in full.
+
+BACKGROUND GLYPHS ARE LOCKED. Faithfully preserve every glyph painted into image 1, including signs, plaques, labels and background banners, with the same characters, count, order, colors and positions. Never blank a written sign into a decorative panel, substitute floral ornaments or invent text. The native background has no text glyphs. Invent no text.
+
+ZERO characters, people, monsters, animals, portraits, sprites, silhouettes, character shadows, UI, dialogue, speech bubbles, watermarks or overlay text. Layout and background glyph fidelity take priority over decoration.

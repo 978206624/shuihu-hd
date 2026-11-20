@@ -1,0 +1,5 @@
+[REQUEST_READY.md](/workspace/shawu/m9-work/REQUEST_READY.md) is ready for supervisor play. Start with `story12-interact-00-08-s02`, then follow the commands for the five interiors and optional 00-09 path. The handoff includes official-start candidate confirmation and post-trigger door rechecks.
+
+All seven doorway routes passed offline checks for exact inputs, game observations, and screenshots. Some serialized save bytes differed, so doorway confirmation checks the replayed observations and image. Node and Bash syntax checks passed. Live surveys and listener checks remain for the supervisor.
+
+Checkpointed [progress.md](/workspace/shawu/m9-work/progress.md).

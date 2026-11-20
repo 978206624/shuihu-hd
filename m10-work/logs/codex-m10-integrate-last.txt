@@ -1,0 +1,5 @@
+Region 5 is integrated into the isolated M10 runtime. All four accepted PNGs match their source bytes, and the four reused plates, ROM, binjgb core, and `start.bat` match M9. The existing map registry was the only M9 file changed in the copy. [Integration manifest](/workspace/shawu/m10-work/integration/provenance.json)
+
+Offline replay verified all 1,669 actions and 55,206 frames. It reached `00-2a e0 (5,8)` facing up at story 19 with the required flags and avoided row 4. The M9 official chain and 33 historical routes also passed native replay checks. [Progress checkpoint](/workspace/shawu/m10-work/progress.md)
+
+The QA, v3 perf, contact, and preview runners are ready. The handoff lists the exact supervisor commands, all four locks, and the stop procedure for port 38811. The contact runner stages the verified sheet under `m10-work/results/` for the supervisor to publish to `shots/`. Host listener status, live browser results, and final media are pending. [Supervisor handoff](/workspace/shawu/m10-work/REQUEST_READY.md)

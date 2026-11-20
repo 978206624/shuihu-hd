@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": 200,
+  "elapsed": 212.30524063110352,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "background": "opaque",
+    "created": 1794288117,
+    "data": [
+      {
+        "b64_json": "<omitted 1963812 chars>"
+      }
+    ],
+    "output_format": "png",
+    "quality": "low",
+    "size": "1536x1024",
+    "usage": {
+      "input_tokens": 32,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 32
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "image_tokens": 343,
+        "text_tokens": 0
+      },
+      "total_tokens": 375
+    }
+  },
+  "nbytes": 1964125
+}

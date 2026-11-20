@@ -1,0 +1,23 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any M9, ROM-gate, or earlier session. Read context FROM FILES. Work only under m10-work/. Do not modify m8-work/runtime/, m9-work/runtime/, m8-work/scripts/, m9-work/scripts/, frozen M8/M9 art/results, ROM bytes, or the binjgb core. If 38811 drops, STOP and report.
+
+TASK: Write m10-work/scripts/browser-play.cjs only. Do NOT run it. Your sandbox cannot use host sockets (no Playwright against 8765). The supervisor will run the script after you finish.
+
+Adapt m9-work/scripts/browser-play.cjs for M10 official-start evidence replay:
+
+Requirements:
+- Require playwright, and { png, sha, readActions, romSHA256 } from ./native-play.cjs (already in m10-work/scripts/).
+- WORK root is m10-work/. Output to m10-work/play/<tag>/ where tag is argv[2]. Action file is argv[3] (required).
+- Official start: m10-work/checkpoints/story14-inn-end.bin
+  File SHA-256 MUST equal f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0
+  After g.loadState, do NOT require the in-emulator state SHA to equal the file SHA (unused bytes are normalized; post-load SHA is d30f8c349cf41a4336e717333fd0930dd170a31c283782a0ddccdabe26051a82). Require story===14, map 00-2c, and romSHA256 match.
+- URL: http://127.0.0.1:8765/m8-work/runtime/  (accepted runtime, read-only). Call g.setHD(false). Do not write anything under m8-work or m9-work.
+- Launch Playwright like the M9 script: chromium, serviceWorkers block, abort cross-origin, wait for window.shuihu.ready, loadState, observe meta (frame, ticks, romSHA256, scroll, map, story, dialogue, mode, bank, player, camera).
+- Play the full action list with the same input/step batching as M9 (shuihu.input + shuihu.step in batches of 60). No mid-state load. No shortening.
+- There are 1669 actions / 55206 hold+release frames. DO NOT write a PNG+BIN for every action (too heavy). Write frames.jsonl (per-frame or per-batch is OK). Capture PNG+BIN only for: initial, every map change, every story change, every 50th action, and the final end (end.png / end.bin). Also write planned-actions.json, incremental actions.json, and result.json.
+- result.json: status COMPLETE or FAILED; sourceSHA256 (file hash); url; initial capture; end capture including stateSHA256; list of snapshot records (not all 1669).
+- Console-log each snapshot line with index, frame, map, story, dialogue.
+- Usage: node m10-work/scripts/browser-play.cjs unique-tag path/to/actions.json
+- Keep helper scripts out of frozen m8/m9 trees.
+- Optionally write a one-line note in m10-work/progress.md that the script is ready for the supervisor to run. Do not overwrite SUPERVISOR_STATUS.md narratively beyond a short "browser-play script ready" line if you touch it.
+
+Do not generate GPT art. Do not integrate a runtime. Do not start later chapters. Finish after the script exists and is syntactically valid.

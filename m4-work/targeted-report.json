@@ -1,0 +1,404 @@
+{
+  "results": [
+    {
+      "frame": 2,
+      "scene": "title-fade",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "be2482ce",
+      "structural": "97006603",
+      "palette": "1949bb0d",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        160,
+        68
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "afa84bb5"
+    },
+    {
+      "frame": 25,
+      "scene": "title-fade",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "be2482ce",
+      "structural": "97006603",
+      "palette": "ab8a2e75",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        160,
+        68
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "a32cf405"
+    },
+    {
+      "frame": 44,
+      "scene": "verified-flat-transition",
+      "classification": "blank",
+      "observerValid": true,
+      "geometry": "09a0cb95",
+      "structural": "ff2ed2e3",
+      "palette": "58b9f0c5",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "fbefe5c5"
+    },
+    {
+      "frame": 46,
+      "scene": "verified-flat-transition",
+      "classification": "blank",
+      "observerValid": true,
+      "geometry": "90227a31",
+      "structural": "f7960866",
+      "palette": "58b9f0c5",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "fbefe5c5"
+    },
+    {
+      "frame": 266,
+      "scene": "interior",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "dc90ab72",
+      "structural": "a1caff51",
+      "palette": "7b7644d5",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 88,
+          "h": 64
+        }
+      ],
+      "eligibleBackgroundPixels": 22554,
+      "gptBackgroundPixels": 22554,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 160,
+      "dialogueBorderCoveredPixels": 160,
+      "dialogueFrameCovered": true,
+      "pixelHash": "9bced57d"
+    },
+    {
+      "frame": 269,
+      "scene": "interior",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "bedfc3c6",
+      "structural": "90aba52d",
+      "palette": "7b7644d5",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 64
+        }
+      ],
+      "eligibleBackgroundPixels": 16690,
+      "gptBackgroundPixels": 16690,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 2312,
+      "dialogueBorderCoveredPixels": 2312,
+      "dialogueFrameCovered": true,
+      "pixelHash": "4624dc85"
+    },
+    {
+      "frame": 5300,
+      "scene": "impact-bg",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "b964d0e5",
+      "structural": "9f9f8b19",
+      "palette": "d45afd45",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "f2ee8845"
+    },
+    {
+      "frame": 5380,
+      "scene": "impact-bg",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "e71f5aab",
+      "structural": "c042263e",
+      "palette": "d45afd45",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "8be32205"
+    },
+    {
+      "frame": 7140,
+      "scene": "card-heaven",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "495371a8",
+      "structural": "7b0ca7be",
+      "palette": "e50c226d",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "01ce8d4d"
+    },
+    {
+      "frame": 7240,
+      "scene": "card-heaven",
+      "classification": "scene",
+      "observerValid": true,
+      "geometry": "495371a8",
+      "structural": "7b0ca7be",
+      "palette": "a8916a9d",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 23040,
+      "gptBackgroundPixels": 23040,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "d89bb12d"
+    },
+    {
+      "frame": 7342,
+      "scene": "palace",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "521aaad6",
+      "structural": "7a78b710",
+      "palette": "2fe2303d",
+      "scroll": [
+        0,
+        4
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 22674,
+      "gptBackgroundPixels": 22674,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "60d592d5"
+    },
+    {
+      "frame": 7346,
+      "scene": "palace",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "521aaad6",
+      "structural": "7a78b710",
+      "palette": "2fe2303d",
+      "scroll": [
+        0,
+        252
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 22692,
+      "gptBackgroundPixels": 22692,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "9c63cfed"
+    },
+    {
+      "frame": 11632,
+      "scene": "disciples",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "1e27e0d9",
+      "structural": "8bbd3e26",
+      "palette": "f0aea415",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [],
+      "eligibleBackgroundPixels": 22532,
+      "gptBackgroundPixels": 22532,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 0,
+      "dialogueBorderCoveredPixels": 0,
+      "dialogueFrameCovered": true,
+      "pixelHash": "d33ff38d"
+    },
+    {
+      "frame": 11633,
+      "scene": "disciples",
+      "classification": "raster-transition",
+      "observerValid": true,
+      "geometry": "3da8b938",
+      "structural": "745e11b3",
+      "palette": "f0aea415",
+      "scroll": [
+        0,
+        0
+      ],
+      "window": [
+        false,
+        -7,
+        0
+      ],
+      "dialogueRects": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 88,
+          "h": 64
+        }
+      ],
+      "eligibleBackgroundPixels": 19700,
+      "gptBackgroundPixels": 19700,
+      "uncoveredBackgroundPixels": 0,
+      "uncoveredTiles": [],
+      "dialogueBorderPixels": 1088,
+      "dialogueBorderCoveredPixels": 1088,
+      "dialogueFrameCovered": true,
+      "pixelHash": "94224955"
+    }
+  ],
+  "errors": []
+}

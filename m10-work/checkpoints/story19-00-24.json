@@ -1,0 +1,30 @@
+{
+  "file": "checkpoints/story19-00-24.bin",
+  "sha256": "d0ff40175f37c1b5f4c609feb77d08c57e500ec53198aa688fdd0cf5dee42a93",
+  "size": 199608,
+  "map": "00-24",
+  "entry": 3,
+  "story": 19,
+  "DAA0": 230,
+  "DAA1": "0x52",
+  "DAA2": "0x6",
+  "DAA3": "0x38",
+  "D284": 4,
+  "D285": 1,
+  "party": [
+    2,
+    23,
+    36
+  ],
+  "bank": 5,
+  "mode": 0,
+  "dialogue": 0,
+  "script": 0,
+  "facing": 3,
+  "cell": [
+    6,
+    5
+  ],
+  "note": "Story 19 after 00-2b e3 south exit scene. Pocket-2 should be 04 01. Settled 00-24 e3 (6,5) facing left. Stop later at 00-2a e0 (5,8) before row 4.",
+  "source": "m10-work/native/story18-ext-talk2/talk-24.bin"
+}

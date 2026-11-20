@@ -1,0 +1,30 @@
+FRESH codex exec, NOT a session resume. Do NOT resume sessions 01a1c9ec, 01a1ca6f, or the prior integration session. Read context FROM FILES only. Keep this session compact; do not dump giant QA JSON or old Codex logs.
+
+Owner recovered after a box reboot. Cockpit 38811 and HTTP 8765 (serving /workspace/shawu root) are listening again. You do ALL coding. Supervisor will run the outer browser commands after you write REQUEST_READY and exit. If 38811 drops, STOP and report; do not repair auth/routes or read credentials. Checkpoint m8-work/progress.md after each step — box restarts happen.
+
+## What is already done (do not redo)
+- 8 GPT plates remain frozen; no image generation.
+- Integration and freeze are in place (active freeze SHA-256 765674d74521fbb624783a8a4a4fdf378126f10ab489300ba34124671727857b). ROM/core/JS unchanged except assets/region1/maps.json plus 8 new region3 assets.
+- Formal browser QA COMPLETED and saved in the existing result dir m8-work/results/outer-20261118T062207Z before the reboot (qa.done, qa/report.json SHA-256 42575581d9f543208324ba932f5c891cbd95ac5d44644f76a2e0bca487654fca). 33 routes, 1096 actions, 84135 frames; state/native framebuffer/actor-text all 84135/84135; region 1/2 regression visual exact 31396/31396; errors []. Do NOT rerun QA. Do NOT overwrite qa.done, qa.log, qa/report.json, or per-action qa dumps.
+
+## Partial perf (must keep)
+- Perf was interrupted mid-run by the reboot at 2026-11-18 02:29 EST. 20 of 144 samples were written and must be kept:
+  legacy repeat 1, adopted+candidate, routes 00-12, 00-17, 00-1b, 00-0c, region3-00-00..05.
+  Files: m8-work/results/outer-20261118T062207Z/perf/legacy-*-r1.json and perf/progress.json, plus perf.log.
+- Missing: region3-00-06 and region3-00-09 in legacy r1, all cold samples, repeats 2 and 3 (124 remaining if the 20 are valid).
+- No perf.done, no comparison.json, no perf/report.json. The current perf.cjs loop always starts from scratch and would overwrite those 20 files. The current run-outer.sh only skips a stage when $M8_RESULTS/$name.done exists, so a naive resume of "perf" would restart the whole stage.
+- Your job: inspect the 20 samples for integrity (complete TARGET=1792 frames, no errors, matching route/mode/which/repeat, usable hashes). If they are valid, change the outer harness so a resume REUSES the same result directory, SKIPS completed QA, KEEPS the existing 20 perf files, and measures ONLY the remaining samples, then continues into contact/preview/summary. If any of the 20 is corrupt, disclose and do not silently drop or overwrite it; say how the supervisor should proceed.
+- Checkpoint often. Do not invent a pass/fail for incomplete perf.
+
+## 00-05 "undefined" 80,982,729 px
+- Measured region3 coverage (same-plate numerator / native-background denominator) is 420011267/517119168 = 81.22136888%. 00-05 is 195244745/280019353 = 69.72544680%, with reasons including undefined: 80982729 (the largest residual), plus native raster/foreground, other verified HD sources, and native geometry changed. Indoor maps ~60% are largely "other verified HD source: map/history" (not counted in the same-plate numerator).
+- Determine from EXISTING QA artifacts (qa/report.json and per-action dumps) whether 00-05's "undefined" bucket is a classification/harness bug (e.g. missing reason strings on uncovered tiles, key coercion, mis-attribution) or a real uncertified gap. Cite exact evidence (route/action/frame examples, reason fields, pixel math). If it is a classification bug, fix only the reporting/attribution in the outer harness and, if a safe offline recomputation from already saved dumps can correct the published coverage numbers, do that and document old vs new figures. Do not quietly change denominators/masks, and do not rerun the 84,135-frame browser QA unless you prove the saved dumps are insufficient and write that as an explicit supervisor REQUEST. If it is a real gap, leave the numbers, explain the residual honestly, and do not "fix" coverage by shrinking the denominator.
+
+## Deliverable of this Codex turn
+- Implement the perf resume + any justified coverage-report fix.
+- Update m8-work/progress.md at each checkpoint.
+- Write m8-work/REQUEST_READY.md with EXACT supervisor commands: same result dir /workspace/shawu/m8-work/results/outer-20261118T062207Z (or a clearly justified new dir that still reads the saved QA + 20 perf files), env NODE_PATH=/home/box/opt/test-tools/node_modules and PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers, SUPERVISOR_CONFIRMED_EXCLUSIVE=1, exclusive locks, nohup, how to skip QA, how remaining perf samples are counted, and what happens if the box reboots again mid-run (existing completed sample files must remain skippable).
+- Then FINISH this turn. Supervisor will run the outer perf/contact/preview exclusively. Sandbox EPERM for browser/network is known; do not retry network inside the sandbox.
+- Acceptance after that outer run still requires: invariants already measured (do not regress them), no smoothing/upscale fallback, perf not worse than adopted region-2 v3 (frame p95 ~4-6ms, switch max disclosed, repeats/variance retained), residual gaps with numerators/denominators, shots/m8_region3_contact.png and m8-work/region3_preview.webm <25MB real-time no audio. Do not label those pass until the outer run finishes.
+
+Read also: m8-work/progress.md, m8-work/SUPERVISOR_STATUS.md, m8-work/REQUEST_READY.md (previous handoff; superseded for resume mechanics), m8-work/scripts/perf.cjs, m8-work/scripts/run-outer.sh, m8-work/scripts/qa.cjs, and the saved results under m8-work/results/outer-20261118T062207Z.

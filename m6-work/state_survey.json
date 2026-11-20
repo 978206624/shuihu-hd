@@ -1,0 +1,765 @@
+[
+  {
+    "state": "advance_02.state",
+    "screen_sha": "27045498bc85a75ffc89bb18a15d315896e8ddc4cf50843b924ff6f235b0a078",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_04.state",
+    "screen_sha": "b9571493fa044c6d00e338ee8838d38f7cdfb5e8e9af18b59f7e0ec1d8cd5e30",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_06.state",
+    "screen_sha": "fc6e6bd21b22eec55d3de0c5d2aa708dbdbf1c848ce149786d38b98d3dc8a3aa",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_08.state",
+    "screen_sha": "ccaf265909849db75e5b267367df21384332de16205668dcf5a942c701b77e12",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_10.state",
+    "screen_sha": "86f04016b8d03f25ef44f6e95ae39484330261f76b26c650239cf56eda045d62",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_12.state",
+    "screen_sha": "f9b83dc3ea92c611c1d94d35c31bc886bfd706edb1d5305ab150ad47b2b6b097",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_14.state",
+    "screen_sha": "2ed20e8eb8bd3739cf04a6e8726ed691bceaebe9fe443b4e9df08625579ee220",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_16.state",
+    "screen_sha": "3644b78182ef77e033c31b4f01750112bcc56ff756daa71e2b9c727b5ed0941e",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_18.state",
+    "screen_sha": "f64f210e617326195befbd8c8a503c4775dcba8af9256d7fde9e45967d0e438d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_20.state",
+    "screen_sha": "2cd1c3d8c90b7fc2027b1607f9542a21f0017aa632a5d93a2627c610888c3b9d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_22.state",
+    "screen_sha": "246c54c1e6c8b6db7dc2b4ef56e5eef53e6f1d9c9fca27d9057e2d42a91f99f6",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_24.state",
+    "screen_sha": "f59020c0a782b236d671107eece3168b8b6537b65b7cc89185d9ea7991d2e2b4",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_26.state",
+    "screen_sha": "72818515689489db1ec6836af6287be27496961193846ec878eed25770238116",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_28.state",
+    "screen_sha": "074400fd9fbebaf38618301afee4c2e6c6be3dc43b8027ababd8e26f19b0eff9",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_30.state",
+    "screen_sha": "66aab9b723873e3b2339e2fa9b463c541060737bfc4b99bb75ab61373bf763e4",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_32.state",
+    "screen_sha": "6ff13af961d6a6312a6a04a6dd137e24958d19645cd21d2c3b90ba4e007b9991",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_34.state",
+    "screen_sha": "223c14177a1605883f744847389590600897e0650300873aa38b22dd740efdcc",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_36.state",
+    "screen_sha": "cabb16a97eff9f99d31c964f62665f40d322af49a4991ceccd433f9a8cdc493d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_38.state",
+    "screen_sha": "52dba1e6abac91aeaa6c5721a67e215ba67405e3ed887f0248458cb08c4208f9",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_40.state",
+    "screen_sha": "d0afb9637d34fc1da9f3c424344eb6b635094611928a2ee11b4f0fd7cf7cbd3f",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_42.state",
+    "screen_sha": "521d42f47d9ee0512e19088ea58cb70456180a1a40ed808437458786274d28c8",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_44.state",
+    "screen_sha": "a8fd2e78a831e046e548454d1f0863dd7c3f29bc8e5db3cfe1b1d3536a292462",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_46.state",
+    "screen_sha": "f74b46a743c66928e13322e3b474655c1cec486ea875a4417cf87b56f65aa033",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_48.state",
+    "screen_sha": "d145de4dad368e0ebd42247377bd948c66220abd9934501c03af00d330cb980d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_50.state",
+    "screen_sha": "8c5a06233f16b3d9294059e8343280cb7677ca07ff516f60e0c2506a6176f14d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_52.state",
+    "screen_sha": "24eb7e868fbe9112e60930e083ef1dc8e93b6596b393711c737967f051c10c5d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_54.state",
+    "screen_sha": "ceb096cb4ddc961f6c658d878a2aa3b563adffa660f3a5d5e1f8c7fd2b948fbf",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_56.state",
+    "screen_sha": "131153e76fd5d446dafbd6d77e100fd075b9cadf45fd1369df6a0b4bbb8161c7",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_58.state",
+    "screen_sha": "090ffe20be34fabca7ae21415db3b8e5bd4e8a3ffe1758baa81d1026275f0e18",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_60.state",
+    "screen_sha": "39000160bc0350cdbbccfdeb4839b30f567726e56b7f3c2607e5d28eb0839731",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_62.state",
+    "screen_sha": "1ef89f276ed51c1593cca844084d785aedccc0e9f993b61fec24ee5876c62478",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_64.state",
+    "screen_sha": "e750291b2a731690b8e3771da6cd868a15068960c40acf32ed8c36238fd06ddf",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_66.state",
+    "screen_sha": "212821f9a6cc4a29e5cf5dd97de23418e64d09c0509d8f9ac0bae2f52b88bb79",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_68.state",
+    "screen_sha": "98badf60d8b947f381ebc7fec036e8c878fd22aa630557dce681e097c4356b9d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_70.state",
+    "screen_sha": "e777f9ae64ec5c8ac1e80c91f0db9ef6ead5ca06e76bfc4a2a4e9ab3c39df2b9",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_72.state",
+    "screen_sha": "5a4560ff81fd593d55790b4d0de1b76ca5733c5a4230b9d9f318783bae7519ad",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_74.state",
+    "screen_sha": "5f097aaf89c529182ddaa71e53a061e63f052e61100a36736af5a3da402dfdff",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_76.state",
+    "screen_sha": "477c1ad3404f8e31abab1b75ad11daf4ec809eec64000f8dd4fa1d8fe3b017ec",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_78.state",
+    "screen_sha": "b1e56262bc3ef25d127529083afca780411a97ca07867c67dbfefdf63514325a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_80.state",
+    "screen_sha": "3db0617844a42bf9daa2031b8af34077aff9b304c463cae1f719fd127c629bd2",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_084.state",
+    "screen_sha": "c0abc3e303d2b5a50aa00c78d2581ec5a586d46fca4b2e451ed838a34ad07d85",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_088.state",
+    "screen_sha": "abdc1a30f28b3b69ecd2453ce980f481ed0dafef033d1f7f53bd866aad806c88",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_092.state",
+    "screen_sha": "69d923e380f642fdba4d88230aab957c2c0fb40c018980c823962c3c80ed872a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_096.state",
+    "screen_sha": "38f0592295956c823d1757f661cda5ce5e8d7196aafd86a9535c5215ea6c2ac3",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_100.state",
+    "screen_sha": "38f0592295956c823d1757f661cda5ce5e8d7196aafd86a9535c5215ea6c2ac3",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_104.state",
+    "screen_sha": "49b849db25c16593b9531550d24b331fbc685f2e6a2fe8944ea616ada32cd6d2",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_108.state",
+    "screen_sha": "f11aedf8d1fb3eb3c9da8f075f7e15c33778f739950f125a2c24cbea221532e6",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_112.state",
+    "screen_sha": "fae5b66bd7d94e95fba69c92ac6de7864884748f116d94ae7ca117f592eeb168",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_116.state",
+    "screen_sha": "bf467533e26a2d671cb9100f3dbfafd24911772fc377b8d400442824e8cced39",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_120.state",
+    "screen_sha": "0026abc903c5a8e0e1693c6f1d77822263c5800fd40e8c5b1ce23820717de7b3",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_124.state",
+    "screen_sha": "192fbefd3e1e8bec57a52150c2583235d17acc770387344fa4036b30670c81da",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_128.state",
+    "screen_sha": "d92067fe7c938bb1fdeb03c20cfb4b0a48481ca9965729aa48b4892c4428ba59",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_132.state",
+    "screen_sha": "78195ddcc5c39391e46e63544ab1c7aa89d8bd15f9f06957f41b19ad6fe4436e",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_136.state",
+    "screen_sha": "ced8e3f719a22f78893720ff24ce1403e5d794c2e1880c74ebb07df9f77dfa44",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_140.state",
+    "screen_sha": "0c7abb9024b57825be876fb1033c868c10e1537c44a67b6ad222ce523e06a695",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_144.state",
+    "screen_sha": "6d89b9db56cfb46a1be163490b95e5f556964d49afb014b08ca0d4fb17f90886",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_148.state",
+    "screen_sha": "5b8b444f76e3973a09bfeaf7a757ec90be995ca3784f2362fbe726dc5769036b",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_152.state",
+    "screen_sha": "a0029206db6b42add789e5e68d041a29f6438ccb860e387c21339066bf4a0ab6",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_156.state",
+    "screen_sha": "c96ac77e2f2bd74061ee144675ed9f0d781997a9511bc08ce421ef797fb08a5f",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_160.state",
+    "screen_sha": "c98150e542fc9b05577d90ea33eb3a0b20958fd0e37395fb1eae14f8931d95cd",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_162.state",
+    "screen_sha": "eb9119cfb34cb20095a46ac6ace3137c15980987036c11b3c6327218ef487be8",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_164.state",
+    "screen_sha": "0695819364179cf0c47840742be0af4e3383c7c835b9e688dd655c8618b774c2",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_166.state",
+    "screen_sha": "1836ef74ef90b5f40e020e389bdb06f8f2b359ebd9a38fbbf203d7fec4d4a3a7",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_168.state",
+    "screen_sha": "36e09b77137152b0768f5e08c013a89fea3d0402da7e6e23aa2d2be114d60e28",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_170.state",
+    "screen_sha": "b834910e9bf5fe79ac06df38c46073d1a6d3678c4404c6abb686066e0c8a2357",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_172.state",
+    "screen_sha": "6aeb8a33708b8703b36a46c4e44238af956310ea64460bd4b7b9c8388fb0163e",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_174.state",
+    "screen_sha": "546ce6a8671e0661606a1e52f75b401597a20f10fcaa3853998a08c01158a933",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_176.state",
+    "screen_sha": "5e17eebf14453bae3b45a31c905b0d944a7637a9768bc088bc026bb33dc39545",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_178.state",
+    "screen_sha": "0ab933b875bfd899cb5efd40b1212368832d9fccfb8a8c36a5c900914dbc2da9",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_180.state",
+    "screen_sha": "749ae17d4cbb80b239ef73b069dc16814f9b6d97b47209daff450ea0e80a1a60",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_182.state",
+    "screen_sha": "309ece010dc2d56a022e29e628682003aedd891c85033ca15020d9201a471827",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_184.state",
+    "screen_sha": "5ee19c43d82e5cd0e35cac623e2a9a38fa8a6c23e270e7baec7cc4be633bef23",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_186.state",
+    "screen_sha": "01e7a5de4fe346d24b5eb18329ecaec1fdafb22ed53da9be996074d3d570cf11",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_188.state",
+    "screen_sha": "d2a8a6eacad6b297005dedd4068ab8670290d8fa99c3ca195366be8d672dbd05",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_190.state",
+    "screen_sha": "e6cdef5e28d6e61840a03e5b1bcfa772fe0a0f12515d97e8fab7b555906029f5",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_192.state",
+    "screen_sha": "14680ef602a506f6b00bec63e98b72f1d7edbe1340ffc97bfd018bb8bc288f1d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_194.state",
+    "screen_sha": "abb8de85753a1d1c583024c8f27bf40a5fc22fbe464ae2aee35db7425986992c",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_196.state",
+    "screen_sha": "361c0b6dfcf7f6da245f78b4e7cee27e825f45d4961018f49d2374083d8b6b11",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_198.state",
+    "screen_sha": "daa4126ac876d43b27d625b1b3b5738dc6279fc939e5c5f90e380fb6c522948d",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_200.state",
+    "screen_sha": "9d0953c9c10bde71d3a6bacf73df4666248e3cdfe80562c08ebd8400c3129367",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_205.state",
+    "screen_sha": "7b7a2d6012d6f91ff4997107415df548f1b8ad5bc8dbcea75cd3b445c5447550",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_210.state",
+    "screen_sha": "e93fce921a95778e09661cadb59eb107f156b635a8318104e9ed3337b917f0ac",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_215.state",
+    "screen_sha": "be9de177caaaa2a1c46083168fddb1e6173981849a7a94701d51ca4ba741e6c1",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_220.state",
+    "screen_sha": "0ed506e8f5cb8a9bcae0a5400b44af50389caf1406794d4306d84509c1554ed5",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_225.state",
+    "screen_sha": "80c48851cf21d902f1f766faa26b21fbe54ed8a41384c306da848ee12e409ec9",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_230.state",
+    "screen_sha": "472b55734138e58f38d4312bfded7a686d4f3c9a845db76d7ea3d88329f0f1de",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_235.state",
+    "screen_sha": "38422df186a34967051eaa516dec7a83609acf9961fdc5243d2fc977166f15b0",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_240.state",
+    "screen_sha": "fd82708bb99cfccf4741bfc0b227f35cfd387a8bb646f697e8427cbe13f8f799",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_245.state",
+    "screen_sha": "b12322e3ebacd30ecdfcde49ca9421bc3ebb8932d05c0c2bb986a6c646b9b9ea",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_250.state",
+    "screen_sha": "e6cea9ea788356a83b7f40521fe090b3310975738db658a9589ed3b19786a284",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_255.state",
+    "screen_sha": "2f152ab115d2666bb5020aa2fdd360906db31c2899ae50c49d0154d2c1ed6500",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_260.state",
+    "screen_sha": "22dba34d32cd67f68a4ae392a2e2ca349d8a6a89fe5284c04b52823731c0f3ad",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_265.state",
+    "screen_sha": "acc7477fd8b2167e784583a4a28cc45173a37cd85d3070d73a8e381f2859456a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_270.state",
+    "screen_sha": "8d34752db22d9b301cb52aef4c5249ee74ed6402ca584d7a58fa67dfb5f07588",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_275.state",
+    "screen_sha": "75cb637c9068653c7406ca67020e99df82860c37615d66e1cc3f53149e982b5a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_280.state",
+    "screen_sha": "cc2e33cea9eac970017f25642d84c6802c6db04de91608398a00609aed2c87b1",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_285.state",
+    "screen_sha": "50ffd6c47e58b6cebd6b8819c5a782d45eec67ee126e6ed7ed742f928055849e",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_290.state",
+    "screen_sha": "0f002c2582dbaa963e379e546a6ea4a8cae7f60eb762214585e864644be1042a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_295.state",
+    "screen_sha": "7bbc0a635193e64aa05e296a84e14db5bf45b3e926b7dd665c31496b815cf82a",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "advance_300.state",
+    "screen_sha": "cc2e33cea9eac970017f25642d84c6802c6db04de91608398a00609aed2c87b1",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "current.state",
+    "screen_sha": "cc2e33cea9eac970017f25642d84c6802c6db04de91608398a00609aed2c87b1",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  },
+  {
+    "state": "further.state",
+    "screen_sha": "ddbcb70ef506c656b301873edc133210a6d88c10e36d4fe9442a043a096131fd",
+    "lcdc": 199,
+    "scx": 16,
+    "scy": 0
+  },
+  {
+    "state": "gameplay_menu_a.state",
+    "screen_sha": "73650c8a96b018cea38eb3311adc5999431d39528b45d34ec163598cbbec1abb",
+    "lcdc": 199,
+    "scx": 48,
+    "scy": 16
+  },
+  {
+    "state": "gameplay_menu_b.state",
+    "screen_sha": "e1bd837bb4b4458a24f1b164904050d0b0236185eba5e8b02f5a03f7bea7a39e",
+    "lcdc": 199,
+    "scx": 48,
+    "scy": 16
+  },
+  {
+    "state": "gameplay_menu_select.state",
+    "screen_sha": "e1bd837bb4b4458a24f1b164904050d0b0236185eba5e8b02f5a03f7bea7a39e",
+    "lcdc": 199,
+    "scx": 48,
+    "scy": 16
+  },
+  {
+    "state": "gameplay_menu_start.state",
+    "screen_sha": "e6bd15b16f9b80e58f35cd997caa4850313276d2074b40828dadb5917e0be26a",
+    "lcdc": 199,
+    "scx": 48,
+    "scy": 16
+  },
+  {
+    "state": "gameplay_walk_down.state",
+    "screen_sha": "d921e94547b4e410c73605f601814786b159e311eea17ebbec0a7f1f3cee4640",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 16
+  },
+  {
+    "state": "gameplay_walk_right.state",
+    "screen_sha": "c96704b8922f2988bc0abe85b51b14381f12839aa9e8e0cabc0bd804a9eff43b",
+    "lcdc": 199,
+    "scx": 48,
+    "scy": 16
+  },
+  {
+    "state": "title.state",
+    "screen_sha": "000184f0b9ce99e98cdf254b2e4e6482936cfe47d888e0f17af4b566028ac6fc",
+    "lcdc": 199,
+    "scx": 0,
+    "scy": 0
+  }
+]

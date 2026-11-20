@@ -1,0 +1,32 @@
+{
+  "assets/game.gbc": {
+    "original": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "candidate": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "web": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95"
+  },
+  "vendor/LICENSE.gbstudio": {
+    "original": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86",
+    "candidate": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86",
+    "web": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86"
+  },
+  "vendor/README.txt": {
+    "original": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6",
+    "candidate": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6",
+    "web": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6"
+  },
+  "vendor/LICENSE.binjgb": {
+    "original": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009",
+    "candidate": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009",
+    "web": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009"
+  },
+  "vendor/binjgb.js": {
+    "original": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+    "candidate": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+    "web": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09"
+  },
+  "vendor/binjgb.wasm": {
+    "original": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+    "candidate": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+    "web": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b"
+  }
+}

@@ -1,0 +1,9 @@
+M4最终实测：完整HD背景 27062/29160 = 92.8052%；背景/UI联合完整 27062/29160。
+背景像素 470848679/472103126 = 99.7343%。剩余缺口 2098帧：title-fade: 42帧/430080像素；interior: 248帧/76943像素；intertitle-backdrop: 66帧/195392像素；cliff: 217帧/68309像素；palace: 379帧/51296像素；disciples: 235帧/85509像素；forest: 911帧/346918像素。
+原因：标题清菜单请求590秒超时；后续冲击相位及局部UI/动态扫描线未满足完整原生证据匹配。所有未验证原生扫描线/几何匹配保留原版最近邻，无阈值放宽、无场景猜测、无角色重画、无ROM/核心修改。
+同输入完整重放243/243状态及243/243原生像素哈希一致；10项不变量通过，250次状态/电池导出无OOM。
+ZIP: /workspace/shawu/shuihu-hd-m4-windows.zip，11086110字节（不含截图/报告），CRC通过；411字节GBK start.bat原样复制。
+联系图: /workspace/shawu/shots/m4_cutscenes_contact.png。
+最佳原版/HD截图：/workspace/shawu/shots/m4_scene_palace_bottom_orig.png | /workspace/shawu/shots/m4_scene_palace_bottom_hd.png；/workspace/shawu/shots/m4_scene_heaven_card_orig.png | /workspace/shawu/shots/m4_scene_heaven_card_hd.png；/workspace/shawu/shots/m4_scene_dialogue_partial_orig.png | /workspace/shawu/shots/m4_scene_dialogue_partial_hd.png。
+离线干净解压加载测试结果单列package-verification.json；Linux测试不代表真实Windows执行。
+已完成干净解压离线加载验证：外网全部阻断、27个本地请求、页面/网络错误0、360帧模拟状态与原版一致。ZIP内42个冻结运行文件SHA256均一致。

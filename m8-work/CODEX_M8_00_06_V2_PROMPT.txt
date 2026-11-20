@@ -1,0 +1,14 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Keep this session compact.
+
+Supervisor finished the one-round cold/00-17 experiment and REJECTED the candidate: meetsRoundGate=false. Keep the live accepted tree at m8-work/runtime/. Do not promote, merge, or overwrite it with m8-work/runtime-fix-0017/. Leave the rejected tree in place for audit. If 38811 drops, STOP and report; do not repair auth/routes or read credentials. Checkpoint m8-work/progress.md after each step. HTTP 8765 already serves /workspace/shawu; keep it. Do not start region 黄泥岗 or any new maps.
+
+## This session only: integrate 00-06 temple plate v2
+Supervisor already generated and visually reviewed a new GPT plate. It is better than the current live plate because the red runner and six plaques again have characters (v1 had floral ornaments). Crop: m8-work/art/00-06_glyphs_before_after.png (native | v1 | v2). New file: m8-work/art/00-06_gpt_v2.png (and 00-06_gpt_v2.png.meta.json, 00-06_prompt_v2.txt). Do NOT regenerate images and do NOT overwrite art/00-06_gpt.png.
+
+Integrate a byte-identical copy of 00-06_gpt_v2.png into the accepted runtime (m8-work/runtime/assets/region3/00-06_hd.png and any registry/provenance/freeze that must mention it). Keep original v1 provenance alongside the new one; do not fabricate metadata. ROM/core/JS must stay unchanged except whatever map-asset/provenance/freeze bookkeeping is required. No smoothing/upscale fallback. No denominator/mask changes.
+
+Then prepare exact supervisor outer commands to VERIFY the new plate is the one in use and that formal correctness invariants still pass on the affected official routes at minimum (00-06 door/temple evidence, and any other frozen routes you can justify as required). If a full 84,135-frame QA is truly required, say so and write the command; otherwise a focused official replay is preferred. Use a NEW result directory. Env: NODE_PATH=/home/box/opt/test-tools/node_modules, PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers, exclusive locks. Do not overwrite results/outer-20261118T062207Z or results/outer-cold-0017-20261118T092326742885874Z.
+
+Write REQUEST_READY.md with those commands and the integration provenance. Update progress.md. FINISH this turn so the supervisor can run verification. Sandbox EPERM for browser/network is known; do not retry network inside the sandbox. Do not label verification passed until the outer run exists.
+
+Read also: m8-work/progress.md, m8-work/art/SUPERVISOR_VISUAL_REVIEW.md, m8-work/integration/provenance.json, and the v2 art files above.

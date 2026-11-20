@@ -1,0 +1,212 @@
+{
+  "source": "m8-work/play/continuous-letter-chain-v1/latest.bin",
+  "sourceSHA256": "62c765391774ae5da302689c8efe9a5439d33aad7b47b3798562ef196106091c",
+  "frozenSource": "m8-work/frozen-starts/story11-letter-delivered.bin",
+  "allBoundariesByteIdentical": true,
+  "segments": [
+    {
+      "directory": "m8-work/play/delivered-tavern-exit",
+      "startSHA256": "62c765391774ae5da302689c8efe9a5439d33aad7b47b3798562ef196106091c",
+      "endSHA256": "bd3c216ac559991f4084fecab135f6b18bcea84ccdd358e6056ef7d39d789d97",
+      "actionOffset": 0,
+      "actions": 11,
+      "frames": 360
+    },
+    {
+      "directory": "m8-work/play/delivered-outer-exit",
+      "startSHA256": "bd3c216ac559991f4084fecab135f6b18bcea84ccdd358e6056ef7d39d789d97",
+      "endSHA256": "697b3abc8711b2d1892bf5df9011f0701d1a0c5f443844b2a14691a5d7d5485b",
+      "actionOffset": 11,
+      "actions": 16,
+      "frames": 480
+    },
+    {
+      "directory": "m8-work/play/delivered-field-arrival",
+      "startSHA256": "697b3abc8711b2d1892bf5df9011f0701d1a0c5f443844b2a14691a5d7d5485b",
+      "endSHA256": "65004dd6c610775bb19b3d5288ddebf2ac5c76fa50180f6726e93c3c67965e8c",
+      "actionOffset": 27,
+      "actions": 2,
+      "frames": 600
+    },
+    {
+      "directory": "m8-work/play/delivered-field-south-attempt",
+      "startSHA256": "65004dd6c610775bb19b3d5288ddebf2ac5c76fa50180f6726e93c3c67965e8c",
+      "endSHA256": "f9777788429147223daa099821dbfebc6a4f5309b3189a2e7b36564747a8207f",
+      "actionOffset": 29,
+      "actions": 21,
+      "frames": 1822
+    },
+    {
+      "directory": "m8-work/play/field-bridge-attempt",
+      "startSHA256": "f9777788429147223daa099821dbfebc6a4f5309b3189a2e7b36564747a8207f",
+      "endSHA256": "a05638857d3e1c2f1d8f625ba8b180dc08fba6a8f117c8211b2bbef9cf56eea4",
+      "actionOffset": 50,
+      "actions": 19,
+      "frames": 1638
+    },
+    {
+      "directory": "m8-work/play/field-bottom-attempt",
+      "startSHA256": "a05638857d3e1c2f1d8f625ba8b180dc08fba6a8f117c8211b2bbef9cf56eea4",
+      "endSHA256": "b9aa08e4212a7a41ec54be5b265231af5e0502f9c9624c5d6244c304cbc3aa82",
+      "actionOffset": 69,
+      "actions": 12,
+      "frames": 1290
+    },
+    {
+      "directory": "m8-work/play/field-bottom-zigzag-attempt",
+      "startSHA256": "b9aa08e4212a7a41ec54be5b265231af5e0502f9c9624c5d6244c304cbc3aa82",
+      "endSHA256": "105e59a36ae59197a796eca00734f49724d171cab47c7cd1fa4bb8c8cb60f2c8",
+      "actionOffset": 81,
+      "actions": 8,
+      "frames": 400
+    },
+    {
+      "directory": "m8-work/play/south-village-arrival",
+      "startSHA256": "105e59a36ae59197a796eca00734f49724d171cab47c7cd1fa4bb8c8cb60f2c8",
+      "endSHA256": "a6dfe85ff1805c0f3dd2a1e263cc46790ba87a7c34ab25bf31341fa2522a1c8b",
+      "actionOffset": 89,
+      "actions": 27,
+      "frames": 1806
+    },
+    {
+      "directory": "m8-work/play/south-village-settled",
+      "startSHA256": "a6dfe85ff1805c0f3dd2a1e263cc46790ba87a7c34ab25bf31341fa2522a1c8b",
+      "endSHA256": "231b26c56d4c05362ac35ae0f60ce6463d88085f6aadb95751bdf8e49ce8c83d",
+      "actionOffset": 116,
+      "actions": 1,
+      "frames": 180
+    },
+    {
+      "directory": "m8-work/play/village-sign-start",
+      "startSHA256": "231b26c56d4c05362ac35ae0f60ce6463d88085f6aadb95751bdf8e49ce8c83d",
+      "endSHA256": "071cb419db571569f51d91d893e63d056f32226d05ea416d309421ba030e049b",
+      "actionOffset": 117,
+      "actions": 4,
+      "frames": 239
+    },
+    {
+      "directory": "m8-work/play/village-sign-dialogue",
+      "startSHA256": "071cb419db571569f51d91d893e63d056f32226d05ea416d309421ba030e049b",
+      "endSHA256": "4e5961493f2134715b927faf7502674bb7474b9783d7f032959395655e79a518",
+      "actionOffset": 121,
+      "actions": 2,
+      "frames": 175
+    },
+    {
+      "directory": "m8-work/play/village-sign-b",
+      "startSHA256": "4e5961493f2134715b927faf7502674bb7474b9783d7f032959395655e79a518",
+      "endSHA256": "5261ca68f6bc5695c0ef9f6eb11f889c5ebffc08148ce12e8fdb0787243b6800",
+      "actionOffset": 123,
+      "actions": 1,
+      "frames": 166
+    },
+    {
+      "directory": "m8-work/play/village-first-npc",
+      "startSHA256": "5261ca68f6bc5695c0ef9f6eb11f889c5ebffc08148ce12e8fdb0787243b6800",
+      "endSHA256": "fedc59579db3a798f65c92a9a262b65e169f105b72a3f58afccaa140404ddff3",
+      "actionOffset": 124,
+      "actions": 3,
+      "frames": 262
+    },
+    {
+      "directory": "m8-work/play/village-first-npc-pages",
+      "startSHA256": "fedc59579db3a798f65c92a9a262b65e169f105b72a3f58afccaa140404ddff3",
+      "endSHA256": "d7b5d902b677bbcf45242aa85f762c3f4881df453a709981705fc296ede19208",
+      "actionOffset": 127,
+      "actions": 20,
+      "frames": 3320
+    },
+    {
+      "directory": "m8-work/play/village-decline-duel",
+      "startSHA256": "d7b5d902b677bbcf45242aa85f762c3f4881df453a709981705fc296ede19208",
+      "endSHA256": "8ad234e0f28922cc6e4eb0c047855df262dff00a24471c6689f25dd5388169c3",
+      "actionOffset": 147,
+      "actions": 4,
+      "frames": 516
+    },
+    {
+      "directory": "m8-work/play/survey-00-05",
+      "startSHA256": "8ad234e0f28922cc6e4eb0c047855df262dff00a24471c6689f25dd5388169c3",
+      "endSHA256": "a709c230a5968cf8edfd6506c66fa21f6f2e2dc8c713d5d6950e462414d4174d",
+      "actionOffset": 151,
+      "actions": 38,
+      "frames": 1164
+    },
+    {
+      "directory": "m8-work/play/room-05-dialogue-replay",
+      "startSHA256": "a709c230a5968cf8edfd6506c66fa21f6f2e2dc8c713d5d6950e462414d4174d",
+      "endSHA256": "e1367421af114410900696a086f1efcc321eed7bc7630882889213a0216530ad",
+      "actionOffset": 189,
+      "actions": 31,
+      "frames": 2970
+    },
+    {
+      "directory": "m8-work/play/room-05-dialogue-pages",
+      "startSHA256": "e1367421af114410900696a086f1efcc321eed7bc7630882889213a0216530ad",
+      "endSHA256": "5147e8dd404b5e24973efb23645010bdd977f5b85c5f01c89b47458418dd1d06",
+      "actionOffset": 220,
+      "actions": 7,
+      "frames": 1162
+    },
+    {
+      "directory": "m8-work/play/room05-wu-dialogue-start",
+      "startSHA256": "5147e8dd404b5e24973efb23645010bdd977f5b85c5f01c89b47458418dd1d06",
+      "endSHA256": "64f71033e77e141fa70c08ef1937f073ffa2b32db6363f563b5d75e457a2bed1",
+      "actionOffset": 227,
+      "actions": 3,
+      "frames": 215
+    },
+    {
+      "directory": "m8-work/play/room05-wu-dialogue-pages",
+      "startSHA256": "64f71033e77e141fa70c08ef1937f073ffa2b32db6363f563b5d75e457a2bed1",
+      "endSHA256": "71cb6166d035275904c75b2e0fd3bf2ff194b9611fef1814aa9fd5f4f279771f",
+      "actionOffset": 230,
+      "actions": 7,
+      "frames": 1162
+    },
+    {
+      "directory": "m8-work/play/room05-wu-near",
+      "startSHA256": "71cb6166d035275904c75b2e0fd3bf2ff194b9611fef1814aa9fd5f4f279771f",
+      "endSHA256": "e463301f8dc8a88722224f12dc6f20c760a6e9569903e2999b2a2e89bca10a06",
+      "actionOffset": 237,
+      "actions": 2,
+      "frames": 190
+    },
+    {
+      "directory": "m8-work/play/room05-wu-mission-pages",
+      "startSHA256": "e463301f8dc8a88722224f12dc6f20c760a6e9569903e2999b2a2e89bca10a06",
+      "endSHA256": "46ce48ea159242ed8cbb3126e0166408e99496214ee5c8be46d44fa737d04798",
+      "actionOffset": 239,
+      "actions": 7,
+      "frames": 1162
+    },
+    {
+      "directory": "m8-work/play/room05-left-npc-dialogue",
+      "startSHA256": "46ce48ea159242ed8cbb3126e0166408e99496214ee5c8be46d44fa737d04798",
+      "endSHA256": "d30d76f34df2a21f1d448680492eee64a2a536986d15692ee0ec1202962a242d",
+      "actionOffset": 246,
+      "actions": 4,
+      "frames": 286
+    },
+    {
+      "directory": "m8-work/play/room05-left-npc-pages",
+      "startSHA256": "d30d76f34df2a21f1d448680492eee64a2a536986d15692ee0ec1202962a242d",
+      "endSHA256": "89cf4f2b73aebf0128bbd8f2f214bc8a9495be6951315903da57e221d852764e",
+      "actionOffset": 250,
+      "actions": 31,
+      "frames": 5146
+    }
+  ],
+  "actions": 281,
+  "frames": 26711,
+  "segmentedEndSHA256": "89cf4f2b73aebf0128bbd8f2f214bc8a9495be6951315903da57e221d852764e",
+  "endStory": 12,
+  "endpoint": "吴用要求众人赴黄泥岗客栈会合、乔装掌柜小二设伏；尚未到黄泥岗客栈。",
+  "notes": [
+    "The 19596-frame / 185-action story9-to11 chain was already verified before reboot and is not repeated by this preparation.",
+    "survey-00-05 is the one selected doorway replay incorporated into this chain; the other six surveys remain independent.",
+    "Several historical directory names guessed 吴用 or letter delivery before the actual dialogue; identity is taken only from native dialogue.",
+    "room05-wu-near / room05-wu-mission-pages actually speak to 戴宗; 吴用 is room05-left-npc-dialogue / pages.",
+    "Unsuccessful searches and post-letter 大名府 investigation are excluded."
+  ]
+}

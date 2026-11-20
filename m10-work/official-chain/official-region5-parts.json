@@ -1,0 +1,212 @@
+[
+  {
+    "part": "story16-prefix-actions.json",
+    "n": 110,
+    "start_index": 0
+  },
+  {
+    "part": "rec-to-nw",
+    "n": 15,
+    "start_index": 110
+  },
+  {
+    "part": "rec-to-nw2",
+    "n": 14,
+    "start_index": 125
+  },
+  {
+    "part": "rec-hunt24",
+    "n": 7,
+    "start_index": 139
+  },
+  {
+    "part": "rec-cap-switch",
+    "n": 3,
+    "start_index": 146
+  },
+  {
+    "part": "rec-cap-switch2",
+    "n": 4,
+    "start_index": 149
+  },
+  {
+    "part": "rec-cap-switch3",
+    "n": 3,
+    "start_index": 153
+  },
+  {
+    "part": "rec-cap-menu",
+    "n": 2,
+    "start_index": 156
+  },
+  {
+    "part": "rec-cap-menu2",
+    "n": 4,
+    "start_index": 158
+  },
+  {
+    "part": "rec-cap-cut1",
+    "n": 6,
+    "start_index": 162
+  },
+  {
+    "part": "rec-cap-cut2",
+    "n": 12,
+    "start_index": 168
+  },
+  {
+    "part": "rec-cap-cut3",
+    "n": 12,
+    "start_index": 180
+  },
+  {
+    "part": "rec-cap-cut4",
+    "n": 6,
+    "start_index": 192
+  },
+  {
+    "part": "rec-cap-bag",
+    "n": 3,
+    "start_index": 198
+  },
+  {
+    "part": "rec-cap-item",
+    "n": 4,
+    "start_index": 201
+  },
+  {
+    "part": "rec-cap-use",
+    "n": 5,
+    "start_index": 205
+  },
+  {
+    "part": "rec-back-row7",
+    "n": 14,
+    "start_index": 210
+  },
+  {
+    "part": "rec-back-up14",
+    "n": 9,
+    "start_index": 224
+  },
+  {
+    "part": "rec-back-to-21",
+    "n": 26,
+    "start_index": 233
+  },
+  {
+    "part": "rec-21-to-24",
+    "n": 48,
+    "start_index": 259
+  },
+  {
+    "part": "rec-21-north",
+    "n": 13,
+    "start_index": 307
+  },
+  {
+    "part": "rec-21-north2",
+    "n": 9,
+    "start_index": 320
+  },
+  {
+    "part": "rec-21-to-24b",
+    "n": 2,
+    "start_index": 329
+  },
+  {
+    "part": "rec-24-to-inn",
+    "n": 13,
+    "start_index": 331
+  },
+  {
+    "part": "rec-inn-talk",
+    "n": 13,
+    "start_index": 344
+  },
+  {
+    "part": "rec-inn-talk2",
+    "n": 4,
+    "start_index": 357
+  },
+  {
+    "part": "rec-fruit-door",
+    "n": 6,
+    "start_index": 361
+  },
+  {
+    "part": "rec-fruit-talk",
+    "n": 41,
+    "start_index": 367
+  },
+  {
+    "part": "rec-fruit-play",
+    "n": 1012,
+    "start_index": 408
+  },
+  {
+    "part": "rec-fruit-win-talk",
+    "n": 28,
+    "start_index": 1420
+  },
+  {
+    "part": "rec-s18-door",
+    "n": 19,
+    "start_index": 1448
+  },
+  {
+    "part": "rec-s18-ext-talk",
+    "n": 72,
+    "start_index": 1467
+  },
+  {
+    "part": "rec-s19-to-0a",
+    "n": 15,
+    "start_index": 1539
+  },
+  {
+    "part": "rec-s19-to-0b",
+    "n": 17,
+    "start_index": 1554
+  },
+  {
+    "part": "rec-s19-0b-south",
+    "n": 13,
+    "start_index": 1571
+  },
+  {
+    "part": "rec-s19-0b-left",
+    "n": 1,
+    "start_index": 1584
+  },
+  {
+    "part": "rec-s19-0b-west",
+    "n": 8,
+    "start_index": 1585
+  },
+  {
+    "part": "rec-s19-0b-west2",
+    "n": 15,
+    "start_index": 1593
+  },
+  {
+    "part": "rec-s19-0b-west3",
+    "n": 29,
+    "start_index": 1608
+  },
+  {
+    "part": "rec-s19-0b-west4",
+    "n": 10,
+    "start_index": 1637
+  },
+  {
+    "part": "rec-s19-0b-west5",
+    "n": 18,
+    "start_index": 1647
+  },
+  {
+    "part": "rec-s19-to-2a",
+    "n": 4,
+    "start_index": 1665
+  }
+]

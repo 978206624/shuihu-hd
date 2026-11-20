@@ -1,0 +1,11 @@
+Create one full-map painted HD 2D JRPG background plate for map 00-28 in the approved V4 style.
+
+Image 1 is the character-free original ROM background at exact 4× nearest-neighbor. Its native size is 256×256. Paint the entire rectangle at 1024×1024. Retain its exact aspect ratio, extent, axes, framing and aligned overhead orthographic view. Keep every edge flush with the provided rectangle.
+
+Image 2 supplies V4 brushwork, lighting and material texture only. Use crisp, deliberate painted detail and retain the original map's palette identities. Take the layout, fixtures and marks exclusively from image 1. Paint the complete rectangle with original brushwork.
+
+Lock the original count, positions, sizes and exact footprints of all walls, doors, paths, openings, furnishings, plants, floor features and terrain edges in image 1. Keep walkable routes and obstacles where they are. Keep pure black voids and their exact boundaries. Keep the compact gold-walled platform amid blue sky and scattered white clouds. Keep the pale diamond paving, connected angular hedge loops and narrow passages, each square stair opening, the small gray-green floor fixture, two orange star-shaped details and the red-rimmed fixture near the lower right.
+
+BACKGROUND GLYPHS ARE LOCKED. Copy every visible background glyph or glyph-like mark from image 1, including its strokes, colors, scale, spacing, count, order and position. Preserve the repeated diamond motifs, panel marks and paving details in their original positions and forms. Add no text.
+
+ZERO characters, people, monsters, animals, portraits, sprites, silhouettes, character shadows, UI, dialogue, speech bubbles, watermarks or overlay text. Fixed fixtures and statues drawn into the native background stay in place. Layout and background glyph fidelity take priority over decoration.

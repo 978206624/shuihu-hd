@@ -1,0 +1,7 @@
+已交付 M4，但未达到100%：完整重放 **27062/29160帧＝92.8052%**，像素覆盖 **99.7343%**，仍有2098帧缺口。243组状态及原生像素比较全部通过。
+
+- [Windows ZIP](/workspace/shawu/shuihu-hd-m4-windows.zip)：11,086,110字节，不含截图/报告；CRC及离线加载通过。
+- [M4对照联系图](/workspace/shawu/shots/m4_cutscenes_contact.png)
+- [最终结果与剩余缺口说明](/workspace/shawu/m4-work/finish-result.txt)
+
+保留无新角色重画、无原图平滑、ROM/核心不变约束。Windows包尚未在真实Windows上验证。

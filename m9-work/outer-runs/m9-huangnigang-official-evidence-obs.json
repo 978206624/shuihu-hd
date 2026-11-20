@@ -1,0 +1,19 @@
+{
+  "map": "00-2c",
+  "entry": 0,
+  "story": 14,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 5,
+  "cell": [
+    4,
+    4
+  ],
+  "facing": 1,
+  "arrivalBanner": 0,
+  "scriptRunning": 0,
+  "DAA1": "72",
+  "DAA2": "1",
+  "nextActionIndex": 262,
+  "image": "m9-work/play/m9-huangnigang-official-evidence/action-0261.png"
+}

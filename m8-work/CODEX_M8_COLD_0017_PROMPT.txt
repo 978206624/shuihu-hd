@@ -1,0 +1,27 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Keep this session compact; do not dump giant logs or entire comparison JSON.
+
+Supervisor decision, one bounded round only: fix ONLY the cold/00-17 performance regression introduced by M8 changes. Do not start region 黄泥岗 or any new maps. Do not regenerate or replace art. Do not change ROM/core. If 38811 drops, STOP and report; do not repair auth/routes or read credentials. Checkpoint m8-work/progress.md after each step — box reboots happen. HTTP 8765 already serves /workspace/shawu; keep it.
+
+## Evidence (already measured)
+Saved in m8-work/results/outer-20261118T062207Z (do not overwrite this directory's QA or prior samples unless a new result dir is clearly specified).
+- Correctness already passed on the current M8 runtime: 33 routes, 1096 actions, 84135 frames; state / native framebuffer / actor-text 84135/84135; regions 1/2 visual exact 31396/31396. Coverage 420011267/517119168 is accepted as-is (disclosed residuals, including the relabelled 00-05 native-gap).
+- Strict perf vs adopted Stage A v3 was not accepted overall, but the ONLY fix authorized now is cold/00-17.
+- cold/00-17 three-repeat means from perf/comparison.json:
+  - frame.max: adopted 16.000 (values 16.200, 16.200, 15.600) vs M8 29.000 (15.800, 19.600, 51.600)
+  - switchAggregate.frame.max and firstSwitch.frame.max: same 16.000 → 29.000
+  - debt.max: adopted 16.735 (16.733, 16.741, 16.733) vs M8 31.591 (16.741, 16.741, 61.291)
+  - frame.p95 is slightly better (4.100 → 4.000); gameFPS is essentially tied at 59.721
+- The mean max regression is dominated by repeat 3 (51.6ms frame max, 61.3ms debt). Repeats 1–2 are near v3. Treat this as an M8-introduced tail, not a reason to ignore the mean.
+
+## Acceptance for THIS round
+- Goal: three-repeat mean of cold/00-17 frame.max (and the matching switch max, which tracked it) returns to within about 3ms of adopted v3 16.0ms, i.e. mean max ≤ ~19.0ms. Also report debt.max. Correctness invariants must still pass (full official QA, same starts and native-frame inputs, no denominator/mask loosening, no smoothing/upscale fallback).
+- One engineering round only. If the goal is not met, REVERT the M8 runtime/code to the current accepted-correctness M8 build (the one that produced the saved QA) and leave the cold/00-17 residual disclosed. Do not iterate further.
+- Do not trade away region 3 coverage or invariants to buy the perf fix.
+
+## What to deliver in this Codex turn
+- Diagnose and, if you can, implement a minimal M8-side fix. All coding is yours. Isolate work under a new tree if needed (e.g. m8-work/runtime-fix-0017 or similar) without destroying the known-good M8 runtime until a revert would need it.
+- Prepare exact supervisor outer-host commands to: (1) rerun FULL formal correctness QA, and (2) rerun ONLY the affected perf routes — at minimum all cold/00-17 repeats, and any other 00-17/paired routes you can justify as necessary to prove you did not regress the rest of this comparison. Use NODE_PATH=/home/box/opt/test-tools/node_modules and PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers, exclusive locks, a NEW result directory (do not overwrite outer-20261118T062207Z). If 38811 drops during the outer run, the supervisor will stop and report.
+- Write REQUEST_READY.md with those exact commands, how to distinguish accept vs revert, and current resume state. Update progress.md. Then FINISH this turn so the supervisor can run the commands exclusively. Sandbox EPERM for browser/network is known; do not retry network inside the sandbox.
+- Do not label the fix accepted until those outer measurements exist.
+
+Read also: m8-work/progress.md, m8-work/SUPERVISOR_STATUS.md, m7-work/STAGE_A_FINAL_DECISION_zh.md, m8-work/scripts/perf.cjs, qa.cjs, run-outer.sh, and the saved comparison/report under results/outer-20261118T062207Z.

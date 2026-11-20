@@ -1,0 +1,2426 @@
+{
+  "title-fade": {
+    "frames": 42,
+    "pixels": 788000,
+    "examples": [
+      {
+        "frame": 2,
+        "pixels": 11360,
+        "tiles": []
+      },
+      {
+        "frame": 3,
+        "pixels": 9440,
+        "tiles": []
+      },
+      {
+        "frame": 4,
+        "pixels": 19680,
+        "tiles": []
+      },
+      {
+        "frame": 5,
+        "pixels": 19680,
+        "tiles": []
+      }
+    ]
+  },
+  "unsupported": {
+    "frames": 2,
+    "pixels": 46080,
+    "examples": [
+      {
+        "frame": 44,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 45,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "intertitle-backdrop": {
+    "frames": 401,
+    "pixels": 1082376,
+    "examples": [
+      {
+        "frame": 46,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 47,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 807539743,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 48,
+        "pixels": 15840,
+        "tiles": [
+          {
+            "tile": 160,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              0,
+              45,
+              7,
+              47
+            ]
+          },
+          {
+            "tile": 161,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              8,
+              45,
+              15,
+              47
+            ]
+          },
+          {
+            "tile": 162,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              16,
+              45,
+              23,
+              47
+            ]
+          },
+          {
+            "tile": 163,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              24,
+              45,
+              31,
+              47
+            ]
+          },
+          {
+            "tile": 164,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              32,
+              45,
+              39,
+              47
+            ]
+          },
+          {
+            "tile": 165,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              40,
+              45,
+              47,
+              47
+            ]
+          },
+          {
+            "tile": 166,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              48,
+              45,
+              55,
+              47
+            ]
+          },
+          {
+            "tile": 167,
+            "signature": 807539743,
+            "pixels": 24,
+            "screenBounds": [
+              56,
+              45,
+              63,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 50,
+        "pixels": 160,
+        "tiles": [
+          {
+            "tile": 384,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              0,
+              99,
+              7,
+              99
+            ]
+          },
+          {
+            "tile": 385,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              8,
+              99,
+              15,
+              99
+            ]
+          },
+          {
+            "tile": 386,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              16,
+              99,
+              23,
+              99
+            ]
+          },
+          {
+            "tile": 387,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              24,
+              99,
+              31,
+              99
+            ]
+          },
+          {
+            "tile": 388,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              32,
+              99,
+              39,
+              99
+            ]
+          },
+          {
+            "tile": 389,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              40,
+              99,
+              47,
+              99
+            ]
+          },
+          {
+            "tile": 390,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              48,
+              99,
+              55,
+              99
+            ]
+          },
+          {
+            "tile": 391,
+            "signature": 4025657951,
+            "pixels": 8,
+            "screenBounds": [
+              56,
+              99,
+              63,
+              99
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "interior": {
+    "frames": 316,
+    "pixels": 120456,
+    "examples": [
+      {
+        "frame": 206,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 3406657555,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 207,
+        "pixels": 4320,
+        "tiles": [
+          {
+            "tile": 448,
+            "signature": 3406657555,
+            "pixels": 24,
+            "screenBounds": [
+              0,
+              117,
+              7,
+              119
+            ]
+          },
+          {
+            "tile": 449,
+            "signature": 3406657555,
+            "pixels": 24,
+            "screenBounds": [
+              8,
+              117,
+              15,
+              119
+            ]
+          },
+          {
+            "tile": 450,
+            "signature": 3406657555,
+            "pixels": 24,
+            "screenBounds": [
+              16,
+              117,
+              23,
+              119
+            ]
+          },
+          {
+            "tile": 451,
+            "signature": 1454161296,
+            "pixels": 24,
+            "screenBounds": [
+              24,
+              117,
+              31,
+              119
+            ]
+          },
+          {
+            "tile": 452,
+            "signature": 1176481624,
+            "pixels": 24,
+            "screenBounds": [
+              32,
+              117,
+              39,
+              119
+            ]
+          },
+          {
+            "tile": 453,
+            "signature": 3982406391,
+            "pixels": 24,
+            "screenBounds": [
+              40,
+              117,
+              47,
+              119
+            ]
+          },
+          {
+            "tile": 454,
+            "signature": 227985332,
+            "pixels": 24,
+            "screenBounds": [
+              48,
+              117,
+              55,
+              119
+            ]
+          },
+          {
+            "tile": 455,
+            "signature": 2597870164,
+            "pixels": 24,
+            "screenBounds": [
+              56,
+              117,
+              63,
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 209,
+        "pixels": 128,
+        "tiles": [
+          {
+            "tile": 100,
+            "signature": 4230585649,
+            "pixels": 8,
+            "screenBounds": [
+              32,
+              24,
+              39,
+              24
+            ]
+          },
+          {
+            "tile": 101,
+            "signature": 3580212616,
+            "pixels": 8,
+            "screenBounds": [
+              40,
+              24,
+              47,
+              24
+            ]
+          },
+          {
+            "tile": 102,
+            "signature": 2298131066,
+            "pixels": 8,
+            "screenBounds": [
+              48,
+              24,
+              55,
+              24
+            ]
+          },
+          {
+            "tile": 103,
+            "signature": 731060310,
+            "pixels": 8,
+            "screenBounds": [
+              56,
+              24,
+              63,
+              24
+            ]
+          },
+          {
+            "tile": 131,
+            "signature": 1454161296,
+            "pixels": 16,
+            "screenBounds": [
+              24,
+              38,
+              31,
+              39
+            ]
+          },
+          {
+            "tile": 142,
+            "signature": 3050262996,
+            "pixels": 16,
+            "screenBounds": [
+              112,
+              38,
+              119,
+              39
+            ]
+          },
+          {
+            "tile": 143,
+            "signature": 2736845071,
+            "pixels": 16,
+            "screenBounds": [
+              120,
+              38,
+              127,
+              39
+            ]
+          },
+          {
+            "tile": 160,
+            "signature": 3406657555,
+            "pixels": 8,
+            "screenBounds": [
+              0,
+              40,
+              7,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 210,
+        "pixels": 312,
+        "tiles": [
+          {
+            "tile": 261,
+            "signature": 2597870164,
+            "pixels": 16,
+            "screenBounds": [
+              40,
+              67,
+              47,
+              68
+            ]
+          },
+          {
+            "tile": 262,
+            "signature": 227985332,
+            "pixels": 16,
+            "screenBounds": [
+              48,
+              67,
+              55,
+              68
+            ]
+          },
+          {
+            "tile": 263,
+            "signature": 2597870164,
+            "pixels": 16,
+            "screenBounds": [
+              56,
+              67,
+              63,
+              68
+            ]
+          },
+          {
+            "tile": 264,
+            "signature": 227985332,
+            "pixels": 16,
+            "screenBounds": [
+              64,
+              67,
+              71,
+              68
+            ]
+          },
+          {
+            "tile": 265,
+            "signature": 2597870164,
+            "pixels": 16,
+            "screenBounds": [
+              72,
+              67,
+              79,
+              68
+            ]
+          },
+          {
+            "tile": 266,
+            "signature": 227985332,
+            "pixels": 9,
+            "screenBounds": [
+              80,
+              67,
+              84,
+              68
+            ]
+          },
+          {
+            "tile": 267,
+            "signature": 2597870164,
+            "pixels": 7,
+            "screenBounds": [
+              92,
+              67,
+              95,
+              68
+            ]
+          },
+          {
+            "tile": 270,
+            "signature": 227985332,
+            "pixels": 16,
+            "screenBounds": [
+              112,
+              67,
+              119,
+              68
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cliff": {
+    "frames": 261,
+    "pixels": 131347,
+    "examples": [
+      {
+        "frame": 5486,
+        "pixels": 16160,
+        "tiles": [
+          {
+            "tile": 160,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              0,
+              43,
+              7,
+              47
+            ]
+          },
+          {
+            "tile": 161,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              8,
+              43,
+              15,
+              47
+            ]
+          },
+          {
+            "tile": 162,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              16,
+              43,
+              23,
+              47
+            ]
+          },
+          {
+            "tile": 163,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              24,
+              43,
+              31,
+              47
+            ]
+          },
+          {
+            "tile": 164,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              32,
+              43,
+              39,
+              47
+            ]
+          },
+          {
+            "tile": 165,
+            "signature": 188539347,
+            "pixels": 40,
+            "screenBounds": [
+              40,
+              43,
+              47,
+              47
+            ]
+          },
+          {
+            "tile": 166,
+            "signature": 665171400,
+            "pixels": 40,
+            "screenBounds": [
+              48,
+              43,
+              55,
+              47
+            ]
+          },
+          {
+            "tile": 167,
+            "signature": 3009129487,
+            "pixels": 40,
+            "screenBounds": [
+              56,
+              43,
+              63,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 5488,
+        "pixels": 304,
+        "tiles": [
+          {
+            "tile": 458,
+            "signature": 4174570431,
+            "pixels": 32,
+            "screenBounds": [
+              80,
+              112,
+              87,
+              115
+            ]
+          },
+          {
+            "tile": 459,
+            "signature": 346104338,
+            "pixels": 32,
+            "screenBounds": [
+              88,
+              112,
+              95,
+              115
+            ]
+          },
+          {
+            "tile": 460,
+            "signature": 1103819526,
+            "pixels": 32,
+            "screenBounds": [
+              96,
+              112,
+              103,
+              115
+            ]
+          },
+          {
+            "tile": 461,
+            "signature": 412776925,
+            "pixels": 8,
+            "screenBounds": [
+              104,
+              112,
+              111,
+              112
+            ]
+          },
+          {
+            "tile": 464,
+            "signature": 3503106193,
+            "pixels": 16,
+            "screenBounds": [
+              128,
+              112,
+              135,
+              113
+            ]
+          },
+          {
+            "tile": 465,
+            "signature": 412776925,
+            "pixels": 8,
+            "screenBounds": [
+              136,
+              112,
+              143,
+              112
+            ]
+          },
+          {
+            "tile": 467,
+            "signature": 2880500573,
+            "pixels": 32,
+            "screenBounds": [
+              152,
+              112,
+              159,
+              115
+            ]
+          },
+          {
+            "tile": 466,
+            "signature": 1043937236,
+            "pixels": 16,
+            "screenBounds": [
+              144,
+              113,
+              151,
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 5489,
+        "pixels": 56,
+        "tiles": [
+          {
+            "tile": 108,
+            "signature": 3936008188,
+            "pixels": 16,
+            "screenBounds": [
+              96,
+              27,
+              103,
+              28
+            ]
+          },
+          {
+            "tile": 109,
+            "signature": 742425332,
+            "pixels": 16,
+            "screenBounds": [
+              104,
+              27,
+              111,
+              28
+            ]
+          },
+          {
+            "tile": 111,
+            "signature": 2873638304,
+            "pixels": 16,
+            "screenBounds": [
+              120,
+              27,
+              127,
+              28
+            ]
+          },
+          {
+            "tile": 110,
+            "signature": 979082871,
+            "pixels": 8,
+            "screenBounds": [
+              112,
+              28,
+              119,
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 5491,
+        "pixels": 136,
+        "tiles": [
+          {
+            "tile": 261,
+            "signature": 1478267783,
+            "pixels": 16,
+            "screenBounds": [
+              40,
+              68,
+              47,
+              69
+            ]
+          },
+          {
+            "tile": 264,
+            "signature": 97928141,
+            "pixels": 16,
+            "screenBounds": [
+              64,
+              68,
+              71,
+              69
+            ]
+          },
+          {
+            "tile": 265,
+            "signature": 1581731840,
+            "pixels": 8,
+            "screenBounds": [
+              72,
+              68,
+              79,
+              68
+            ]
+          },
+          {
+            "tile": 268,
+            "signature": 2334139662,
+            "pixels": 16,
+            "screenBounds": [
+              96,
+              68,
+              103,
+              69
+            ]
+          },
+          {
+            "tile": 269,
+            "signature": 890854246,
+            "pixels": 16,
+            "screenBounds": [
+              104,
+              68,
+              111,
+              69
+            ]
+          },
+          {
+            "tile": 270,
+            "signature": 1817648661,
+            "pixels": 16,
+            "screenBounds": [
+              112,
+              68,
+              119,
+              69
+            ]
+          },
+          {
+            "tile": 274,
+            "signature": 2547893868,
+            "pixels": 16,
+            "screenBounds": [
+              144,
+              68,
+              151,
+              69
+            ]
+          },
+          {
+            "tile": 275,
+            "signature": 367925900,
+            "pixels": 16,
+            "screenBounds": [
+              152,
+              68,
+              159,
+              69
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "palace": {
+    "frames": 473,
+    "pixels": 315676,
+    "examples": [
+      {
+        "frame": 7283,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 3578829436,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 941381623,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 101017291,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 101017291,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 7284,
+        "pixels": 10400,
+        "tiles": [
+          {
+            "tile": 288,
+            "signature": 2805311779,
+            "pixels": 8,
+            "screenBounds": [
+              0,
+              79,
+              7,
+              79
+            ]
+          },
+          {
+            "tile": 289,
+            "signature": 999684730,
+            "pixels": 8,
+            "screenBounds": [
+              8,
+              79,
+              15,
+              79
+            ]
+          },
+          {
+            "tile": 290,
+            "signature": 1636471078,
+            "pixels": 8,
+            "screenBounds": [
+              16,
+              79,
+              23,
+              79
+            ]
+          },
+          {
+            "tile": 291,
+            "signature": 418874198,
+            "pixels": 8,
+            "screenBounds": [
+              24,
+              79,
+              31,
+              79
+            ]
+          },
+          {
+            "tile": 292,
+            "signature": 2044878983,
+            "pixels": 8,
+            "screenBounds": [
+              32,
+              79,
+              39,
+              79
+            ]
+          },
+          {
+            "tile": 293,
+            "signature": 418874198,
+            "pixels": 8,
+            "screenBounds": [
+              40,
+              79,
+              47,
+              79
+            ]
+          },
+          {
+            "tile": 294,
+            "signature": 1636471078,
+            "pixels": 8,
+            "screenBounds": [
+              48,
+              79,
+              55,
+              79
+            ]
+          },
+          {
+            "tile": 295,
+            "signature": 418874198,
+            "pixels": 8,
+            "screenBounds": [
+              56,
+              79,
+              63,
+              79
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 7286,
+        "pixels": 256,
+        "tiles": [
+          {
+            "tile": 390,
+            "signature": 3421515293,
+            "pixels": 16,
+            "screenBounds": [
+              48,
+              99,
+              55,
+              100
+            ]
+          },
+          {
+            "tile": 391,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              56,
+              99,
+              63,
+              100
+            ]
+          },
+          {
+            "tile": 392,
+            "signature": 3421515293,
+            "pixels": 16,
+            "screenBounds": [
+              64,
+              99,
+              71,
+              100
+            ]
+          },
+          {
+            "tile": 393,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              72,
+              99,
+              79,
+              100
+            ]
+          },
+          {
+            "tile": 394,
+            "signature": 3421515293,
+            "pixels": 16,
+            "screenBounds": [
+              80,
+              99,
+              87,
+              100
+            ]
+          },
+          {
+            "tile": 395,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              88,
+              99,
+              95,
+              100
+            ]
+          },
+          {
+            "tile": 396,
+            "signature": 3421515293,
+            "pixels": 16,
+            "screenBounds": [
+              96,
+              99,
+              103,
+              100
+            ]
+          },
+          {
+            "tile": 397,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              104,
+              99,
+              111,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 7287,
+        "pixels": 258,
+        "tiles": [
+          {
+            "tile": 36,
+            "signature": 2805311779,
+            "pixels": 16,
+            "screenBounds": [
+              32,
+              12,
+              39,
+              13
+            ]
+          },
+          {
+            "tile": 37,
+            "signature": 48649449,
+            "pixels": 16,
+            "screenBounds": [
+              40,
+              12,
+              47,
+              13
+            ]
+          },
+          {
+            "tile": 51,
+            "signature": 2805311779,
+            "pixels": 16,
+            "screenBounds": [
+              152,
+              12,
+              159,
+              13
+            ]
+          },
+          {
+            "tile": 48,
+            "signature": 3226970673,
+            "pixels": 8,
+            "screenBounds": [
+              128,
+              13,
+              135,
+              13
+            ]
+          },
+          {
+            "tile": 74,
+            "signature": 981096373,
+            "pixels": 2,
+            "screenBounds": [
+              80,
+              17,
+              81,
+              17
+            ]
+          },
+          {
+            "tile": 77,
+            "signature": 3892055743,
+            "pixels": 8,
+            "screenBounds": [
+              104,
+              17,
+              111,
+              17
+            ]
+          },
+          {
+            "tile": 521,
+            "signature": 3421515293,
+            "pixels": 16,
+            "screenBounds": [
+              72,
+              131,
+              79,
+              132
+            ]
+          },
+          {
+            "tile": 522,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              80,
+              131,
+              87,
+              132
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "disciples": {
+    "frames": 314,
+    "pixels": 336356,
+    "examples": [
+      {
+        "frame": 11465,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 4156254514,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 11466,
+        "pixels": 10880,
+        "tiles": [
+          {
+            "tile": 288,
+            "signature": 4156254514,
+            "pixels": 32,
+            "screenBounds": [
+              0,
+              76,
+              7,
+              79
+            ]
+          },
+          {
+            "tile": 289,
+            "signature": 4156254514,
+            "pixels": 32,
+            "screenBounds": [
+              8,
+              76,
+              15,
+              79
+            ]
+          },
+          {
+            "tile": 290,
+            "signature": 2805311779,
+            "pixels": 32,
+            "screenBounds": [
+              16,
+              76,
+              23,
+              79
+            ]
+          },
+          {
+            "tile": 291,
+            "signature": 999684730,
+            "pixels": 32,
+            "screenBounds": [
+              24,
+              76,
+              31,
+              79
+            ]
+          },
+          {
+            "tile": 292,
+            "signature": 1589423869,
+            "pixels": 32,
+            "screenBounds": [
+              32,
+              76,
+              39,
+              79
+            ]
+          },
+          {
+            "tile": 293,
+            "signature": 553653549,
+            "pixels": 32,
+            "screenBounds": [
+              40,
+              76,
+              47,
+              79
+            ]
+          },
+          {
+            "tile": 294,
+            "signature": 1814303453,
+            "pixels": 32,
+            "screenBounds": [
+              48,
+              76,
+              55,
+              79
+            ]
+          },
+          {
+            "tile": 295,
+            "signature": 1232058375,
+            "pixels": 32,
+            "screenBounds": [
+              56,
+              76,
+              63,
+              79
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 11468,
+        "pixels": 80,
+        "tiles": [
+          {
+            "tile": 112,
+            "signature": 862189811,
+            "pixels": 24,
+            "screenBounds": [
+              128,
+              25,
+              135,
+              27
+            ]
+          },
+          {
+            "tile": 113,
+            "signature": 1677935587,
+            "pixels": 24,
+            "screenBounds": [
+              136,
+              25,
+              143,
+              27
+            ]
+          },
+          {
+            "tile": 147,
+            "signature": 3557257637,
+            "pixels": 16,
+            "screenBounds": [
+              152,
+              34,
+              159,
+              35
+            ]
+          },
+          {
+            "tile": 143,
+            "signature": 2494806952,
+            "pixels": 16,
+            "screenBounds": [
+              120,
+              38,
+              127,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 11469,
+        "pixels": 344,
+        "tiles": [
+          {
+            "tile": 204,
+            "signature": 3421515293,
+            "pixels": 24,
+            "screenBounds": [
+              96,
+              50,
+              103,
+              52
+            ]
+          },
+          {
+            "tile": 205,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              104,
+              50,
+              111,
+              51
+            ]
+          },
+          {
+            "tile": 206,
+            "signature": 3421515293,
+            "pixels": 24,
+            "screenBounds": [
+              112,
+              50,
+              119,
+              52
+            ]
+          },
+          {
+            "tile": 207,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              120,
+              50,
+              127,
+              51
+            ]
+          },
+          {
+            "tile": 208,
+            "signature": 3421515293,
+            "pixels": 24,
+            "screenBounds": [
+              128,
+              50,
+              135,
+              52
+            ]
+          },
+          {
+            "tile": 209,
+            "signature": 3015466100,
+            "pixels": 16,
+            "screenBounds": [
+              136,
+              50,
+              143,
+              51
+            ]
+          },
+          {
+            "tile": 210,
+            "signature": 3421515293,
+            "pixels": 24,
+            "screenBounds": [
+              144,
+              50,
+              151,
+              52
+            ]
+          },
+          {
+            "tile": 200,
+            "signature": 1492427356,
+            "pixels": 16,
+            "screenBounds": [
+              64,
+              54,
+              71,
+              55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "forest": {
+    "frames": 947,
+    "pixels": 384684,
+    "examples": [
+      {
+        "frame": 18077,
+        "pixels": 23040,
+        "tiles": [
+          {
+            "tile": 0,
+            "signature": 3283668340,
+            "pixels": 64,
+            "screenBounds": [
+              0,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "tile": 1,
+            "signature": 460694684,
+            "pixels": 64,
+            "screenBounds": [
+              8,
+              0,
+              15,
+              7
+            ]
+          },
+          {
+            "tile": 2,
+            "signature": 45134451,
+            "pixels": 64,
+            "screenBounds": [
+              16,
+              0,
+              23,
+              7
+            ]
+          },
+          {
+            "tile": 3,
+            "signature": 3276913019,
+            "pixels": 64,
+            "screenBounds": [
+              24,
+              0,
+              31,
+              7
+            ]
+          },
+          {
+            "tile": 4,
+            "signature": 3283668340,
+            "pixels": 64,
+            "screenBounds": [
+              32,
+              0,
+              39,
+              7
+            ]
+          },
+          {
+            "tile": 5,
+            "signature": 460694684,
+            "pixels": 64,
+            "screenBounds": [
+              40,
+              0,
+              47,
+              7
+            ]
+          },
+          {
+            "tile": 6,
+            "signature": 1424226151,
+            "pixels": 64,
+            "screenBounds": [
+              48,
+              0,
+              55,
+              7
+            ]
+          },
+          {
+            "tile": 7,
+            "signature": 2422325960,
+            "pixels": 64,
+            "screenBounds": [
+              56,
+              0,
+              63,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 18078,
+        "pixels": 4960,
+        "tiles": [
+          {
+            "tile": 448,
+            "signature": 2293052469,
+            "pixels": 56,
+            "screenBounds": [
+              0,
+              113,
+              7,
+              119
+            ]
+          },
+          {
+            "tile": 449,
+            "signature": 202034877,
+            "pixels": 56,
+            "screenBounds": [
+              8,
+              113,
+              15,
+              119
+            ]
+          },
+          {
+            "tile": 450,
+            "signature": 950864271,
+            "pixels": 56,
+            "screenBounds": [
+              16,
+              113,
+              23,
+              119
+            ]
+          },
+          {
+            "tile": 451,
+            "signature": 587967272,
+            "pixels": 56,
+            "screenBounds": [
+              24,
+              113,
+              31,
+              119
+            ]
+          },
+          {
+            "tile": 452,
+            "signature": 950864271,
+            "pixels": 56,
+            "screenBounds": [
+              32,
+              113,
+              39,
+              119
+            ]
+          },
+          {
+            "tile": 453,
+            "signature": 587967272,
+            "pixels": 56,
+            "screenBounds": [
+              40,
+              113,
+              47,
+              119
+            ]
+          },
+          {
+            "tile": 454,
+            "signature": 730941544,
+            "pixels": 56,
+            "screenBounds": [
+              48,
+              113,
+              55,
+              119
+            ]
+          },
+          {
+            "tile": 455,
+            "signature": 2601076544,
+            "pixels": 56,
+            "screenBounds": [
+              56,
+              113,
+              63,
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 18080,
+        "pixels": 220,
+        "tiles": [
+          {
+            "tile": 160,
+            "signature": 2960059731,
+            "pixels": 8,
+            "screenBounds": [
+              0,
+              40,
+              7,
+              40
+            ]
+          },
+          {
+            "tile": 161,
+            "signature": 577477787,
+            "pixels": 8,
+            "screenBounds": [
+              8,
+              40,
+              15,
+              40
+            ]
+          },
+          {
+            "tile": 166,
+            "signature": 2523381539,
+            "pixels": 2,
+            "screenBounds": [
+              48,
+              45,
+              49,
+              45
+            ]
+          },
+          {
+            "tile": 168,
+            "signature": 2523381539,
+            "pixels": 8,
+            "screenBounds": [
+              64,
+              45,
+              71,
+              45
+            ]
+          },
+          {
+            "tile": 169,
+            "signature": 3425320762,
+            "pixels": 8,
+            "screenBounds": [
+              72,
+              45,
+              79,
+              45
+            ]
+          },
+          {
+            "tile": 170,
+            "signature": 2523381539,
+            "pixels": 2,
+            "screenBounds": [
+              80,
+              45,
+              81,
+              45
+            ]
+          },
+          {
+            "tile": 192,
+            "signature": 730941544,
+            "pixels": 24,
+            "screenBounds": [
+              0,
+              49,
+              7,
+              51
+            ]
+          },
+          {
+            "tile": 193,
+            "signature": 2601076544,
+            "pixels": 32,
+            "screenBounds": [
+              8,
+              49,
+              15,
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 18081,
+        "pixels": 376,
+        "tiles": [
+          {
+            "tile": 392,
+            "signature": 730941544,
+            "pixels": 16,
+            "screenBounds": [
+              64,
+              97,
+              71,
+              98
+            ]
+          },
+          {
+            "tile": 393,
+            "signature": 2601076544,
+            "pixels": 24,
+            "screenBounds": [
+              72,
+              97,
+              79,
+              99
+            ]
+          },
+          {
+            "tile": 394,
+            "signature": 1424226151,
+            "pixels": 16,
+            "screenBounds": [
+              80,
+              97,
+              87,
+              98
+            ]
+          },
+          {
+            "tile": 395,
+            "signature": 2422325960,
+            "pixels": 24,
+            "screenBounds": [
+              88,
+              97,
+              95,
+              99
+            ]
+          },
+          {
+            "tile": 396,
+            "signature": 3283668340,
+            "pixels": 16,
+            "screenBounds": [
+              96,
+              97,
+              103,
+              98
+            ]
+          },
+          {
+            "tile": 397,
+            "signature": 460694684,
+            "pixels": 24,
+            "screenBounds": [
+              104,
+              97,
+              111,
+              99
+            ]
+          },
+          {
+            "tile": 398,
+            "signature": 3283668340,
+            "pixels": 16,
+            "screenBounds": [
+              112,
+              97,
+              119,
+              98
+            ]
+          },
+          {
+            "tile": 399,
+            "signature": 460694684,
+            "pixels": 24,
+            "screenBounds": [
+              120,
+              97,
+              127,
+              99
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

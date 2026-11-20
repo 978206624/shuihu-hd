@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "out": "m8-work/art/00-05_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1280",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 0,
+      "elapsed": 277.6,
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "attempt": 2,
+      "status": 200,
+      "elapsed": 309.8,
+      "error": null
+    }
+  ]
+}

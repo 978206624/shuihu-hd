@@ -1,0 +1,62 @@
+{
+  "title-fade": {
+    "frames": 42,
+    "pixels": 430080,
+    "examples": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "interior": {
+    "frames": 248,
+    "pixels": 76943,
+    "examples": [
+      361,
+      362,
+      721,
+      722
+    ]
+  },
+  "intertitle-backdrop": {
+    "frames": 66,
+    "pixels": 195392,
+    "examples": [
+      5411,
+      5412,
+      5413,
+      5414
+    ]
+  },
+  "cliff": {
+    "frames": 217,
+    "pixels": 68309,
+    "examples": [
+      5486,
+      5489,
+      5495,
+      5498
+    ]
+  },
+  "palace": {
+    "frames": 379,
+    "pixels": 51296,
+    "examples": [
+      7703,
+      7713,
+      7723,
+      7733
+    ]
+  },
+  "disciples": {
+    "frames": 235,
+    "pixels": 85509,
+    "examples": [
+      11525,
+      11530,
+      11531,
+      11532
+    ]
+  }
+}

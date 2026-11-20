@@ -1,0 +1,1 @@
+Final UI-only candidate approved after targeted native actor/text, outside-UI and resync tests. Current row-palette recovery experiment discarded and NOT included. Runtime frozen; no further render changes before package.

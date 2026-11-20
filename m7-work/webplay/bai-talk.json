@@ -1,0 +1,207 @@
+{
+  "source": "/workspace/shawu/m7-work/webplay/bai-start.bin",
+  "actions": [
+    [
+      "up",
+      16,
+      8,
+      "near"
+    ],
+    [
+      "A",
+      6,
+      160,
+      "dialogue"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 25,
+      "ticks": 5984828280,
+      "pc": 672,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22747,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 22747,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 22747,
+          "unsupportedPixels": 22747,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          5
+        ]
+      ],
+      "map": [
+        0,
+        25
+      ],
+      "player": [
+        96,
+        88,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        6,
+        6
+      ]
+    },
+    {
+      "frames": 191,
+      "ticks": 5996485928,
+      "pc": 7008,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 12477,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 12477,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 200,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 12477,
+          "unsupportedPixels": 12477,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 160,
+              "h": 64
+            }
+          ],
+          "dialogueBorderPixels": 3252,
+          "dialogueBorderCoveredPixels": 3252,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          1
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          8
+        ]
+      ],
+      "map": [
+        0,
+        25
+      ],
+      "player": [
+        96,
+        88,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        6,
+        6
+      ]
+    }
+  ],
+  "errors": []
+}

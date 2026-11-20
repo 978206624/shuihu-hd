@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "cases": 32,
+  "rowsChecked": 96,
+  "note": "Pure software RGBA fit/copy equivalence; no canvas backend or realtime acceptance."
+}

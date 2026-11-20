@@ -1,0 +1,26 @@
+{
+  "oldRegressionActions": 442,
+  "formalQAActions": 1096,
+  "formalQAFrames": 84135,
+  "oldRegressionNativeFrames": 31396,
+  "newMapIDs": [
+    "00-00",
+    "00-01",
+    "00-02",
+    "00-03",
+    "00-04",
+    "00-05",
+    "00-06",
+    "00-09"
+  ],
+  "route": "23 original region1/2 branches + 185-action letter chain + 281-action meeting chain + eight existing doorway surveys; all baseline/candidate pairs use identical byte starts and native-frame inputs.",
+  "preview": "Eight separate natural-save excerpts at original rAF speed. State loads between excerpts, no audio. Not a continuous journey.",
+  "exclusions": [
+    "00-08既有M6野道沿用",
+    "黄泥岗00-1f..23及客栈为下一个任务，不属于本次八图",
+    "00-09另一端00-0b及更远外域未自然进入，不声称已探索全部连通世界",
+    "00-35未自然打开/进入，不计为已完成新图",
+    "战斗/系统菜单/未绘地图不计八图分母；最终逐帧计数须另测，不能提前宣称覆盖率"
+  ],
+  "serialization": "Historical 26711-frame segmented/continuous replay has three final save bytes different; retained in checkpoints/story11-to12-continuous-proof.json. Formal paired QA compares identical byte starts, never different segment boundaries."
+}

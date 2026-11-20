@@ -1,0 +1,3 @@
+Prepared the bounded A/B survey for both rooms of 00-05 and the walkable village, with every input and frame logged. [REQUEST_READY.md](/workspace/shawu/m9-work/REQUEST_READY.md) contains the supervisor commands, exact replay from the official story12 save, and post-trigger door checks. Updated [progress.md](/workspace/shawu/m9-work/progress.md).
+
+Syntax and synthetic checks passed. The live survey remains pending, so the trigger and route to 黄泥岗 are still unverified.

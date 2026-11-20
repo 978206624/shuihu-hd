@@ -1,0 +1,119 @@
+[
+  {
+    "id": "00-12",
+    "refs": [
+      "00-12_native_4x.png",
+      "city_style.jpg"
+    ],
+    "prompt": "00-12_prompt.txt",
+    "output": "00-12_gpt.png"
+  },
+  {
+    "id": "00-13",
+    "refs": [
+      "00-13_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-13_prompt.txt",
+    "output": "00-13_gpt.png"
+  },
+  {
+    "id": "00-14",
+    "refs": [
+      "00-14_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-14_prompt.txt",
+    "output": "00-14_gpt.png"
+  },
+  {
+    "id": "00-15",
+    "refs": [
+      "00-15_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-15_prompt.txt",
+    "output": "00-15_gpt.png"
+  },
+  {
+    "id": "00-16",
+    "refs": [
+      "00-16_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-16_prompt.txt",
+    "output": "00-16_gpt.png"
+  },
+  {
+    "id": "00-17",
+    "refs": [
+      "00-17_native_4x.png",
+      "city_style.jpg"
+    ],
+    "prompt": "00-17_prompt.txt",
+    "output": "00-17_gpt.png"
+  },
+  {
+    "id": "00-18",
+    "refs": [
+      "00-18_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-18_prompt.txt",
+    "output": "00-18_gpt.png"
+  },
+  {
+    "id": "00-19",
+    "refs": [
+      "00-19_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-19_prompt.txt",
+    "output": "00-19_gpt.png"
+  },
+  {
+    "id": "00-1a",
+    "refs": [
+      "00-1a_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-1a_prompt.txt",
+    "output": "00-1a_gpt.png"
+  },
+  {
+    "id": "00-1b",
+    "refs": [
+      "00-1b_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-1b_prompt.txt",
+    "output": "00-1b_gpt.png"
+  },
+  {
+    "id": "00-1c",
+    "refs": [
+      "00-1c_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-1c_prompt.txt",
+    "output": "00-1c_gpt.png"
+  },
+  {
+    "id": "00-1d",
+    "refs": [
+      "00-1d_native_4x.png",
+      "room_style.jpg"
+    ],
+    "prompt": "00-1d_prompt.txt",
+    "output": "00-1d_gpt.png"
+  },
+  {
+    "id": "00-1e",
+    "refs": [
+      "00-1e_native_4x.png",
+      "city_style.jpg"
+    ],
+    "prompt": "00-1e_prompt.txt",
+    "output": "00-1e_gpt.png"
+  }
+]

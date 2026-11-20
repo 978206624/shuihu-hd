@@ -1,0 +1,156 @@
+[
+  {
+    "mode": 1,
+    "entry": "23:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_01.png",
+    "current_mode": 1,
+    "pc": 19342
+  },
+  {
+    "mode": 2,
+    "entry": "3c:4117",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_02.png",
+    "current_mode": 2,
+    "pc": 19340
+  },
+  {
+    "mode": 3,
+    "entry": "3c:438b",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_03.png",
+    "current_mode": 3,
+    "pc": 19340
+  },
+  {
+    "mode": 4,
+    "entry": "48:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_04.png",
+    "current_mode": 4,
+    "pc": 19342
+  },
+  {
+    "mode": 5,
+    "entry": "51:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_05.png",
+    "current_mode": 5,
+    "pc": 17478
+  },
+  {
+    "mode": 6,
+    "entry": "52:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_06.png",
+    "current_mode": 6,
+    "pc": 19340
+  },
+  {
+    "mode": 7,
+    "entry": "53:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_07.png",
+    "current_mode": 7,
+    "pc": 19138
+  },
+  {
+    "mode": 8,
+    "entry": "54:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_08.png",
+    "current_mode": 8,
+    "pc": 17726
+  },
+  {
+    "mode": 9,
+    "entry": "57:4526",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_09.png",
+    "current_mode": 10,
+    "pc": 17727
+  },
+  {
+    "mode": 10,
+    "entry": "57:4372",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_10.png",
+    "current_mode": 0,
+    "pc": 17727
+  },
+  {
+    "mode": 11,
+    "entry": "57:42c7",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_11.png",
+    "current_mode": 0,
+    "pc": 17727
+  },
+  {
+    "mode": 12,
+    "entry": "57:4223",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_12.png",
+    "current_mode": 0,
+    "pc": 17467
+  },
+  {
+    "mode": 13,
+    "entry": "5d:490f",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_13.png",
+    "current_mode": 0,
+    "pc": 17727
+  },
+  {
+    "mode": 14,
+    "entry": "5d:43d7",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_14.png",
+    "current_mode": 14,
+    "pc": 17726
+  },
+  {
+    "mode": 15,
+    "entry": "5d:4a25",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_15.png",
+    "current_mode": 15,
+    "pc": 17727
+  },
+  {
+    "mode": 16,
+    "entry": "5e:402c",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_16.png",
+    "current_mode": 16,
+    "pc": 17518
+  },
+  {
+    "mode": 17,
+    "entry": "5f:402c",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_17.png",
+    "current_mode": 17,
+    "pc": 17727
+  },
+  {
+    "mode": 18,
+    "entry": "60:402c",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_18.png",
+    "current_mode": 18,
+    "pc": 17727
+  },
+  {
+    "mode": 19,
+    "entry": "61:402c",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_19.png",
+    "current_mode": 19,
+    "pc": 17727
+  },
+  {
+    "mode": 20,
+    "entry": "62:402c",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_20.png",
+    "current_mode": 20,
+    "pc": 17471
+  },
+  {
+    "mode": 21,
+    "entry": "62:402f",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_21.png",
+    "current_mode": 21,
+    "pc": 19206
+  },
+  {
+    "mode": 22,
+    "entry": "64:4000",
+    "screenshot": "/workspace/shawu/m6-work/screens/mode_22.png",
+    "current_mode": 22,
+    "pc": 19698
+  }
+]

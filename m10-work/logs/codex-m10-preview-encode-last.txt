@@ -1,0 +1,5 @@
+Updated the [Region 5 preview script](/workspace/shawu/m10-work/scripts/region5-preview.cjs:191) to trim all six excerpts to their measured live playback durations, excluding the final 350 ms marker hold. Updated only the script’s SHA-256 entry in the [freeze manifest](/workspace/shawu/m10-work/integration/outer-freeze.json:298) and recorded it in the [handoff note](/workspace/shawu/m10-work/logs/codex-m10-preview-encode-notes.md).
+
+New SHA-256 `5761a3508077b6c34c543c1bd3c7dea22c6494f78d8399038edbeb95b07f8137`
+
+Offline validation passed for all six saved intervals and confirmed that missing, unclosed, and too-short intervals are rejected. The four capture artifacts are intact. The preview was neither recaptured nor encoded. The supervisor last reported port 38811 up, and its live status remains unverified from the sandbox.

@@ -1,0 +1,1 @@
+Created [browser-play.cjs](/workspace/shawu/m10-work/scripts/browser-play.cjs) for the official M10 replay. `node --check` passed, and the replay was left for the supervisor. The script was the only file changed.

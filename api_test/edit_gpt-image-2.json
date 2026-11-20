@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "status": 200,
+  "elapsed": 69.70467472076416,
+  "body": {
+    "background": "opaque",
+    "created": 1794288377,
+    "data": [
+      {
+        "b64_json": "<omitted 4266600 chars>",
+        "generation_id": "f6f038f2-b278-431a-bbf3-92781cba7a62"
+      }
+    ],
+    "output_format": "png",
+    "quality": "medium",
+    "safety_identifier": null,
+    "size": "1322x1190",
+    "usage": {
+      "input_tokens": 164,
+      "input_tokens_details": {
+        "image_tokens": 90,
+        "text_tokens": 74
+      },
+      "output_tokens": 829,
+      "output_tokens_details": {
+        "image_tokens": 829,
+        "text_tokens": 0
+      },
+      "total_tokens": 993
+    }
+  },
+  "nbytes": 4266998
+}

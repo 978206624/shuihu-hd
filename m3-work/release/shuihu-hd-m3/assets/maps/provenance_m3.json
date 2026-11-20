@@ -1,0 +1,90 @@
+{
+  "model": "gpt-image-2",
+  "palace_quality": "low",
+  "assets": "Four aligned M2 GPT backgrounds reused; GPT disciples background and dialogue border generated for M3",
+  "alignment": {
+    "cliff": "256x256 padded coordinate master; verified usable bounds [0,0,160,144]",
+    "palace": "256x256 padded coordinate master; verified usable bounds [0,0,160,144]",
+    "forest": "full 256x256 reference geometry",
+    "town": "opening interior, full 256x256 reference geometry",
+    "disciples": "160x144 with independent width/height; shake edges outside verified bounds remain original"
+  },
+  "core_sha256": {
+    "LICENSE.gbstudio": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86",
+    "README.txt": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6",
+    "LICENSE.binjgb": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009",
+    "binjgb.js": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+    "binjgb.wasm": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b"
+  },
+  "milestone": "M3",
+  "new_assets": {
+    "disciples": {
+      "model": "gpt-image-2",
+      "requestedQuality": "medium",
+      "actualQuality": "medium",
+      "actualSize": "1322x1190",
+      "elapsedSeconds": 97.50430655479431,
+      "sha256": "d1af959d511f30b113f55a1ced6e8ffd98c73f737c17e942e8dc3549aac6eb54",
+      "prompt": "Use case: style-transfer. Produce one premium hand-painted HD 2D JRPG BACKGROUND ONLY. Image 1 is the exact actor-free game background composition, a 160x144 viewport enlarged 3x. Preserve its exact 10:9 aspect and all geometry: blue sky with a few small white clouds, pale floating stone courtyard with cracked paving, stepped asymmetrical blue-white ornamental railings, red inset panels, and a large golden ritual incense vessel on the LEFT. Keep every corner, terrace boundary, stairs and object at precisely the reference normalized coordinates. Camera is high-angle top-down. Image 2 is only approved painterly material and lighting guidance. Zero people, characters, animals, creatures, faces, figures, portraits, shadows of characters, writing, text, logos, dialogue boxes, UI or extra objects. The pale grey empty area outside architectural terraces in image 1 belongs to the original background and must remain in the same position. Fine hand-painted stone and metal detail, readable scale, no grid lines. Output one finished 10:9 background, no margins, no montage. Do not alter composition.",
+      "layoutSHA256": "dfb6d1b2f7ba5892d0c520d8531595cdc8d12d162fbdce61e38a9a5cf810e674"
+    },
+    "dialogue": {
+      "model": "gpt-image-2",
+      "requestedQuality": "medium",
+      "actualQuality": "low",
+      "actualSize": "1983x793",
+      "elapsedSeconds": 72.18618655204773,
+      "sha256": "45f8baa496551ac2853d6ce92e7feb139cac51e471992234dd6065736539be08",
+      "prompt": "Use case: style-transfer. Produce a reusable premium HD 2D JRPG dialogue-frame asset. Image 1 is the precise layout reference: a wide rectangular Chinese game dialogue frame, 160:64 aspect, narrow red-and-gold ornamental outer edge, pale ivory interior. Keep its exact proportions. Refine ONLY the border into carefully painted carved red lacquer, thin warm gold filigree, restrained Chinese cloud-pattern corner details. Border must remain very narrow, around 3 original pixels out of 160 width, so text area is maximized. Uniform flat pale ivory interior, no embellishments inside. ZERO text, calligraphy, glyphs, numbers, icons, arrows, portraits, characters, faces, creatures or backgrounds. Image 2 is painterly material guidance only; no subjects from it. Output exactly one complete flat rectangular frame, straight-on, no perspective, no mockup, no surrounding margins. This will be nine-slice cropped, so four corners and uninterrupted straight edges are required.",
+      "layoutSHA256": "03d9d20f0527ca204fabd217a9608667d436ecad17d00d1c4fc04b24936f10ab"
+    },
+    "intertitle": {
+      "ok": true,
+      "status": 200,
+      "elapsed": 26.96441388130188,
+      "body": {
+        "background": "opaque",
+        "created": 1794303606,
+        "data": [
+          {
+            "b64_json": "<omitted 399776 chars>",
+            "generation_id": "f8720d8a-bc2d-4075-b67f-f3f6c8aaac3f"
+          }
+        ],
+        "output_format": "png",
+        "quality": "low",
+        "safety_identifier": null,
+        "size": "1322x1190",
+        "usage": {
+          "input_tokens": 935,
+          "input_tokens_details": {
+            "image_tokens": 810,
+            "text_tokens": 125
+          },
+          "output_tokens": 472,
+          "output_tokens_details": {
+            "image_tokens": 472,
+            "text_tokens": 0
+          },
+          "total_tokens": 1407
+        }
+      },
+      "nbytes": 400174,
+      "params": {
+        "quality": "medium",
+        "use_style": false,
+        "use_fidelity": false,
+        "use_size_auto": true,
+        "tag": "m3-gap",
+        "model": "gpt-image-2"
+      }
+    }
+  },
+  "fallback": "Exact nearest-neighbor original pixels only; uncovered art logged",
+  "coverage": {
+    "totalFrames": 29160,
+    "fullyHDBackgroundFrames": 26404,
+    "backgroundFramePercent": 90.54869684499315,
+    "pixelWeightedPercent": 99.32077003399326
+  }
+}

@@ -1,0 +1,3 @@
+Fixed `encode()` to reuse the saved marker log, close the final white interval at EOF, and trim exactly seven excerpts to their measured real-time durations, excluding the frozen tails. Syntax and trim checks passed with FFmpeg mocked. All four capture files retained their hashes. [Preview script](/workspace/shawu/m9-work/scripts/region4-preview.cjs:130) · [Progress note](/workspace/shawu/m9-work/progress.md)
+
+The same-RUN_ID command will fail preflight until the supervisor updates the patched script’s digest in `outer-freeze.json` and refreshes the run’s `run-freeze.sha256` pin. The sandbox blocked live verification of port 38811.

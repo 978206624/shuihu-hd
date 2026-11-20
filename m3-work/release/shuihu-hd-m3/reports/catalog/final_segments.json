@@ -1,0 +1,57 @@
+[
+  {
+    "scene": "title",
+    "first": 0,
+    "last": 1
+  },
+  {
+    "scene": "title-fade",
+    "first": 2,
+    "last": 43
+  },
+  {
+    "scene": "unsupported",
+    "first": 44,
+    "last": 45
+  },
+  {
+    "scene": "intertitle-backdrop",
+    "first": 46,
+    "last": 205
+  },
+  {
+    "scene": "interior",
+    "first": 206,
+    "last": 5272
+  },
+  {
+    "scene": "intertitle-backdrop",
+    "first": 5273,
+    "last": 5485
+  },
+  {
+    "scene": "cliff",
+    "first": 5486,
+    "last": 7126
+  },
+  {
+    "scene": "intertitle-backdrop",
+    "first": 7127,
+    "last": 7282
+  },
+  {
+    "scene": "palace",
+    "first": 7283,
+    "last": 11464
+  },
+  {
+    "scene": "disciples",
+    "first": 11465,
+    "last": 18076
+  },
+  {
+    "scene": "forest",
+    "first": 18077,
+    "last": 29159
+  }
+]

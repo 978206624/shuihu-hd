@@ -1,0 +1,32 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any earlier session. Read context FROM FILES. Work only under m10-work/ (you may READ m8/m9 scripts, runtimes, region4-scope, art, and outer-plan). Do not modify m8-work/runtime/, m9-work/runtime/, m8-work/scripts/, m9-work/scripts/, frozen M8/M9 art/results, ROM bytes, or the binjgb core. If 38811 drops, STOP and report. Your sandbox cannot use host sockets: do NOT run Playwright or hit :8765. Write REQUEST_READY.md with exact supervisor commands after the isolated runtime and scripts exist.
+
+TASK: Integrate accepted Region 5 plates into an isolated m10-work/runtime/, and write the outer QA / perf / preview / contact scripts.
+
+Source runtime: copy the accepted m9-work/runtime/ byte-faithfully into m10-work/runtime/, then ONLY append Region 5 registrations and the four new HD plates. Do not rewrite existing M8/M9 assets in the copy except for the registry/config append required to recognize the new maps. Keep start.bat if present. ROM/core stay untouched.
+
+New accepted plates (gpt-image-2 medium, supervisor visually accepted; aspect matches native; no characters; no invented text):
+- m10-work/art/00-23_gpt.png 黄泥岗西林 1586×992 (native 256×160)
+- m10-work/art/00-0a_gpt.png 出岗小径 1086×1448 (native 192×256)
+- m10-work/art/00-0b_gpt.png 密林山道 1448×1086 (native 512×384)
+- m10-work/art/00-2a_gpt.png 石阶密林 1374×1145 (native 192×160)
+Geometry and names are in m10-work/region5-scope.json. Reuse already-accepted M9 plates already present in the m9 runtime copy for 00-21, 00-24, 00-2b, 00-2c (do not replace those bytes).
+
+Adapt m9-work/scripts/integrate.py into m10-work/scripts/integrate.py (and any prepare_art_ref helper needed under m10-work/scripts only). Register the four new maps under a region5 assets folder. Verify geometry SHA and nativeSize against the scope. Install the supervisor-accepted PNG bytes. Write an integration manifest / outer-plan under m10-work/integration/.
+
+Write m10-work/scripts/ outer runners adapted from M9, without editing M9/M8 files:
+- region5-qa.cjs — official-start replay of m10-work/checkpoints/story14-inn-end.bin + official-chain/official-region5-actions.json (1669 actions, 55206 frames) on http://127.0.0.1:8765/m10-work/runtime/ with HD on and audit instrumentation only in the page (runtime files stay unchanged). Also include earlier-region regression coverage if the M9 outer-plan did. Contacts for the four new maps (and reused maps if the M9 pattern included them). Output under m10-work/results/<run>/qa/.
+- region5-perf.cjs — adopted v3 protocol: 1792 frames/sample, 3 repeats, legacy (60 idle warmup) and cold; one bounded fix round max if you only prepare the script. Compare against m9 where a plan exists.
+- region5-preview.cjs — real-time, no audio, region5_preview.webm target path m10-work/region5_preview.webm, must be <25MB.
+- region5-contact.py — compose shots/m10_region5_contact.png from completed QA captures.
+- any outer-common / coverage helper copies must live under m10-work/ (do not patch m8-work/scripts/coverage-attribution.cjs; extend in a m10 copy if needed).
+
+Official start file SHA-256: f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0
+End acceptance: 00-2a e0 (5,8), story 19, DAA 52/06, D284=04 01, bank 4, mode 0, dialogue 0, facing up. Do not walk 00-2a row 4.
+
+REQUEST_READY.md must list, in order, the exact commands for the supervisor including:
+export NODE_PATH=/home/box/opt/test-tools/node_modules
+export PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers
+export TZ=Asia/Shanghai
+plus any M10_RESULTS / RUN_ID / exclusive-lock conventions copied from M9. Note that http://127.0.0.1:8765 already serves /workspace/shawu.
+
+Short progress.md checkpoint. Do not write REPORT_region5_zh.md yet (no QA/perf numbers). Do not generate more GPT art. Do not modify m8/m9 runtimes.

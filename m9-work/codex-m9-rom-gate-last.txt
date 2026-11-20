@@ -1,0 +1,7 @@
+The ROM shows an open route to 黄泥岗客栈 at story 12. Walk east through `00-08 (23,10)`, then follow `00-1f → 00-21 → 00-24 → 00-2b → 00-2c`. The earlier survey stopped short after discarding battle states.
+
+Talk to the front-room NPC at `00-2b (4,2)` to advance to story **13**, then the rear-room NPC at `00-2c (4,3)` to advance to story **14**. The rear scene checks the flag set by the first conversation. [ROM analysis](/workspace/shawu/m9-work/rom-gate-analysis.md)
+
+The 神木林 rock guards `02-1f` and requires an active beast with ability ID 2. The official party fails that check. `00-0b` has its own unconditional crossing. Both exits are outside the inn route.
+
+The supervisor replay has reached the battle menu on the east approach. The request continues from that recorded menu with the flee inputs. The crossing and inn conversations still await supervisor confirmation. I verified the ROM, core, and official save hashes and updated the checkpoint. [Replay commands](/workspace/shawu/m9-work/REQUEST_READY.md) · [Progress checkpoint](/workspace/shawu/m9-work/progress.md)

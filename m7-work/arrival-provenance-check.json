@@ -1,0 +1,240 @@
+[
+  {
+    "story": 6,
+    "map": [
+      0,
+      12
+    ],
+    "fields": [
+      144,
+      72,
+      32,
+      16
+    ],
+    "label": "leave-house",
+    "exactNativeStateMatch": false,
+    "diffCount": 1,
+    "hash": "1cd6eee3008ca3f92ab1169976b2e0c5c7ad1239637a6e823fac35c5245a7328"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      144,
+      72,
+      208,
+      176
+    ],
+    "label": "leave-town",
+    "exactNativeStateMatch": false,
+    "diffCount": 3,
+    "hash": "388186a7ca4057c23b2b23715b2f390568a1e14feb6bdd4b2b2d7e9060b01d12"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      40,
+      0,
+      112
+    ],
+    "label": "field-south",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "4d86179671981d662b73c42bab188cd93cfe67816c292232baa4146a164386ed"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "try-east",
+    "exactNativeStateMatch": false,
+    "diffCount": 5,
+    "hash": "06c0fbdfd9986fffef3d9470320ec4e5389e2774d1d16239295263295ee82c8e"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "escape",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "54ea3ea73bee9f55a26758931c19182f7c77da7e3a6050516615ecfeb4d44da6"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      80,
+      112
+    ],
+    "label": "escape-a",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "ec39d236cecad555eb7b751efce76e4748747c4c98ec7386ff4eb0487c848d8d"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      128,
+      112
+    ],
+    "label": "field-north",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "d4bdb2b34f71a95205ab050379ff81f83c7c026ea85a432eefaf777aee18fb6e"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "manual-city",
+    "exactNativeStateMatch": false,
+    "diffCount": 3,
+    "hash": "ed88802cc0e3705fab0dfd698e9ace91f22ea9cf8b464b4ad134e1c38d688266"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "manual-arrival",
+    "exactNativeStateMatch": false,
+    "diffCount": 3,
+    "hash": "2b45a5cdde694bb31a18ee35ade6c3545d47a2f3a07136f1fab21ab2fe96176d"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "arrival2",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "713e8957547db71d0122a3b2916103658f23c04ab529e9ef097e37d3813c4499"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "escape3",
+    "exactNativeStateMatch": false,
+    "diffCount": 4,
+    "hash": "b37805cb5bce7f036a0edc27f344aadb9dcf3e1c26356afa69f9dc49fcd046e7"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      0,
+      0
+    ],
+    "label": "cursor",
+    "exactNativeStateMatch": false,
+    "diffCount": 2,
+    "hash": "5a9b9fe51d36e30da68566d1988e023c9cf1fb4a5e19b4044dff6a199f24e9c5"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      8
+    ],
+    "fields": [
+      80,
+      72,
+      192,
+      48
+    ],
+    "label": "flee-result",
+    "exactNativeStateMatch": true,
+    "diffCount": 0,
+    "hash": "a5bd1304f7a5d8bb2cf27b4180d4aa41d71d233a234be93d695a98de9d6445ff"
+  },
+  {
+    "story": 6,
+    "map": [
+      0,
+      18
+    ],
+    "fields": [
+      144,
+      56,
+      0,
+      0
+    ],
+    "label": "city-gate",
+    "exactNativeStateMatch": false,
+    "diffCount": 1,
+    "hash": "af3c260a9539e5ae5bbd396b5a24bd1100f5db628078b1a829cd9c58d89b2bca"
+  }
+]

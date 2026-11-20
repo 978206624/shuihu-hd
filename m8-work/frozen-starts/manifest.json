@@ -1,0 +1,9 @@
+{
+  "source": "/workspace/shawu/m7-work/play/region2-story9-end.bin",
+  "sha256": "7f3a1043a04fa31c4c1c85e7fefc0632b3e451526c1081445f725324ca7b8c34",
+  "bytes": 199608,
+  "adoptedRuntime": "/workspace/shawu/m7-work/stage-a/v3/runtime",
+  "adoptedFreezeSHA256": "49d5840720f3174f78556441b7c0f6aeef02b8ca62bc54374be2199937120cf7",
+  "copyInitiallyIdentical": true,
+  "scopeEstablished": false
+}

@@ -1,0 +1,86 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "name": "unknown boot exact nearest original",
+      "mismatch": 0
+    },
+    {
+      "name": "interior",
+      "actor": 303,
+      "text": 0,
+      "unknown": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "gapMismatch": 0,
+      "ui": []
+    },
+    {
+      "name": "cliff",
+      "actor": 166,
+      "text": 0,
+      "unknown": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "gapMismatch": 0,
+      "ui": []
+    },
+    {
+      "name": "palace_bottom",
+      "actor": 731,
+      "text": 6912,
+      "unknown": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "gapMismatch": 0,
+      "ui": [
+        {
+          "x": 0,
+          "y": 80,
+          "w": 160,
+          "h": 64
+        }
+      ]
+    },
+    {
+      "name": "disciples_top",
+      "actor": 952,
+      "text": 6912,
+      "unknown": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "gapMismatch": 0,
+      "ui": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 64
+        }
+      ]
+    },
+    {
+      "name": "forest",
+      "actor": 475,
+      "text": 0,
+      "unknown": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "gapMismatch": 0,
+      "ui": []
+    },
+    {
+      "name": "100 mode toggles do not alter emulated state"
+    },
+    {
+      "name": "250 repeated state and battery exports without WASM OOM"
+    },
+    {
+      "name": "battery persists across reload"
+    },
+    {
+      "name": "keyboard and touch controls press/release"
+    }
+  ],
+  "errors": []
+}

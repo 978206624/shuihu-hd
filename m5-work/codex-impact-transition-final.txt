@@ -1,0 +1,3 @@
+Patched late transitions to recolor the GPT plate from verified native scanline evidence, preserving native timing and strict layout/actor/UI guards.
+
+Syntax and targeted mock tests passed. Summary saved to `m5-work/IMPACT_TRANSITION_DONE.txt`. Full replay remains for the supervisor.

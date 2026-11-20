@@ -1,0 +1,59 @@
+{
+  "totalFrames": 120,
+  "fullyHDBackgroundFrames": 120,
+  "fullyHDBackgroundAndUIFrames": 120,
+  "eligiblePixels": 2764800,
+  "coveredPixels": 2764800,
+  "dialogueFrames": 0,
+  "fullyCoveredDialogueFrames": 0,
+  "dialoguePixels": 0,
+  "coveredDialoguePixels": 0,
+  "classifications": {
+    "scene": {
+      "frames": 115,
+      "fullyHD": 115,
+      "eligiblePixels": 2649600,
+      "coveredPixels": 2649600
+    },
+    "blank": {
+      "frames": 5,
+      "fullyHD": 5,
+      "eligiblePixels": 115200,
+      "coveredPixels": 115200
+    }
+  },
+  "scenes": {
+    "title": {
+      "frames": 2,
+      "fullyHD": 2,
+      "eligiblePixels": 46080,
+      "coveredPixels": 46080
+    },
+    "title-fade": {
+      "frames": 42,
+      "fullyHD": 42,
+      "eligiblePixels": 967680,
+      "coveredPixels": 967680
+    },
+    "verified-flat-transition": {
+      "frames": 4,
+      "fullyHD": 4,
+      "eligiblePixels": 92160,
+      "coveredPixels": 92160
+    },
+    "card-year": {
+      "frames": 72,
+      "fullyHD": 72,
+      "eligiblePixels": 1658880,
+      "coveredPixels": 1658880
+    }
+  },
+  "stateHashComparisons": 1,
+  "pixelHashComparisons": 1,
+  "errors": [],
+  "completedFrames": 120,
+  "backgroundFramePercent": 100,
+  "jointFramePercent": 100,
+  "pixelWeightedPercent": 100,
+  "pass": true
+}

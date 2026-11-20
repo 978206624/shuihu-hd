@@ -1,0 +1,100 @@
+{
+  "totalFrames": 29160,
+  "fullyHDBackgroundFrames": 5372,
+  "fullyHDBackgroundAndUIFrames": 5372,
+  "eligiblePixels": 87205540,
+  "coveredPixels": 87196954,
+  "dialogueFrames": 3719,
+  "fullyCoveredDialogueFrames": 3719,
+  "dialoguePixels": 12022340,
+  "coveredDialoguePixels": 12022340,
+  "classifications": {
+    "scene": {
+      "frames": 5022,
+      "fullyHD": 5022,
+      "eligiblePixels": 76746747,
+      "coveredPixels": 76746747
+    },
+    "blank": {
+      "frames": 56,
+      "fullyHD": 56,
+      "eligiblePixels": 1285001,
+      "coveredPixels": 1285001
+    },
+    "raster-transition": {
+      "frames": 438,
+      "fullyHD": 290,
+      "eligiblePixels": 9082471,
+      "coveredPixels": 9073885
+    },
+    "palette-change": {
+      "frames": 4,
+      "fullyHD": 4,
+      "eligiblePixels": 91321,
+      "coveredPixels": 91321
+    }
+  },
+  "scenes": {
+    "title": {
+      "frames": 2,
+      "fullyHD": 2,
+      "eligiblePixels": 46080,
+      "coveredPixels": 46080
+    },
+    "title-fade": {
+      "frames": 42,
+      "fullyHD": 42,
+      "eligiblePixels": 967680,
+      "coveredPixels": 967680
+    },
+    "verified-flat-transition": {
+      "frames": 40,
+      "fullyHD": 40,
+      "eligiblePixels": 921600,
+      "coveredPixels": 921600
+    },
+    "card-year": {
+      "frames": 152,
+      "fullyHD": 152,
+      "eligiblePixels": 3502080,
+      "coveredPixels": 3502080
+    },
+    "interior": {
+      "frames": 5062,
+      "fullyHD": 4917,
+      "eligiblePixels": 76662944,
+      "coveredPixels": 76657800
+    },
+    "intertitle-backdrop": {
+      "frames": 10,
+      "fullyHD": 10,
+      "eligiblePixels": 226286,
+      "coveredPixels": 226286
+    },
+    "impact-bg": {
+      "frames": 112,
+      "fullyHD": 112,
+      "eligiblePixels": 2580480,
+      "coveredPixels": 2580480
+    },
+    "impact-late-bg": {
+      "frames": 66,
+      "fullyHD": 66,
+      "eligiblePixels": 1520640,
+      "coveredPixels": 1520640
+    },
+    "cliff": {
+      "frames": 34,
+      "fullyHD": 31,
+      "eligiblePixels": 777750,
+      "coveredPixels": 774308
+    }
+  },
+  "stateHashComparisons": 46,
+  "pixelHashComparisons": 46,
+  "errors": [],
+  "completedFrames": 5520,
+  "actorPreservationComparisons": 46,
+  "nativeActorPixelsChecked": 33236,
+  "nativeTextPixelsChecked": 223843
+}

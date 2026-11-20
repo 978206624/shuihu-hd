@@ -1,0 +1,70 @@
+"""Compose verified canvas captures from the completed in-browser Region 6 QA."""
+
+import hashlib
+import json
+import os
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = Path(__file__).resolve().parents[2]
+WORK = ROOT / "m11-work"
+RUN = Path(os.environ["M11_RESULTS"]).resolve()
+SIZE = (640, 576)
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main():
+    assert RUN.parent == WORK / "results"
+    config = json.loads((WORK / "integration/outer-plan.json").read_text())["official"]
+    report = json.loads((RUN / "qa/report.json").read_text())
+    assert (RUN / "qa.done").is_file() and report["pass"] is True
+    contacts = report["contacts"]
+    assert contacts.keys() == config["contacts"].keys()
+    source = RUN / "qa" / config["name"]
+
+    margin, gap, header, caption = 20, 12, 58, 32
+    row_height = SIZE[1] + caption + gap
+    sheet = Image.new("RGB", (2 * SIZE[0] + gap + 2 * margin,
+                             header + len(contacts) * row_height + margin), "#151d23")
+    draw = ImageDraw.Draw(sheet)
+    draw.text((margin, 15), "Region 6   |   Native and in-runtime HD",
+              font=ImageFont.load_default(size=23), fill="#f3f5f5")
+    label_font = ImageFont.load_default(size=16)
+
+    for row, (map_id, action) in enumerate(config["contacts"].items()):
+        info = contacts[map_id]
+        assert info["action"] == action and 0 < info["samePlate"] <= info["eligible"]
+        top = header + row * row_height
+        for col, (mode, label) in enumerate([("native", "Native"), ("hd", "M11 HD")]):
+            file = source / f"{map_id}-{mode}.png"
+            assert digest(file) == info[mode + "PNG"], file
+            left = margin + col * (SIZE[0] + gap)
+            draw.text((left, top + 6), f"{map_id}   |   {label}   |   Action {action + 1}",
+                      font=label_font, fill="#e8eef1")
+            with Image.open(file) as image:
+                assert image.size == SIZE and image.format == "PNG", file
+                sheet.paste(image.convert("RGB"), (left, top + caption))
+
+    candidate = RUN / "contact-verified.png"
+    pending = candidate.with_suffix(".partial.png")
+    sheet.save(pending)
+    with Image.open(pending) as checked:
+        assert checked.format == "PNG" and checked.size == sheet.size
+        checked.verify()
+    pending.replace(candidate)
+    digest_value = digest(candidate)
+    report_path = RUN / "contact-report.json"
+    pending_report = report_path.with_suffix(".partial")
+    pending_report.write_text(json.dumps(dict(verified=True, pairs=len(contacts), maps=list(config["contacts"]),
+                                              width=sheet.width, height=sheet.height,
+                                              sha256=digest_value), indent=2) + "\n")
+    pending_report.replace(report_path)
+    print(candidate, digest_value)
+
+
+if __name__ == "__main__":
+    main()

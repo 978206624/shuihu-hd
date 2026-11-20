@@ -1,0 +1,2616 @@
+{
+  "source": "checkpoints/story19-00-2a-official.bin",
+  "sourceSHA256": "c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1",
+  "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+  "actionsSHA256": "e2ceceb0ddaa99fb2c283a63b28a11a9dd4c720781de3a5468b79a5a7e3163cd",
+  "totalActions": 717,
+  "totalFrames": 63131,
+  "parts": [
+    {
+      "path": "native/r6-backtrack-0b/actions.json",
+      "actionsSHA256": "44ca518967dd4792ddd054d71b9786975d0de4763956486f7a994ed9c9056669",
+      "startIndex": 0,
+      "actionCount": 2,
+      "milestone": null,
+      "startFrame": 0,
+      "endFrame": 150,
+      "frames": 150,
+      "startSHA256": "c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1",
+      "endSHA256": "0d35eaf576493948462119b9c38a0ac184451a09779e4fa4a203dfd805f1841d",
+      "end": {
+        "frame": 150,
+        "ticks": 14968204996,
+        "map": "00-0b",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          32,
+          88,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          6,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 1,
+        "cell": [
+          17,
+          1
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "38"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          5,
+          24,
+          4
+        ]
+      }
+    },
+    {
+      "path": "native/r6-heal-09/actions.json",
+      "actionsSHA256": "d284a499a974304da6987bd53a4e5ea8645aaf3fcd1de1cf79b7c828265f69e0",
+      "startIndex": 2,
+      "actionCount": 91,
+      "milestone": null,
+      "startFrame": 150,
+      "endFrame": 8204,
+      "frames": 8054,
+      "startSHA256": "0d35eaf576493948462119b9c38a0ac184451a09779e4fa4a203dfd805f1841d",
+      "endSHA256": "742bff517085ab94245292a880b4938a158e24fba759a9975548971e8952144c",
+      "end": {
+        "frame": 8204,
+        "ticks": 15533814720,
+        "map": "00-09",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          32,
+          104,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          6,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 1,
+        "cell": [
+          18,
+          1
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "38"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          4,
+          24,
+          4
+        ]
+      }
+    },
+    {
+      "path": "native/r6-heal-00/actions.json",
+      "actionsSHA256": "8cdce1041f118483c4b6521245eb60bf301bdc2f03ab394f87fa44262457aeb3",
+      "startIndex": 93,
+      "actionCount": 52,
+      "milestone": null,
+      "startFrame": 8204,
+      "endFrame": 12152,
+      "frames": 3948,
+      "startSHA256": "742bff517085ab94245292a880b4938a158e24fba759a9975548971e8952144c",
+      "endSHA256": "3d9ec9ab78421119e835bef0b56f8a394565e79ea3dbac8631246efa852dd095",
+      "end": {
+        "frame": 12152,
+        "ticks": 15811070948,
+        "map": "00-00",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          120,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          10,
+          5
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 7,
+        "cell": [
+          27,
+          18
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "38"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          24,
+          4
+        ]
+      }
+    },
+    {
+      "path": "native/r6-heal-06/actions.json",
+      "actionsSHA256": "915c1df9165f81cbf382a71a0ff7b63aa174517a7f53883668ee49bc2a10f94f",
+      "startIndex": 145,
+      "actionCount": 11,
+      "milestone": null,
+      "startFrame": 12152,
+      "endFrame": 12614,
+      "frames": 462,
+      "startSHA256": "3d9ec9ab78421119e835bef0b56f8a394565e79ea3dbac8631246efa852dd095",
+      "endSHA256": "7a37c032b60de5b84d1371ef1d401cc55dc0f896123f55f1ea3b03afe6604ebd",
+      "end": {
+        "frame": 12614,
+        "ticks": 15843515936,
+        "map": "00-06",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          104,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          8
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "38"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          24,
+          4
+        ]
+      }
+    },
+    {
+      "path": "native/r6-heal-rest/actions.json",
+      "actionsSHA256": "964632f2174f99aedf3e6f19c97fb1d11de20ba324e4cb78b340fdaee53243e9",
+      "startIndex": 156,
+      "actionCount": 11,
+      "milestone": null,
+      "startFrame": 12614,
+      "endFrame": 13592,
+      "frames": 978,
+      "startSHA256": "7a37c032b60de5b84d1371ef1d401cc55dc0f896123f55f1ea3b03afe6604ebd",
+      "endSHA256": "5797c063b2f2a305fbd0fed20719fc29bc88b2f5564077883e87f2bec5557cf0",
+      "end": {
+        "frame": 13592,
+        "ticks": 15912197972,
+        "map": "00-06",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          128,
+          72,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          4,
+          7
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          24,
+          4
+        ]
+      }
+    },
+    {
+      "path": "native/r6-heal-keeper/actions.json",
+      "actionsSHA256": "7629531b3f2a370ae467ff25e8c3f2fa40b9c92a8597c9d8d48dc6e1321a9eef",
+      "startIndex": 167,
+      "actionCount": 6,
+      "milestone": "r6-party-restored",
+      "startFrame": 13592,
+      "endFrame": 13940,
+      "frames": 348,
+      "startSHA256": "5797c063b2f2a305fbd0fed20719fc29bc88b2f5564077883e87f2bec5557cf0",
+      "endSHA256": "2d35c2c33a3fcbe9f3342d109a28b9344f704ecf46665dad5094bd70d8fcdbd4",
+      "end": {
+        "frame": 13940,
+        "ticks": 15936637052,
+        "map": "00-06",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          80,
+          72,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          16,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          5,
+          4
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          24,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-00/actions.json",
+      "actionsSHA256": "855ef5fafe22e005ce06392f250a091a7430f2bbbc14f198abef100627be52b7",
+      "startIndex": 173,
+      "actionCount": 6,
+      "milestone": null,
+      "startFrame": 13940,
+      "endFrame": 14186,
+      "frames": 246,
+      "startSHA256": "2d35c2c33a3fcbe9f3342d109a28b9344f704ecf46665dad5094bd70d8fcdbd4",
+      "endSHA256": "28239836094fa1f71c8ca4fcd33b6f360968772a57e66210382d1739f2ddb2a5",
+      "end": {
+        "frame": 14186,
+        "ticks": 15953913008,
+        "map": "00-00",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 4,
+        "player": [
+          96,
+          72,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          10,
+          4
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 6,
+        "cell": [
+          24,
+          13
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          24,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-09/actions.json",
+      "actionsSHA256": "7b2af8c600ea707fe1fae6592532022d4e201cea563d1b998927f605e28e38bd",
+      "startIndex": 179,
+      "actionCount": 9,
+      "milestone": null,
+      "startFrame": 14186,
+      "endFrame": 14504,
+      "frames": 318,
+      "startSHA256": "28239836094fa1f71c8ca4fcd33b6f360968772a57e66210382d1739f2ddb2a5",
+      "endSHA256": "354f2e3fd347cfb01d21cfadc77312c70a60a556b61a7a20102f4bb5890a3ed3",
+      "end": {
+        "frame": 14504,
+        "ticks": 15976245276,
+        "map": "00-09",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 4,
+        "player": [
+          32,
+          40,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          2,
+          1
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          24,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-0b/actions.json",
+      "actionsSHA256": "33693bd84a8cffc1d14db00b4b55f49bd956d2d9fdbe0561bc74de44de72d6bf",
+      "startIndex": 188,
+      "actionCount": 59,
+      "milestone": null,
+      "startFrame": 14504,
+      "endFrame": 19004,
+      "frames": 4500,
+      "startSHA256": "354f2e3fd347cfb01d21cfadc77312c70a60a556b61a7a20102f4bb5890a3ed3",
+      "endSHA256": "e69053fe1995107505e4e3045817f89339db46bede537b1ef35382c492973ef6",
+      "end": {
+        "frame": 19004,
+        "ticks": 16292267404,
+        "map": "00-0b",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          40,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          7
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          2,
+          22
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          23,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-2a/actions.json",
+      "actionsSHA256": "f58d8a7947b35bdf65ac8697aeccdddc31375d276895b03702c566ca0217b50d",
+      "startIndex": 247,
+      "actionCount": 63,
+      "milestone": null,
+      "startFrame": 19004,
+      "endFrame": 23408,
+      "frames": 4404,
+      "startSHA256": "e69053fe1995107505e4e3045817f89339db46bede537b1ef35382c492973ef6",
+      "endSHA256": "4aebabb1c388c4b85fffc817d505f644371b44932020ce991105a852e023b03f",
+      "end": {
+        "frame": 23408,
+        "ticks": 16601547652,
+        "map": "00-2a",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          88,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          5,
+          8
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "06",
+          "30"
+        ],
+        "D284": [
+          "04",
+          "01"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-gate/actions.json",
+      "actionsSHA256": "ef0389de5b673c309d44af865857ccf981034d0eee5534ed56eecaf346663bac",
+      "startIndex": 310,
+      "actionCount": 17,
+      "milestone": "r6-item04-used",
+      "startFrame": 23408,
+      "endFrame": 25130,
+      "frames": 1722,
+      "startSHA256": "4aebabb1c388c4b85fffc817d505f644371b44932020ce991105a852e023b03f",
+      "endSHA256": "4630240df5f8f5d97752382af8157c891398db6f1e5aa97868bfd4310daf18f6",
+      "end": {
+        "frame": 25130,
+        "ticks": 16722476664,
+        "map": "00-2a",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          64,
+          88,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          5,
+          3
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-return-maze/actions.json",
+      "actionsSHA256": "afa8afac0da9c7073b78c85652d1cb8d479b4c18f2fa0ce19cd0688ae44ee778",
+      "startIndex": 327,
+      "actionCount": 31,
+      "milestone": "r6-maze-entrance",
+      "startFrame": 25130,
+      "endFrame": 28472,
+      "frames": 3342,
+      "startSHA256": "4630240df5f8f5d97752382af8157c891398db6f1e5aa97868bfd4310daf18f6",
+      "endSHA256": "2990c49dcb1e69410e4c8758e5f85e2e2f4f465dbac39f104ab9c252bd88b70a",
+      "end": {
+        "frame": 28472,
+        "ticks": 16957175772,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          88,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          3,
+          7
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          11,
+          22
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-healed-outer-maze/actions.json",
+      "actionsSHA256": "23fb8d75071100993f7f424187db2aa87b589d1a1e77a6733509b216291e9506",
+      "startIndex": 358,
+      "actionCount": 51,
+      "milestone": null,
+      "startFrame": 28472,
+      "endFrame": 31626,
+      "frames": 3154,
+      "startSHA256": "2990c49dcb1e69410e4c8758e5f85e2e2f4f465dbac39f104ab9c252bd88b70a",
+      "endSHA256": "3c99c16c23a43f2fcd107040208b8877f8fd4ce4870abe96fb694863092f9849",
+      "end": {
+        "frame": 31626,
+        "ticks": 17178672600,
+        "map": "00-27",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          80,
+          72,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          6,
+          1
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          16,
+          6
+        ],
+        "facing": 2,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-healed-e10/actions.json",
+      "actionsSHA256": "6a264075bd54c6e2ab287c9b0b4cf6530edde3cfffd8f4b2458044a0d27c875f",
+      "startIndex": 409,
+      "actionCount": 52,
+      "milestone": null,
+      "startFrame": 31626,
+      "endFrame": 35670,
+      "frames": 4044,
+      "startSHA256": "3c99c16c23a43f2fcd107040208b8877f8fd4ce4870abe96fb694863092f9849",
+      "endSHA256": "4cb0761aaa7e7ea91c47c78923a0053cdd656d2967bc6401ad319024bd8c63b9",
+      "end": {
+        "frame": 35670,
+        "ticks": 17462670612,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          48,
+          72,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera": [
+          4,
+          6
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 10,
+        "cell": [
+          12,
+          14
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-healed-e11/actions.json",
+      "actionsSHA256": "520f57759e49384a9ddeaf709b5d610f7d8389cf051e1c1c59f586b6f8d45cd3",
+      "startIndex": 461,
+      "actionCount": 11,
+      "milestone": null,
+      "startFrame": 35670,
+      "endFrame": 36330,
+      "frames": 660,
+      "startSHA256": "4cb0761aaa7e7ea91c47c78923a0053cdd656d2967bc6401ad319024bd8c63b9",
+      "endSHA256": "f34f3124ef4b7cc34cda6435906123fc93ef75c87da08568d93b0729a670fc3a",
+      "end": {
+        "frame": 36330,
+        "ticks": 17509020596,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          64,
+          72,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          4,
+          3
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 11,
+        "cell": [
+          12,
+          9
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-open/actions.json",
+      "actionsSHA256": "bc59155d23e8a6621dedf891054531a2781186b54ec6833f81f1ee43a5d12b05",
+      "startIndex": 472,
+      "actionCount": 9,
+      "milestone": null,
+      "startFrame": 36330,
+      "endFrame": 37344,
+      "frames": 1014,
+      "startSHA256": "f34f3124ef4b7cc34cda6435906123fc93ef75c87da08568d93b0729a670fc3a",
+      "endSHA256": "b9f73f08932d4d6414545b8b681c758698b385cafd2043f63f60b2b63c669bb5",
+      "end": {
+        "frame": 37344,
+        "ticks": 17580230636,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 45,
+        "player": [
+          48,
+          72,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "camera": [
+          4,
+          3
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 11,
+        "cell": [
+          12,
+          8
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-healed-menu/actions.json",
+      "actionsSHA256": "62198c6c6d079ee6c6e72b04c3ae82d006cad227ca1e704b1067e9471f2d4812",
+      "startIndex": 481,
+      "actionCount": 2,
+      "milestone": null,
+      "startFrame": 37344,
+      "endFrame": 37870,
+      "frames": 526,
+      "startSHA256": "b9f73f08932d4d6414545b8b681c758698b385cafd2043f63f60b2b63c669bb5",
+      "endSHA256": "6ee9ec2203fe21e232e50d9902e5d5bd62da564e9b6dd949c46c0140b3b1d00f",
+      "end": {
+        "frame": 37870,
+        "ticks": 17617170036,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 43,
+        "player": [
+          48,
+          72,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "camera": [
+          4,
+          3
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 11,
+        "cell": [
+          12,
+          8
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          22,
+          31,
+          34
+        ]
+      }
+    },
+    {
+      "path": "search/story20-win.json",
+      "actionsSHA256": "aa032d710987110ec82822496c1af0a8790443afaa31dfba84661c0c27cf1afb",
+      "startIndex": 483,
+      "actionCount": 78,
+      "milestone": null,
+      "startFrame": 37870,
+      "endFrame": 46884,
+      "frames": 9014,
+      "startSHA256": "6ee9ec2203fe21e232e50d9902e5d5bd62da564e9b6dd949c46c0140b3b1d00f",
+      "endSHA256": "e3945bd307e02e86d2f537d20809660e935fca26eaf2ec534dab87f949a519b3",
+      "end": {
+        "frame": 46884,
+        "ticks": 18250197392,
+        "map": "00-26",
+        "story": 19,
+        "dialogue": 1,
+        "mode": 0,
+        "bank": 8,
+        "player": [
+          48,
+          72,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera": [
+          4,
+          3
+        ],
+        "scroll": [
+          0,
+          240
+        ],
+        "entry": 11,
+        "cell": [
+          12,
+          7
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "0e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-settle/actions.json",
+      "actionsSHA256": "82c1ac0a4c8d8702cd4907cb6af7dbffa1254c2901efd759ebf8f8490f2753e5",
+      "startIndex": 561,
+      "actionCount": 41,
+      "milestone": "r6-story20",
+      "startFrame": 46884,
+      "endFrame": 51984,
+      "frames": 5100,
+      "startSHA256": "e3945bd307e02e86d2f537d20809660e935fca26eaf2ec534dab87f949a519b3",
+      "endSHA256": "3a9c786268dadad5cc6123af882b9443f78799235ba042a63cf7875a94aea667",
+      "end": {
+        "frame": 51984,
+        "ticks": 18608355028,
+        "map": "00-26",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 3,
+        "player": [
+          48,
+          56,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          4,
+          3
+        ],
+        "scroll": [
+          0,
+          240
+        ],
+        "entry": 11,
+        "cell": [
+          11,
+          7
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-to27/actions.json",
+      "actionsSHA256": "c1b1b5a27b081471c9a7aefe3211656e5da3124ab5719751660fb3438a5b36ff",
+      "startIndex": 602,
+      "actionCount": 5,
+      "milestone": null,
+      "startFrame": 51984,
+      "endFrame": 52206,
+      "frames": 222,
+      "startSHA256": "3a9c786268dadad5cc6123af882b9443f78799235ba042a63cf7875a94aea667",
+      "endSHA256": "9e75d81644435ad06547099577420cae8b6cb6fac44d86ccd497fce8b1fbe9da",
+      "end": {
+        "frame": 52206,
+        "ticks": 18623945560,
+        "map": "00-27",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 4,
+        "player": [
+          64,
+          72,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          3,
+          3
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 2,
+        "cell": [
+          10,
+          9
+        ],
+        "facing": 2,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-to28/actions.json",
+      "actionsSHA256": "f669ad2a8002b4d02ed4ffc6f7f5f361477c7779a0af533a7385cd5de018f869",
+      "startIndex": 607,
+      "actionCount": 7,
+      "milestone": null,
+      "startFrame": 52206,
+      "endFrame": 52476,
+      "frames": 270,
+      "startSHA256": "9e75d81644435ad06547099577420cae8b6cb6fac44d86ccd497fce8b1fbe9da",
+      "endSHA256": "69e9ddf1923e8bb1af8b352bf6ea47695aa68f8dc77c6dea613f2abb5333b984",
+      "end": {
+        "frame": 52476,
+        "ticks": 18642906924,
+        "map": "00-28",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 4,
+        "player": [
+          80,
+          56,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          1,
+          2
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          5,
+          8
+        ],
+        "facing": 2,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story20-to29/actions.json",
+      "actionsSHA256": "3c366fee73a37c24ea9d24a3020741968b1b6c1d9bb6670474867eb389e0557e",
+      "startIndex": 614,
+      "actionCount": 5,
+      "milestone": null,
+      "startFrame": 52476,
+      "endFrame": 52698,
+      "frames": 222,
+      "startSHA256": "69e9ddf1923e8bb1af8b352bf6ea47695aa68f8dc77c6dea613f2abb5333b984",
+      "endSHA256": "dd778cd6d6f321d1a69c99617c660aafdf38ece9194eaf486398b3259c954cc8",
+      "end": {
+        "frame": 52698,
+        "ticks": 18658497456,
+        "map": "00-29",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          112,
+          104,
+          1,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          6
+        ],
+        "facing": 3,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story21-open/actions.json",
+      "actionsSHA256": "ffa005d751bbfdce87432a22c08f3893b099ffca2b195e78405ebb44da0cd7f4",
+      "startIndex": 619,
+      "actionCount": 7,
+      "milestone": null,
+      "startFrame": 52698,
+      "endFrame": 53268,
+      "frames": 570,
+      "startSHA256": "dd778cd6d6f321d1a69c99617c660aafdf38ece9194eaf486398b3259c954cc8",
+      "endSHA256": "fe6dcba3400ff63fcedfb7ef6b239e4bfb5969d26d40d6636f4ef6a796bdfcbf",
+      "end": {
+        "frame": 53268,
+        "ticks": 18698526752,
+        "map": "00-29",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 43,
+        "player": [
+          64,
+          104,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          3
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story21-menu/actions.json",
+      "actionsSHA256": "62198c6c6d079ee6c6e72b04c3ae82d006cad227ca1e704b1067e9471f2d4812",
+      "startIndex": 626,
+      "actionCount": 2,
+      "milestone": null,
+      "startFrame": 53268,
+      "endFrame": 53794,
+      "frames": 526,
+      "startSHA256": "fe6dcba3400ff63fcedfb7ef6b239e4bfb5969d26d40d6636f4ef6a796bdfcbf",
+      "endSHA256": "a572eb24764c19e98f3e0cc46515120f7295e6f06b6a957797e431d658f8866d",
+      "end": {
+        "frame": 53794,
+        "ticks": 18735466148,
+        "map": "00-29",
+        "story": 20,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 43,
+        "player": [
+          64,
+          104,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          3
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          17,
+          34
+        ]
+      }
+    },
+    {
+      "path": "search/r6-combat21/win-actions.json",
+      "actionsSHA256": "abb13167005cb8d76a103469d6afcf270146d448376283311eaf2d06d6ef4709",
+      "startIndex": 628,
+      "actionCount": 38,
+      "milestone": null,
+      "startFrame": 53794,
+      "endFrame": 58187,
+      "frames": 4393,
+      "startSHA256": "a572eb24764c19e98f3e0cc46515120f7295e6f06b6a957797e431d658f8866d",
+      "endSHA256": "cd18af23a75b0762b240d3891bdc0bb33de534f67713bba05d5c8782f0b0be87",
+      "end": {
+        "frame": 58187,
+        "ticks": 19043973128,
+        "map": "00-29",
+        "story": 20,
+        "dialogue": 1,
+        "mode": 0,
+        "bank": 8,
+        "player": [
+          64,
+          104,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          3
+        ],
+        "facing": 1,
+        "script": 1,
+        "banner": 0,
+        "settled": false,
+        "DAA": [
+          "e6",
+          "52",
+          "1e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "00",
+          "00"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-fan-reward/actions.json",
+      "actionsSHA256": "7b42fff1f0567ddb1ca4a4ad23d69cd7c70aac4460ab23ff92920e657bde0ea3",
+      "startIndex": 666,
+      "actionCount": 8,
+      "milestone": "r6-story21-fan",
+      "startFrame": 58187,
+      "endFrame": 59189,
+      "frames": 1002,
+      "startSHA256": "cd18af23a75b0762b240d3891bdc0bb33de534f67713bba05d5c8782f0b0be87",
+      "endSHA256": "f368a325662025ac6298b60f9769ac2a294de9cf453af8147c5dafed6d390b4d",
+      "end": {
+        "frame": 59189,
+        "ticks": 19114339628,
+        "map": "00-29",
+        "story": 21,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          64,
+          104,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera": [
+          0,
+          0
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          6,
+          3
+        ],
+        "facing": 1,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-fan-return28/actions.json",
+      "actionsSHA256": "23fb14d1c910a1e90050ba779b8e626996b683e750e8135ce6a0ad350e6bbfa6",
+      "startIndex": 674,
+      "actionCount": 4,
+      "milestone": null,
+      "startFrame": 59189,
+      "endFrame": 59387,
+      "frames": 198,
+      "startSHA256": "f368a325662025ac6298b60f9769ac2a294de9cf453af8147c5dafed6d390b4d",
+      "endSHA256": "6e34ef722124ee289a6faa1812c7123b04686ef8b1ca7c6d5c911ad63dd6f13d",
+      "end": {
+        "frame": 59387,
+        "ticks": 19128244592,
+        "map": "00-28",
+        "story": 21,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 3,
+        "player": [
+          80,
+          56,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          2,
+          3
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 2,
+        "cell": [
+          7,
+          10
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-fan-return26/actions.json",
+      "actionsSHA256": "fcb4d887e5dec086d67d28bdc9ccb9e12f05c1e7a96c943a5d5606e28a0fd5dc",
+      "startIndex": 678,
+      "actionCount": 10,
+      "milestone": null,
+      "startFrame": 59387,
+      "endFrame": 60209,
+      "frames": 822,
+      "startSHA256": "6e34ef722124ee289a6faa1812c7123b04686ef8b1ca7c6d5c911ad63dd6f13d",
+      "endSHA256": "e8048614e87d63ba31c735a54280d5bedaac01b00609e37ab2b872b944201402",
+      "end": {
+        "frame": 60209,
+        "ticks": 19185971460,
+        "map": "00-26",
+        "story": 21,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          80,
+          56,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera": [
+          4,
+          7
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 6,
+        "cell": [
+          11,
+          18
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-fan-return25/actions.json",
+      "actionsSHA256": "855ef5fafe22e005ce06392f250a091a7430f2bbbc14f198abef100627be52b7",
+      "startIndex": 688,
+      "actionCount": 6,
+      "milestone": null,
+      "startFrame": 60209,
+      "endFrame": 60455,
+      "frames": 246,
+      "startSHA256": "e8048614e87d63ba31c735a54280d5bedaac01b00609e37ab2b872b944201402",
+      "endSHA256": "444cd83624bb32b51ccc1ad932018fcf0b28902feb7784e5fad7357c66aee564",
+      "end": {
+        "frame": 60455,
+        "ticks": 19203247356,
+        "map": "00-25",
+        "story": 21,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          144,
+          72,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          0,
+          5
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 0,
+        "cell": [
+          4,
+          18
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story22-arrival/actions.json",
+      "actionsSHA256": "3fdc66bdb27fb81dcc30ed15b9a7f8127075f184645bf1440c40c81dbf1b2e98",
+      "startIndex": 694,
+      "actionCount": 22,
+      "milestone": "r6-story22-arrival",
+      "startFrame": 60455,
+      "endFrame": 63107,
+      "frames": 2652,
+      "startSHA256": "444cd83624bb32b51ccc1ad932018fcf0b28902feb7784e5fad7357c66aee564",
+      "endSHA256": "3e36637ecaf3cdc5133381ae68853af3ab15b8a04e72c8841176fb87c74e6c09",
+      "end": {
+        "frame": 63107,
+        "ticks": 19389489896,
+        "map": "00-2e",
+        "story": 22,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          64,
+          104,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "camera": [
+          10,
+          1
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 3,
+        "cell": [
+          26,
+          5
+        ],
+        "facing": 0,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    },
+    {
+      "path": "native/r6-story22-cutoff/actions.json",
+      "actionsSHA256": "3e5923b7a5d0f43ea82766b6a5d9983dab2f740c56588633dcc0cc2b3743d0fa",
+      "startIndex": 716,
+      "actionCount": 1,
+      "milestone": null,
+      "startFrame": 63107,
+      "endFrame": 63131,
+      "frames": 24,
+      "startSHA256": "3e36637ecaf3cdc5133381ae68853af3ab15b8a04e72c8841176fb87c74e6c09",
+      "endSHA256": "f8e87d6ae1b9b23261c2e0a2800151391dd93aed3bd0c4b6267985d32e22f428",
+      "end": {
+        "frame": 63131,
+        "ticks": 19391175352,
+        "map": "00-2e",
+        "story": 22,
+        "dialogue": 0,
+        "mode": 0,
+        "bank": 5,
+        "player": [
+          64,
+          88,
+          1,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "camera": [
+          10,
+          1
+        ],
+        "scroll": [
+          0,
+          0
+        ],
+        "entry": 3,
+        "cell": [
+          25,
+          5
+        ],
+        "facing": 2,
+        "script": 0,
+        "banner": 0,
+        "settled": true,
+        "DAA": [
+          "e6",
+          "52",
+          "3e",
+          "30"
+        ],
+        "D284": [
+          "00",
+          "00"
+        ],
+        "D2AC": [
+          "10",
+          "01"
+        ],
+        "party": [
+          "02",
+          "17",
+          "24"
+        ],
+        "hp": [
+          0,
+          13,
+          34
+        ]
+      }
+    }
+  ],
+  "milestones": [
+    {
+      "sha256": "2d35c2c33a3fcbe9f3342d109a28b9344f704ecf46665dad5094bd70d8fcdbd4",
+      "frame": 13940,
+      "ticks": 15936637052,
+      "map": "00-06",
+      "story": 19,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 5,
+      "player": [
+        80,
+        72,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0
+      ],
+      "scroll": [
+        16,
+        0
+      ],
+      "entry": 0,
+      "cell": [
+        5,
+        4
+      ],
+      "facing": 1,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "06",
+        "30"
+      ],
+      "D284": [
+        "04",
+        "01"
+      ],
+      "D2AC": [
+        "00",
+        "00"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        24,
+        31,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    },
+    {
+      "sha256": "4630240df5f8f5d97752382af8157c891398db6f1e5aa97868bfd4310daf18f6",
+      "frame": 25130,
+      "ticks": 16722476664,
+      "map": "00-2a",
+      "story": 19,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 5,
+      "player": [
+        64,
+        88,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "entry": 0,
+      "cell": [
+        5,
+        3
+      ],
+      "facing": 1,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "0e",
+        "30"
+      ],
+      "D284": [
+        "00",
+        "00"
+      ],
+      "D2AC": [
+        "00",
+        "00"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        22,
+        31,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    },
+    {
+      "sha256": "2990c49dcb1e69410e4c8758e5f85e2e2f4f465dbac39f104ab9c252bd88b70a",
+      "frame": 28472,
+      "ticks": 16957175772,
+      "map": "00-26",
+      "story": 19,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 5,
+      "player": [
+        144,
+        88,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        3,
+        7
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "entry": 0,
+      "cell": [
+        11,
+        22
+      ],
+      "facing": 1,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "0e",
+        "30"
+      ],
+      "D284": [
+        "00",
+        "00"
+      ],
+      "D2AC": [
+        "00",
+        "00"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        22,
+        31,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    },
+    {
+      "sha256": "3a9c786268dadad5cc6123af882b9443f78799235ba042a63cf7875a94aea667",
+      "frame": 51984,
+      "ticks": 18608355028,
+      "map": "00-26",
+      "story": 20,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 3,
+      "player": [
+        48,
+        56,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        4,
+        3
+      ],
+      "scroll": [
+        0,
+        240
+      ],
+      "entry": 11,
+      "cell": [
+        11,
+        7
+      ],
+      "facing": 1,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "1e",
+        "30"
+      ],
+      "D284": [
+        "00",
+        "00"
+      ],
+      "D2AC": [
+        "00",
+        "00"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        0,
+        17,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    },
+    {
+      "sha256": "f368a325662025ac6298b60f9769ac2a294de9cf453af8147c5dafed6d390b4d",
+      "frame": 59189,
+      "ticks": 19114339628,
+      "map": "00-29",
+      "story": 21,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 5,
+      "player": [
+        64,
+        104,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "entry": 0,
+      "cell": [
+        6,
+        3
+      ],
+      "facing": 1,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "3e",
+        "30"
+      ],
+      "D284": [
+        "00",
+        "00"
+      ],
+      "D2AC": [
+        "10",
+        "01"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        0,
+        13,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    },
+    {
+      "sha256": "3e36637ecaf3cdc5133381ae68853af3ab15b8a04e72c8841176fb87c74e6c09",
+      "frame": 63107,
+      "ticks": 19389489896,
+      "map": "00-2e",
+      "story": 22,
+      "dialogue": 0,
+      "mode": 0,
+      "bank": 5,
+      "player": [
+        64,
+        104,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "camera": [
+        10,
+        1
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "entry": 3,
+      "cell": [
+        26,
+        5
+      ],
+      "facing": 0,
+      "script": 0,
+      "banner": 0,
+      "settled": true,
+      "DAA": [
+        "e6",
+        "52",
+        "3e",
+        "30"
+      ],
+      "D284": [
+        "00",
+        "00"
+      ],
+      "D2AC": [
+        "10",
+        "01"
+      ],
+      "party": [
+        "02",
+        "17",
+        "24"
+      ],
+      "hp": [
+        0,
+        13,
+        34
+      ],
+      "note": "Verified in the continuous official native replay."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Work only under m9-work/. Do not modify m8-work/runtime/ or frozen m8 scripts/art/results. Checkpoint m9-work/progress.md. If 38811 drops, STOP and report. Sandbox cannot use host sockets; write REQUEST_READY.md for outer play. Do not generate GPT art or integrate a runtime.
+
+# New evidence from supervisor play
+- story12-interact-house-s01: complete 00-05 both rooms, frontier 0, 605 nodes, 303 A + 303 B, 0 candidates, no marker.
+- story12-interact-village-s01: complete 00-00 overworld, frontier 0, 2020 nodes, 1009 A + 1009 B, 36 candidates, all still 00-00/story 12, observedMarkerAtEnd false. Visual review of the page screenshots: only ordinary village NPC chatter and notice boards, no 黄泥岗 departure.
+- story12-interact-00-08-s01 failed immediately, exit 1, play.log: "Use the preserved story12 meeting or village checkpoint". interact-survey.cjs currently allowlists only checkpoints/story12-meeting-end.bin and checkpoints/story12-village-00-00.bin. The 00-08 yard (search/village-doors/00-08.bin) has visible NPCs in 00-08.png and has not been interact-surveyed. Interiors 00-01, 00-02, 00-03, 00-04, 00-06 and the 00-09 path likewise have doorway saves under search/village-doors/ but were only door-searched, not A/B surveyed.
+
+# This session
+Extend the M9-only interact survey so the supervisor can naturally A/B-survey those remaining connected maps from verified doorway states, without teleport or RAM edits.
+
+1. Keep official-start replay as the acceptance path: any new survey source must carry (or generate) the exact prefix from story12-meeting-end.bin plus the already-verified village-exit / door-search suffix that reached that doorway. Do not overwrite existing evidence directories.
+2. Prepare exact unique-tag outer commands in a new or clearly replaced REQUEST_READY.md for: 00-08 yard (priority, visible NPCs), then 00-01, 00-02, 00-03, 00-04, 00-06, and 00-09 if useful. Reuse run-play.sh / interact-survey.cjs; put any new helpers in m9-work/scripts or m9-work/outer-runs.
+3. Keep the same logging, candidate, official-start confirm, and post-trigger door-recheck pattern.
+4. Syntax-check scripts. FINISH this turn so the supervisor can run the surveys.
+
+ROM/core/gameplay stay untouched.

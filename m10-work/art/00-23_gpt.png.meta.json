@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "out": "/workspace/shawu/m10-work/art/00-23_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x640",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 200,
+      "elapsed": 153.7,
+      "error": null
+    }
+  ]
+}

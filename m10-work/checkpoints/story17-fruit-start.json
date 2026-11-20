@@ -1,0 +1,13 @@
+{
+  "file": "checkpoints/story17-fruit-start.bin",
+  "sha256": "7874d06b6735edecfe629dcbfb804c426eb5224ac35052a5f4406548cd8abaa6",
+  "size": 199608,
+  "map": "00-2b",
+  "story": 17,
+  "mode": 1,
+  "bank": 35,
+  "score_CD0A": 0,
+  "time_CD0B": 28,
+  "note": "Fruit-catching minigame start after paging the 酒 south-door scene. Left/right to catch. Need CD0A>=35. Best exploratory run so far is native/story17-fruit-play2 at 32/35.",
+  "source": "m10-work/native/story17-fruit-talk/talk-39.bin"
+}

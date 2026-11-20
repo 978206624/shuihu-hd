@@ -1,0 +1,16 @@
+{
+  "provider": "user GPT gateway",
+  "model": "gpt-image-2",
+  "endpoint": "POST /v1/images/edits",
+  "reference": "forest_reference.png: 94 background tiles, 16 columns x 6 rows",
+  "originalGeneratedSize": [
+    2048,
+    768
+  ],
+  "atlasSize": [
+    512,
+    192
+  ],
+  "qualityReturned": "medium",
+  "limitations": "AI surface interpretation; exact RGB match preserves unmatched sprites/window and original geometry; tile seams require visual review"
+}

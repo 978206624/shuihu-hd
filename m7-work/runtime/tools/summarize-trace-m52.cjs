@@ -1,0 +1,7 @@
+const fs=require('fs'),zlib=require('zlib'),path=require('path');
+const dir=process.argv[2];if(!dir)throw Error('Usage: node summarize-trace-m52.cjs REPORT_DIR');
+const report=JSON.parse(fs.readFileSync(dir+'/observation.json')),trace=JSON.parse(zlib.gunzipSync(fs.readFileSync(dir+'/trace.json.gz'))),events=trace.traceEvents;
+const union=intervals=>{intervals.sort((a,b)=>a[0]-b[0]);let total=0,end=-Infinity;for(const [a,b]of intervals){total+=Math.max(0,b-Math.max(a,end));end=Math.max(end,b);}return total/1000;};
+const gc=events.filter(e=>e.ph==='X'&&e.dur&&/GC|GarbageCollect|Scavenge|MarkCompact/i.test(e.name)),ends=new Map(events.filter(e=>/^m52-native-end-\d+$/.test(e.name)).map(e=>[Number(e.name.split('-').at(-1)),e]));
+const rows=(report.over35||[]).map(f=>{const e=ends.get(f.frame);if(!e)return {...f,traceMarkerMissing:true};const lo=e.ts-f.ms*1000,hi=e.ts,matches=gc.filter(g=>g.pid===e.pid&&g.tid===e.tid&&g.ts<hi&&g.ts+g.dur>lo);return {...f,gcOverlapMs:union(matches.map(g=>[Math.max(lo,g.ts),Math.min(hi,g.ts+g.dur)])),gcEvents:[...new Set(matches.map(g=>g.name))]};});
+const result={diagnosticOverhead:true,rows,note:'GC overlap is a union of main-thread trace durations. Phase timings include GC and waits; remaining wall time is not a measurement of CPU work. Raw trace retains renderer/Canvas scheduling evidence.'};fs.writeFileSync(dir+'/attribution.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

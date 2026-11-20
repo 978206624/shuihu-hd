@@ -1,0 +1,62 @@
+{
+  "sha256": "f368a325662025ac6298b60f9769ac2a294de9cf453af8147c5dafed6d390b4d",
+  "frame": 59189,
+  "ticks": 19114339628,
+  "map": "00-29",
+  "story": 21,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 5,
+  "player": [
+    64,
+    104,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "camera": [
+    0,
+    0
+  ],
+  "scroll": [
+    0,
+    0
+  ],
+  "entry": 0,
+  "cell": [
+    6,
+    3
+  ],
+  "facing": 1,
+  "script": 0,
+  "banner": 0,
+  "settled": true,
+  "DAA": [
+    "e6",
+    "52",
+    "3e",
+    "30"
+  ],
+  "D284": [
+    "00",
+    "00"
+  ],
+  "D2AC": [
+    "10",
+    "01"
+  ],
+  "party": [
+    "02",
+    "17",
+    "24"
+  ],
+  "hp": [
+    0,
+    13,
+    34
+  ],
+  "note": "Verified in the continuous official native replay."
+}

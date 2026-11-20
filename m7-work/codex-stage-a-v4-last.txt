@@ -1,0 +1,10 @@
+**REQUEST_READY — v4 is frozen; acceptance remains pending.**
+
+- Preserved all v3 runtime and evidence unchanged.
+- Optimized camera lookup while retaining v3 painting and measurement definitions.
+- Offline checks passed: 638 frozen files and 29,168 native-frame comparisons. Outer browser tests remain pending.
+
+[Supervisor commands: 18-sample probe, then 442/31396/72](/workspace/shawu/m7-work/SUPERVISOR_RUN_STAGE_A_V4.md)  
+[Candidate report](/workspace/shawu/m7-work/stage-a/v4/REPORT_STAGE_A_V4_zh.md)
+
+Strict failures remain visible. NEAR-PARITY requires the supervisor’s explicit decision. No automatic further iteration or M8.

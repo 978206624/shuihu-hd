@@ -1,0 +1,64 @@
+{
+  "file": "checkpoints/story19-00-2a.bin",
+  "sha256": "e43f73af9425aa7268caedca3c8779ce5f2ea447d892b0f43a0bf27e02501515",
+  "size": 199608,
+  "frame": 1,
+  "ticks": 24240299936,
+  "map": "00-2a",
+  "story": 19,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 5,
+  "player": [
+    144,
+    88,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "camera": [
+    0,
+    0
+  ],
+  "scroll": [
+    0,
+    0
+  ],
+  "entry": 0,
+  "cell": [
+    5,
+    8
+  ],
+  "facing": 1,
+  "script": 0,
+  "banner": 0,
+  "settled": true,
+  "DAA": [
+    "e6",
+    "52",
+    "06",
+    "38"
+  ],
+  "D284": [
+    "04",
+    "01"
+  ],
+  "D2AC": [
+    "00",
+    "00"
+  ],
+  "party": [
+    "02",
+    "17",
+    "24"
+  ],
+  "hp": [
+    0,
+    0,
+    2
+  ],
+  "note": "M10 native endpoint. Alternate start for native exploration."
+}

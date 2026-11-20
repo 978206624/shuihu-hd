@@ -1,0 +1,11 @@
+水浒神兽高清重制 M1：未完成验收的阶段包（不是正式完成版）
+
+已有功能：本地 JS/WASM 模拟器、键盘/触摸控件、原版/高清切换、电池 RAM localStorage 及导入导出；GPT 94 格森林纹理替换，原始人物与菜单保留。
+启动：进入本包 web 目录，执行 python3 -m http.server 8765 --bind 127.0.0.1 ，然后打开 http://localhost:8765 。无需外网/CDN，但需要本地 HTTP 服务，不能直接双击 index.html。
+
+未解决的问题：标题只替换上方 82 行，下方 62 行仍为原版像素；尚未完成用户要求的全屏 HD 标题修复。森林有接缝、人物周围原画方块；人物未重画。仅测试早期流程，未验证通关、长期游戏内保存/继续。
+原始最近一次完整测试报告为失败：真实触摸测试 held.includes(right) 未通过（之前的其他早期流程和完整快照原版/高清一致性已通过）。包内截图与 m1_test_report.json 为此前实际结果，不是本轮重新验收。
+本轮恢复受环境重启影响：Cockpit Tools 本地 Codex 服务 http://localhost:38811/v1 没有监听，Codex 持续 Reconnecting... waiting for network，未能执行代码修复；应用可执行文件 /usr/bin/cockpit-tools 亦缺失。Playwright 依赖也缺失，重新测试命令返回 MODULE_NOT_FOUND，未伪造通过。
+下一步先恢复已安装的 Cockpit Tools / 启动其原有 Codex API 服务，再按 m1-work/codex-finish-brief.txt 继续同一 Codex 会话 01a1c401-dd24-7313-8315-04b83af92756，修复标题和真实触摸测试后重新打包。
+
+仅供用户本地私用；内含用户提供 ROM，不得公开分发。API 密钥、环境文件和账号配置均未包含。

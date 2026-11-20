@@ -1,0 +1,107 @@
+[
+  {
+    "id": "00-1f",
+    "refs": [
+      "00-1f_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-1f_prompt.txt",
+    "output": "00-1f_gpt.png",
+    "size": "1536x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      384,
+      256
+    ],
+    "requestedSize": [
+      1536,
+      1024
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-21",
+    "refs": [
+      "00-21_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-21_prompt.txt",
+    "output": "00-21_gpt.png",
+    "size": "1536x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      384,
+      256
+    ],
+    "requestedSize": [
+      1536,
+      1024
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-24",
+    "refs": [
+      "00-24_native_4x.png",
+      "town_style.png"
+    ],
+    "prompt": "00-24_prompt.txt",
+    "output": "00-24_gpt.png",
+    "size": "1024x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      256,
+      256
+    ],
+    "requestedSize": [
+      1024,
+      1024
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-2b",
+    "refs": [
+      "00-2b_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-2b_prompt.txt",
+    "output": "00-2b_gpt.png",
+    "size": "960x800",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      160
+    ],
+    "requestedSize": [
+      960,
+      800
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-2c",
+    "refs": [
+      "00-2c_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-2c_prompt.txt",
+    "output": "00-2c_gpt.png",
+    "size": "960x800",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      160
+    ],
+    "requestedSize": [
+      960,
+      800
+    ],
+    "reviewRequired": true
+  }
+]

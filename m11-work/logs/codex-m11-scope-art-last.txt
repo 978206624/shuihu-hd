@@ -1,0 +1,17 @@
+Prepared and verified native and 4× references for all 11 Region 6 maps. The scope records five accepted plate reuses and six new plates planned across seven requests. [Region 6 scope](/workspace/shawu/m11-work/region6-scope.json) · [Batch manifest](/workspace/shawu/m11-work/art/batch-manifest.json)
+
+| Map | Plate | Requested size |
+|---|---|---:|
+| `00-2a` 石阶密林 | Reused M10 | — |
+| `00-0b` 密林山道 | Reused M10 | — |
+| `00-09` 村东南连通林道 | Reused M8 | — |
+| `00-00` 东溪村 | Reused M8 | — |
+| `00-06` 东溪村庙宇 | Reused M8 v2 | — |
+| `00-25` 云中塔门 | New | 768×1280 |
+| `00-26` 回廊迷宫 | New, one plate across all entries | 1536×1536 |
+| `00-27` 云台迷宫 | New, one plate across all entries | 1536×1536 |
+| `00-28` 云台回廊 | New | 1024×1024 |
+| `00-29` 双像殿 | New | 960×800 |
+| `00-2e` 石洞 | New, two overlapping strips | 1920×1024 each |
+
+The cave strips share 32 native rows and assemble to 1920×1920. Their reference join was verified pixel-for-pixel. The scope ends at settled `00-2e e3 (25,5)`, story 22, before the story-23 trigger at `(24,5)`.

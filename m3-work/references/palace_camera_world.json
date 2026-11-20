@@ -1,0 +1,21 @@
+{
+  "worldBounds": [
+    0,
+    -4,
+    160,
+    148
+  ],
+  "sourceFrames": [
+    7342,
+    7346,
+    7380
+  ],
+  "method": "Actual read-only native BG geometry collected across zero,+4,-4 camera replay; native palette; OAM excluded, no UI at these checkpoints",
+  "artBounds": [
+    0,
+    0,
+    160,
+    144
+  ],
+  "gapEdges": "Outside artBounds remain original and logged"
+}

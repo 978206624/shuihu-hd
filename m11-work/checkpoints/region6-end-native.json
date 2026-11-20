@@ -1,0 +1,62 @@
+{
+  "sha256": "f8e87d6ae1b9b23261c2e0a2800151391dd93aed3bd0c4b6267985d32e22f428",
+  "frame": 63131,
+  "ticks": 19391175352,
+  "map": "00-2e",
+  "story": 22,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 5,
+  "player": [
+    64,
+    88,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "camera": [
+    10,
+    1
+  ],
+  "scroll": [
+    0,
+    0
+  ],
+  "entry": 3,
+  "cell": [
+    25,
+    5
+  ],
+  "facing": 2,
+  "script": 0,
+  "banner": 0,
+  "settled": true,
+  "DAA": [
+    "e6",
+    "52",
+    "3e",
+    "30"
+  ],
+  "D284": [
+    "00",
+    "00"
+  ],
+  "D2AC": [
+    "10",
+    "01"
+  ],
+  "party": [
+    "02",
+    "17",
+    "24"
+  ],
+  "hp": [
+    0,
+    13,
+    34
+  ],
+  "note": "Story 22. One cell east of the exact-story-22 trigger at (24,5)."
+}

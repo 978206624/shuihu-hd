@@ -1,0 +1,45 @@
+{
+  "scene": "forest_atlas",
+  "ok": true,
+  "path": "/workspace/shawu/m1-work/forest-final-gpt/forest_atlas_hd.png",
+  "summary": {
+    "ok": true,
+    "status": 200,
+    "elapsed": 125.63,
+    "nbytes": 4922171,
+    "error": null,
+    "body_keys": [
+      "background",
+      "created",
+      "data",
+      "output_format",
+      "quality",
+      "safety_identifier",
+      "size",
+      "usage"
+    ],
+    "background": "transparent",
+    "output_format": "png",
+    "quality": "medium",
+    "size": "2048x768",
+    "usage": {
+      "input_tokens": 1613,
+      "input_tokens_details": {
+        "image_tokens": 1312,
+        "text_tokens": 301
+      },
+      "output_tokens": 772,
+      "output_tokens_details": {
+        "image_tokens": 772,
+        "text_tokens": 0
+      },
+      "total_tokens": 2385
+    },
+    "item_keys": [
+      "b64_json",
+      "generation_id"
+    ],
+    "has_b64": true
+  },
+  "tag": "m1_final"
+}

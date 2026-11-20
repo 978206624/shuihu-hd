@@ -1,0 +1,20 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any M9 or earlier session. Read context FROM FILES. Work only under m10-work/. Do not modify m8-work/runtime/, m9-work/runtime/, frozen M8/M9 scripts/art/results, ROM bytes, or the binjgb core. Checkpoint m10-work/progress.md and keep m10-work/SUPERVISOR_STATUS.md consistent if you edit it. If 38811 drops, STOP and report. Sandbox cannot use host sockets; write m10-work/REQUEST_READY.md for any outer native or browser play, then finish. No GPT art and no runtime integration in this session.
+
+# Task
+ROM-gate analysis for what comes AFTER the official 黄泥岗 inn scenes, starting at story 14. The official region-4 end (and M10 official start) is:
+
+- m10-work/checkpoints/story14-inn-end.bin
+- SHA-256 f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0
+- Size 199608. Map 00-2c, story 14 (FFBA=0x0e), DAA1=0x72, DAA2=0x01, dialogue 0, mode 0, bank 5. 史进 has already been removed after the rear-room scene. A remaining NPC sits at about (3,3). Player is in the rear room (serialized player bytes start 80,72, facing 1).
+
+Prior M9 analysis (read-only): m9-work/rom-gate-analysis.md. Save offsets: fixed WRAM 147568, bank 1 151664, HRAM 199440. VM opcode 1f writes FFBA. Type-0 warps do not test story; 00-24's 酒 door table has a type-1 record that checks story 16.
+
+# Produce
+Write m10-work/rom-gate-analysis.md covering, with bank:CPU addresses and evidence:
+
+1. Every warp / door / edge out of 00-2c, 00-2b, 00-24, 00-21, 00-1f (and any newly gated neighbors) that can fire at story 14 or after the inn flags (DAA1=0x72, DAA2=0x01). Call out any that were blocked at story 12 and are now open, including previously unentered 00-20, 00-22, 00-23 and 神木林 / 00-09 / 00-0b if relevant.
+2. The next story writes after 14 (15, 16, …): which map, which NPC or object, required standing cell and facing, flag tests, and the expected settled story/flag bytes.
+3. A recommended official-start natural route from this save to the next region boundary (new maps in game order until the next major story gate, analogous to how region 4 was the inn sequence).
+4. Any party, item, or flag gates that would block natural play.
+
+Do not invent maps without ROM evidence. Do not patch the ROM or runtime. When the writeup is complete, stop. The supervisor will run native door/interact surveys and one official browser replay.

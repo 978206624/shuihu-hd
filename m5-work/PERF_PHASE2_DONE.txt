@@ -1,0 +1,21 @@
+Phase 2 candidate ready for outer browser acceptance; NOT release complete.
+候选运行目录：/tmp/shawu-perf-fixed
+版本副本/差异/完整变更报告：m5-work/perf-candidate/
+四个文件：app.js observer.js renderer.js map-renderer.js
+web未接入、ROM/core/launcher/35资产未改、未打包。
+
+目标：render p95尽量<16ms。尚无候选浏览器实测，不宣称已达到。
+主修：UI回读与重复认证快照、图集扫描线整sheet调色、title/card每行全幅put、默认audit对象、重复解码及候选扫描、pacing墙钟截断。逐帧native observer和HD状态机保留，未跳核心或渲染帧。
+
+已通过：语法；Observer40组；整sheet/单行调色96行；rAF时间戳恢复；不可变SHA和全部资产校验。
+请外层顺序执行（避免录屏/其它性能任务并行）：
+NODE_PATH=/home/box/opt/test-tools/node_modules PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers node m5-work/perf-realtime.cjs /tmp/shawu-perf-m5/shuihu-hd-m5 19881 m5-work/perf-before-phase2.json
+NODE_PATH=/home/box/opt/test-tools/node_modules PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers node m5-work/perf-realtime.cjs /tmp/shawu-perf-fixed 19882 m5-work/perf-after-phase2.json
+NODE_PATH=/home/box/opt/test-tools/node_modules PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers node m5-work/perf-visual-compare.cjs
+
+性能六段：title/card/opening story/impact/forest/normal walking；可PERF_SEGMENTS选择段，默认12秒真实时间；候选走setFrameProbe API，原M5仅响应内已断言文本注入。新app兼容。
+全量coverage：在19882独立服务候选后运行perf-coverage.cjs，原29160帧/243状态+framebuffer/actor/text检查沿用，audit全量打开。
+注意：visual compare需检查UI边框与原生OAM覆盖像素，行调色及audit启用/关闭输出；如有差异请反馈首帧JSON/PNG与性能JSON，再继续修。
+Linux headless局限保留，不能代表Windows GPU实机。
+
+补充：perf-visual-compare.cjs同时运行第三个候选renderer（audit关闭），每个代表帧也检查audit开启/关闭RGBA完全一致，JSON包含defaultModeChecks。

@@ -1,0 +1,24 @@
+{
+  "file": "checkpoints/story18-inn.bin",
+  "sha256": "264631db3a021c7e3fd00328bf01990d98dc0f3ef3e25093c962f5733bb28628",
+  "size": 199608,
+  "map": "00-2b",
+  "entry": 3,
+  "cell": [
+    8,
+    3
+  ],
+  "facing": 0,
+  "story": 18,
+  "DAA1": "52",
+  "DAA2": "02",
+  "bank": 5,
+  "mode": 0,
+  "dialogue": 0,
+  "script": 0,
+  "note": "Fruit game won with score 51 (>=35). DAA2.1 set, DAA1.5 cleared. Settled 00-2b e3 (8,3). Source: play6 catcher (DOWN to idle) then native-talk from won-2368.",
+  "source": "m10-work/native/story17-fruit-win-talk/talk-27.bin",
+  "fruitStart": "checkpoints/story17-fruit-start.bin",
+  "fruitPlay": "m10-work/native/story17-fruit-play6/",
+  "peakScore": 51
+}

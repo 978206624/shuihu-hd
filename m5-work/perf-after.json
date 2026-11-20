@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "root": "/tmp/shawu-perf-fixed",
+  "error": "listen EPERM: operation not permitted 127.0.0.1:19882",
+  "results": null
+}

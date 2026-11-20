@@ -1,0 +1,24 @@
+Supervisor completed the already-running 12-sample Stage A v2 probe. Candidate v2 is NOT accepted. Do NOT start M8. Iterate STAGE A ONLY as v3.
+
+Read first:
+- m7-work/stage-a/v2/results/probe-supervised/SUPERVISOR_PROBE_ANALYSIS.md (supervisor frame-level analysis; do not overwrite probe results)
+- m7-work/stage-a/v2/results/probe-supervised/probe/REPORT_PROBE_zh.md and raw samples
+- m7-work/SUPERVISOR_RUN_STAGE_A_V2.md, STAGE_A_STATUS.md, stage-a/v2/REPORT_STAGE_A_V2_zh.md
+- Official rejected v1 evidence: m7-work/stage-a/results/candidate-v1-supervised-retry/REPORT_STAGE_A_zh.md and comparison.json
+- m7-work/CODEX_M7_FIX_M8_BRIEF.md (Stage A constraints still apply)
+
+Why v2 is rejected (probe gate; full 72-sample acceptance was intentionally not started):
+- Official v1 already failed on legacy 00-12 maxDebt mean 163.504 ms vs M5.2 40.243 ms, and cold 00-17 switchFrameMax mean 31.000 ms vs M5.2 13.067 ms. 442/442 and 31396-frame visuals were OK and do not accept a later candidate by themselves.
+- Probe used the same measure() with no definition changes, 12 exclusive samples, exit 2.
+- Clean cold v2 r2 still has switchFrameMax 30.9 ms vs M5.2 11.6/12.2 ms (+18.7 ms). That is not better than rejected v1 on the required switch tail vs M5.2.
+- The clean cold v2 r2 spike is frame 412 (render 30.2 ms, map still 00-17, inside switch window 390–510). M5.2 and v1 are ~3–7 ms there. Frame 497 is 16.4 ms (improved vs v1 14.9/20.9, still worse than M5.2 ~5 ms).
+- v2 cold r1 also had 172 ms at frame 408 and 2106 ms maxDebt from early frames 119–135; legacy M5.2 r2 had a 21480 ms / 42 fps machine hitch. Do not overfit to hitch samples, and do not ignore the clean frame-412 regression.
+- Legacy debt on clean v2 samples looks improved (16.7 / 42.2 vs official v1 163.5). Keep that; it is not sufficient while cold switch tail remains regressed.
+
+Requirements for v3:
+- Preserve complete v2 runtime, freeze, scripts, offline evidence and ALL probe/results before any edit, same pattern as versions/v1. Work in an isolated v3 tree (runtime/scripts/results/freeze). Do not modify v1 or v2 historical files, original m7-work/runtime, measurement definitions, windows, denominators, tolerances, ROM/core, timing, input, Observer, masks, or coverage.
+- Goal: no regression vs M5.2, and improved switch tail vs rejected v1, especially cold 00-17 switchFrameMax (and do not reintroduce the official v1 legacy 00-12 debt regression). Average FPS alone is not acceptance.
+- Investigate independently; do not assume a single root cause. All coding is yours. Supervisor only scopes and runs outer QA/perf.
+- Proxy 127.0.0.1:38811 is listening; HTTP 8765 already serves /workspace/shawu root — do not break or replace it. Sandbox socket EPERM is known: do not retry unavailable browser/network or install environments; write exact supervisor-run commands (fresh results dirs, probe then full) and REQUEST_READY. No nested Codex, no auth/route changes. If 38811 drops, record blocker and stop.
+- Keep high reasoning effort. Append m7-work/progress.md frequently. No ZIP, no video, no art, no Stage B until supervisor explicitly accepts Stage A after a later outer probe/full run.
+- When frozen, point supervisor at a new command doc (do not overwrite SUPERVISOR_RUN_STAGE_A_V2.md). A small same-definition probe may precede costly 72-sample validation; final acceptance still needs 442/31396/72.

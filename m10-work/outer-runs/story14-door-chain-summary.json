@@ -1,0 +1,218 @@
+{
+  "finished": "2026-11-18T19:35:49.165748",
+  "surveys": {
+    "story14-doors-00-0a": {
+      "origin": "00-0a",
+      "found": {
+        "00-24": {
+          "xy": [
+            8,
+            64
+          ],
+          "story": 14
+        },
+        "00-0b": {
+          "xy": [
+            88,
+            256
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 1053,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-0b": {
+      "origin": "00-0b",
+      "found": {
+        "00-0a": {
+          "xy": [
+            424,
+            16
+          ],
+          "story": 14
+        },
+        "00-2d": {
+          "xy": [
+            504,
+            96
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 1232,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-1f": {
+      "origin": "00-1f",
+      "found": {
+        "00-20": {
+          "xy": [
+            376,
+            48
+          ],
+          "story": 14
+        },
+        "00-21": {
+          "xy": [
+            280,
+            16
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 893,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-20": {
+      "origin": "00-20",
+      "found": {
+        "00-1f": {
+          "xy": [
+            8,
+            64
+          ],
+          "story": 14
+        },
+        "00-21": {
+          "xy": [
+            200,
+            256
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 854,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-21": {
+      "origin": "00-21",
+      "found": {
+        "00-24": {
+          "xy": [
+            264,
+            16
+          ],
+          "story": 14
+        },
+        "00-1f": {
+          "xy": [
+            376,
+            64
+          ],
+          "story": 14
+        },
+        "00-22": {
+          "xy": [
+            136,
+            16
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 1800,
+      "frontier": 1,
+      "deadlineHit": false
+    },
+    "story14-doors-00-22": {
+      "origin": "00-22",
+      "found": {
+        "00-21": {
+          "xy": [
+            232,
+            160
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 270,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-24": {
+      "origin": "00-24",
+      "found": {
+        "00-2b": {
+          "xy": [
+            104,
+            80
+          ],
+          "story": 14
+        },
+        "00-21": {
+          "xy": [
+            72,
+            256
+          ],
+          "story": 14
+        },
+        "00-0a": {
+          "xy": [
+            248,
+            176
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 663,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-2b": {
+      "origin": "00-2b",
+      "found": {
+        "00-2c": {
+          "xy": [
+            136,
+            16
+          ],
+          "story": 14
+        },
+        "00-24": {
+          "xy": [
+            72,
+            160
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 365,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-2c": {
+      "origin": "00-2c",
+      "found": {
+        "00-2b": {
+          "xy": [
+            104,
+            160
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 188,
+      "frontier": 0,
+      "deadlineHit": false
+    },
+    "story14-doors-00-2d": {
+      "origin": "00-2d",
+      "found": {
+        "00-0b": {
+          "xy": [
+            8,
+            48
+          ],
+          "story": 14
+        }
+      },
+      "nodes": 44,
+      "frontier": 0,
+      "deadlineHit": false
+    }
+  }
+}

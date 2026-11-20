@@ -1,0 +1,31 @@
+import {Renderer} from './renderer.js';
+const $=s=>document.querySelector(s), KEY='shuihu:ab42ec7a:battery:v1';
+const m=await Binjgb({locateFile:p=>'vendor/'+p});
+const rom=new Uint8Array(await (await fetch('assets/game.gbc')).arrayBuffer());
+const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',rom)),x=>x.toString(16).padStart(2,'0')).join('');
+if(hash!=='ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95')throw Error('ROM 校验失败');
+const rp=m._malloc(rom.length);m.HEAPU8.set(rom,rp);
+const e=m._emulator_new_simple(rp,rom.length,48000,2048,0);if(!e)throw Error('核心初始化失败');
+const joy=m._joypad_new();m._emulator_set_default_joypad_callback(e,joy);
+const renderer=await Renderer.create($('#screen'),m,e);
+let paused=true,hd=true,audio=false,ctx,gain,nextAudio=0,frames=0,last=0,acc=0;const held=new Set();
+function file(kind,data){const f=m[kind==='state'?'_state_file_data_new':'_ext_ram_file_data_new'](e);try{const p=m._get_file_data_ptr(f),n=m._get_file_data_size(f);if(data){if(data.length!==n)throw Error('存档大小不匹配');m.HEAPU8.set(data,p);if(m[kind==='state'?'_emulator_read_state':'_emulator_read_ext_ram'](e,f)!==0)throw Error('存档格式无效');}else m[kind==='state'?'_emulator_write_state':'_emulator_write_ext_ram'](e,f);return Array.from(m.HEAPU8.slice(p,p+n));}finally{m._file_data_delete(f);m._free(f);}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(file('ram')));}catch(err){$('#status').textContent='存档保存失败：'+err.message;}}
+try{const b=localStorage.getItem(KEY);if(b)file('ram',JSON.parse(b));}catch(err){$('#status').textContent='本地存档未载入：'+err.message;}
+function input(k,on){if(!['up','down','left','right','A','B','start','select'].includes(k))throw Error('无效按键');m['_set_joyp_'+k](e,+on);on?held.add(k):held.delete(k);}
+function release(){for(const k of held)input(k,false);}
+function sound(){if(!audio||paused||!ctx)return;const p=m._get_audio_buffer_ptr(e),a=m.HEAPU8.subarray(p,p+4096),b=ctx.createBuffer(2,2048,48000);for(let c=0;c<2;c++){const out=b.getChannelData(c);for(let i=0;i<2048;i++)out[i]=a[2*i+c]/255;}const s=ctx.createBufferSource();s.buffer=b;s.connect(gain);nextAudio=Math.max(ctx.currentTime+.03,nextAudio);if(nextAudio>ctx.currentTime+.25)nextAudio=ctx.currentTime+.03;s.start(nextAudio);nextAudio+=2048/48000;}
+function step(n=1){if(!Number.isInteger(n)||n<0||n>60000)throw Error('步数越界');for(let i=0;i<n;i++){const target=m._emulator_get_ticks_f64(e)+70224;let guard=0;while(true){const event=m._emulator_run_until_f64(e,target);if(event&2)sound();if(event&4)break;if(++guard>100)throw Error('核心无响应');}frames++;}renderer.draw(hd);return meta();}
+function meta(){return {frames,ticks:m._emulator_get_ticks_f64(e),pc:m._emulator_get_PC(e),paused,hd,held:[...held],romSHA256:hash,renderer:renderer.meta,scroll:[m._emulator_read_mem(e,0xff43),m._emulator_read_mem(e,0xff42)]};}
+function pause(v=true){paused=v;last=0;acc=0;release();if(gain)gain.gain.value=audio&&!paused?.2:0;$('#status').textContent=paused?'已暂停 · 游戏状态保持':'运行中 · 电池存档自动保存';}
+function raf(t){if(!paused){if(last)acc+=Math.min(t-last,84);while(acc>=1000*70224/4194304){step();acc-=1000*70224/4194304;}last=t;}requestAnimationFrame(raf);}requestAnimationFrame(raf);
+$('#play').onclick=()=>pause(false);$('#pause').onclick=()=>pause();$('#mode').onclick=()=>{hd=!hd;$('#mode').textContent=hd?'高清显示':'原版像素';renderer.draw(hd);};
+$('#audio').onclick=async()=>{if(!ctx){ctx=new AudioContext({sampleRate:48000});gain=ctx.createGain();const filter=ctx.createBiquadFilter();filter.type='highpass';filter.frequency.value=20;gain.connect(filter);filter.connect(ctx.destination);}audio=!audio;await ctx.resume();gain.gain.value=audio&&!paused?.2:0;nextAudio=0;$('#audio').textContent='声音：'+(audio?'开':'关');};
+const keys={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',KeyX:'A',KeyZ:'B',Enter:'start',ShiftLeft:'select',ShiftRight:'select'};
+for(const type of ['keydown','keyup'])window.addEventListener(type,event=>{if(keys[event.code]){event.preventDefault();input(keys[event.code],type==='keydown');}if(event.code==='Space'&&type==='keydown'&&!event.repeat){event.preventDefault();pause(!paused);}});
+for(const b of document.querySelectorAll('[data-key]')){b.onpointerdown=ev=>{ev.preventDefault();b.setPointerCapture(ev.pointerId);input(b.dataset.key,true);b.classList.add('pressed');};const up=()=>{input(b.dataset.key,false);b.classList.remove('pressed');};b.onpointerup=up;b.onpointercancel=up;b.onlostpointercapture=up;}
+window.addEventListener('blur',()=>pause());document.addEventListener('visibilitychange',()=>{if(document.hidden){pause();persist();}});window.addEventListener('pagehide',persist);setInterval(persist,1000);
+$('#export').onclick=()=>{persist();const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([new Uint8Array(file('ram'))]));a.download='水浒神兽.sav';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);};
+$('#import').onchange=async ev=>{try{const f=ev.target.files[0];if(!f)return;pause();file('ram',new Uint8Array(await f.arrayBuffer()));persist();$('#status').textContent='电池存档已导入；刷新页面后在标题选择继续';}catch(err){$('#status').textContent=err.message;}ev.target.value='';};
+window.shuihu={ready:true,audit:()=>renderer.audit(),checkpoint:()=>({heap:m.HEAPU8.slice(),frames,held:[...held]}),restoreCheckpoint:s=>{pause();if(!(s.heap instanceof Uint8Array)||s.heap.length!==m.HEAPU8.length)throw Error('调试快照不兼容');m.HEAPU8.set(s.heap);frames=s.frames;held.clear();for(const k of s.held)held.add(k);nextAudio=0;renderer.draw(hd);},pause,step,input,meta,state:()=>file('state'),loadState:a=>{pause();file('state',a);renderer.draw(hd);},battery:()=>file('ram'),loadBattery:a=>{file('ram',a);persist();},persist,setHD:v=>{hd=!!v;renderer.draw(hd);},pixels:()=>Array.from(renderer.pixels()),read:a=>m._emulator_read_mem(e,a),captureReference:()=>renderer.captureReference(),background:()=>{const o=renderer.observation;return o?{...o,bg:Array.from(o.bg),mask:Array.from(o.mask)}:null;},setSignatures:s=>renderer.signatures=s};
+step(1);$('#status').textContent='就绪 · 点击开始，或使用确定性调试 API';

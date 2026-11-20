@@ -1,0 +1,20 @@
+{
+  "zipBytes": 11086110,
+  "zipSHA256": "0c52ba19a0af81997d79355dd8364a9e6458ca89c7a292503683978537df9a21",
+  "CRC": true,
+  "frozenRuntimeFilesMatched": 42,
+  "excludedScreenshotsReportsTools": true,
+  "offlineVerification": {
+    "pass": true,
+    "environment": "Linux headless Chromium; not real Windows execution",
+    "source": "clean extraction of shuihu-hd-m4-windows.zip",
+    "network": "all non-localhost requests blocked; no external requests attempted",
+    "requests": 27,
+    "originalStateAtFrame360Matches": true,
+    "loadedScene": "interior",
+    "gptBackgroundPixels": 12522,
+    "errors": [],
+    "outbound": [],
+    "failed": []
+  }
+}

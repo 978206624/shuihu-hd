@@ -1,0 +1,45 @@
+{
+  "scene": "cliff",
+  "ok": true,
+  "path": "/workspace/shawu/m2-work/backgrounds/cliff_hd.png",
+  "summary": {
+    "ok": true,
+    "status": 200,
+    "elapsed": 144.09,
+    "nbytes": 3326212,
+    "error": null,
+    "body_keys": [
+      "background",
+      "created",
+      "data",
+      "output_format",
+      "quality",
+      "safety_identifier",
+      "size",
+      "usage"
+    ],
+    "background": "opaque",
+    "output_format": "png",
+    "quality": "low",
+    "size": "1322x1190",
+    "usage": {
+      "input_tokens": 1619,
+      "input_tokens_details": {
+        "image_tokens": 1385,
+        "text_tokens": 234
+      },
+      "output_tokens": 472,
+      "output_tokens_details": {
+        "image_tokens": 472,
+        "text_tokens": 0
+      },
+      "total_tokens": 2091
+    },
+    "item_keys": [
+      "b64_json",
+      "generation_id"
+    ],
+    "has_b64": true
+  },
+  "tag": "m2_serial"
+}

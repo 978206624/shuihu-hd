@@ -1,0 +1,1181 @@
+[
+  {
+    "id": 0,
+    "graphics": "27:4000",
+    "palette": "26:4e4b",
+    "nonzero_bytes": 0,
+    "distinct_colors": 1,
+    "graphics_sha256": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_000.png"
+  },
+  {
+    "id": 1,
+    "graphics": "27:4240",
+    "palette": "26:4e53",
+    "nonzero_bytes": 488,
+    "distinct_colors": 4,
+    "graphics_sha256": "f5736957e1999e0daaeef3b220d19c7cc9099850609d794f2a73345f02f3671a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_001.png"
+  },
+  {
+    "id": 2,
+    "graphics": "27:4480",
+    "palette": "26:4e5b",
+    "nonzero_bytes": 459,
+    "distinct_colors": 4,
+    "graphics_sha256": "92e551ca67494f423d912f437df9f7b988a7699227e166c0ba872212be0f7de7",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_002.png"
+  },
+  {
+    "id": 3,
+    "graphics": "27:46c0",
+    "palette": "26:4e63",
+    "nonzero_bytes": 438,
+    "distinct_colors": 4,
+    "graphics_sha256": "67b4eeb34bfd55b0d86a697c98e7cbb739eb567ddeacf223ced385ca69a1123f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_003.png"
+  },
+  {
+    "id": 4,
+    "graphics": "27:4900",
+    "palette": "26:4e6b",
+    "nonzero_bytes": 502,
+    "distinct_colors": 4,
+    "graphics_sha256": "7f24de7fb88ec8415b6093d787d35add17a043dddfb72dc5fe66f207306f6703",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_004.png"
+  },
+  {
+    "id": 5,
+    "graphics": "27:4b40",
+    "palette": "26:4e73",
+    "nonzero_bytes": 486,
+    "distinct_colors": 4,
+    "graphics_sha256": "d3315a3170f8e5ff6f10c583af23693a988f58ca18f24dde7b1a56e13c6592db",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_005.png"
+  },
+  {
+    "id": 6,
+    "graphics": "27:4d80",
+    "palette": "26:4e7b",
+    "nonzero_bytes": 461,
+    "distinct_colors": 4,
+    "graphics_sha256": "88d180b8426f98af955cdd1f550572ea4fa9b68f7e672d7fae2daff2e58fefbc",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_006.png"
+  },
+  {
+    "id": 7,
+    "graphics": "27:4fc0",
+    "palette": "26:4e83",
+    "nonzero_bytes": 401,
+    "distinct_colors": 4,
+    "graphics_sha256": "b0250fb263d18a025df8d4eb3ace4625f3b1f581e89acb758619be58c59d5ac6",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_007.png"
+  },
+  {
+    "id": 8,
+    "graphics": "27:5200",
+    "palette": "26:4e8b",
+    "nonzero_bytes": 437,
+    "distinct_colors": 4,
+    "graphics_sha256": "15957111988669ec76ce3a0be4d81a11bb2151c6aa56fd63e9fdbf2e847288c3",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_008.png"
+  },
+  {
+    "id": 9,
+    "graphics": "27:5440",
+    "palette": "26:4e93",
+    "nonzero_bytes": 334,
+    "distinct_colors": 4,
+    "graphics_sha256": "9a627aea0f035e525e675a8e2401ebaf792a3f9088e8f08a2b1e7a90dce5a2b2",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_009.png"
+  },
+  {
+    "id": 10,
+    "graphics": "27:5680",
+    "palette": "26:4e9b",
+    "nonzero_bytes": 379,
+    "distinct_colors": 4,
+    "graphics_sha256": "b379bc1fbfc11202392dcba4f1c2cb0a64e61276727b6e95e38dbb539b43c849",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_010.png"
+  },
+  {
+    "id": 11,
+    "graphics": "27:58c0",
+    "palette": "26:4ea3",
+    "nonzero_bytes": 393,
+    "distinct_colors": 4,
+    "graphics_sha256": "cab6dbdadd8139a8bfa9fc7ce4a336057e433abb3970274e0ed61786a6cc8a3e",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_011.png"
+  },
+  {
+    "id": 12,
+    "graphics": "27:5b00",
+    "palette": "26:4eab",
+    "nonzero_bytes": 502,
+    "distinct_colors": 4,
+    "graphics_sha256": "960bd9e9e82e8578608ef32e9d9b6029da362a885f9188c01db20e4b6378fc66",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_012.png"
+  },
+  {
+    "id": 13,
+    "graphics": "27:5d40",
+    "palette": "26:4eb3",
+    "nonzero_bytes": 525,
+    "distinct_colors": 4,
+    "graphics_sha256": "954ee9cf819fb6711e28e8e7e68c8bb5ea77ee6f46cb24257a286a6ad62ac824",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_013.png"
+  },
+  {
+    "id": 14,
+    "graphics": "27:5f80",
+    "palette": "26:4ebb",
+    "nonzero_bytes": 453,
+    "distinct_colors": 4,
+    "graphics_sha256": "f7ba7cf977eaeaf016fd77837fda2191412e3f70560a4663f00443d463f72bc8",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_014.png"
+  },
+  {
+    "id": 15,
+    "graphics": "27:61c0",
+    "palette": "26:4ec3",
+    "nonzero_bytes": 380,
+    "distinct_colors": 4,
+    "graphics_sha256": "1c3cf4cc0358ae57b326e7508b7916f5ef69a30343cfcdfcd217a4ce001d33fd",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_015.png"
+  },
+  {
+    "id": 16,
+    "graphics": "27:6400",
+    "palette": "26:4ecb",
+    "nonzero_bytes": 414,
+    "distinct_colors": 4,
+    "graphics_sha256": "768861ba3b1415dcf15175870101a559e408c3396e954d1a3b66b379f615b80d",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_016.png"
+  },
+  {
+    "id": 17,
+    "graphics": "27:6640",
+    "palette": "26:4ed3",
+    "nonzero_bytes": 450,
+    "distinct_colors": 4,
+    "graphics_sha256": "d22af307eb6ffcdddc7cdaf323e762c54045ffbd656cf79765e702e9e9a5ff14",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_017.png"
+  },
+  {
+    "id": 18,
+    "graphics": "27:6880",
+    "palette": "26:4edb",
+    "nonzero_bytes": 488,
+    "distinct_colors": 4,
+    "graphics_sha256": "f5bd37ed1d508a27a46807079c2ea0c93675daddb74a75b9ec896eb8dcf81885",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_018.png"
+  },
+  {
+    "id": 19,
+    "graphics": "27:6ac0",
+    "palette": "26:4ee3",
+    "nonzero_bytes": 401,
+    "distinct_colors": 4,
+    "graphics_sha256": "2678a91b3e56c3e6922eb26d08c4c3ae5ba384280c4dc69b43c47765e743805a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_019.png"
+  },
+  {
+    "id": 20,
+    "graphics": "27:6d00",
+    "palette": "26:4eeb",
+    "nonzero_bytes": 470,
+    "distinct_colors": 4,
+    "graphics_sha256": "53353d711a08da0d91ca6d04bbb0ee7a579ee9566022e21c90112f0858e4f878",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_020.png"
+  },
+  {
+    "id": 21,
+    "graphics": "27:6f40",
+    "palette": "26:4ef3",
+    "nonzero_bytes": 457,
+    "distinct_colors": 4,
+    "graphics_sha256": "fd3632ad4279750484fd9159df0a7e04726d222fbcbfdc7b2dd99a9aa26612a2",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_021.png"
+  },
+  {
+    "id": 22,
+    "graphics": "27:7180",
+    "palette": "26:4efb",
+    "nonzero_bytes": 453,
+    "distinct_colors": 4,
+    "graphics_sha256": "5efa73577ce4d5aff8eee2e2c0364a3115730642ac9665164a1766f92f40d333",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_022.png"
+  },
+  {
+    "id": 23,
+    "graphics": "27:73c0",
+    "palette": "26:4f03",
+    "nonzero_bytes": 417,
+    "distinct_colors": 4,
+    "graphics_sha256": "c43e6b4f792a8c670fbe9d4755b6010f80db616363449d2ba33c4327ac71a92c",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_023.png"
+  },
+  {
+    "id": 24,
+    "graphics": "27:7600",
+    "palette": "26:4f0b",
+    "nonzero_bytes": 370,
+    "distinct_colors": 4,
+    "graphics_sha256": "35f60dceb51b8661306e07c1860bb21b403fb69776aeca93c084888ee1454d06",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_024.png"
+  },
+  {
+    "id": 25,
+    "graphics": "27:7840",
+    "palette": "26:4f13",
+    "nonzero_bytes": 483,
+    "distinct_colors": 4,
+    "graphics_sha256": "fc2094d9a0d6a9bf7e4c284c00f2342e971a625e4cec79e6a4e65be928673147",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_025.png"
+  },
+  {
+    "id": 26,
+    "graphics": "27:7a80",
+    "palette": "26:4f1b",
+    "nonzero_bytes": 470,
+    "distinct_colors": 4,
+    "graphics_sha256": "eb7f5ce31144c21b2a65f8063b0acc4cde2d717738cb58c8323a79559ff38ff5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_026.png"
+  },
+  {
+    "id": 27,
+    "graphics": "27:7cc0",
+    "palette": "26:4f23",
+    "nonzero_bytes": 400,
+    "distinct_colors": 4,
+    "graphics_sha256": "1f49e3f6b40182fbc6970fc50b07da5d33474520080432fb8bf95bedab9f451d",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_027.png"
+  },
+  {
+    "id": 28,
+    "graphics": "28:4000",
+    "palette": "26:4f2b",
+    "nonzero_bytes": 399,
+    "distinct_colors": 4,
+    "graphics_sha256": "36b222d33098027e7dc76e33f05abf5cab7f24bb602a01b97a89d42e96398c9f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_028.png"
+  },
+  {
+    "id": 29,
+    "graphics": "28:4240",
+    "palette": "26:4f33",
+    "nonzero_bytes": 440,
+    "distinct_colors": 4,
+    "graphics_sha256": "3cb4ba07a70a7754c414b35a7464d4c7ac9f0bb1f777dbe4b1c32c60a1f134ec",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_029.png"
+  },
+  {
+    "id": 30,
+    "graphics": "28:4480",
+    "palette": "26:4f3b",
+    "nonzero_bytes": 435,
+    "distinct_colors": 4,
+    "graphics_sha256": "3734dc6c2c6642a2e787b3ed03952073081aecc9499035aaa65be100724ccc6f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_030.png"
+  },
+  {
+    "id": 31,
+    "graphics": "28:46c0",
+    "palette": "26:4f43",
+    "nonzero_bytes": 502,
+    "distinct_colors": 4,
+    "graphics_sha256": "3be0b06943dc111f34637d2402589bbbd51b1868babc2586edca102d31f68455",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_031.png"
+  },
+  {
+    "id": 32,
+    "graphics": "28:4900",
+    "palette": "26:4f4b",
+    "nonzero_bytes": 500,
+    "distinct_colors": 4,
+    "graphics_sha256": "f215533cfa075ae232928f207e9ee33782e755a97b6e3a85ead728ce4d7fee81",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_032.png"
+  },
+  {
+    "id": 33,
+    "graphics": "28:4b40",
+    "palette": "26:4f53",
+    "nonzero_bytes": 396,
+    "distinct_colors": 4,
+    "graphics_sha256": "fc0ba6585ef30db7f242528328bbcd01c94e03aab7e73bec8feab2a78d68156e",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_033.png"
+  },
+  {
+    "id": 34,
+    "graphics": "28:4d80",
+    "palette": "26:4f5b",
+    "nonzero_bytes": 457,
+    "distinct_colors": 4,
+    "graphics_sha256": "cc1a7a6257a437ea7def474e0d8508b0ec8efefa45799a98034da3e404d5bbcf",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_034.png"
+  },
+  {
+    "id": 35,
+    "graphics": "28:4fc0",
+    "palette": "26:4f63",
+    "nonzero_bytes": 471,
+    "distinct_colors": 4,
+    "graphics_sha256": "09eee3c0970682395b229cb29c309c6b61585799830dd1d83e100ed2cd937cf5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_035.png"
+  },
+  {
+    "id": 36,
+    "graphics": "28:5200",
+    "palette": "26:4f6b",
+    "nonzero_bytes": 374,
+    "distinct_colors": 4,
+    "graphics_sha256": "c8caf3f58ab3c4b691a2998896fd42ce286bb3f1c926f4134a1f30269722bb0a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_036.png"
+  },
+  {
+    "id": 37,
+    "graphics": "28:5440",
+    "palette": "26:4f73",
+    "nonzero_bytes": 475,
+    "distinct_colors": 4,
+    "graphics_sha256": "d590f5b95b2fac6d09ef46a2c5b8660dc57678b38d90c888cf9a86336171a610",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_037.png"
+  },
+  {
+    "id": 38,
+    "graphics": "28:5680",
+    "palette": "26:4f7b",
+    "nonzero_bytes": 456,
+    "distinct_colors": 4,
+    "graphics_sha256": "69a73b0b7316985abe9a0839ee2e9a73f384cc0a6f78d7003403883a542c245a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_038.png"
+  },
+  {
+    "id": 39,
+    "graphics": "28:58c0",
+    "palette": "26:4f83",
+    "nonzero_bytes": 435,
+    "distinct_colors": 4,
+    "graphics_sha256": "c6c8bd32f2c332e8bad6ecda17c6acf3fef66464fac4e76f42fb58187059e349",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_039.png"
+  },
+  {
+    "id": 40,
+    "graphics": "28:5b00",
+    "palette": "26:4f8b",
+    "nonzero_bytes": 363,
+    "distinct_colors": 4,
+    "graphics_sha256": "66351907f971d38788b2dc1e2820fe34ba12e6fab4e829b2b5d86367dd17a361",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_040.png"
+  },
+  {
+    "id": 41,
+    "graphics": "28:5d40",
+    "palette": "26:4f93",
+    "nonzero_bytes": 417,
+    "distinct_colors": 4,
+    "graphics_sha256": "60c0fd2243ce83c52f4d2a2ebafd51cf2d86ca1f5f7c4657dec41f2e7bf47029",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_041.png"
+  },
+  {
+    "id": 42,
+    "graphics": "28:5f80",
+    "palette": "26:4f9b",
+    "nonzero_bytes": 485,
+    "distinct_colors": 4,
+    "graphics_sha256": "4785b5443223b2ca4fee1bd940d01d0cc1b5201d4ddcc10ff83c1a2c6549e0c2",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_042.png"
+  },
+  {
+    "id": 43,
+    "graphics": "28:61c0",
+    "palette": "26:4fa3",
+    "nonzero_bytes": 492,
+    "distinct_colors": 4,
+    "graphics_sha256": "4f73224e75eecf4a0b501eba6e7050911ccb8c582385218bc4f8a95b6a84a6bb",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_043.png"
+  },
+  {
+    "id": 44,
+    "graphics": "28:6400",
+    "palette": "26:4fab",
+    "nonzero_bytes": 454,
+    "distinct_colors": 4,
+    "graphics_sha256": "9629bcd50c7188f23af24d6b4b35590cb1328c86609301eeed3acbf7d0146872",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_044.png"
+  },
+  {
+    "id": 45,
+    "graphics": "28:6640",
+    "palette": "26:4fb3",
+    "nonzero_bytes": 443,
+    "distinct_colors": 4,
+    "graphics_sha256": "3925875b346cd70977c09b11cc59b2bc9d18d04e39fe0abf0fb6cd2140c2d654",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_045.png"
+  },
+  {
+    "id": 46,
+    "graphics": "28:6880",
+    "palette": "26:4fbb",
+    "nonzero_bytes": 387,
+    "distinct_colors": 4,
+    "graphics_sha256": "91404d8d8495f0c469cb95409c2db42fef17f0eac974f88df4b23f3f7b1d16b0",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_046.png"
+  },
+  {
+    "id": 47,
+    "graphics": "28:6ac0",
+    "palette": "26:4fc3",
+    "nonzero_bytes": 463,
+    "distinct_colors": 4,
+    "graphics_sha256": "8f980ac015246a189fe49e35c8eaeb534947d1ba4f1d906d3d00eb614a8f8edd",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_047.png"
+  },
+  {
+    "id": 48,
+    "graphics": "28:6d00",
+    "palette": "26:4fcb",
+    "nonzero_bytes": 452,
+    "distinct_colors": 4,
+    "graphics_sha256": "c20b0a8843816493e8793b2602289433c47c694922dc1c378d4738b96c16a0fa",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_048.png"
+  },
+  {
+    "id": 49,
+    "graphics": "28:6f40",
+    "palette": "26:4fd3",
+    "nonzero_bytes": 474,
+    "distinct_colors": 4,
+    "graphics_sha256": "666644dc02f6e8ed50a30c4becdcc2d8112ca40c565807d74ca47994505d25f9",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_049.png"
+  },
+  {
+    "id": 50,
+    "graphics": "28:7180",
+    "palette": "26:4fdb",
+    "nonzero_bytes": 520,
+    "distinct_colors": 4,
+    "graphics_sha256": "1d0bd89d26425f13a8058272df12b4ab5795dcfa4621b129d3d3bce80f959165",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_050.png"
+  },
+  {
+    "id": 51,
+    "graphics": "28:73c0",
+    "palette": "26:4fe3",
+    "nonzero_bytes": 419,
+    "distinct_colors": 4,
+    "graphics_sha256": "b5014ad567cb44fe07aa3c95fb6bc8ca2bfb3f8b45a6c928206f885fb8143764",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_051.png"
+  },
+  {
+    "id": 52,
+    "graphics": "28:7600",
+    "palette": "26:4feb",
+    "nonzero_bytes": 405,
+    "distinct_colors": 4,
+    "graphics_sha256": "ab3962989fcb7b2f0b84343cc8200576921f3a0d261bd10004d51afc6ca1fcee",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_052.png"
+  },
+  {
+    "id": 53,
+    "graphics": "28:7840",
+    "palette": "26:4ff3",
+    "nonzero_bytes": 368,
+    "distinct_colors": 4,
+    "graphics_sha256": "e21218c7741fb960a0a63e4d1ad3c53522f81bf3f30b0439f7ef2bdd07c175dc",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_053.png"
+  },
+  {
+    "id": 54,
+    "graphics": "28:7a80",
+    "palette": "26:4ffb",
+    "nonzero_bytes": 473,
+    "distinct_colors": 4,
+    "graphics_sha256": "3cb4801dfe27fd764d2f2374645c35e02ec12848f6860825b404c1a8ee08d8a3",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_054.png"
+  },
+  {
+    "id": 55,
+    "graphics": "28:7cc0",
+    "palette": "26:5003",
+    "nonzero_bytes": 468,
+    "distinct_colors": 4,
+    "graphics_sha256": "f5e0552c739e3f483fff3e830e3185af45eecd1af5751f586207709d0d80cf6b",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_055.png"
+  },
+  {
+    "id": 56,
+    "graphics": "29:4000",
+    "palette": "26:500b",
+    "nonzero_bytes": 420,
+    "distinct_colors": 4,
+    "graphics_sha256": "2e5a81e235549c1011496d55c530c203e2ffbe01a82b7d4d778dbb7559290f54",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_056.png"
+  },
+  {
+    "id": 57,
+    "graphics": "29:4240",
+    "palette": "26:5013",
+    "nonzero_bytes": 397,
+    "distinct_colors": 4,
+    "graphics_sha256": "25d433390b9aea6e967f0ce5e5cad2ee71f509be29f46c516ebabf99c203bcf5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_057.png"
+  },
+  {
+    "id": 58,
+    "graphics": "29:4480",
+    "palette": "26:501b",
+    "nonzero_bytes": 470,
+    "distinct_colors": 4,
+    "graphics_sha256": "fd537490064d6452201d12973c39ad8208697e150eb3baea7f60a889b463c043",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_058.png"
+  },
+  {
+    "id": 59,
+    "graphics": "29:46c0",
+    "palette": "26:5023",
+    "nonzero_bytes": 400,
+    "distinct_colors": 4,
+    "graphics_sha256": "21543074f5cb01defcfda5bd0dc50e8fe0acf756ba7ed7cb35e0502bab2e2f4a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_059.png"
+  },
+  {
+    "id": 60,
+    "graphics": "29:4900",
+    "palette": "26:502b",
+    "nonzero_bytes": 439,
+    "distinct_colors": 4,
+    "graphics_sha256": "4b0de611208760cd8c563f8a3107fbb0e983ad5fa6c5c01009fbda4b5507ce66",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_060.png"
+  },
+  {
+    "id": 61,
+    "graphics": "29:4b40",
+    "palette": "26:5033",
+    "nonzero_bytes": 481,
+    "distinct_colors": 4,
+    "graphics_sha256": "c95c4f7d8593c52b642e51ff325ba98b73e88212d2b4c95bb470b5671eed6622",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_061.png"
+  },
+  {
+    "id": 62,
+    "graphics": "29:4d80",
+    "palette": "26:503b",
+    "nonzero_bytes": 398,
+    "distinct_colors": 4,
+    "graphics_sha256": "213d601365815057bd22a0e054ce2a5f67c19a22b045d08c7104a1b704aa624b",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_062.png"
+  },
+  {
+    "id": 63,
+    "graphics": "29:4fc0",
+    "palette": "26:5043",
+    "nonzero_bytes": 415,
+    "distinct_colors": 4,
+    "graphics_sha256": "6d20a8e3b454e337e7ae2f7402c24aada36854d4a6b94d5a18519abc0ded4c8b",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_063.png"
+  },
+  {
+    "id": 64,
+    "graphics": "29:5200",
+    "palette": "26:504b",
+    "nonzero_bytes": 438,
+    "distinct_colors": 4,
+    "graphics_sha256": "591bc94e9dae6e0ec292bd20d10ad07068e4b754ab07b8b1bb8e5470b15913f1",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_064.png"
+  },
+  {
+    "id": 65,
+    "graphics": "29:5440",
+    "palette": "26:5053",
+    "nonzero_bytes": 343,
+    "distinct_colors": 4,
+    "graphics_sha256": "b90bd797faaec64eccbb03b21dad26b84d510d60e0976a0eceb1cc5510ec1d50",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_065.png"
+  },
+  {
+    "id": 66,
+    "graphics": "29:5680",
+    "palette": "26:505b",
+    "nonzero_bytes": 490,
+    "distinct_colors": 4,
+    "graphics_sha256": "2477574a347345385573c874d7172c7670a2c73f23794e499ac8f2eb77600a18",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_066.png"
+  },
+  {
+    "id": 67,
+    "graphics": "29:58c0",
+    "palette": "26:5063",
+    "nonzero_bytes": 443,
+    "distinct_colors": 4,
+    "graphics_sha256": "8fd4703411950cb7e77d41ca88714f632da14ccbb5c4654f238fddbb6225ac65",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_067.png"
+  },
+  {
+    "id": 68,
+    "graphics": "29:5b00",
+    "palette": "26:506b",
+    "nonzero_bytes": 442,
+    "distinct_colors": 4,
+    "graphics_sha256": "24f32a32729173c9133b58bf6e3ff5db80a36e6290faf21063879ecda7fc5a88",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_068.png"
+  },
+  {
+    "id": 69,
+    "graphics": "29:5d40",
+    "palette": "26:5073",
+    "nonzero_bytes": 369,
+    "distinct_colors": 4,
+    "graphics_sha256": "67fef2ffada9cf36fe30fa084269dba0431b8c75f3e947c377ef8ef9aada1e8d",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_069.png"
+  },
+  {
+    "id": 70,
+    "graphics": "29:5f80",
+    "palette": "26:507b",
+    "nonzero_bytes": 385,
+    "distinct_colors": 4,
+    "graphics_sha256": "923ae6417e11589cad6e8acead2aa1e7802ecf09b119785ff29fefc740fd13b1",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_070.png"
+  },
+  {
+    "id": 71,
+    "graphics": "29:61c0",
+    "palette": "26:5083",
+    "nonzero_bytes": 386,
+    "distinct_colors": 4,
+    "graphics_sha256": "d356785fbabdcfb4caa6460d1a9c098edd0348c4ef5ed8e5c92eaa8efcfdad3a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_071.png"
+  },
+  {
+    "id": 72,
+    "graphics": "29:6400",
+    "palette": "26:508b",
+    "nonzero_bytes": 489,
+    "distinct_colors": 4,
+    "graphics_sha256": "9539673c1266a4b5f7cf0194c4b557c961ca1b6be05f95fefc03db094952d0c9",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_072.png"
+  },
+  {
+    "id": 73,
+    "graphics": "29:6640",
+    "palette": "26:5093",
+    "nonzero_bytes": 340,
+    "distinct_colors": 4,
+    "graphics_sha256": "af32bb2144bbb2b94bffc91b9d5967ed7d0151fcbd1debb28c3ab9f03f0e58d6",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_073.png"
+  },
+  {
+    "id": 74,
+    "graphics": "29:6880",
+    "palette": "26:509b",
+    "nonzero_bytes": 409,
+    "distinct_colors": 4,
+    "graphics_sha256": "89c255249c89ebd182e3ab1f81a9aaceeb58dcd97828651868e4834a8387ffa5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_074.png"
+  },
+  {
+    "id": 75,
+    "graphics": "29:6ac0",
+    "palette": "26:50a3",
+    "nonzero_bytes": 456,
+    "distinct_colors": 4,
+    "graphics_sha256": "c787f1d0001ff2400a6b1b0738772400d668cd300a89c3abcabb0584e9e4fbf0",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_075.png"
+  },
+  {
+    "id": 76,
+    "graphics": "29:6d00",
+    "palette": "26:50ab",
+    "nonzero_bytes": 378,
+    "distinct_colors": 4,
+    "graphics_sha256": "38a23e4658d2752106abd89f48cdd980474a7bdf89e84715a936019e5d7f48af",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_076.png"
+  },
+  {
+    "id": 77,
+    "graphics": "29:6f40",
+    "palette": "26:50b3",
+    "nonzero_bytes": 496,
+    "distinct_colors": 4,
+    "graphics_sha256": "9bc363aa85080ff899c37ca6646ea8f0006bd57d5bc6b2a89a6e0b9faa87d9c4",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_077.png"
+  },
+  {
+    "id": 78,
+    "graphics": "29:7180",
+    "palette": "26:50bb",
+    "nonzero_bytes": 461,
+    "distinct_colors": 4,
+    "graphics_sha256": "2eb7428c26d50aea15578cbd94f7e1b5f4f766df3fb96de8b70384b3fc32b816",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_078.png"
+  },
+  {
+    "id": 79,
+    "graphics": "29:73c0",
+    "palette": "26:50c3",
+    "nonzero_bytes": 432,
+    "distinct_colors": 4,
+    "graphics_sha256": "aa0a88d24fb80403b8b2220db506473f4638262b44a93780c36fed09918fc15f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_079.png"
+  },
+  {
+    "id": 80,
+    "graphics": "29:7600",
+    "palette": "26:50cb",
+    "nonzero_bytes": 299,
+    "distinct_colors": 4,
+    "graphics_sha256": "178a9e738a9ab0b21e1b8018fb4e6d3f91fad188ab541d8a92667a2ae6b6af72",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_080.png"
+  },
+  {
+    "id": 81,
+    "graphics": "29:7840",
+    "palette": "26:50d3",
+    "nonzero_bytes": 442,
+    "distinct_colors": 4,
+    "graphics_sha256": "27276eca1297e0f7db7119da956f6fa6b03a67793748512aa465b2d4f5c124c8",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_081.png"
+  },
+  {
+    "id": 82,
+    "graphics": "29:7a80",
+    "palette": "26:50db",
+    "nonzero_bytes": 478,
+    "distinct_colors": 4,
+    "graphics_sha256": "b29fc1c3e6b4d2db066f0b8b231fb699b61d99c271b0f2720baf933c67d6a60f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_082.png"
+  },
+  {
+    "id": 83,
+    "graphics": "29:7cc0",
+    "palette": "26:50e3",
+    "nonzero_bytes": 375,
+    "distinct_colors": 4,
+    "graphics_sha256": "5da75f9a5110e42747c765e2b4cf55793d13ef2c738367a00d599541a4d9a5bb",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_083.png"
+  },
+  {
+    "id": 84,
+    "graphics": "2a:4000",
+    "palette": "26:50eb",
+    "nonzero_bytes": 351,
+    "distinct_colors": 4,
+    "graphics_sha256": "09015ac9baa45f05cfcd4453f72fd596d15174c2f657b72651a62145c54b7a00",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_084.png"
+  },
+  {
+    "id": 85,
+    "graphics": "2a:4240",
+    "palette": "26:50f3",
+    "nonzero_bytes": 450,
+    "distinct_colors": 4,
+    "graphics_sha256": "e92b623856f41d7345c3bc531a8e1ac0e2ff0d22a724fe1c37ebcdf1ff3b774d",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_085.png"
+  },
+  {
+    "id": 86,
+    "graphics": "2a:4480",
+    "palette": "26:50fb",
+    "nonzero_bytes": 413,
+    "distinct_colors": 4,
+    "graphics_sha256": "888c82e0c51bbbdfe0651e7fc4ab1b011b6375f226458ec9fa38e56289106a36",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_086.png"
+  },
+  {
+    "id": 87,
+    "graphics": "2a:46c0",
+    "palette": "26:5103",
+    "nonzero_bytes": 369,
+    "distinct_colors": 4,
+    "graphics_sha256": "1ab788ed3e1429aed1af585b5b723da760c1f681cab11ac6da3cf2b9f4d7ccf8",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_087.png"
+  },
+  {
+    "id": 88,
+    "graphics": "2a:4900",
+    "palette": "26:510b",
+    "nonzero_bytes": 444,
+    "distinct_colors": 4,
+    "graphics_sha256": "fa76b0d9bcedbc7a92cbb1a360333433c19425b45c14c4dec031d582dd34bcac",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_088.png"
+  },
+  {
+    "id": 89,
+    "graphics": "2a:4b40",
+    "palette": "26:5113",
+    "nonzero_bytes": 452,
+    "distinct_colors": 4,
+    "graphics_sha256": "c6d12bf05f4f58d6258630eca7ff5c17e4b13d6dad4fcff575b8fc8e522e16ea",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_089.png"
+  },
+  {
+    "id": 90,
+    "graphics": "2a:4d80",
+    "palette": "26:511b",
+    "nonzero_bytes": 361,
+    "distinct_colors": 4,
+    "graphics_sha256": "3ec7629f14a1cf06f7f0fffcc10d954553228a47ab2f44655cbe6fa5bf2ed9de",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_090.png"
+  },
+  {
+    "id": 91,
+    "graphics": "2a:4fc0",
+    "palette": "26:5123",
+    "nonzero_bytes": 368,
+    "distinct_colors": 4,
+    "graphics_sha256": "a71da93f58acc3182529f12419539542ab5430f6aa812785bec40278a2037076",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_091.png"
+  },
+  {
+    "id": 92,
+    "graphics": "2a:5200",
+    "palette": "26:512b",
+    "nonzero_bytes": 429,
+    "distinct_colors": 4,
+    "graphics_sha256": "639bb88639b801b9b384515405db27e8a15b7837fa940163c065ea0886f60ca0",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_092.png"
+  },
+  {
+    "id": 93,
+    "graphics": "2a:5440",
+    "palette": "26:5133",
+    "nonzero_bytes": 415,
+    "distinct_colors": 4,
+    "graphics_sha256": "5bfeeb272a115711272f820ace4b575fc37b54298b0877440234dc27f6bb71ac",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_093.png"
+  },
+  {
+    "id": 94,
+    "graphics": "2a:5680",
+    "palette": "26:513b",
+    "nonzero_bytes": 428,
+    "distinct_colors": 4,
+    "graphics_sha256": "442d8429768379926c4358122be3f49ac478a0710705102373afb0d8f9044c1b",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_094.png"
+  },
+  {
+    "id": 95,
+    "graphics": "2a:58c0",
+    "palette": "26:5143",
+    "nonzero_bytes": 357,
+    "distinct_colors": 4,
+    "graphics_sha256": "2e9964b1ed7e222b9baea4592a2e2ee4e4a815132f262659ca7de964934f34b9",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_095.png"
+  },
+  {
+    "id": 96,
+    "graphics": "2a:5b00",
+    "palette": "26:514b",
+    "nonzero_bytes": 427,
+    "distinct_colors": 4,
+    "graphics_sha256": "9e0327d26a29f6cc87217a387f9dc451b312b6dfef58eb8cf2a941ea213153ec",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_096.png"
+  },
+  {
+    "id": 97,
+    "graphics": "2a:5d40",
+    "palette": "26:5153",
+    "nonzero_bytes": 502,
+    "distinct_colors": 4,
+    "graphics_sha256": "713cbee93eaaef9be286555034d2de91d87c8da0f98ca768b96fa5cf423a6edf",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_097.png"
+  },
+  {
+    "id": 98,
+    "graphics": "2a:5f80",
+    "palette": "26:515b",
+    "nonzero_bytes": 225,
+    "distinct_colors": 4,
+    "graphics_sha256": "6c8237ce9c2697d2406353a34c7ad2edec7ec50a1bd4e02bd3a927b19bdb1ab5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_098.png"
+  },
+  {
+    "id": 99,
+    "graphics": "2a:61c0",
+    "palette": "26:5163",
+    "nonzero_bytes": 393,
+    "distinct_colors": 4,
+    "graphics_sha256": "94baf451944ee194bf80c49710853aefcae8ab065f6b6e14a351d9700bc5a0bc",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_099.png"
+  },
+  {
+    "id": 100,
+    "graphics": "2a:6400",
+    "palette": "26:516b",
+    "nonzero_bytes": 341,
+    "distinct_colors": 4,
+    "graphics_sha256": "1dbd71105dfe828380dfdd1fb3471987d22db06d432e12cda4133aeba7588290",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_100.png"
+  },
+  {
+    "id": 101,
+    "graphics": "2a:6640",
+    "palette": "26:5173",
+    "nonzero_bytes": 419,
+    "distinct_colors": 4,
+    "graphics_sha256": "926fe7952391388c5014693b56c67312788c309223728554ef94004e5dc9ed80",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_101.png"
+  },
+  {
+    "id": 102,
+    "graphics": "2a:6880",
+    "palette": "26:517b",
+    "nonzero_bytes": 440,
+    "distinct_colors": 4,
+    "graphics_sha256": "731a8c3a1d14f82882645f881d5f60a9fd83c0a90efa91394cc51c121c7ad2cb",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_102.png"
+  },
+  {
+    "id": 103,
+    "graphics": "2a:6ac0",
+    "palette": "26:5183",
+    "nonzero_bytes": 445,
+    "distinct_colors": 4,
+    "graphics_sha256": "adba6c914f96766bce5e5ba1ba41e4a74e9f6b1372a46f2757ac16a719d542cf",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_103.png"
+  },
+  {
+    "id": 104,
+    "graphics": "2a:6d00",
+    "palette": "26:518b",
+    "nonzero_bytes": 306,
+    "distinct_colors": 4,
+    "graphics_sha256": "8d01546e0bc72728d5ace7c2569ab8c36909a7f1a1146b44ffa20dd5156c3493",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_104.png"
+  },
+  {
+    "id": 105,
+    "graphics": "2a:6f40",
+    "palette": "26:5193",
+    "nonzero_bytes": 359,
+    "distinct_colors": 4,
+    "graphics_sha256": "5105eac5689e482a2fc997e6b430fc83cbe0c16c8e1e036b312fc8898b10bd6f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_105.png"
+  },
+  {
+    "id": 106,
+    "graphics": "2a:7180",
+    "palette": "26:519b",
+    "nonzero_bytes": 479,
+    "distinct_colors": 4,
+    "graphics_sha256": "1b0621a8099225f1f5ffe5c15fc52175631ef06b908251526d86a52e893b324a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_106.png"
+  },
+  {
+    "id": 107,
+    "graphics": "2a:73c0",
+    "palette": "26:51a3",
+    "nonzero_bytes": 248,
+    "distinct_colors": 4,
+    "graphics_sha256": "00ac9be396969d57769022be813645b895654ad4792ee0082703ea24d01f97a6",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_107.png"
+  },
+  {
+    "id": 108,
+    "graphics": "2a:7600",
+    "palette": "26:51ab",
+    "nonzero_bytes": 390,
+    "distinct_colors": 4,
+    "graphics_sha256": "04f897144acf26159282bc30a19f20856e996ec1342e41257b72353cd2a771ea",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_108.png"
+  },
+  {
+    "id": 109,
+    "graphics": "2a:7840",
+    "palette": "26:51b3",
+    "nonzero_bytes": 26,
+    "distinct_colors": 4,
+    "graphics_sha256": "2bbe569bb1aba60adfe358cbd9dba7f85c3459164b512f079b0dbf43ca2d5578",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_109.png"
+  },
+  {
+    "id": 110,
+    "graphics": "2a:7a80",
+    "palette": "26:51bb",
+    "nonzero_bytes": 195,
+    "distinct_colors": 4,
+    "graphics_sha256": "4109899b4b1186c5632fa8fad312530ae999321e590891921eeff7ebcd150e1a",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_110.png"
+  },
+  {
+    "id": 111,
+    "graphics": "63:4000",
+    "palette": "26:51c3",
+    "nonzero_bytes": 502,
+    "distinct_colors": 4,
+    "graphics_sha256": "3a1bdd4514dc4c45d4399c4637bfd689cbe1949f6312f59cd73c9ea0fcd0cd78",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_111.png"
+  },
+  {
+    "id": 112,
+    "graphics": "63:4240",
+    "palette": "26:51cb",
+    "nonzero_bytes": 426,
+    "distinct_colors": 4,
+    "graphics_sha256": "d2727d5b19edebefcef6b36193337b5b07c21086d7e15f9bf4248466a9965cc6",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_112.png"
+  },
+  {
+    "id": 113,
+    "graphics": "63:4480",
+    "palette": "26:51d3",
+    "nonzero_bytes": 428,
+    "distinct_colors": 4,
+    "graphics_sha256": "1632b907ddbe75b28482e75f007331c52bcb5e7476aa5645ac1632fa32758e6d",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_113.png"
+  },
+  {
+    "id": 114,
+    "graphics": "63:46c0",
+    "palette": "26:51db",
+    "nonzero_bytes": 460,
+    "distinct_colors": 4,
+    "graphics_sha256": "1b9d3f21ac23acb9f6ba4dab7dc3e4b3232fa42cc84dcd1abac981d080a35b59",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_114.png"
+  },
+  {
+    "id": 115,
+    "graphics": "63:4900",
+    "palette": "26:51e3",
+    "nonzero_bytes": 422,
+    "distinct_colors": 4,
+    "graphics_sha256": "6d18b66acca0508f258b94b5fa11faf6e89134bce59f43271d9bfe995c846f68",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_115.png"
+  },
+  {
+    "id": 116,
+    "graphics": "63:4b40",
+    "palette": "26:51eb",
+    "nonzero_bytes": 382,
+    "distinct_colors": 4,
+    "graphics_sha256": "fecdde64022a8dc82fb471f0fbab08a43c04df4de7637f214ef92cbf14b9b4b0",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_116.png"
+  },
+  {
+    "id": 117,
+    "graphics": "63:4d80",
+    "palette": "26:51f3",
+    "nonzero_bytes": 275,
+    "distinct_colors": 4,
+    "graphics_sha256": "58fa907e0bdd0182ac12cf199d735082cbe1966ac711d56d3cfbc652777eed6f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_117.png"
+  },
+  {
+    "id": 118,
+    "graphics": "63:4fc0",
+    "palette": "26:51fb",
+    "nonzero_bytes": 401,
+    "distinct_colors": 4,
+    "graphics_sha256": "c620a89e9ad212eeab8b3f0e42caf5882de15a0e60d95bda7edaaea04259a46f",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_118.png"
+  },
+  {
+    "id": 119,
+    "graphics": "63:5200",
+    "palette": "26:5203",
+    "nonzero_bytes": 327,
+    "distinct_colors": 4,
+    "graphics_sha256": "7527061b6fff73f7905ea39ea0cfdd2b4b238ad11960fc3a6f98dd8e93e6a046",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_119.png"
+  },
+  {
+    "id": 120,
+    "graphics": "63:5440",
+    "palette": "26:520b",
+    "nonzero_bytes": 519,
+    "distinct_colors": 4,
+    "graphics_sha256": "e69595e9def79d56a298ed3e0783f5120f16bf2045afa9ac902f83e7eaacbd41",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_120.png"
+  },
+  {
+    "id": 121,
+    "graphics": "63:5680",
+    "palette": "26:5213",
+    "nonzero_bytes": 418,
+    "distinct_colors": 4,
+    "graphics_sha256": "553ea55e008266da3260050b2c609ec2309dba885bbfa8feb79fe70595ae61db",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_121.png"
+  },
+  {
+    "id": 122,
+    "graphics": "63:58c0",
+    "palette": "26:521b",
+    "nonzero_bytes": 398,
+    "distinct_colors": 4,
+    "graphics_sha256": "0b40662fd43940580d392e8a355f0a4c859b189782cf062e5aabb53ebcd9b562",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_122.png"
+  },
+  {
+    "id": 123,
+    "graphics": "63:5b00",
+    "palette": "26:5223",
+    "nonzero_bytes": 434,
+    "distinct_colors": 4,
+    "graphics_sha256": "de12dec970e10286902d4a9feed001816525c8bfaf7307ceb3564aca8e812cff",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_123.png"
+  },
+  {
+    "id": 124,
+    "graphics": "63:5d40",
+    "palette": "26:522b",
+    "nonzero_bytes": 453,
+    "distinct_colors": 4,
+    "graphics_sha256": "9e09038845dddcfa303131d836e5dbec9e3f75bb8fb4738961b123e2826c8aac",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_124.png"
+  },
+  {
+    "id": 125,
+    "graphics": "63:5f80",
+    "palette": "26:5233",
+    "nonzero_bytes": 402,
+    "distinct_colors": 4,
+    "graphics_sha256": "92f658f0bc404cf87b40fc07fc4f10cd13747b9debb16830c21ddf6a85e584ac",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_125.png"
+  },
+  {
+    "id": 126,
+    "graphics": "63:61c0",
+    "palette": "26:523b",
+    "nonzero_bytes": 386,
+    "distinct_colors": 4,
+    "graphics_sha256": "3d074e49486e163eb3635464a834ed1b7c3a6132277f3a6b83f89793cd6a73ec",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_126.png"
+  },
+  {
+    "id": 127,
+    "graphics": "63:6400",
+    "palette": "26:5243",
+    "nonzero_bytes": 383,
+    "distinct_colors": 4,
+    "graphics_sha256": "345857f299f9b29dd8dcb594830e27af5662605747bf4465785e6629be38cdf5",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_127.png"
+  },
+  {
+    "id": 128,
+    "graphics": "63:6640",
+    "palette": "26:524b",
+    "nonzero_bytes": 466,
+    "distinct_colors": 4,
+    "graphics_sha256": "5794f06ac98aedaa51cc281bc223818d74bf9ed12c1de148d1cb782ad7a3e147",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_128.png"
+  },
+  {
+    "id": 129,
+    "graphics": "63:6880",
+    "palette": "26:5253",
+    "nonzero_bytes": 501,
+    "distinct_colors": 4,
+    "graphics_sha256": "0de68a3fe37c6b021289f5f34d88eb2ca1547be47a6bbbcd22e3a55cf78c6d7b",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_129.png"
+  },
+  {
+    "id": 130,
+    "graphics": "63:6ac0",
+    "palette": "26:525b",
+    "nonzero_bytes": 458,
+    "distinct_colors": 4,
+    "graphics_sha256": "fd181251b44f96c5ffdb4469080cf0357227882b2dcd6232b0ffda59c82e0e76",
+    "screenshot": "/workspace/shawu/m6-work/screens/beast_130.png"
+  }
+]

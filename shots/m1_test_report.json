@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-10T06:29:43.734Z",
+  "tests": [
+    {
+      "name": "boot is not falsely recognized as title",
+      "pass": true
+    },
+    {
+      "name": "real title matched; original/HD screenshots captured",
+      "pass": true,
+      "metadata": {
+        "frames": 3423,
+        "ticks": 240387824,
+        "pc": 670,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "scene": "title",
+          "titleRedrawn": true,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "WebGL Scale2x",
+          "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+        },
+        "scroll": [
+          246,
+          0
+        ]
+      }
+    },
+    {
+      "name": "original title menu and cursor band pixel-exact in HD",
+      "pass": true
+    },
+    {
+      "name": "title menu directional input changes real pixels",
+      "pass": true
+    },
+    {
+      "name": "real playable forest reached by deterministic inputs",
+      "pass": true,
+      "metadata": {
+        "frames": 34965,
+        "ticks": 2452824208,
+        "pc": 672,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "scene": "forest-tile-family",
+          "titleRedrawn": false,
+          "knownBackgroundCells": 348,
+          "forestTilesRedrawn": 348,
+          "forestAtlasAvailable": true,
+          "fallback": "WebGL Scale2x",
+          "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "directional input moves map scroll",
+      "pass": true,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        0,
+        16
+      ]
+    },
+    {
+      "name": "identical emulator savestate bytes after identical original/HD input",
+      "pass": true,
+      "sha256": "79b66c5b79bf00a54590ca76e75412790eec72fd18f0d783e406d9b0564b6aeb",
+      "frames": 384
+    }
+  ],
+  "limits": [
+    "Early-game smoke tests only, not whole-game compatibility",
+    "Battery RAM byte persistence tested; in-game save/continue not yet proven",
+    "94-tile supervisor GPT atlas installed; seams and partial-cell fallback remain; no smoothing called redraw"
+  ],
+  "pass": false,
+  "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok((await evalapi(()=>shuihu.meta())).held.includes('right'))\n\n    at /workspace/shawu/web/tools/test_m1.cjs:13:374",
+  "runtimeErrors": [],
+  "externalRequests": [],
+  "failedRequests": []
+}

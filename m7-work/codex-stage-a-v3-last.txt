@@ -1,0 +1,11 @@
+**REQUEST_READY — Stage A v3 已冻结，尚未接受。M8 未启动。**
+
+- v2 全量保存在 `stage-a/versions/v2/`，含所有 probe/raw/监督分析；v1/v2 历史原件未改。
+- v3 减少 identity 绘制分配、恢复行缓存字符串和 recolor 遍历成本。
+- 离线验证通过：546 文件冻结核验、14,584 原生帧结构一致、16 类 RGBA oracle；尚无 Chromium 性能改善结论。
+
+监督请按新文档先运行同定义 12 样本 probe，再决定是否进行完整 442/31396/72 验收：
+
+[SUPERVISOR_RUN_STAGE_A_V3.md](/workspace/shawu/m7-work/SUPERVISOR_RUN_STAGE_A_V3.md)
+
+[中文候选报告](/workspace/shawu/m7-work/stage-a/v3/REPORT_STAGE_A_V3_zh.md)

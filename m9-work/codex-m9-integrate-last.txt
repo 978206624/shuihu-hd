@@ -1,0 +1,5 @@
+Integrated all five accepted Region 4 plates into the isolated [M9 runtime](/workspace/shawu/m9-work/runtime/). Offline checks verified the plate bytes, all 34 map registrations, and byte parity with M8 for the ROM, binjgb core, renderer, and prior plates.
+
+[REQUEST_READY.md](/workspace/shawu/m9-work/REQUEST_READY.md) contains the exact supervisor commands for formal QA, the adopted v3 perf protocol, the contact sheet, and the real-time silent preview. It includes lock order, logs, PIDs, resume points, and the cold `00-17` residual.
+
+Stopped at the outer gate. Both listener probes returned sandbox `EPERM`, so live listener checks and browser runs are pending supervisor execution. [Progress checkpoint](/workspace/shawu/m9-work/progress.md)

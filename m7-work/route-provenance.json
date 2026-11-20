@@ -1,0 +1,22 @@
+{
+  "root": "play/start-region2.bin",
+  "rootSource": "../m6-work/region1/council-mission-final/latest.bin",
+  "method": "Only normal emulator joypad input, no RAM/PC/ROM changes; shortest-path door searches create input lists then QA replays them. Native wild encounters escaped through menus.",
+  "cityArrivalChain": [
+    "play/leave-house.json (source play/start-region2.bin, no initial idle)",
+    "play/leave-town.json (source play/leave-house.bin, idle120)",
+    "webplay/field-south.json",
+    "webplay/try-east.json",
+    "webplay/escape.json",
+    "webplay/escape-a.json",
+    "webplay/field-north.json",
+    "webplay/manual-city.json",
+    "webplay/manual-arrival.json",
+    "webplay/arrival2.json",
+    "webplay/escape3.json",
+    "webplay/cursor.json",
+    "webplay/flee-result.json",
+    "webplay/city-gate.json"
+  ],
+  "note": "Discarded route searches and diagnostic branches are not claimed as natural progress."
+}

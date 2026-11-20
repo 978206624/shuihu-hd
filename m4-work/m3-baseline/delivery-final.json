@@ -1,0 +1,28 @@
+{
+  "zip": "/workspace/shawu/shuihu-hd-m3-windows.zip",
+  "bytes": 32328701,
+  "sha256": "5d428f447c52c3da4db8344d35ac7b1a2ca533444a74318e9722cd5d18cdf0ef",
+  "zipCRCValid": true,
+  "fileCount": 100,
+  "batchBytes": 411,
+  "batchEncoding": "GBK, byte-identical M2 launcher",
+  "offlinePackageVerification": {
+    "pass": true,
+    "environment": "Linux headless Chromium; not real Windows execution",
+    "source": "clean extraction of shuihu-hd-m3-windows.zip",
+    "network": "all non-localhost requests blocked; no external requests attempted",
+    "requests": 22,
+    "originalStateAtFrame360Matches": true,
+    "loadedScene": "interior",
+    "gptBackgroundPixels": 12522,
+    "errors": [],
+    "outbound": [],
+    "failed": []
+  },
+  "contact": "/workspace/shawu/shots/m3_cutscenes_contact.png",
+  "comparisons": [
+    "/workspace/shawu/shots/m3_compare_cliff_top.png",
+    "/workspace/shawu/shots/m3_compare_disciples_clear.png",
+    "/workspace/shawu/shots/m3_compare_forest_free_roam.png"
+  ]
+}

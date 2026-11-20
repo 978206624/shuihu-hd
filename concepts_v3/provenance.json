@@ -1,0 +1,8 @@
+{
+  "title": "/cursor/stores/user/grok-bot/agents/0fbc875c-ebab-4b65-bac4-28609ade154d/assets/860fc98723e66382dcadb16b610e3951244eb94b68b23ab9dc74f3aa10e6a19b.jpg",
+  "cliff": "/cursor/stores/user/grok-bot/agents/0fbc875c-ebab-4b65-bac4-28609ade154d/assets/1e18d243ea3e8ed8227d142345a78a5698086a9bfb483e53c80c77bfc2bf4f34.jpg",
+  "palace": "/cursor/stores/user/grok-bot/agents/0fbc875c-ebab-4b65-bac4-28609ade154d/assets/1a32866acaab04f6d7ead766d0b0a5594a3a3238b0f1c50b4412789e042531fc.jpg",
+  "initial_palace_generation": "failed; successful shortened retry, then ceremonial crown refinement",
+  "initial_cliff_generation": "succeeded but rejected: camera and character scale too close",
+  "status": "AI concepts only, not pixel-perfect replacement assets or live game"
+}

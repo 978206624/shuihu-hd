@@ -1,0 +1,1 @@
+(async()=>{const a=await require('./offline-runtime.cjs').open(__dirname+'/candidate-runtime');a.r.maps.diagnosticPixels=[42*160,43*160,63*160,64*160,143*160];for(let f=0;f<=5486;f++){a.input('A',f%120<2);a.step(1,f>=5460);}console.log(a.r.maps.diagnostics);})();

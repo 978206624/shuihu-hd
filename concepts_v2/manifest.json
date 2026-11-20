@@ -1,0 +1,44 @@
+[
+  {
+    "scene": "title",
+    "original_reference": "/workspace/shawu/shots/menu.png",
+    "concept": "/workspace/shawu/concepts_v2/title_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v2_title.png",
+    "comparison_pixels": [
+      2000,
+      984
+    ]
+  },
+  {
+    "scene": "cliff",
+    "original_reference": "/workspace/shawu/shots/advance_48.png",
+    "concept": "/workspace/shawu/concepts_v2/cliff_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v2_cliff.png",
+    "comparison_pixels": [
+      2000,
+      984
+    ]
+  },
+  {
+    "scene": "palace",
+    "original_reference": "/workspace/shawu/shots/advance_64.png",
+    "concept": "/workspace/shawu/concepts_v2/palace_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v2_palace.png",
+    "comparison_pixels": [
+      2000,
+      984
+    ]
+  }
+]

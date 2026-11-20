@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "frame": 359,
+      "ticks": 265669516,
+      "eligible": 12522,
+      "gpt": 12522,
+      "gaps": 0,
+      "actorPixels": 664,
+      "textPixels": 6601,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 360,
+      "ticks": 265739744,
+      "eligible": 12522,
+      "gpt": 12522,
+      "gaps": 0,
+      "actorPixels": 664,
+      "textPixels": 5664,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 361,
+      "ticks": 265809976,
+      "eligible": 13940,
+      "gpt": 13940,
+      "gaps": 0,
+      "actorPixels": 278,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": {
+        "kind": "native-ui-close-wipe",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 64
+        },
+        "progress": 0.010550113036925395,
+        "changedScene": 84,
+        "topScene": 0,
+        "distinct": 7962,
+        "restoredCells": 21,
+        "uiCells": 139,
+        "mismatch": 1607,
+        "pixels": 10240,
+        "ticks": 265809976,
+        "certifiedTicks": 265669516,
+        "certifiedCompositionPixels": 10240,
+        "newContentPixels": 0
+      }
+    },
+    {
+      "frame": 362,
+      "ticks": 265880208,
+      "eligible": 18211,
+      "gpt": 18211,
+      "gaps": 0,
+      "actorPixels": 278,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": {
+        "kind": "native-ui-close-wipe",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 64
+        },
+        "progress": 0.3271791007284602,
+        "changedScene": 2605,
+        "topScene": 940,
+        "distinct": 7962,
+        "restoredCells": 152,
+        "uiCells": 8,
+        "mismatch": 4836,
+        "pixels": 10240,
+        "ticks": 265880208,
+        "certifiedTicks": 265669516,
+        "certifiedCompositionPixels": 10240,
+        "newContentPixels": 0
+      }
+    },
+    {
+      "frame": 363,
+      "ticks": 265950432,
+      "eligible": 22762,
+      "gpt": 22762,
+      "gaps": 0,
+      "actorPixels": 278,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 4767,
+      "ticks": 575229624,
+      "eligible": 12336,
+      "gpt": 12336,
+      "gaps": 0,
+      "actorPixels": 805,
+      "textPixels": 6651,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 7703,
+      "ticks": 781415696,
+      "eligible": 12434,
+      "gpt": 12434,
+      "gaps": 0,
+      "actorPixels": 679,
+      "textPixels": 6674,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 11530,
+      "ticks": 1050175512,
+      "eligible": 22688,
+      "gpt": 22688,
+      "gaps": 0,
+      "actorPixels": 352,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 18359,
+      "ticks": 1529758320,
+      "eligible": 12479,
+      "gpt": 12479,
+      "gaps": 0,
+      "actorPixels": 751,
+      "textPixels": 6558,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 18360,
+      "ticks": 1529828544,
+      "eligible": 12681,
+      "gpt": 12681,
+      "gaps": 0,
+      "actorPixels": 751,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": {
+        "kind": "native-ui-close-wipe",
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "w": 160,
+          "h": 64
+        },
+        "progress": 0.00676730869338886,
+        "changedScene": 65,
+        "topScene": 65,
+        "distinct": 9605,
+        "restoredCells": 0,
+        "uiCells": 160,
+        "mismatch": 1358,
+        "pixels": 10240,
+        "ticks": 1529828544,
+        "certifiedTicks": 1529758320,
+        "certifiedCompositionPixels": 9810,
+        "newContentPixels": 0
+      }
+    },
+    {
+      "frame": 18361,
+      "ticks": 1529898776,
+      "eligible": 16730,
+      "gpt": 16730,
+      "gaps": 0,
+      "actorPixels": 321,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": {
+        "kind": "native-ui-close-wipe",
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "w": 160,
+          "h": 64
+        },
+        "progress": 0.08232011162049033,
+        "changedScene": 826,
+        "topScene": 328,
+        "distinct": 10034,
+        "restoredCells": 10,
+        "uiCells": 150,
+        "mismatch": 4123,
+        "pixels": 10240,
+        "ticks": 1529898776,
+        "certifiedTicks": 1529758320,
+        "certifiedCompositionPixels": 10240,
+        "newContentPixels": 0
+      }
+    },
+    {
+      "frame": 18362,
+      "ticks": 1529969000,
+      "eligible": 21751,
+      "gpt": 21751,
+      "gaps": 0,
+      "actorPixels": 321,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": {
+        "kind": "native-ui-close-wipe",
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "w": 160,
+          "h": 64
+        },
+        "progress": 0.6556707195535181,
+        "changedScene": 6579,
+        "topScene": 1261,
+        "distinct": 10034,
+        "restoredCells": 146,
+        "uiCells": 14,
+        "mismatch": 2827,
+        "pixels": 10240,
+        "ticks": 1529969000,
+        "certifiedTicks": 1529758320,
+        "certifiedCompositionPixels": 10240,
+        "newContentPixels": 0
+      }
+    },
+    {
+      "frame": 18363,
+      "ticks": 1530039228,
+      "eligible": 22719,
+      "gpt": 22719,
+      "gaps": 0,
+      "actorPixels": 321,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": null
+    },
+    {
+      "frame": 18364,
+      "ticks": 1530109452,
+      "eligible": 22719,
+      "gpt": 22719,
+      "gaps": 0,
+      "actorPixels": 321,
+      "textPixels": 0,
+      "changed": 0,
+      "transition": null
+    }
+  ],
+  "resync": "skip/backward-reset/repeated-frame passed",
+  "outsideUI": "unchanged on every transition",
+  "composition": "all transition pixels certified HD scene/UI or current native foreground"
+}

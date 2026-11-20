@@ -1,0 +1,32 @@
+{
+  "states": [
+    {
+      "meta": {
+        "scene": "title",
+        "mapResult": null,
+        "titleRedrawn": true,
+        "titleSelection": 0,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, original foreground difference mask"
+      },
+      "entireBottomMatchesHDBackground": true
+    },
+    {
+      "meta": {
+        "scene": "title",
+        "mapResult": null,
+        "titleRedrawn": true,
+        "titleSelection": 1,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, original foreground difference mask"
+      },
+      "entireBottomMatchesHDBackground": true
+    }
+  ]
+}

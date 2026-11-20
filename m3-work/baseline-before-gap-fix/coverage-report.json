@@ -1,0 +1,95 @@
+{
+  "totalFrames": 29160,
+  "fullyHDBackgroundFrames": 26597,
+  "fullyHDBackgroundAndUIFrames": 26597,
+  "eligiblePixels": 472409043,
+  "coveredPixels": 451265394,
+  "dialogueFrames": 18288,
+  "fullyCoveredDialogueFrames": 18288,
+  "dialoguePixels": 59610105,
+  "coveredDialoguePixels": 59610105,
+  "classifications": {
+    "scene": {
+      "frames": 26573,
+      "fullyHD": 26546,
+      "eligiblePixels": 414551718,
+      "coveredPixels": 414483841
+    },
+    "raster-transition": {
+      "frames": 2106,
+      "fullyHD": 0,
+      "eligiblePixels": 46902492,
+      "coveredPixels": 35605245
+    },
+    "unsupported": {
+      "frames": 341,
+      "fullyHD": 0,
+      "eligiblePixels": 7752303,
+      "coveredPixels": 0
+    },
+    "blank": {
+      "frames": 125,
+      "fullyHD": 37,
+      "eligiblePixels": 2863541,
+      "coveredPixels": 840135
+    },
+    "palette-fade": {
+      "frames": 15,
+      "fullyHD": 14,
+      "eligiblePixels": 338989,
+      "coveredPixels": 336173
+    }
+  },
+  "scenes": {
+    "title": {
+      "frames": 2,
+      "fullyHD": 0,
+      "eligiblePixels": 44197,
+      "coveredPixels": 0
+    },
+    "unsupported": {
+      "frames": 804,
+      "fullyHD": 0,
+      "eligiblePixels": 18042331,
+      "coveredPixels": 0
+    },
+    "interior": {
+      "frames": 5013,
+      "fullyHD": 4701,
+      "eligiblePixels": 75912489,
+      "coveredPixels": 75308713
+    },
+    "cliff": {
+      "frames": 1631,
+      "fullyHD": 1463,
+      "eligiblePixels": 24267949,
+      "coveredPixels": 23768277
+    },
+    "palace": {
+      "frames": 4163,
+      "fullyHD": 3804,
+      "eligiblePixels": 72451748,
+      "coveredPixels": 71656429
+    },
+    "disciples": {
+      "frames": 6564,
+      "fullyHD": 6249,
+      "eligiblePixels": 102819514,
+      "coveredPixels": 102162300
+    },
+    "forest": {
+      "frames": 10983,
+      "fullyHD": 10380,
+      "eligiblePixels": 178870815,
+      "coveredPixels": 178369675
+    }
+  },
+  "stateHashComparisons": 243,
+  "pixelHashComparisons": 243,
+  "errors": [],
+  "completedFrames": 29160,
+  "backgroundFramePercent": 91.21056241426612,
+  "jointFramePercent": 91.21056241426612,
+  "pixelWeightedPercent": 95.52429206991282,
+  "pass": true
+}

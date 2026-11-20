@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "status": 504,
+  "elapsed": 186.69,
+  "nbytes": 132,
+  "error": null,
+  "body_keys": [
+    "error"
+  ],
+  "error_body": {
+    "code": "upstream_connect_timeout",
+    "message": "Upstream preparation exceeded the opening time limit",
+    "type": "server_error"
+  }
+}

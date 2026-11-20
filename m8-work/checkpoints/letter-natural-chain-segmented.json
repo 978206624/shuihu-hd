@@ -1,0 +1,245 @@
+{
+  "startingSource": "m7-work/play/region2-story9-end.bin",
+  "startSHA256": "7f3a1043a04fa31c4c1c85e7fefc0632b3e451526c1081445f725324ca7b8c34",
+  "segments": [
+    {
+      "directory": "m8-work/play/accepted-01-leave-manor",
+      "startSHA256": "7f3a1043a04fa31c4c1c85e7fefc0632b3e451526c1081445f725324ca7b8c34",
+      "endSHA256": "eb3b5c984edb9542467980e6f132bbed81f0a0663c83d692bb7c22780c1efcbb",
+      "actionOffset": 0,
+      "actions": 2,
+      "frames": 144
+    },
+    {
+      "directory": "m8-work/play/inner-manual-exit-attempt",
+      "startSHA256": "eb3b5c984edb9542467980e6f132bbed81f0a0663c83d692bb7c22780c1efcbb",
+      "endSHA256": "8a4572391bd8370b1e9252d37b1af6e33acfb95f599dba76ef3a9ab1687c997e",
+      "actionOffset": 2,
+      "actions": 6,
+      "frames": 664
+    },
+    {
+      "directory": "m8-work/play/inner-detour-attempt",
+      "startSHA256": "8a4572391bd8370b1e9252d37b1af6e33acfb95f599dba76ef3a9ab1687c997e",
+      "endSHA256": "5c3d0321fed92f9f5283bdf6876fdc2632e8796498372bf9319b8e636fbc3679",
+      "actionOffset": 8,
+      "actions": 4,
+      "frames": 378
+    },
+    {
+      "directory": "m8-work/play/accepted-02-outer-return",
+      "startSHA256": "5c3d0321fed92f9f5283bdf6876fdc2632e8796498372bf9319b8e636fbc3679",
+      "endSHA256": "7594c82805e0b1f8f920d4b7bed0acccc1ac59048fff12e6bfdf94ac55d70a98",
+      "actionOffset": 12,
+      "actions": 2,
+      "frames": 244
+    },
+    {
+      "directory": "m8-work/play/outer-field-return-attempt",
+      "startSHA256": "7594c82805e0b1f8f920d4b7bed0acccc1ac59048fff12e6bfdf94ac55d70a98",
+      "endSHA256": "56f1cee2ce64281b19a1437f5d71e7dc506490ae61b0efee6599bab8ce6ff3f4",
+      "actionOffset": 14,
+      "actions": 3,
+      "frames": 566
+    },
+    {
+      "directory": "m8-work/play/field-battle-inspect",
+      "startSHA256": "56f1cee2ce64281b19a1437f5d71e7dc506490ae61b0efee6599bab8ce6ff3f4",
+      "endSHA256": "86ed337f1cf140cafead63383b388db4eae8d340206dafb58a49c75a87d4525b",
+      "actionOffset": 17,
+      "actions": 1,
+      "frames": 600
+    },
+    {
+      "directory": "m8-work/play/field-middle-attempt",
+      "startSHA256": "86ed337f1cf140cafead63383b388db4eae8d340206dafb58a49c75a87d4525b",
+      "endSHA256": "1e9fd029352f6b9b6259b4ca210dbc8be89cfd7f241f44cc0e941fdfe41b8c82",
+      "actionOffset": 18,
+      "actions": 3,
+      "frames": 956
+    },
+    {
+      "directory": "m8-work/play/field-flee-attempt",
+      "startSHA256": "1e9fd029352f6b9b6259b4ca210dbc8be89cfd7f241f44cc0e941fdfe41b8c82",
+      "endSHA256": "4f1aa1f435a47dbc203e230796f9eccade66836d11e06a44d81b1b17555598f2",
+      "actionOffset": 21,
+      "actions": 4,
+      "frames": 388
+    },
+    {
+      "directory": "m8-work/play/field-west-attempt",
+      "startSHA256": "4f1aa1f435a47dbc203e230796f9eccade66836d11e06a44d81b1b17555598f2",
+      "endSHA256": "bd1498e0e194cad822574eda7afac425cee1557ad65e0d20977723778544140d",
+      "actionOffset": 25,
+      "actions": 1,
+      "frames": 520
+    },
+    {
+      "directory": "m8-work/play/field-northwest-attempt",
+      "startSHA256": "bd1498e0e194cad822574eda7afac425cee1557ad65e0d20977723778544140d",
+      "endSHA256": "bbf02b3ffaa3d0f73de4faa2ddca5fef4a90b7aa2263487c4b4850eed8f4aa8b",
+      "actionOffset": 26,
+      "actions": 3,
+      "frames": 648
+    },
+    {
+      "directory": "m8-work/play/field-battle-advance-attempt",
+      "startSHA256": "bbf02b3ffaa3d0f73de4faa2ddca5fef4a90b7aa2263487c4b4850eed8f4aa8b",
+      "endSHA256": "9a3765cf10bbd55a3ad00a75c9e3e5d4b90bb8d7348153469fa1dada3f0a60a7",
+      "actionOffset": 29,
+      "actions": 2,
+      "frames": 372
+    },
+    {
+      "directory": "m8-work/play/field-flee-02",
+      "startSHA256": "9a3765cf10bbd55a3ad00a75c9e3e5d4b90bb8d7348153469fa1dada3f0a60a7",
+      "endSHA256": "9ab3b45cc894b2bb6edbbabc56b0c3a083a5e95aa9d71982b39e943e5a4445a4",
+      "actionOffset": 31,
+      "actions": 4,
+      "frames": 388
+    },
+    {
+      "directory": "m8-work/play/field-flee-03",
+      "startSHA256": "9ab3b45cc894b2bb6edbbabc56b0c3a083a5e95aa9d71982b39e943e5a4445a4",
+      "endSHA256": "599aa344ceded36b93a719db6f6218d4bfc971e4e3a9e8cb5be365c87295a6a1",
+      "actionOffset": 35,
+      "actions": 4,
+      "frames": 388
+    },
+    {
+      "directory": "m8-work/play/accepted-03-town-return",
+      "startSHA256": "599aa344ceded36b93a719db6f6218d4bfc971e4e3a9e8cb5be365c87295a6a1",
+      "endSHA256": "6db661e968d7bf79fd0035f66f6204c5f394bb19d146da840a12bc04278fef44",
+      "actionOffset": 39,
+      "actions": 1,
+      "frames": 250
+    },
+    {
+      "directory": "m8-work/play/accepted-04-council-return",
+      "startSHA256": "6db661e968d7bf79fd0035f66f6204c5f394bb19d146da840a12bc04278fef44",
+      "endSHA256": "8585945e352f874faa655a835b620b538db6ffafcd14bc609caed6281e777a33",
+      "actionOffset": 40,
+      "actions": 17,
+      "frames": 504
+    },
+    {
+      "directory": "m8-work/play/council-letter-talk-start",
+      "startSHA256": "8585945e352f874faa655a835b620b538db6ffafcd14bc609caed6281e777a33",
+      "endSHA256": "e10b869dc2dc11c76f3184758ff1fe2d2c99ce73429ed78e9576e3f532657715",
+      "actionOffset": 57,
+      "actions": 3,
+      "frames": 358
+    },
+    {
+      "directory": "m8-work/play/council-letter-near",
+      "startSHA256": "e10b869dc2dc11c76f3184758ff1fe2d2c99ce73429ed78e9576e3f532657715",
+      "endSHA256": "c1b5d1e5ea071b0e832b47e0145ff143ed3c9a003683cc134ce8a307ed53420d",
+      "actionOffset": 60,
+      "actions": 3,
+      "frames": 214
+    },
+    {
+      "directory": "m8-work/play/accepted-05-introduction-letter",
+      "startSHA256": "c1b5d1e5ea071b0e832b47e0145ff143ed3c9a003683cc134ce8a307ed53420d",
+      "endSHA256": "d3cf4a42b22c98fb5ba427ec71209a70a0f195ccdddeca387d4cbb9b3c7476d8",
+      "actionOffset": 63,
+      "actions": 19,
+      "frames": 3154
+    },
+    {
+      "directory": "m8-work/play/accepted-06-leave-letter-house",
+      "startSHA256": "d3cf4a42b22c98fb5ba427ec71209a70a0f195ccdddeca387d4cbb9b3c7476d8",
+      "endSHA256": "bfd9a78150f7a7a64bc15141f1eee1bb4b781df97d1ae557f3d3c4bec40328aa",
+      "actionOffset": 82,
+      "actions": 4,
+      "frames": 192
+    },
+    {
+      "directory": "m8-work/play/accepted-07-leave-town-letter",
+      "startSHA256": "bfd9a78150f7a7a64bc15141f1eee1bb4b781df97d1ae557f3d3c4bec40328aa",
+      "endSHA256": "02e59a635303235a968873773dd45c787ea1c280b5da79ec4e7e0c7349fe190e",
+      "actionOffset": 86,
+      "actions": 17,
+      "frames": 504
+    },
+    {
+      "directory": "m8-work/play/letter-field-east-attempt",
+      "startSHA256": "02e59a635303235a968873773dd45c787ea1c280b5da79ec4e7e0c7349fe190e",
+      "endSHA256": "e9551895664dc9b288a9b55c40b46020c9bc25fddb07c9f0cb386ab2a877b23f",
+      "actionOffset": 103,
+      "actions": 29,
+      "frames": 2864
+    },
+    {
+      "directory": "m8-work/play/letter-inner-arrival",
+      "startSHA256": "e9551895664dc9b288a9b55c40b46020c9bc25fddb07c9f0cb386ab2a877b23f",
+      "endSHA256": "bff67a3074d8fa9bad57c93e271a24af61618a129d98bb8ede8725933bda5337",
+      "actionOffset": 132,
+      "actions": 1,
+      "frames": 450
+    },
+    {
+      "directory": "m8-work/play/accepted-08-tavern-letter",
+      "startSHA256": "bff67a3074d8fa9bad57c93e271a24af61618a129d98bb8ede8725933bda5337",
+      "endSHA256": "245b37e64a29005a9c0d4d33e4e40207c1f2057b960e72697b4293b85bcfe551",
+      "actionOffset": 133,
+      "actions": 21,
+      "frames": 600
+    },
+    {
+      "directory": "m8-work/play/tavern-letter-talk-start",
+      "startSHA256": "245b37e64a29005a9c0d4d33e4e40207c1f2057b960e72697b4293b85bcfe551",
+      "endSHA256": "2abbf4acfcc04a76f76f67f188f0b7e7c3039d92a66b203c3af0b1a3ddba59f7",
+      "actionOffset": 154,
+      "actions": 3,
+      "frames": 358
+    },
+    {
+      "directory": "m8-work/play/tavern-letter-near",
+      "startSHA256": "2abbf4acfcc04a76f76f67f188f0b7e7c3039d92a66b203c3af0b1a3ddba59f7",
+      "endSHA256": "e0dcbcc162e5039293a2b7321c9450c2894b6073769282b274a4e4a99bf1827a",
+      "actionOffset": 157,
+      "actions": 4,
+      "frames": 318
+    },
+    {
+      "directory": "m8-work/play/tavern-letter-dialogue-start",
+      "startSHA256": "e0dcbcc162e5039293a2b7321c9450c2894b6073769282b274a4e4a99bf1827a",
+      "endSHA256": "45b921c23b94394dbc812b4756fb4105d4478b201867c11f884f03521291af7d",
+      "actionOffset": 161,
+      "actions": 2,
+      "frames": 190
+    },
+    {
+      "directory": "m8-work/play/accepted-09-letter-delivered",
+      "startSHA256": "45b921c23b94394dbc812b4756fb4105d4478b201867c11f884f03521291af7d",
+      "endSHA256": "538c31d380b9049e2bef4345f5025757c0032c066f566b9965d29f04dc4e4c85",
+      "actionOffset": 163,
+      "actions": 7,
+      "frames": 1162
+    },
+    {
+      "directory": "m8-work/play/tavern-lu-dialogue-start",
+      "startSHA256": "538c31d380b9049e2bef4345f5025757c0032c066f566b9965d29f04dc4e4c85",
+      "endSHA256": "e90756fc6bf042ef840c8a6f9aa9cee3544fb24c42e7791963da3c4c43237e97",
+      "actionOffset": 170,
+      "actions": 3,
+      "frames": 230
+    },
+    {
+      "directory": "m8-work/play/accepted-10-lu-letter-delivered",
+      "startSHA256": "e90756fc6bf042ef840c8a6f9aa9cee3544fb24c42e7791963da3c4c43237e97",
+      "endSHA256": "62c765391774ae5da302689c8efe9a5439d33aad7b47b3798562ef196106091c",
+      "actionOffset": 173,
+      "actions": 12,
+      "frames": 1992
+    }
+  ],
+  "allBoundariesExact": true,
+  "segmentedEndSHA256": "62c765391774ae5da302689c8efe9a5439d33aad7b47b3798562ef196106091c",
+  "notes": [
+    "The directory accepted-09-letter-delivered contains an ordinary patron dialogue; the actual Lu Zhishen letter story 10-to-11 occurs at accepted-10-lu-letter-delivered.",
+    "Search attempts are excluded; all searched routes entered here are fresh natural input replays.",
+    "Segmented saves are not claimed byte-identical to uninterrupted replay; full continuous replay required."
+  ]
+}

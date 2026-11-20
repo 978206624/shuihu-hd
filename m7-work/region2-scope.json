@@ -1,0 +1,135 @@
+{
+  "region": "大名城",
+  "maps": [
+    {
+      "id": "00-12",
+      "name": "大名城外城",
+      "dimensions": [
+        256,
+        320
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-12.png",
+      "artReady": true
+    },
+    {
+      "id": "00-13",
+      "name": "大名城室内 00-13",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-13.png",
+      "artReady": true
+    },
+    {
+      "id": "00-14",
+      "name": "大名城室内 00-14",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-14.png",
+      "artReady": true
+    },
+    {
+      "id": "00-15",
+      "name": "大名城室内 00-15",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-15.png",
+      "artReady": true
+    },
+    {
+      "id": "00-16",
+      "name": "大名城室内 00-16",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-16.png",
+      "artReady": true
+    },
+    {
+      "id": "00-17",
+      "name": "大名城内城",
+      "dimensions": [
+        384,
+        320
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-17.png",
+      "artReady": true
+    },
+    {
+      "id": "00-18",
+      "name": "大名城室内 00-18",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-18.png",
+      "artReady": true
+    },
+    {
+      "id": "00-19",
+      "name": "白胜家",
+      "dimensions": [
+        192,
+        192
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-19.png",
+      "artReady": true
+    },
+    {
+      "id": "00-1a",
+      "name": "大名城室内 00-1a",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-1a.png",
+      "artReady": true
+    },
+    {
+      "id": "00-1b",
+      "name": "醉仙楼",
+      "dimensions": [
+        192,
+        256
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-1b.png",
+      "artReady": true
+    },
+    {
+      "id": "00-1c",
+      "name": "大名城室内 00-1c",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-1c.png",
+      "artReady": true
+    },
+    {
+      "id": "00-1d",
+      "name": "大名城室内 00-1d",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-1d.png",
+      "artReady": true
+    },
+    {
+      "id": "00-1e",
+      "name": "大名府",
+      "dimensions": [
+        192,
+        160
+      ],
+      "native": "/workspace/shawu/m6-work/screens/map_00-1e.png",
+      "artReady": true
+    }
+  ]
+}

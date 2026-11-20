@@ -1,0 +1,222 @@
+{
+  "pass": true,
+  "protectedFiles": [
+    {
+      "path": "assets/forest/atlas_hd.png",
+      "sha256": "d88561d83696923c821f6ae056e946b21853698920d19fc12308a4c0007c45b6",
+      "bytes": 219444
+    },
+    {
+      "path": "assets/forest/mapping.json",
+      "sha256": "8d4e1267d534f0537cf11b45af65809fb4a90eb5f6301923e98eff02c5445e13",
+      "bytes": 46945
+    },
+    {
+      "path": "assets/forest/provenance.json",
+      "sha256": "9894ebe787a849d8f983b314f42e89908e30aadb8e9403a545fe98c58f3dda0e",
+      "bytes": 458
+    },
+    {
+      "path": "assets/game.gbc",
+      "sha256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "bytes": 2097152
+    },
+    {
+      "path": "assets/maps/card_heaven.png",
+      "sha256": "a9918e03a875dacba4acfc2f3324829ecbf4ea5084304154311bb4afa747303a",
+      "bytes": 9886
+    },
+    {
+      "path": "assets/maps/card_year.png",
+      "sha256": "c407b31c889f8c2c49a9d8d0260a52d6dc3d72f4cb59692b55d92ad83c58ae70",
+      "bytes": 14614
+    },
+    {
+      "path": "assets/maps/cards_m4.json",
+      "sha256": "88e4a915779be359ca12726e4b50b9fd936afdad24b847623b16cb574df2a1cd",
+      "bytes": 93106
+    },
+    {
+      "path": "assets/maps/cliff_hd.png",
+      "sha256": "87ffa4729663f7fa86a6cf0e7c83a37e2495885111929fbd991142645c7afdd7",
+      "bytes": 669746
+    },
+    {
+      "path": "assets/maps/cliff_reference.png",
+      "sha256": "31af8c1bd4000e259892704b60553eca649872df006ae44fe9c68f8652f25a41",
+      "bytes": 8116
+    },
+    {
+      "path": "assets/maps/dialogue_hd.png",
+      "sha256": "45f8baa496551ac2853d6ce92e7feb139cac51e471992234dd6065736539be08",
+      "bytes": 1092208
+    },
+    {
+      "path": "assets/maps/disciples_hd.webp",
+      "sha256": "47f2072c39b09146316165688a07ff2201a57daa1371915c2d59a5527bf219ce",
+      "bytes": 844286
+    },
+    {
+      "path": "assets/maps/forest_animation.json",
+      "sha256": "554fdc23004722c0b860a38d8cf393e8ca9a668e04a67436e8de47b43b39fecc",
+      "bytes": 6027
+    },
+    {
+      "path": "assets/maps/forest_hd.webp",
+      "sha256": "344fcbc34a85b75d620baf81e480a1801af92a53b84fc2fbf1278aff7a067149",
+      "bytes": 937142
+    },
+    {
+      "path": "assets/maps/forest_reference.png",
+      "sha256": "8cc70e246495ac7810f10699e3bb4cc65cf8283018236357fb1094f5a4b10e83",
+      "bytes": 12080
+    },
+    {
+      "path": "assets/maps/forest_structure.json",
+      "sha256": "6eee102125bcffc704b3da7fe300fe2cb7a903bed52723609814d55e9fe9bd0c",
+      "bytes": 6460
+    },
+    {
+      "path": "assets/maps/impact_hd.png",
+      "sha256": "3709b34764e84b220015f15c9ef9d55d6773ed18f9f633d7d6f30e6b60c692b7",
+      "bytes": 802314
+    },
+    {
+      "path": "assets/maps/impact_keys.json",
+      "sha256": "afd3b3b664efc27e1a0ab185c8e3851a73279dc2a7bd4b69c083bf51f30e5521",
+      "bytes": 513
+    },
+    {
+      "path": "assets/maps/impact_late_hd.png",
+      "sha256": "4468ea3a85ba76b2fe1dac45780642e51ad6a85fb60a4bf782fedc7a143f4bb9",
+      "bytes": 594042
+    },
+    {
+      "path": "assets/maps/interior_structure.json",
+      "sha256": "77afdf0aa2fc70e274ab71e1d2d3b2f7fdd6d07eae4e3d0a0aadc6f3eec898d9",
+      "bytes": 6964
+    },
+    {
+      "path": "assets/maps/intertitle_hd.png",
+      "sha256": "1a8fdd4433fd98aacd62647a5ba9ae6fa1944b33b42f72f583cb4121516ebbd3",
+      "bytes": 299830
+    },
+    {
+      "path": "assets/maps/m3_signatures.json",
+      "sha256": "521d991624c2dfd3607a0a5b535caff9b3753ec983544089c7dde86b44f1e2f3",
+      "bytes": 842563
+    },
+    {
+      "path": "assets/maps/palace_hd.png",
+      "sha256": "bcc108e073bf41fd35d6083742ba7cfb0d02739b26d03e73373b91cb45105393",
+      "bytes": 793941
+    },
+    {
+      "path": "assets/maps/palace_pan_hd.webp",
+      "sha256": "6007005168b9e8a4cf61b723309a660201e4ae3ad9128aca84c52753f560b890",
+      "bytes": 709974
+    },
+    {
+      "path": "assets/maps/palace_reference.png",
+      "sha256": "7a38a6635bc0c04f5fcf0e958dac471f25d70cca02b39a2ccaf7b30226a89976",
+      "bytes": 9129
+    },
+    {
+      "path": "assets/maps/provenance.json",
+      "sha256": "a2ec59e3ff214ffe91f6a5bedbc80336ad5e33af5d83deaf14bee4aeed09462c",
+      "bytes": 837
+    },
+    {
+      "path": "assets/maps/provenance_m3.json",
+      "sha256": "39366612dcb5f78175c8e78823681740c478b1ebefe524d2449feae4d4d99c89",
+      "bytes": 5276
+    },
+    {
+      "path": "assets/maps/provenance_m4.json",
+      "sha256": "ba80e431b827fe078380d65b36c539ba37d391cea93db9083a0673628fb79682",
+      "bytes": 4780
+    },
+    {
+      "path": "assets/maps/provenance_m5.json",
+      "sha256": "7421a0bdad8b95dc2dfee289475c329b19b1dfaefaad05e2fc20bf4170fb53e7",
+      "bytes": 632
+    },
+    {
+      "path": "assets/maps/town_hd.webp",
+      "sha256": "f165111e28c559309a6d012e8b5520b0fe08a9257a237631b3229982388feb47",
+      "bytes": 906684
+    },
+    {
+      "path": "assets/maps/town_reference.png",
+      "sha256": "0f0a6b1f16545993fb508e49e4e28b90cbb729830bc8e5b34dee85da89c1b9d7",
+      "bytes": 11230
+    },
+    {
+      "path": "assets/provenance.json",
+      "sha256": "a33004155cb99114f8a1c513db614dd56983ab1a733bcb813552351f507ce318",
+      "bytes": 985
+    },
+    {
+      "path": "assets/signatures.json",
+      "sha256": "87f060bb212ee65d3e3434aed65bfde66c566fcc4e354bcaef00da182892cb13",
+      "bytes": 1672
+    },
+    {
+      "path": "assets/title_clear_hd.png",
+      "sha256": "3598a2bd6c1dd36e33b196e4caadac40f7d193bb9ec54eda3855af7179c59327",
+      "bytes": 2360295
+    },
+    {
+      "path": "assets/title_hd.png",
+      "sha256": "232606e233e9cb0b3bd763b5ac61c58f00126cef6f43a6c781f371fc63cbf3ed",
+      "bytes": 3077557
+    },
+    {
+      "path": "assets/title_native.json",
+      "sha256": "8b8d5201ae4f87434907522be06049190a6fe0866cd5d5da2b3b2b7cc7df3330",
+      "bytes": 1935393
+    },
+    {
+      "path": "vendor/LICENSE.binjgb",
+      "sha256": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009",
+      "bytes": 1053
+    },
+    {
+      "path": "vendor/LICENSE.gbstudio",
+      "sha256": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86",
+      "bytes": 1069
+    },
+    {
+      "path": "vendor/README.txt",
+      "sha256": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6",
+      "bytes": 569
+    },
+    {
+      "path": "vendor/binjgb.js",
+      "sha256": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+      "bytes": 13640
+    },
+    {
+      "path": "vendor/binjgb.wasm",
+      "sha256": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+      "bytes": 88269
+    },
+    {
+      "path": "start.bat",
+      "sha256": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0",
+      "bytes": 411
+    }
+  ],
+  "observerUnchanged": false,
+  "observerChange": "sample-local bus/VRAM and numeric decode keys; no returned buffers pooled",
+  "formalUnchanged": true,
+  "candidateCodeSha": {
+    "app.js": "49fd1a83634d386740e81af555100be8c2b39cd865d0500e15d7f3b001f847c4",
+    "renderer.js": "66f5d07b3ca59fb22bde844e115cbdcac95c59e4ab8edc716c568f2bfa74df4e",
+    "map-renderer.js": "13341d51abee9a50d564687ab031587d75ebbfeb9f5e318c998d554194113210",
+    "observer.js": "498166e4520bc8d3c8fb98773ca9ce903c8a210a8cd99421f35a6805b0780585",
+    "asset-loader.js": "f0c6c11a9055145a21430e82100f9abd2566729ed71958c3f41b90dc8b9bd84f",
+    "index.html": "884f63bf7677120f7fa24fa7fa1ca28006b08560dbd7f474c35653aa68ea1bba"
+  },
+  "note": "README_zh.md differs between the existing released package and pre-package frozen folder; inherited, not edited by M5.2."
+}

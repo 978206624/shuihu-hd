@@ -1,0 +1,22 @@
+{
+  "updated": "2026-11-21T02:01:13+08:00",
+  "runId": "m11-region6-20261120T155549527334400Z",
+  "phase": "watch-current-perf",
+  "note": "watching initial perf attempt",
+  "resumesUsed": 0,
+  "maxResumes": 14,
+  "runnerPid": 11061,
+  "runnerAttempt": "/workspace/shawu/m11-work/results/m11-region6-20261120T155549527334400Z/attempts/perf-20261120T175134166861711Z-11061",
+  "runnerAlive": true,
+  "inventory": {
+    "expected": 324,
+    "complete": 15,
+    "remaining": 309,
+    "reusedAtStart": 0
+  },
+  "qaDone": true,
+  "perfDone": false,
+  "contactDone": false,
+  "previewDone": false,
+  "portStop": false
+}

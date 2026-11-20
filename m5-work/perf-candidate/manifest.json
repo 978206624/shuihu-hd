@@ -1,0 +1,38 @@
+{
+  "phase": 2,
+  "status": "candidate awaiting outer Chromium acceptance",
+  "candidateRuntime": "/tmp/shawu-perf-fixed",
+  "webUntouched": true,
+  "assetFilesUnchanged": 35,
+  "invariants": {
+    "assets/game.gbc": {
+      "expected": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "original": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "candidate": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "web": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95"
+    },
+    "start.bat": {
+      "expected": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0",
+      "original": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0",
+      "candidate": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0"
+    },
+    "vendor/binjgb.js": {
+      "expected": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+      "original": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+      "candidate": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09",
+      "web": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09"
+    },
+    "vendor/binjgb.wasm": {
+      "expected": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+      "original": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+      "candidate": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b",
+      "web": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b"
+    }
+  },
+  "candidateSHA256": {
+    "app.js": "937095793080b1dcfc5017794cf779f995ae801465a4c95aebe2072131c6548f",
+    "observer.js": "66bc64decb869630c41e8093004ec315b2fcb92bcb6d6db144034172b3a729cd",
+    "renderer.js": "e1fb77576568df8a3e0d1947cffc3ef43d3ae3764ee2211b969e0aeaa39f4c6d",
+    "map-renderer.js": "697d08ad1a1de8cf7c5e9f7122b6fe7bf9c72d74840b9b769633a46dae86a118"
+  }
+}

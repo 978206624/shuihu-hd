@@ -1,0 +1,5 @@
+本次未能完成验收和 M5.1 打包：环境禁止独立端口监听（EPERM），Chromium 也因系统调用被拒绝而启动失败，无法取得真实时间性能数据。
+
+已完成隔离优化候选、40 组 Observer 等价检查、核心 SHA256 核验，以及可复跑的性能与完整覆盖验收脚本。未接入 web，未生成未经验证的正式包；未读取凭据、改动核心或触碰既有服务。
+
+详见[中文结果报告](/workspace/shawu/m5-work/perf-result.txt)与[工作记录](/workspace/shawu/m5-work/perf-progress.md)。报告明确记录了未完成项及 Linux headless 无法替代 Windows GPU 实机验证的限制。

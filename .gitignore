@@ -1,0 +1,71 @@
+# Secrets and credentials
+.image_api.env
+*.env
+*.env.*
+!**/.env.example
+**/*api.env
+**/.config/gpt-image/
+**/hosts.yml
+**/*token*
+**/*secret*
+!**/*token*.md
+
+# Original Game Boy ROMs (copyrighted; not distributed)
+*.gbc
+*.gb
+*.gba
+*.sgb
+
+# Browser / toolchain caches
+**/node_modules/
+**/browsers/
+**/chromium-*/
+**/chromium_headless_shell-*/
+**/.cache/
+**/playwright-browsers/
+**/chrome-linux64/
+**/chrome-headless-shell-linux64/
+
+# Exploration search frontiers and caches
+**/search/
+
+# Bulky generated QA/perf dumps (summaries and reports stay)
+**/results/**/perf/report.json
+**/results/**/attempts/
+**/results/**/tmp/
+**/perf/**/trace.json
+**/perf/**/*profile*/
+
+# Logs may contain tokens
+*.log
+**/*.nohup.log
+**/*.pid
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+
+# Intermediate play/search dumps, experiment trees, and raw QA/perf result dirs
+# (official-chain, checkpoints, final preview videos, and REPORT_*.md are kept)
+**/play/
+**/native/
+**/results/
+m7-work/stage-a/
+m5-work/perf/
+m6-work/states/
+m6-work/region1/
+m3-work/extracted-final/
+m3-work/native_catalog/
+m8-work/runtime-fix-0017/
+# Probe/coverage dumps
+**/coverage-frames.jsonl
+m5-work/probe_*.json
+m5-work/candidate-probe-*.json
+m5-work/browser-audit/
+m5-work/browser-audit-before-candidate/
+m5-work/perf-browser-audit/
+m5-work/perf-after.json
+m5-work/perf-before.json
+m5-work/perf-before-initial.json
+m5-work/extracted-final/

@@ -1,0 +1,155 @@
+{
+  "candidateMapCount": 8,
+  "maps": [
+    {
+      "id": "00-2c",
+      "name": "黄泥岗客栈后室",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "70b9dba1a0e5376756c1fe1f7619fc659c3e14b56943428c21925ed3e8e4f2cc",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-024527.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-0342.bin",
+      "nativeEndSHA256": "27e9c0a3fd170350438fb9c626c18758ffe69511bf19563ebf4d8d761181bf55",
+      "independentDoorSurvey": false,
+      "nameBasis": "沿用 M9 名称。正式回放从后室开始，捕获狼子后经酒字门回到后室并推进至 story 17。",
+      "artStatus": "REUSED_M9",
+      "reusePlate": "m9-work/art/00-2c_gpt.png",
+      "reuseNote": "原生尺寸和几何 SHA-256 均与 m9-work/region4-scope.json 中的 00-2c 相同，沿用已验收的 M9 画板。"
+    },
+    {
+      "id": "00-2b",
+      "name": "黄泥岗客栈前厅",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "1ba02e9a7f887b59051cce4cb43ee42e82eee2ec7b2812f09eb50e97594877e7",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-000162.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-0006.bin",
+      "nativeEndSHA256": "3ee6bd3d2927020da8a2ecf7c4ba3a0f041219ae0f293bd661df0f135b3dca65",
+      "independentDoorSurvey": false,
+      "nameBasis": "沿用 M9 名称。回放从后室自然进入有柜台和桌凳的前厅，后在此进行接水果小游戏。",
+      "artStatus": "REUSED_M9",
+      "reusePlate": "m9-work/art/00-2b_gpt.png",
+      "reuseNote": "原生尺寸和几何 SHA-256 均与 m9-work/region4-scope.json 中的 00-2b 相同。接水果时地图 ID 仍为 00-2b，模式为 1，目录无对应的独立地图几何，沿用已验收的 M9 前厅画板。"
+    },
+    {
+      "id": "00-24",
+      "name": "黄泥岗客栈外",
+      "nativeSize": [
+        256,
+        256
+      ],
+      "geometrySHA256": "9a49cd43c0bf9c454bbc09eddefa53466b19e35abba478fc1805da571586d0ab",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-000599.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-0020.bin",
+      "nativeEndSHA256": "08a8e3b1ab234493a7cf3d69466610253c81542cf4897f163eac9ead96d4ae43",
+      "independentDoorSurvey": false,
+      "nameBasis": "沿用 M9 名称。建筑门左有酒字牌匾。回放离开前厅后抵达客栈外，后在此推进至 story 19。",
+      "artStatus": "REUSED_M9",
+      "reusePlate": "m9-work/art/00-24_gpt.png",
+      "reuseNote": "原生尺寸和几何 SHA-256 均与 m9-work/region4-scope.json 中的 00-24 相同，沿用已验收的 M9 画板。"
+    },
+    {
+      "id": "00-21",
+      "name": "黄泥岗街区",
+      "nativeSize": [
+        384,
+        256
+      ],
+      "geometrySHA256": "8d17fe8171adb47c90a858e70f5217ce78256ff25604a1d52e80c9daef622954",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-001061.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-0035.bin",
+      "nativeEndSHA256": "7f51f247b2d75c6660a8470218f44b49a70b0134c7f2081430d6d80422573110",
+      "independentDoorSurvey": false,
+      "nameBasis": "沿用 M9 范围标注。实际地形为林间通道，连接客栈外 00-24 和从西口进入的 00-23。",
+      "artStatus": "REUSED_M9",
+      "reusePlate": "m9-work/art/00-21_gpt.png",
+      "reuseNote": "原生尺寸和几何 SHA-256 均与 m9-work/region4-scope.json 中的 00-21 相同，沿用已验收的 M9 画板。"
+    },
+    {
+      "id": "00-23",
+      "name": "黄泥岗西林",
+      "nativeSize": [
+        256,
+        160
+      ],
+      "geometrySHA256": "5d78ac36fd0fe0268e452b5117a6383efe81878ae3920f76051798cf83047d74",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-002821.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-0072.bin",
+      "nativeEndSHA256": "dbcc1338c9320c3ee23fde35c7277798f5237cce0e0f13360fb5bbb1fc4315e2",
+      "independentDoorSurvey": false,
+      "nameBasis": "描述性命名。由 00-21 西口自然进入，原生图西侧有成片花地，东侧窄路连向回程出口。",
+      "artStatus": "GENERATED_ACCEPTED",
+      "plate": "m10-work/art/00-23_gpt.png"
+    },
+    {
+      "id": "00-0a",
+      "name": "出岗小径",
+      "nativeSize": [
+        192,
+        256
+      ],
+      "geometrySHA256": "8f482b8ec829c73f5b0c939d482a7ed637dd104baac73b15998445e8f8d8f2d1",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-048621.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-1552.bin",
+      "nativeEndSHA256": "31effbea9274e48ed1e5491ba4a9001fa4b2245b096a3584d57ed133fd3d461f",
+      "independentDoorSurvey": false,
+      "nameBasis": "描述性命名。story 19 从客栈外东口进入，沿林间浅色小径由南口通往 00-0b。",
+      "artStatus": "GENERATED_ACCEPTED",
+      "plate": "m10-work/art/00-0a_gpt.png"
+    },
+    {
+      "id": "00-0b",
+      "name": "密林山道",
+      "nativeSize": [
+        512,
+        384
+      ],
+      "geometrySHA256": "971f2bb86f535248749293cb3623bb5bbbc6de9aa174c3d0541d784eae18c070",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/frame-049131.bin",
+      "nativeCheckpoint": "m10-work/official-chain/official-region5-replay/a-1569.bin",
+      "nativeEndSHA256": "c982cf8d454381b825979bbf1133ccfc42e360528c8e48f2c1aec53660d8eafe",
+      "independentDoorSurvey": false,
+      "nameBasis": "描述性命名。原生图有林间岔路、蓝色溪流、两座木桥和两块木牌，正式路线从此北行到 00-2a。",
+      "artStatus": "GENERATED_ACCEPTED",
+      "plate": "m10-work/art/00-0b_gpt.png"
+    },
+    {
+      "id": "00-2a",
+      "name": "石阶密林",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "639da00558c17e34355364cb7cbeb7618cfefcf8cff707cb0d86a0f4ec3b74aa",
+      "naturalReplay": "m10-work/play/m10-region5-official-evidence/end.bin",
+      "nativeCheckpoint": "m10-work/checkpoints/story19-00-2a-official.bin",
+      "nativeEndSHA256": "c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1",
+      "independentDoorSurvey": false,
+      "nameBasis": "描述性命名。原生图为林木和石栏夹着的南北向石阶，正式回放定格在低处平台的 (5,8)。",
+      "artStatus": "GENERATED_ACCEPTED",
+      "plate": "m10-work/art/00-2a_gpt.png"
+    }
+  ],
+  "identificationEvidence": [
+    "m10-work/checkpoints/story14-inn-end.bin 为正式起点，00-2c e0 (4,4)，story 14，SHA-256 f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0。",
+    "m10-work/official-chain/official-region5-actions.json 含 1669 个动作，共 55206 帧。从正式起点连续回放至 00-2a。",
+    "m10-work/play/m10-region5-official-evidence/result.json 记录 COMPLETE，errors=[]。第 55206 帧位于 00-2a，story 19，bank 4，mode 0，dialogue 0，格点 (5,8)，朝向 1。",
+    "m10-work/play/m10-region5-official-evidence/frame-006529.bin 与 frame-006531.bin 记录 00-23 上 story 15 到 16 的连续推进并获得神兽 17。m10-work/official-chain/rec-cap-use/end.bin 记录正式路线在 story 16 捕获狼子 24 后的队伍 02/17/24。",
+    "m10-work/play/m10-region5-official-evidence/frame-026671.bin 记录经酒字门返回 00-2c 并推进至 story 17。",
+    "m10-work/official-chain/rec-fruit-play/won-2368.png 显示接水果 63 分。m10-work/play/m10-region5-official-evidence/action-0450.bin 记录 00-2b 上的 mode 1，action-1450.bin 记录回到 mode 0、story 18、DAA1/DAA2=52/02。",
+    "m10-work/play/m10-region5-official-evidence/frame-048258.bin 记录在 00-24 达到 story 19，DAA1/DAA2=52/06，D284=04 01。此后走过 00-0a 和 00-0b 抵达 00-2a。",
+    "m10-work/checkpoints/story19-00-2a-official.bin 为正式原生终点，SHA-256 c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1。与浏览器 end.bin 对应的定格状态为 00-2a e0 (5,8)，story 19，bank 4，mode 0，dialogue 0，朝向 1，队伍 02/17/24，DAA=e6 52 06 38，D284=04 01。"
+  ],
+  "nextStoryGate": "定格于 00-2a e0 (5,8)，story 19，DAA1/DAA2=52/06，D284=04 01。终点在踏入第 4 行并触发道具 04 消耗之前。",
+  "exclusions": [
+    "战斗画面、系统菜单和接水果界面均不计作独立地图画板。",
+    "00-2d、伏魔扇支线和后续章节不在本次范围内。",
+    "不纳入 00-2a 第 4 行的道具 04 使用及其后的路线。00-2a 的画板输入保留完整原生几何。"
+  ],
+  "artStatus": "GENERATED_ACCEPTED",
+  "notAllConnectedWorldMaps": true
+}

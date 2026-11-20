@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "port": 19876,
+  "extractRoot": "/tmp/shuihu-hd-m5-verify/shuihu-hd-m5",
+  "framesAdvanced": 360,
+  "scene": "interior",
+  "gptBackgroundPixels": 12522,
+  "stateHashOk": true,
+  "errors": [],
+  "outbound": [],
+  "failed": [],
+  "environment": "Linux headless Chromium; not real Windows execution"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "m4-work/art/title_clear_compact_hd.png",
+  "runtime": "assets/title_clear_hd.png",
+  "sha256": "3598a2bd6c1dd36e33b196e4caadac40f7d193bb9ec54eda3855af7179c59327",
+  "metadata": "m4-work/art/title_clear_compact_meta.json",
+  "validation": "visually inspected menu/mascot cleared, scroll and copyright retained"
+}

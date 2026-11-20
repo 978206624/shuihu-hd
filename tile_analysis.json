@@ -1,0 +1,439 @@
+{
+  "sampled_states": 108,
+  "unique_nonzero_8x8_2bpp_patterns": 2752,
+  "method": "Read 0x8000-0x97FF from each CGB VRAM bank 0 and 1 in each saved emulator state; deduplicate exact 16-byte 8x8 2bpp patterns; exclude all-zero tiles. Includes fonts, UI, animation and any unused loaded patterns. Lower bound on encountered data, not full-game sprite count. Palette variants and flips are not canonicalized.",
+  "states": [
+    {
+      "state": "advance_02.state",
+      "nonzero_unique_8x8_patterns": 349
+    },
+    {
+      "state": "advance_04.state",
+      "nonzero_unique_8x8_patterns": 353
+    },
+    {
+      "state": "advance_06.state",
+      "nonzero_unique_8x8_patterns": 345
+    },
+    {
+      "state": "advance_08.state",
+      "nonzero_unique_8x8_patterns": 352
+    },
+    {
+      "state": "advance_084.state",
+      "nonzero_unique_8x8_patterns": 301
+    },
+    {
+      "state": "advance_088.state",
+      "nonzero_unique_8x8_patterns": 301
+    },
+    {
+      "state": "advance_092.state",
+      "nonzero_unique_8x8_patterns": 305
+    },
+    {
+      "state": "advance_096.state",
+      "nonzero_unique_8x8_patterns": 297
+    },
+    {
+      "state": "advance_10.state",
+      "nonzero_unique_8x8_patterns": 339
+    },
+    {
+      "state": "advance_100.state",
+      "nonzero_unique_8x8_patterns": 305
+    },
+    {
+      "state": "advance_104.state",
+      "nonzero_unique_8x8_patterns": 321
+    },
+    {
+      "state": "advance_108.state",
+      "nonzero_unique_8x8_patterns": 325
+    },
+    {
+      "state": "advance_112.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "advance_116.state",
+      "nonzero_unique_8x8_patterns": 315
+    },
+    {
+      "state": "advance_12.state",
+      "nonzero_unique_8x8_patterns": 341
+    },
+    {
+      "state": "advance_120.state",
+      "nonzero_unique_8x8_patterns": 335
+    },
+    {
+      "state": "advance_124.state",
+      "nonzero_unique_8x8_patterns": 320
+    },
+    {
+      "state": "advance_128.state",
+      "nonzero_unique_8x8_patterns": 335
+    },
+    {
+      "state": "advance_132.state",
+      "nonzero_unique_8x8_patterns": 331
+    },
+    {
+      "state": "advance_136.state",
+      "nonzero_unique_8x8_patterns": 325
+    },
+    {
+      "state": "advance_14.state",
+      "nonzero_unique_8x8_patterns": 348
+    },
+    {
+      "state": "advance_140.state",
+      "nonzero_unique_8x8_patterns": 327
+    },
+    {
+      "state": "advance_144.state",
+      "nonzero_unique_8x8_patterns": 322
+    },
+    {
+      "state": "advance_148.state",
+      "nonzero_unique_8x8_patterns": 333
+    },
+    {
+      "state": "advance_152.state",
+      "nonzero_unique_8x8_patterns": 327
+    },
+    {
+      "state": "advance_156.state",
+      "nonzero_unique_8x8_patterns": 327
+    },
+    {
+      "state": "advance_16.state",
+      "nonzero_unique_8x8_patterns": 354
+    },
+    {
+      "state": "advance_160.state",
+      "nonzero_unique_8x8_patterns": 301
+    },
+    {
+      "state": "advance_162.state",
+      "nonzero_unique_8x8_patterns": 309
+    },
+    {
+      "state": "advance_164.state",
+      "nonzero_unique_8x8_patterns": 313
+    },
+    {
+      "state": "advance_166.state",
+      "nonzero_unique_8x8_patterns": 312
+    },
+    {
+      "state": "advance_168.state",
+      "nonzero_unique_8x8_patterns": 327
+    },
+    {
+      "state": "advance_170.state",
+      "nonzero_unique_8x8_patterns": 327
+    },
+    {
+      "state": "advance_172.state",
+      "nonzero_unique_8x8_patterns": 332
+    },
+    {
+      "state": "advance_174.state",
+      "nonzero_unique_8x8_patterns": 324
+    },
+    {
+      "state": "advance_176.state",
+      "nonzero_unique_8x8_patterns": 329
+    },
+    {
+      "state": "advance_178.state",
+      "nonzero_unique_8x8_patterns": 324
+    },
+    {
+      "state": "advance_18.state",
+      "nonzero_unique_8x8_patterns": 351
+    },
+    {
+      "state": "advance_180.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_182.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_184.state",
+      "nonzero_unique_8x8_patterns": 322
+    },
+    {
+      "state": "advance_186.state",
+      "nonzero_unique_8x8_patterns": 318
+    },
+    {
+      "state": "advance_188.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_190.state",
+      "nonzero_unique_8x8_patterns": 325
+    },
+    {
+      "state": "advance_192.state",
+      "nonzero_unique_8x8_patterns": 329
+    },
+    {
+      "state": "advance_194.state",
+      "nonzero_unique_8x8_patterns": 307
+    },
+    {
+      "state": "advance_196.state",
+      "nonzero_unique_8x8_patterns": 331
+    },
+    {
+      "state": "advance_198.state",
+      "nonzero_unique_8x8_patterns": 320
+    },
+    {
+      "state": "advance_20.state",
+      "nonzero_unique_8x8_patterns": 347
+    },
+    {
+      "state": "advance_200.state",
+      "nonzero_unique_8x8_patterns": 331
+    },
+    {
+      "state": "advance_205.state",
+      "nonzero_unique_8x8_patterns": 323
+    },
+    {
+      "state": "advance_210.state",
+      "nonzero_unique_8x8_patterns": 332
+    },
+    {
+      "state": "advance_215.state",
+      "nonzero_unique_8x8_patterns": 333
+    },
+    {
+      "state": "advance_22.state",
+      "nonzero_unique_8x8_patterns": 351
+    },
+    {
+      "state": "advance_220.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_225.state",
+      "nonzero_unique_8x8_patterns": 311
+    },
+    {
+      "state": "advance_230.state",
+      "nonzero_unique_8x8_patterns": 323
+    },
+    {
+      "state": "advance_235.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_24.state",
+      "nonzero_unique_8x8_patterns": 345
+    },
+    {
+      "state": "advance_240.state",
+      "nonzero_unique_8x8_patterns": 320
+    },
+    {
+      "state": "advance_245.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_250.state",
+      "nonzero_unique_8x8_patterns": 326
+    },
+    {
+      "state": "advance_255.state",
+      "nonzero_unique_8x8_patterns": 324
+    },
+    {
+      "state": "advance_26.state",
+      "nonzero_unique_8x8_patterns": 347
+    },
+    {
+      "state": "advance_260.state",
+      "nonzero_unique_8x8_patterns": 325
+    },
+    {
+      "state": "advance_265.state",
+      "nonzero_unique_8x8_patterns": 313
+    },
+    {
+      "state": "advance_270.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "advance_275.state",
+      "nonzero_unique_8x8_patterns": 320
+    },
+    {
+      "state": "advance_28.state",
+      "nonzero_unique_8x8_patterns": 341
+    },
+    {
+      "state": "advance_280.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "advance_285.state",
+      "nonzero_unique_8x8_patterns": 316
+    },
+    {
+      "state": "advance_290.state",
+      "nonzero_unique_8x8_patterns": 315
+    },
+    {
+      "state": "advance_295.state",
+      "nonzero_unique_8x8_patterns": 320
+    },
+    {
+      "state": "advance_30.state",
+      "nonzero_unique_8x8_patterns": 343
+    },
+    {
+      "state": "advance_300.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "advance_32.state",
+      "nonzero_unique_8x8_patterns": 343
+    },
+    {
+      "state": "advance_34.state",
+      "nonzero_unique_8x8_patterns": 347
+    },
+    {
+      "state": "advance_36.state",
+      "nonzero_unique_8x8_patterns": 355
+    },
+    {
+      "state": "advance_38.state",
+      "nonzero_unique_8x8_patterns": 347
+    },
+    {
+      "state": "advance_40.state",
+      "nonzero_unique_8x8_patterns": 343
+    },
+    {
+      "state": "advance_42.state",
+      "nonzero_unique_8x8_patterns": 344
+    },
+    {
+      "state": "advance_44.state",
+      "nonzero_unique_8x8_patterns": 344
+    },
+    {
+      "state": "advance_46.state",
+      "nonzero_unique_8x8_patterns": 344
+    },
+    {
+      "state": "advance_48.state",
+      "nonzero_unique_8x8_patterns": 339
+    },
+    {
+      "state": "advance_50.state",
+      "nonzero_unique_8x8_patterns": 344
+    },
+    {
+      "state": "advance_52.state",
+      "nonzero_unique_8x8_patterns": 328
+    },
+    {
+      "state": "advance_54.state",
+      "nonzero_unique_8x8_patterns": 340
+    },
+    {
+      "state": "advance_56.state",
+      "nonzero_unique_8x8_patterns": 350
+    },
+    {
+      "state": "advance_58.state",
+      "nonzero_unique_8x8_patterns": 356
+    },
+    {
+      "state": "advance_60.state",
+      "nonzero_unique_8x8_patterns": 344
+    },
+    {
+      "state": "advance_62.state",
+      "nonzero_unique_8x8_patterns": 345
+    },
+    {
+      "state": "advance_64.state",
+      "nonzero_unique_8x8_patterns": 275
+    },
+    {
+      "state": "advance_66.state",
+      "nonzero_unique_8x8_patterns": 275
+    },
+    {
+      "state": "advance_68.state",
+      "nonzero_unique_8x8_patterns": 288
+    },
+    {
+      "state": "advance_70.state",
+      "nonzero_unique_8x8_patterns": 288
+    },
+    {
+      "state": "advance_72.state",
+      "nonzero_unique_8x8_patterns": 288
+    },
+    {
+      "state": "advance_74.state",
+      "nonzero_unique_8x8_patterns": 288
+    },
+    {
+      "state": "advance_76.state",
+      "nonzero_unique_8x8_patterns": 304
+    },
+    {
+      "state": "advance_78.state",
+      "nonzero_unique_8x8_patterns": 293
+    },
+    {
+      "state": "advance_80.state",
+      "nonzero_unique_8x8_patterns": 298
+    },
+    {
+      "state": "current.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "gameplay_menu_a.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "gameplay_menu_b.state",
+      "nonzero_unique_8x8_patterns": 316
+    },
+    {
+      "state": "gameplay_menu_select.state",
+      "nonzero_unique_8x8_patterns": 319
+    },
+    {
+      "state": "gameplay_menu_start.state",
+      "nonzero_unique_8x8_patterns": 316
+    },
+    {
+      "state": "gameplay_walk_down.state",
+      "nonzero_unique_8x8_patterns": 317
+    },
+    {
+      "state": "gameplay_walk_right.state",
+      "nonzero_unique_8x8_patterns": 315
+    },
+    {
+      "state": "title.state",
+      "nonzero_unique_8x8_patterns": 224
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Use case: style-transfer; Asset type: ONE complete authored HD 2D JRPG world background plate, never a tileset.
+Image 1 is a character-free ORIGINAL ROM full map, native size 192x160, shown at exact integer 4x nearest-neighbor ONLY as an input geometry and glyph reference. Map 00-06, an indoor shrine. Image 2 is an approved existing V4 remaster full-map style reference ONLY.
+
+Produce a newly hand-PAINTED premium V4 JRPG environment at 960x800 pixels, same exact 192:160 aspect ratio. Lock the full uncropped overhead orthographic rectangle and every normalized coordinate to image 1. No camera tilt, perspective, borders, vignettes or panels. Fine deliberate material texture, crisp painted detail, warm upper-left light, coherent original colors and Song dynasty environment materials; not photorealistic 3D, not pixel art, not smoothing or filtering the original.
+
+GEOMETRY IS ABSOLUTE: retain the exact identity, count, x/y positions, widths/heights and footprint boundaries of EVERY building, door, closed door, window, road, wall, floor, step, furniture and decoration. Preserve exit openings and walkable ground. Never invent rooms, add furniture or remove obstacles. Existing pure black outside-room regions stay pure black in their exact shape. Preserve the original central ceremonial altar fixture as inanimate architecture, the red runner, two columns of wall plaques, vessels, cabinets, plants, offering furniture and the doorway at the south. Do not introduce an animated deity, person, portrait or human-shaped statue.
+
+BACKGROUND GLYPHS MUST MATCH THE ORIGINAL (this supersedes any habit of blanking signs):
+- The central red ceremonial runner has a white meander/greek-key border and dark vertical characters down the middle. Paint those same characters faithfully: same count, order, placement, proportions and color contrast as in image 1. Do not replace them with floral vines, arabesques, dragons or blank decoration, and do not invent a different motto.
+- Left and right of the runner are two identical columns of three square plaques (six plaques total), each a cream field with a blue border and a single red character. Copy those six glyphs faithfully from image 1, same characters, same stacking order (top, middle, bottom), same colors and positions.
+- Reconstruct the original letterforms at HD as a faithful enlargement of the native glyphs. Do not add extra text anywhere else.
+
+Image 2 controls ONLY V4 brushwork, lighting and material richness. Do not copy its map layout or any people. Preserve the original identity of green/cool cabinets and brown timber when present.
+
+ZERO CHARACTERS OR MONSTERS: no people, animals, gods as characters, creatures, sprites, silhouettes, faces, portraits, speech bubbles, character shadows, UI, dialogue boxes, watermarks, coordinate labels, or any letters/numbers that are not the original plaque and carpet glyphs specified above. All real actors and game UI text will remain original native pixels from the unchanged game engine.
+
+Output ONE full map only at the original aligned geometry, never a comparison sheet or tileset. Do not guess hidden native pixels or make an upscaled fallback. Layout fidelity and faithful plaque/carpet glyphs have priority over decoration.

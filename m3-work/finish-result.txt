@@ -1,0 +1,11 @@
+M3 已完成本轮交付与验包（不是100%剧情高清）。
+最终全开场重放29160帧：完整HD背景及检测边框26404/29160帧=90.55%；背景像素468649207/471854182=99.32%。剩2756帧包含原图：标题淡出、纪年/黑场切换、部分对话展开与扫描线混合、红色BG冲击、少量镜头震动边缘。未知区域均保留原作最近邻并明确记录；无平滑兜底，人物/头像/文字未重画。
+同输入状态243/243、原生像素哈希243/243一致；10项人物/文字/控制/电池/重复导出测试通过，ROM与vendor核心哈希不变。干净解压包阻断外网后在Linux headless Chromium加载及运行通过，未进行真实Windows实机测试。start.bat为原411字节GBK副本。
+ZIP：/workspace/shawu/shuihu-hd-m3-windows.zip
+总览：/workspace/shawu/shots/m3_cutscenes_contact.png
+最佳对比：/workspace/shawu/shots/m3_compare_cliff_top.png
+/workspace/shawu/shots/m3_compare_disciples_clear.png
+/workspace/shawu/shots/m3_compare_forest_free_roam.png
+报告：/workspace/shawu/m3-work/REPORT_zh.md
+验包与SHA256：/workspace/shawu/m3-work/delivery-final.json
+Windows用法：全部解压后进入shuihu-hd-m3，双击start.bat；需Python3。无需npm或联网。

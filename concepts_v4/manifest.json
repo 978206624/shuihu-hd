@@ -1,0 +1,98 @@
+{
+  "model": "gpt-image-2",
+  "endpoint": "POST /v1/images/edits",
+  "requested_quality": "high",
+  "note": "API did not honor quality=high; title and cliff returned medium; palace first pass returned low and was retried at explicit medium.",
+  "scenes": [
+    {
+      "scene": "title",
+      "original": "/workspace/shawu/shots/menu.png",
+      "style_ref": "/workspace/shawu/concepts_v3/title_hd.jpg",
+      "concept": "/workspace/shawu/concepts_v4/title_hd.png",
+      "concept_pixels": [
+        1322,
+        1190
+      ],
+      "quality_returned": "medium",
+      "comparison": "/workspace/shawu/shots/compare_v4_title.png",
+      "verified_count": "1 unnamed golden short-bodied winged beast; 0 humans",
+      "retry": false
+    },
+    {
+      "scene": "cliff",
+      "original": "/workspace/shawu/shots/advance_48.png",
+      "style_ref": "/workspace/shawu/concepts_v3/cliff_hd.jpg",
+      "concept": "/workspace/shawu/concepts_v4/cliff_hd.png",
+      "concept_pixels": [
+        1322,
+        1190
+      ],
+      "quality_returned": "medium",
+      "comparison": "/workspace/shawu/shots/compare_v4_cliff.png",
+      "verified_count": "1 unnamed adult pregnant wife, small scale ~9-12% of frame height",
+      "retry": false
+    },
+    {
+      "scene": "palace",
+      "original": "/workspace/shawu/shots/advance_64.png",
+      "style_ref": "/workspace/shawu/concepts_v3/palace_hd.jpg",
+      "concept": "/workspace/shawu/concepts_v4/palace_hd.png",
+      "concept_pixels": [
+        1322,
+        1190
+      ],
+      "quality_returned": "medium",
+      "comparison": "/workspace/shawu/shots/compare_v4_palace.png",
+      "verified_count": "2 people: Jade Emperor + one adult heavenly soldier",
+      "retry": "first result was quality=low with correct identities; r2 explicit medium kept",
+      "discarded": "/workspace/shawu/concepts_v4/_work/palace_r1.png"
+    }
+  ],
+  "compares": {
+    "title": {
+      "path": "/workspace/shawu/shots/compare_v4_title.png",
+      "bytes": 1657587,
+      "size": [
+        2000,
+        1000
+      ],
+      "left": "original 6x nearest-neighbor (960x864) centered in 1000x1000",
+      "right": "V4 scaled to 960x864 LANCZOS, same placement",
+      "v4_native": [
+        1322,
+        1190
+      ],
+      "v4_bytes": 3077557
+    },
+    "cliff": {
+      "path": "/workspace/shawu/shots/compare_v4_cliff.png",
+      "bytes": 1533056,
+      "size": [
+        2000,
+        1000
+      ],
+      "left": "original 6x nearest-neighbor (960x864) centered in 1000x1000",
+      "right": "V4 scaled to 960x864 LANCZOS, same placement",
+      "v4_native": [
+        1322,
+        1190
+      ],
+      "v4_bytes": 2728422
+    },
+    "palace": {
+      "path": "/workspace/shawu/shots/compare_v4_palace.png",
+      "bytes": 1652635,
+      "size": [
+        2000,
+        1000
+      ],
+      "left": "original 6x nearest-neighbor (960x864) centered in 1000x1000",
+      "right": "V4 scaled to 960x864 LANCZOS, same placement",
+      "v4_native": [
+        1322,
+        1190
+      ],
+      "v4_bytes": 3092697
+    }
+  }
+}

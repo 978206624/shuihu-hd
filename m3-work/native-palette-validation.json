@@ -1,0 +1,26 @@
+[
+  {
+    "name": "state_0",
+    "match": 22737,
+    "total": 22737,
+    "ratio": 1
+  },
+  {
+    "name": "state_50",
+    "match": 22874,
+    "total": 22874,
+    "ratio": 1
+  },
+  {
+    "name": "state_60",
+    "match": 22674,
+    "total": 22674,
+    "ratio": 1
+  },
+  {
+    "name": "test-forest-state",
+    "match": 22565,
+    "total": 22565,
+    "ratio": 1
+  }
+]

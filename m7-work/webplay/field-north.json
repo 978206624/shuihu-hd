@@ -1,0 +1,176 @@
+{
+  "source": "/workspace/shawu/m7-work/webplay/escape-a.bin",
+  "actions": [
+    [
+      "right",
+      64,
+      10,
+      "east"
+    ],
+    [
+      "up",
+      240,
+      30,
+      "north"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 75,
+      "ticks": 5598157736,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22898,
+          "gptBackgroundPixels": 22898,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            128,
+            112
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 142,
+          "backgroundPixels": 22898,
+          "eligiblePixels": 22898,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        128,
+        112
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 345,
+      "ticks": 5617119080,
+      "pc": 668,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22865,
+          "gptBackgroundPixels": 22865,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            128,
+            112
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 175,
+          "backgroundPixels": 22865,
+          "eligiblePixels": 22865,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        128,
+        112
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    }
+  ],
+  "errors": []
+}

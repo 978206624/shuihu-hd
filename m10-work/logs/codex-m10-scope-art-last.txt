@@ -1,0 +1,8 @@
+Prepared and verified Region 5 art inputs for all eight maps in the official replay. Each map has a character-free native PNG and an exact 4× nearest-neighbor PNG.
+
+- **Four new plates** are `PREPARED_NOT_GENERATED`: `00-23`, `00-0a`, `00-0b`, and `00-2a`. The [batch manifest](/workspace/shawu/m10-work/art/batch-manifest.json) contains their prompts, references, and requested sizes.
+- **Four M9 plates** are marked for reuse after their geometry hashes and native sizes matched: `00-21`, `00-24`, `00-2b`, and `00-2c`. The fruit game remains in scope under `00-2b`.
+
+The [scope](/workspace/shawu/m10-work/region5-scope.json) records the official endpoint at `00-2a e0 (5,8)`, story 19, before the row-4 item trigger. I named `00-23` **黄泥岗西林** because the replay enters it from the west exit of `00-21`.
+
+[Preparation script](/workspace/shawu/m10-work/scripts/prepare-art.py) · [Progress checkpoint](/workspace/shawu/m10-work/progress.md)

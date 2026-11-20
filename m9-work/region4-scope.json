@@ -1,0 +1,74 @@
+{
+  "candidateMapCount": 5,
+  "maps": [
+    {
+      "id": "00-1f",
+      "name": "黄泥岗林道",
+      "nativeSize": [384, 256],
+      "geometrySHA256": "921e240da16a2ac22866d56fa250aaa5a188cacf9a8ad06464206e5deb0dd660",
+      "naturalReplay": "m9-work/play/m9-huangnigang-s01-forest-settle",
+      "nativeEndSHA256": "c3fc7531642d110eafbe8daeb375891384b169171a24b6c839deb3f6319b50a9",
+      "independentDoorSurvey": false,
+      "nameBasis": "00-08 东口自然进入时的黄泥岗到达横幅；林道描述原生地形和通行用途。"
+    },
+    {
+      "id": "00-21",
+      "name": "黄泥岗街区",
+      "nativeSize": [384, 256],
+      "geometrySHA256": "8d17fe8171adb47c90a858e70f5217ce78256ff25604a1d52e80c9daef622954",
+      "naturalReplay": "m9-work/play/m9-huangnigang-s01-maze-cont",
+      "nativeEndSHA256": "eecab83cb92f25bdc7f3da589ec4a4f8ee31839cfb7c3bae10d4c537a30af11b",
+      "independentDoorSurvey": false,
+      "nameBasis": "沿黄泥岗到达横幅所指区域，经 00-1f 自然进入，再通往客栈外 00-24。街区为范围标注，该图实际为林间通道。"
+    },
+    {
+      "id": "00-24",
+      "name": "黄泥岗客栈外",
+      "nativeSize": [256, 256],
+      "geometrySHA256": "9a49cd43c0bf9c454bbc09eddefa53466b19e35abba478fc1805da571586d0ab",
+      "naturalReplay": "m9-work/play/m9-huangnigang-s01-town-cont",
+      "nativeEndSHA256": "50ad48f23cdcf1a3ec07c27b0e0843bf30773207c48925bd8cddf945112887f6",
+      "independentDoorSurvey": false,
+      "nameBasis": "吴用对白指定黄泥岗客栈会合。建筑门左有酒字牌匾，实走该门进入客栈前厅 00-2b。"
+    },
+    {
+      "id": "00-2b",
+      "name": "黄泥岗客栈前厅",
+      "nativeSize": [192, 160],
+      "geometrySHA256": "1ba02e9a7f887b59051cce4cb43ee42e82eee2ec7b2812f09eb50e97594877e7",
+      "naturalReplay": "m9-work/native/m9-native-huangnigang-inn-v2",
+      "nativeEndSHA256": "9c771c773c77e5bb5f3b24150ae4d4e7b1a09bac6528db902ab19693a5c0d0b5",
+      "independentDoorSurvey": false,
+      "nameBasis": "从外部酒字牌匾旁的门自然进入，在有柜台和桌凳的入口大厅与吴用会合。"
+    },
+    {
+      "id": "00-2c",
+      "name": "黄泥岗客栈后室",
+      "nativeSize": [192, 160],
+      "geometrySHA256": "70b9dba1a0e5376756c1fe1f7619fc659c3e14b56943428c21925ed3e8e4f2cc",
+      "naturalReplay": "m9-work/native/m9-native-huangnigang-inn-v2",
+      "nativeEndSHA256": "df9e7d222e006562c7963a559ea0c682196ee30e38f044d9c386fc4156a35b55",
+      "independentDoorSurvey": false,
+      "nameBasis": "吴用嘱咐出发前先找史进。从 00-2b 北侧内门自然进入该后室，与史进会合。"
+    }
+  ],
+  "identificationEvidence": [
+    "m9-work/checkpoints/story12-meeting-end.bin：官方 story12 起点，SHA-256 2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2。",
+    "m9-work/story/story12-m8-dialogue.png：对白指定黄泥岗客栈会合、乔装掌柜及小二，并说明埋伏计划。",
+    "m9-work/play/m9-huangnigang-s01-forest-settle：从 00-08 东口进入时出现黄泥岗到达横幅。00-1f 定格存档为 action-0106.bin（story12）。",
+    "m9-work/play/m9-huangnigang-s01-maze-cont/action-0146.bin：定格于 00-21（story12）。",
+    "m9-work/play/m9-huangnigang-s01-town-cont/action-0188.bin：定格于 00-24（story12，格点 4,14）。m9-work/play/m9-huangnigang-s01-inn/result.json 记录由此经过酒字门进入 00-2b。",
+    "m9-work/native/m9-native-huangnigang-inn-v2/front-10.bin：在 00-2b 格点 4,3 向上与吴用交谈后定格，story13，DAA1=f2。",
+    "m9-work/native/m9-native-huangnigang-inn-v2/rear-19.bin：在 00-2c 格点 4,4 向上与史进交谈后定格，story14，DAA1=72，DAA2=1。",
+    "m9-work/outer-runs/huangnigang-inn-actions.json：从官方起点开始的 262 个手柄动作，串联五张地图和两段客栈对话。"
+  ],
+  "nextStoryGate": "story14 之后：黄泥岗客栈会合及乔装掌柜、小二、埋伏生辰纲队伍的说明已完成。后续行动未纳入本次范围。",
+  "exclusions": [
+    "00-08 沿用 M6 野道美术。",
+    "00-20、00-22、00-23 未在本路线自然进入。",
+    "00-09、00-0b、神木林属于独立的队伍能力关口。",
+    "战斗与系统菜单不计为地图画板。"
+  ],
+  "artStatus": "PREPARED_NOT_GENERATED",
+  "notAllConnectedWorldMaps": true
+}

@@ -1,0 +1,119 @@
+{
+  "totalFrames": 29160,
+  "fullyHDBackgroundFrames": 27062,
+  "fullyHDBackgroundAndUIFrames": 27062,
+  "eligiblePixels": 472103126,
+  "coveredPixels": 470848679,
+  "dialogueFrames": 18472,
+  "fullyCoveredDialogueFrames": 18472,
+  "dialoguePixels": 59746593,
+  "coveredDialoguePixels": 59746593,
+  "classifications": {
+    "scene": {
+      "frames": 26285,
+      "fullyHD": 26228,
+      "eligiblePixels": 415551008,
+      "coveredPixels": 415116682
+    },
+    "blank": {
+      "frames": 125,
+      "fullyHD": 125,
+      "eligiblePixels": 2863541,
+      "coveredPixels": 2863541
+    },
+    "raster-transition": {
+      "frames": 2702,
+      "fullyHD": 695,
+      "eligiblePixels": 52585812,
+      "coveredPixels": 51854859
+    },
+    "palette-change": {
+      "frames": 48,
+      "fullyHD": 14,
+      "eligiblePixels": 1102765,
+      "coveredPixels": 1013597
+    }
+  },
+  "scenes": {
+    "title": {
+      "frames": 2,
+      "fullyHD": 2,
+      "eligiblePixels": 46080,
+      "coveredPixels": 46080
+    },
+    "title-fade": {
+      "frames": 42,
+      "fullyHD": 0,
+      "eligiblePixels": 967680,
+      "coveredPixels": 537600
+    },
+    "verified-flat-transition": {
+      "frames": 71,
+      "fullyHD": 71,
+      "eligiblePixels": 1635840,
+      "coveredPixels": 1635840
+    },
+    "card-year": {
+      "frames": 152,
+      "fullyHD": 152,
+      "eligiblePixels": 3502080,
+      "coveredPixels": 3502080
+    },
+    "interior": {
+      "frames": 5062,
+      "fullyHD": 4814,
+      "eligiblePixels": 76741024,
+      "coveredPixels": 76664081
+    },
+    "intertitle-backdrop": {
+      "frames": 76,
+      "fullyHD": 10,
+      "eligiblePixels": 1746926,
+      "coveredPixels": 1551534
+    },
+    "impact-bg": {
+      "frames": 112,
+      "fullyHD": 112,
+      "eligiblePixels": 2580480,
+      "coveredPixels": 2580480
+    },
+    "cliff": {
+      "frames": 1639,
+      "fullyHD": 1422,
+      "eligiblePixels": 24436016,
+      "coveredPixels": 24367707
+    },
+    "card-heaven": {
+      "frames": 148,
+      "fullyHD": 148,
+      "eligiblePixels": 3409920,
+      "coveredPixels": 3409920
+    },
+    "palace": {
+      "frames": 4172,
+      "fullyHD": 3793,
+      "eligiblePixels": 72624770,
+      "coveredPixels": 72573474
+    },
+    "disciples": {
+      "frames": 6602,
+      "fullyHD": 6367,
+      "eligiblePixels": 103532362,
+      "coveredPixels": 103446853
+    },
+    "forest": {
+      "frames": 11082,
+      "fullyHD": 10171,
+      "eligiblePixels": 180879948,
+      "coveredPixels": 180533030
+    }
+  },
+  "stateHashComparisons": 243,
+  "pixelHashComparisons": 243,
+  "errors": [],
+  "completedFrames": 29160,
+  "backgroundFramePercent": 92.80521262002743,
+  "jointFramePercent": 92.80521262002743,
+  "pixelWeightedPercent": 99.73428538577396,
+  "pass": true
+}

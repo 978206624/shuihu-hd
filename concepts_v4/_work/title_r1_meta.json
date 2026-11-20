@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "status": 200,
+  "elapsed": 123.49475479125977,
+  "body": {
+    "background": "opaque",
+    "created": 1794288767,
+    "data": [
+      {
+        "b64_json": "<omitted 4103412 chars>",
+        "generation_id": "d0e4d7da-f609-4d04-925b-1c840fd98ed7"
+      }
+    ],
+    "output_format": "png",
+    "quality": "medium",
+    "safety_identifier": null,
+    "size": "1322x1190",
+    "usage": {
+      "input_tokens": 2918,
+      "input_tokens_details": {
+        "image_tokens": 2460,
+        "text_tokens": 458
+      },
+      "output_tokens": 1844,
+      "output_tokens_details": {
+        "image_tokens": 1844,
+        "text_tokens": 0
+      },
+      "total_tokens": 4762
+    }
+  },
+  "nbytes": 4103817,
+  "params": {
+    "quality": "high",
+    "use_style": true,
+    "use_fidelity": true,
+    "use_size_auto": true,
+    "tag": "r1",
+    "model": "gpt-image-2"
+  }
+}

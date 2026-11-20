@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "status": 200,
+  "elapsed": 569.55,
+  "nbytes": 3608353,
+  "error": null,
+  "body_keys": [
+    "background",
+    "created",
+    "data",
+    "output_format",
+    "quality",
+    "safety_identifier",
+    "size",
+    "usage"
+  ],
+  "background": "opaque",
+  "output_format": "png",
+  "quality": "medium",
+  "size": "1254x1254",
+  "usage": {
+    "input_tokens": 2571,
+    "input_tokens_details": {
+      "image_tokens": 2048,
+      "text_tokens": 523
+    },
+    "output_tokens": 2058,
+    "output_tokens_details": {
+      "image_tokens": 2058,
+      "text_tokens": 0
+    },
+    "total_tokens": 4629
+  },
+  "item_keys": [
+    "b64_json",
+    "generation_id"
+  ],
+  "has_b64": true
+}

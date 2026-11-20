@@ -1,0 +1,29 @@
+{
+  "file": "checkpoints/story16-captured-24.bin",
+  "sha256": "7d3744daf667b2c9119079c2e5f0bbaa692f6ebc0ef910353346c8c0d4af6706",
+  "size": 199608,
+  "map": "00-23",
+  "cell": [
+    1,
+    3
+  ],
+  "story": 16,
+  "party": [
+    {
+      "slot": 0,
+      "id": 2
+    },
+    {
+      "slot": 1,
+      "id": 23
+    },
+    {
+      "slot": 2,
+      "id": 36,
+      "level": 9,
+      "name": "狼子"
+    }
+  ],
+  "source": "m10-work/native/story16-cap24-catch/s-39-w.bin",
+  "note": "After 安魂符 capture of Lv9 狼子 at 7 HP in NW group-07 box. Official start path still to be stitched later."
+}

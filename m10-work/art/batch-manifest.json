@@ -1,0 +1,86 @@
+[
+  {
+    "id": "00-23",
+    "refs": [
+      "00-23_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-23_prompt.txt",
+    "output": "00-23_gpt.png",
+    "size": "1024x640",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      256,
+      160
+    ],
+    "requestedSize": [
+      1024,
+      640
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-0a",
+    "refs": [
+      "00-0a_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-0a_prompt.txt",
+    "output": "00-0a_gpt.png",
+    "size": "768x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      256
+    ],
+    "requestedSize": [
+      768,
+      1024
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-0b",
+    "refs": [
+      "00-0b_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-0b_prompt.txt",
+    "output": "00-0b_gpt.png",
+    "size": "2048x1536",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      512,
+      384
+    ],
+    "requestedSize": [
+      2048,
+      1536
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-2a",
+    "refs": [
+      "00-2a_native_4x.png",
+      "forest_style.png"
+    ],
+    "prompt": "00-2a_prompt.txt",
+    "output": "00-2a_gpt.png",
+    "size": "960x800",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      160
+    ],
+    "requestedSize": [
+      960,
+      800
+    ],
+    "reviewRequired": true
+  }
+]

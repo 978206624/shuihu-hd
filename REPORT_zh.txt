@@ -1,0 +1,46 @@
+水浒神兽高清重制：已完成的前期研究与视觉概念
+
+识别结果
+实际游戏是《水滸神獸 / 水浒神兽》（Shui Hu Shen Shou），广誉科技 / Vast Fame，2001。ROM 内部的 SHAWU STORY 不能作为实际游戏名；实际运行后的标题画面和版权行确认了上述识别。网上也存在把同一 ROM 标题用于另一款三国游戏的情况。
+来源：https://vfamewiki.miraheze.org/wiki/Shui_Hu_Shen_Shou
+补充来源：https://thegamesdb.net/game.php?id=126016
+标题歧义说明：https://www.jrpg.org/reviews/game-boy-color/shawu-story/
+
+游戏类型与美术
+水浒题材的神兽收集、回合制 RPG。原始画面为 160×144，明亮高饱和色彩、俯视地图、Q版小人物、8×8 tile 背景、中文点阵字、带头像的红白对话框。标题为卷轴书法、金色小龙、青蓝远山及松林。
+本次实际跑过标题、开场室内剧情、山顶、天庭和森林区域，并用方向键验证了角色移动与地图滚动。未通关，未验证完整战斗和长期存档。
+
+ROM
+路径：game.gbc
+大小：2097152 bytes
+SHA256：ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95
+卡带类型 0x1B：MBC5 + RAM + Battery。
+CGB 标志为 0x80：表示支持 CGB，并非 0xC0 的 CGB-only。
+原 ROM 未修改。
+
+已生成材料
+shots/menu.png：实际标题与菜单。
+shots/intro_more.png：室内开场剧情。
+shots/advance_48.png：山顶。
+shots/advance_64.png：天庭。
+shots/advance_160.png：森林开场。
+shots/gameplay_before.png、gameplay_walk_down.png、gameplay_walk_right.png：移动验证。
+shots/advance_contact_sheet*.png：按键推进剧情的缩略图。
+concepts/title_hd.jpg、cliff_hd.jpg、palace_hd.jpg：基于实际画面的 AI 高清重绘概念，非游戏运行截图、非可直接替换的素材包。概念图使用 4:3 构图，原画比例为 10:9，不能当作已经严格保持原地图/碰撞布局。
+shots/compare_concept_title.png、compare_concept_cliff.png、compare_concept_palace.png：明确标记的“原游戏 vs 重绘概念”对照，不是实时滤镜测试。
+
+VRAM 测量
+使用 PyBoy 2.9.0、无窗口 CGB 模式，采样 108 个开场及移动阶段的模拟器状态。
+分别读取两组 VRAM 的 0x8000–0x97FF，按 16 bytes / 8×8 2bpp 图块去重，排除全零图块，得到 2752 个不同图案。
+包含字体、UI、动画和可能已载入但不可见的图块；并非全游戏图块数，也不是 2752 个独立角色/精灵。不合并翻转图块，不把调色板变体另算。只能作早期已加载素材量的下界参考。
+详情：tile_analysis.json
+灰度图块图集：shots/vram_unique_tile_atlas.png
+
+未完成部分 / 重要限制
+未制作浏览器模拟器页面，未安装/测试 JS/WASM 核心，未验证 WebGL 滤镜、触控、localStorage 电池存档，未运行 Chromium 对比测试。
+web/ 目前没有实现；没有 shawu-hd-web.zip 可玩版。不要把本研究包或概念图描述为可玩高清重制成品。
+当前执行环境没有 CloudAgent 工具；本次按代码工作流程停在应用开发前，没有绕过工具限制自行编写仓库应用。主代理若有 CloudAgent，可附上 game.gbc、关键截图和本说明继续实现。
+
+真正保持玩法不变的高清重绘
+简单模拟器 + xBR/ScaleFX/HQ 滤镜只能平滑原像素，不等于重绘。真正高清素材需要提取全游戏图块/精灵/头像/字体/动画，建立稳定的替换映射，逐项重画，再由支持高清 tile/sprite 替换的独立渲染层绘制，同时保留 ROM 的 CPU、计时、碰撞、战斗和存档逻辑。GBC 自身仍输出 160×144，因此不能仅把高清图片塞回 ROM。
+尚未确定完整素材量和工期；2752 是开场采样数，不能据此虚报整个项目完成度。

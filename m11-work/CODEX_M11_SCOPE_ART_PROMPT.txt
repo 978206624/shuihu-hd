@@ -1,0 +1,25 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any earlier session. Read context FROM FILES. Work only under m11-work/ (write). You may READ anything under /workspace/shawu, including m6-work/raw_maps.json, m8-work/art style PNGs, m8-work/runtime/assets/game.gbc, m9/m10 scripts, scopes and art. Do NOT modify m8-work/runtime/, m9-work/runtime/, m10-work/runtime/, any m8/m9/m10 scripts/art/results/checkpoints, ROM bytes, or the binjgb core. If the model gateway drops, STOP and report. No host sockets needed. Never copy credentials/tokens from ~/.codex, ~/.cockpit_tools or ~/.config into any file.
+
+TASK: Prepare Region 6 art inputs and write m11-work/region6-scope.json. Do NOT call any image-generation API and do NOT integrate a runtime. Short checkpoint lines in m11-work/progress.md. Add at most one factual line to SUPERVISOR_STATUS.md.
+
+Official accepted evidence (verified by the supervisor):
+- Start: m11-work/checkpoints/story19-00-2a-official.bin SHA-256 c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1
+- Actions: m11-work/official-chain/official-region6-actions.json (717 actions, 63131 frames); native replay m11-work/official-chain/official-region6-replay/
+- Official browser replay: m11-work/play/region6-official/ (see result.json; supervisor note in SUPERVISOR_STATUS.md)
+- Native end: m11-work/checkpoints/region6-end-native.bin f8e87d6ae1b9b23261c2e0a2800151391dd93aed3bd0c4b6267985d32e22f428 — 00-2e e3 (25,5) facing left, story 22, 伏魔扇 obtained.
+- Analysis: m11-work/rom-gate-analysis.md, m11-work/REQUEST_READY.md (map order table).
+- NEW maps naturally entered: 00-25, 00-26, 00-27, 00-28, 00-29, 00-2e. Revisited maps on the route: 00-2a, 00-0b, 00-09, 00-00, 00-06 (healing detour). Exclude battles, system menus, and anything after the 00-2e (24,5) story-23 trigger.
+
+Write and run m11-work/scripts/prepare-art.py, adapted from m10-work/scripts/prepare-art.py:
+- ROM from m8-work/runtime/assets/game.gbc (SHA-256 ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95); catalog m6-work/raw_maps.json.
+- Copy style refs town_style.png, room_style.png, forest_style.png from m8-work/art into m11-work/art/ (byte copies). Choose the most fitting ref per map (maze/cave/forest/interior) and justify.
+- For EVERY naturally entered map (new and revisited), render character-free native PNG + 4x nearest PNG.
+- For revisited maps, compare geometry SHA and native size against m10-work/region5-scope.json, m9-work/region4-scope.json and earlier scopes/registries (m8). If identical and an accepted plate exists, REUSE it (document pointer to the accepted plate path and its SHA-256); no new prompt. If a revisited map has NO accepted plate anywhere, list it as a new plate requirement.
+- If 00-26/00-27 (maze) entries render different geometry per entry or are huge, document it and decide plate granularity per map signature exactly as the runtime keys plates (check how m10-work/runtime registry keys maps). If a native map is too large for one gateway request, follow the M9/M10 size rule (scale 4 if 4x area >= 655360 else 5) and if the requested size would exceed what the gateway accepted before (check m9/m10 batch manifests and *_gpt.png.meta.json sizes), propose a tiling plan in the scope and manifest (tiles with overlap noted) rather than any upscale/smoothing fallback.
+- For each NEW plate: glyph-faithful prompt (same structure as m10-work/art/00-2a_prompt.txt: geometry lock, style ref, BACKGROUND GLYPHS ARE LOCKED, ZERO characters). Describe layout from the native render. Invent no text. Give each map a short Chinese name from what the native image shows (e.g., 迷宫, 石洞, 林间).
+- Output m11-work/art/batch-manifest.json only for NEW GPT plates (model gpt-image-2, quality medium, same schema as m10-work/art/batch-manifest.json: id, refs, prompt, output, size, nativeSize, requestedSize, reviewRequired).
+- Do not write *_gpt.png.
+
+Write m11-work/region6-scope.json in the same schema as m10-work/region5-scope.json: maps (reused + new, id, name, nativeSize, geometrySHA256, naturalReplay pointer to official snapshots, nameBasis, reuse note), identificationEvidence, nextStoryGate (stop at settled 00-2e e3 (25,5) story 22 before (24,5)), exclusions, artStatus (PREPARED_NOT_GENERATED / REUSED_M?), notAllConnectedWorldMaps.
+
+When complete, stop with a short summary: table of maps, new vs reused, requested sizes, any tiling.

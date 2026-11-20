@@ -1,0 +1,7 @@
+M5最终实测：完整HD背景 28669/29160 = 98.3162%；背景/UI联合完整 28669/29160。
+背景像素 471663068/471723583 = 99.9872%。剩余缺口 491帧：interior: 143帧/4186像素；cliff: 33帧/46881像素；palace: 41帧/1248像素；disciples: 31帧/1807像素；forest: 243帧/6393像素。
+同输入完整重放243/243状态及243/243原生像素哈希一致；243次角色/非转场文字抽查，10项不变量通过，250次状态/电池导出无OOM。ROM/core与M4字节一致。
+ZIP: /workspace/shawu/shuihu-hd-m5-windows.zip，13900694字节（不含截图/报告/工具），CRC与48项冻结SHA256通过；411字节GBK start.bat、start.sh原样复制。
+联系图: /workspace/shawu/shots/m5_cutscenes_contact.png。
+剩余原因详见remaining-gaps-final.json。高清转场识别区间见transition-intervals.json；观测卷屏见observed-scroll.json。
+离线干净解压加载结果单列package-verification.json；Linux测试不代表真实Windows执行。

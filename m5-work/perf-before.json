@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "root": "/tmp/shawu-perf-m5/shuihu-hd-m5",
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "results": null
+}

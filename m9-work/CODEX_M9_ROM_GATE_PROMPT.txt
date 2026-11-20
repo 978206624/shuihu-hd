@@ -1,0 +1,20 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Work only under m9-work/. Do not modify m8-work/runtime/, frozen m8 scripts/art/results, ROM bytes, or core. Checkpoint m9-work/progress.md. If 38811 drops, STOP and report. Sandbox cannot use host sockets; write REQUEST_READY.md for any outer play. No GPT art or runtime integration in this session. No more blind door/interact BFS.
+
+# Supervisor conclusion after completed natural surveys
+Official start is story 12 in 00-05 (m9-work/checkpoints/story12-meeting-end.bin, SHA-256 2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2). Walking and A/B surveys did not advance the story byte and did not reach 黄泥岗 or 00-0b.
+
+- 00-01 entry text is NOT a story trigger. start-settled.png is a shop-name banner with a single character 员, same UI as 00-02 员, 00-03 道具, 00-04 酒, 00-06 神兽馆. After A/B the banner closes (response.png has no box). Story stays 12. Those interior surveys expanded only 1 node because the banner was classified as a mode change.
+- 00-05 house and 00-00 village A/B sweeps were complete: no story marker. Village talk is ordinary chatter.
+- 00-08 (story12-interact-00-08-s02) was fully walked (875 nodes, frontier 0). A signboard (candidate-026) has arrows toward 黄泥岗 and 东溪村. Dialogue is flavor. No door to a new map. Still story 12.
+- 00-09 (story12-interact-00-09-s01) was fully walked (420 nodes, frontier 0). An NPC at the blocked far path says: 「去，就是神木林了」「但是被石头挡住了……」「啊～真想去看看神木啊～」. This is the visible gate on the 00-09 side. The M6 warp catalog lists 00-09 <-> 00-0b.
+
+# This session: ROM script/flag analysis only, then targeted play commands
+Determine what, at story 12, actually opens the way to 黄泥岗 (prior hints: 00-1f..23 forest maze and the inn/客栈, possibly 00-24) and/or removes the 神木林 rock toward 00-0b. Likely causes include required NPC talk order, an item, resting at an inn, a party/story flag, a map variant / layout_flag / bank 1e script, or a different 00-08 entry (the warp catalog has multiple 00-00→00-08 dest_entry values, and also 00-00→00-35 edges that walking did not find).
+
+1. Read-only analysis of the accepted ROM (SHA-256 must remain ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95). Reuse existing catalogs as leads, not as proof: m6-work/warp_catalog.json, m6-work/inventory_zh.md (layout_flag / bank 1e), m6-work/dynamic_maps.json, m8-work/region3-scope.json. You may write analysis notes and extract scripts under m9-work/ only.
+2. Do not poke RAM, story, flags, or warps. Do not teleport. Name the exact natural condition (who to talk to, which item to use, where to rest, which object to check, which already-visited map/NPC is still required, etc.) and how it would be observed (story byte, map id, layout/variant, dialogue).
+3. If 黄泥岗 is reached by a different route than 00-0b, say so. If the rock/00-0b is a later-chapter gate and should stay excluded from M9, say so with evidence.
+4. Write m9-work/REQUEST_READY.md with the smallest exact supervisor outer-play commands to satisfy that condition from the official story12 save (unique tags; do not overwrite existing evidence dirs). Reuse m9-work/outer-runs/run-play.sh. If analysis shows the gate is unresolvable at story 12 without cheating, say that plainly and FINISH; do not invent a warp.
+5. Update progress.md and FINISH this turn.
+
+ROM/core/gameplay stay untouched.

@@ -1,0 +1,20 @@
+{
+  "updated": "2026-11-19T15:31:51+08:00",
+  "runId": "m10-region5-20261119T021341364667010Z",
+  "phase": "blocked",
+  "note": "Preview failed (exit 1)",
+  "resumesUsed": 8,
+  "maxResumes": 14,
+  "runnerPid": 789468,
+  "runnerAlive": false,
+  "inventory": {
+    "expected": 252,
+    "complete": 252,
+    "remaining": 0
+  },
+  "qaDone": true,
+  "perfDone": true,
+  "contactDone": true,
+  "previewDone": false,
+  "portStop": false
+}

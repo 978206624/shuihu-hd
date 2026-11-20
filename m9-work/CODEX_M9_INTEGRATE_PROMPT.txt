@@ -1,0 +1,27 @@
+FRESH codex exec, NOT a session resume. Do NOT resume prepare-art or any other prior session. Read context FROM FILES. Keep this session compact and checkpoint m9-work/progress.md often.
+
+# Task
+Integrate the five supervisor-accepted region-4 GPT plates into an ISOLATED m9 runtime, then prepare exact outer QA/perf/contact/preview commands. Do not modify m8-work/runtime/, m8-work/scripts/, m8-work/art/, frozen M8 results, the ROM, or the binjgb core. Work only under m9-work/ (plus shots/ for the contact sheet path the supervisor will write). If 38811 drops, STOP and report. Sandbox EPERM for host sockets/browser is known: run offline steps yourself; write REQUEST_READY.md with exact supervisor commands at the outer-browser gate, then FINISH this turn. Do not generate GPT art. Do not launch browser/QA yourself.
+
+# Accepted plates (do not regenerate)
+Supervisor review: m9-work/art/SUPERVISOR_VISUAL_REVIEW.md
+Plates: m9-work/art/00-{1f,21,24,2b,2c}_gpt.png plus *.meta.json
+Scope: m9-work/region4-scope.json
+Prep: m9-work/art/batch-manifest.json, native-map-metadata.json if present, m9-work/scripts/prepare-art.py
+Official-start evidence replay: m9-work/play/m9-huangnigang-official-evidence (262 actions, end 00-2c story 14, DAA1=72, DAA2=1). Action list: m9-work/outer-runs/huangnigang-inn-actions.json
+Official save: m9-work/checkpoints/story12-meeting-end.bin (SHA-256 2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2)
+
+# Integration rules
+- Isolated runtime at m9-work/runtime/, starting from a byte-faithful copy of the accepted live runtime m8-work/runtime/ (includes region-3 00-06 v2). After the copy, never write back to m8-work/runtime/.
+- Follow the method in read-only m8-work/scripts/integrate.py: exact PNG byte copies into assets/region4/*_hd.png, no new filters/conversion; register maps; keep prior region1/2/3 plates. Permit actual GPT dimensions that only differ from the requested size by aspect-preserving pixel rounding (00-24 meta size is 1024x1024 but the PNG is 1254x1254; that is already accepted).
+- Strict native-evidence matching, unchanged ROM/core, original actors and text. No smoothing or upscaled-original fallback. No loosened coverage masks or denominators.
+- HTTP 8765 already serves /workspace/shawu; QA/preview must load http://127.0.0.1:8765/m9-work/runtime/ (not the M8 path).
+
+# Outer work the supervisor will run from your REQUEST_READY
+Prepare exact nohup commands, working directories, logs, PIDs, exclusive-lock rules, and resume points for:
+1. Formal QA covering the five new maps plus no-regression on earlier regions, using official-start evidence. Coverage = same-plate numerator / native-background eligible denominator.
+2. Perf protocol (adopted v3 baseline): 1792 native frames/sample, 3 repeats, legacy (60 idle warmup) and cold; audit off, no video during perf. Do not regress beyond the disclosed residual: cold/00-17 mean frame/switch max 24.100ms failed ≤19.0ms vs saved v3 16.000; original M8 runtime was kept and debt.max recovered to 16.738. One bounded fix round max if M9 introduces a new regression; otherwise disclose and keep the isolated runtime.
+3. Contact sheet shots/m9_region4_contact.png (native vs in-runtime HD crops for the five maps).
+4. Preview m9-work/region4_preview.webm, <25MB, real-time (no speedup), no audio. Prefer official-start excerpts through 黄泥岗 and the inn talks.
+
+When REQUEST_READY.md is complete and offline integration is done, stop. The supervisor will run the outer commands and will only come back for one bounded fix round if QA/perf requires it.

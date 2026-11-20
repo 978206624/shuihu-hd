@@ -1,0 +1,5 @@
+Prepared and verified all five Region 4 maps. [ART_PREPARED.md](/workspace/shawu/m9-work/ART_PREPARED.md) lists the ROM-only natives, exact 4× inputs, and prompts. The [batch manifest](/workspace/shawu/m9-work/art/batch-manifest.json) and [scope with settled save hashes](/workspace/shawu/m9-work/region4-scope.json) are complete.
+
+`00-21` uses the forest style because its native layout is a wooded passage. The handoff flags the confirmed `酒` glyph on `00-24` and the small entrance and counter marks on `00-2b` for review.
+
+This session ended at file preparation. The supervisor log separately records that its browser replay reached story 14 and its GPT batch started.

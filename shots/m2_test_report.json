@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-10T07:54:25.172Z",
+  "tests": [
+    {
+      "name": "boot is not falsely recognized as title",
+      "pass": true
+    },
+    {
+      "name": "real title matched; original/HD screenshots captured",
+      "pass": true,
+      "metadata": {
+        "frames": 3423,
+        "ticks": 240387824,
+        "pc": 670,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "scene": "title",
+          "mapResult": null,
+          "titleRedrawn": true,
+          "titleSelection": 0,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "WebGL Scale2x",
+          "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+        },
+        "scroll": [
+          246,
+          0
+        ]
+      }
+    },
+    {
+      "name": "full HD lower title landscape replaces original band",
+      "pass": true
+    },
+    {
+      "name": "title menu directional input changes real pixels",
+      "pass": true
+    },
+    {
+      "name": "real playable forest reached by deterministic inputs",
+      "pass": true,
+      "metadata": {
+        "frames": 34965,
+        "ticks": 2452824208,
+        "pc": 672,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "scene": "forest",
+          "mapResult": {
+            "scene": "forest",
+            "matchedCells": 360,
+            "visibleCells": 360,
+            "preservedPixels": 475,
+            "backgroundPixels": 22565,
+            "unsupportedPixels": 0
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 360,
+          "forestTilesRedrawn": 360,
+          "forestAtlasAvailable": true,
+          "fallback": "WebGL Scale2x",
+          "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "directional input moves map scroll",
+      "pass": true,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        0,
+        16
+      ]
+    },
+    {
+      "name": "identical emulator savestate bytes after identical original/HD input",
+      "pass": true,
+      "sha256": "ee174de647ea61b2531f1709d2f5df623c302b6c1f603c23009adbba02cebe11",
+      "frames": 384
+    },
+    {
+      "name": "touch pointer controls press/release",
+      "pass": true
+    },
+    {
+      "name": "keyboard controls press/release",
+      "pass": true
+    },
+    {
+      "name": "audio toggle initializes Web Audio without runtime error",
+      "pass": true
+    },
+    {
+      "name": "localStorage battery RAM reload exact bytes",
+      "pass": true,
+      "bytes": 2048,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+      "nonFFBytes": 2048
+    },
+    {
+      "name": "battery export and import preserve exact bytes",
+      "pass": true
+    },
+    {
+      "name": "invalid battery import rejected",
+      "pass": true
+    },
+    {
+      "name": "start advances and pause stops emulator",
+      "pass": true
+    },
+    {
+      "name": "desktop and mobile layout screenshots",
+      "pass": true
+    },
+    {
+      "name": "all resources served locally, no runtime errors or HTTP failures",
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Early-game smoke tests only, not whole-game compatibility",
+    "Battery RAM byte persistence tested; in-game save/continue not yet proven",
+    "Continuous GPT maps tested only in captured early scenes; unknown tiles retain original"
+  ],
+  "pass": true,
+  "runtimeErrors": [],
+  "externalRequests": [],
+  "failedRequests": []
+}

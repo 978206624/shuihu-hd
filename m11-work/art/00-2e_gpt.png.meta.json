@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "out": "/workspace/shawu/m11-work/art/00-2e_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1920x1920",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 504,
+      "elapsed": 188.4,
+      "error": "{'code': 'upstream_connect_timeout', 'message': 'Image upstream response headers timed out', 'type': 'server_error'}"
+    },
+    {
+      "attempt": 2,
+      "status": 200,
+      "elapsed": 57.9,
+      "error": null
+    }
+  ]
+}

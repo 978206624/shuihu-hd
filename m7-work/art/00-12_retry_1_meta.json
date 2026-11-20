@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "status": 408,
+  "elapsed": 87.44,
+  "nbytes": 115,
+  "error": null,
+  "body_keys": [
+    "error"
+  ],
+  "error_body": {
+    "code": "request_body_timeout",
+    "message": "Timed out reading image upload",
+    "type": "invalid_request_error"
+  }
+}

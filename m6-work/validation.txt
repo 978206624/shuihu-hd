@@ -1,0 +1,1 @@
+PASS: 313 maps / 243 dimension-consistent deduplicated layouts / 54 native screen captures / ROM unchanged

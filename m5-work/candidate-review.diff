@@ -1,0 +1,75 @@
+--- web/map-renderer.js	2026-11-10 19:56:05.340196362 +0800
++++ m5-work/candidate-runtime/map-renderer.js	2026-11-10 20:18:27.776330919 +0800
+@@ -21,8 +21,19 @@
+  // native row must agree with one exact mapping of palette/index to RGB.
+  let needsRows=!now.map;for(let y=0;!needsRows&&y<144;y++)for(let x=0;x<160;x++){const i=y*160+x;if(o.mask[i])continue;const j=(((y+o.scy)&255)*256+((x+o.scx)&255))*4,k=((((y+o.scy)&255)>>3)*32)+(((x+o.scx)&255)>>3);if(!now.map.sets[k].has(o.cellKeys[k])||o.bg[j]!==p[i*4]||o.bg[j+1]!==p[i*4+1]||o.bg[j+2]!==p[i*4+2]){needsRows=true;break;}}
+  if(needsRows)for(const anchor of anchors){const ref=anchor.nativeReference;if(!ref)continue;const a=now.o,rowPalettes=[],bg=new Uint8ClampedArray(256*256*4);let useful=false;for(let y=0;y<144;y++){const palettes=a.palettes.slice(),seen=new Map();let valid=true;for(let x=0;x<160;x++){if(o.actorMask[y*160+x])continue;const mx=(x+a.scx)&255,my=(y+a.scy)&255,k=(my>>3)*32+(mx>>3),pi=(ref.attrs[k]&7)*4+ref.indices[my*256+mx],rgb=p.slice((y*160+x)*4,(y*160+x)*4+3);if(seen.has(pi)&&seen.get(pi).some((v,ch)=>v!==rgb[ch])){valid=false;break;}seen.set(pi,rgb);}if(!valid)continue;for(const [pi,rgb] of seen)palettes.splice(pi*4,3,...rgb);rowPalettes[y]=palettes;useful=true;for(let x=0;x<160;x++){const mx=(x+a.scx)&255,my=(y+a.scy)&255,k=(my>>3)*32+(mx>>3),pi=(ref.attrs[k]&7)*16+ref.indices[my*256+mx]*4;bg.set(palettes.slice(pi,pi+4),(my*256+mx)*4);}}if(useful)candidates.push({map:anchor,score:now.score,visible:now.visible,o:{...a,...ref,bg,rowPalettes,mask:new Uint8Array(23040),dialogueRects:[]}});}
++
++ // Current decoded scenery is also a native reference when every visible
++ // cell on that scanline is signature verified. Some saved references still
++ // contain a dialogue overlay. Infer only complete, consistent native rows.
++ if(needsRows&&now.map){const a=o,m=now.map,models=[],validRows=new Uint8Array(144);
++ for(let y=0;y<144;y++){const seen=new Map();let valid=true;for(let x=0;x<160;x++){const i=y*160+x,mx=(x+a.scx)&255,my=(y+a.scy)&255,k=(my>>3)*32+(mx>>3);if(o.actorMask[i])continue;if(o.mask[i]||!m.sets[k].has(a.cellKeys[k])){valid=false;break;}const pi=(a.attrs[k]&7)*4+a.indices[my*256+mx],rgb=p.slice(i*4,i*4+3);if(seen.has(pi)&&seen.get(pi).some((v,c)=>v!==rgb[c])){valid=false;break;}seen.set(pi,rgb);}if(valid&&seen.size){const palettes=a.palettes.slice();for(const [pi,rgb] of seen)palettes.splice(pi*4,3,...rgb);models[y]={palettes,seen};validRows[y]=1;}}
++ // Palette writes may split a scanline. Only colors independently observed on
++ // the nearest coherent preceding/following rows may bridge that split; the
++ // regular exact eight-pixel match still decides every rendered segment.
++ for(const phase of [0,-1,1]){const bg=new Uint8ClampedArray(256*256*4),rowPalettes=[];let useful=false;for(let y=0;y<144;y++){let model=phase===0?models[y]:null;if(phase){if(validRows[y])continue;for(let yy=y+phase;yy>=0&&yy<144;yy+=phase)if(models[yy]){model=models[yy];break;}}if(!model)continue;const palettes=model.palettes;rowPalettes[y]=palettes;useful=true;for(let x=0;x<160;x++){const mx=(x+a.scx)&255,my=(y+a.scy)&255,k=(my>>3)*32+(mx>>3),pi=(a.attrs[k]&7)*4+a.indices[my*256+mx];if(!m.sets[k].has(a.cellKeys[k])||!model.seen.has(pi))continue;bg.set(palettes.slice(pi*4,pi*4+4),(my*256+mx)*4);}}if(useful)candidates.push({map:m,score:now.score,visible:now.visible,o:{...a,bg,rowPalettes,mask:new Uint8Array(23040),dialogueRects:[]}});}
++ }
+  const sources=new Int16Array(23040).fill(-1),covered=new Uint8Array(23040),effectiveMask=o.actorMask.slice(),eligibleMask=new Uint8Array(23040),gaps=new Map();let background=0,eligible=0,rasterMismatch=0,recovered=0;
+- const eq=(a,x,y)=>{const j=(((y+a.scy)&255)*256+((x+a.scx)&255))*4,i=(y*160+x)*4;return a.bg[j]===p[i]&&a.bg[j+1]===p[i+1]&&a.bg[j+2]===p[i+2];};
++ const eq=(a,x,y)=>{const j=(((y+a.scy)&255)*256+((x+a.scx)&255))*4,i=(y*160+x)*4;return a.bg[j+3]===255&&a.bg[j]===p[i]&&a.bg[j+1]===p[i+1]&&a.bg[j+2]===p[i+2];};
+  for(let y=0;y<144;y++)for(let x0=0;x0<160;x0+=8){let chosen=-1,quality=-1;for(let n=0;n<candidates.length;n++){const a=candidates[n].o;let ok=true;for(let x=x0;x<x0+8;x++)if(!o.actorMask[y*160+x]&&!eq(a,x,y)){ok=false;break;}if(ok){let rank=0;const m=candidates[n].map;for(let x=x0;x<x0+8;x++){const k=((((y+a.scy)&255)>>3)*32)+(((x+a.scx)&255)>>3);if(a.mask[y*160+x]||m?.sets[k].has(a.cellKeys[k]))rank++;}if(rank>quality){chosen=n;quality=rank;if(rank===8)break;}}}
+  for(let x=x0;x<x0+8;x++){const i=y*160+x;if(o.actorMask[i])continue;
+  const currentCell=((((y+o.scy)&255)>>3)*32)+(((x+o.scx)&255)>>3);if(o.mask[i]&&![161,162,163,164].includes(o.tiles[currentCell])){effectiveMask[i]=1;continue;}
+@@ -47,7 +58,7 @@
+  const uiBG=new Int16Array(256*256*4).fill(-1);for(let y=0;y<144;y++)for(let x=0;x<160;x++){const i=y*160+x;if(effectiveMask[i]&&!o.actorMask[i]){const j=(((y+o.scy)&255)*256+((x+o.scx)&255))*4;uiBG.set(p.subarray(i*4,i*4+4),j);}}
+  now.rasterUI={map:null,o:{...o,bg:uiBG,mask:effectiveMask,dialogueRects:[]}};
+  const historyKey=o.cellKeys.join(',')+';'+o.palettes.join(',')+';'+o.scx+','+o.scy;now.historyKey=historyKey;if(this.history[0]?.historyKey===historyKey)this.history[0]=now;else this.history.unshift(now);this.history.length=Math.min(this.history.length,6);
+- const principal=now.map?now:candidates.find(q=>q.map);return {scene:principal?.map?.name||'unsupported',matchedCells:principal?.score||0,visibleCells:now.visible,preservedPixels:23040-background,backgroundPixels:background,eligiblePixels:eligible,unsupportedPixels:eligible-background,uncoveredTiles:[...gaps.values()],rasterMismatchPixels:rasterMismatch,rasterRecoveredPixels:recovered,uiTransition:uiTransition?.evidence||null,dialogueRects:rects,dialogueBorderPixels:uiPixels,dialogueBorderCoveredPixels:uiCovered,dialogueFrameCovered:uiPixels===uiCovered};
++ const principal=now.map?now:candidates.find(q=>q.map);if(this.debugCoverage)this.unsupportedPixelIndices=Array.from({length:23040},(_,i)=>i).filter(i=>eligibleMask[i]&&!covered[i]);return {scene:principal?.map?.name||'unsupported',matchedCells:principal?.score||0,visibleCells:now.visible,preservedPixels:23040-background,backgroundPixels:background,eligiblePixels:eligible,unsupportedPixels:eligible-background,uncoveredTiles:[...gaps.values()],rasterMismatchPixels:rasterMismatch,rasterRecoveredPixels:recovered,uiTransition:uiTransition?.evidence||null,dialogueRects:rects,dialogueBorderPixels:uiPixels,dialogueBorderCoveredPixels:uiCovered,dialogueFrameCovered:uiPixels===uiCovered};
+  }
+ 
+  // Certified UI presentations contain HD borders and native BG foreground, but
+@@ -63,17 +74,18 @@
+  const saved=this.uiPresentation;let effect=null;
+  if(saved){const r=saved.rect;
+  if(r.x<map.bounds[0]||r.y<map.bounds[1]||r.x+r.w>map.bounds[2]||r.y+r.h>map.bounds[3]||(map.verifiedYRanges&&!Array.from({length:r.h},(_,i)=>r.y+i).every(y=>map.verifiedYRanges.some(([lo,hi])=>y>=lo&&y<hi)))){this.uiPresentation=null;return null;}
+- let changedScene=0,topScene=0,distinct=0,restoredCells=0,uiCells=0,mismatch=0;
++ let changedScene=0,topScene=0,distinct=0,restoredCells=0,uiCells=0,mismatch=0,changedUI=0,uiSamples=0,attributeCells=0,attributeTop=0;
+  for(let y=r.y;y<r.y+r.h;y++)for(let x=r.x;x<r.x+r.w;x++){const i=y*160+x,j=y*256+x,k=(y>>3)*32+(x>>3),pal=(ref.attrs[k]&7)*16+ref.indices[j]*4;
+- if(x%8===0&&y%8===0){if(map.sets[k].has(o.cellKeys[k]))restoredCells++;else uiCells++;}
+- if(o.actorMask[i])continue;const scene=[0,1,2].map(c=>o.palettes[pal+c]);const differs=scene.some((v,c)=>v!==saved.native[i*4+c]);if(differs){distinct++;if(scene.every((v,c)=>v===p[i*4+c])){changedScene++;if(y<r.y+8)topScene++;}}if(!eq(o,x,y))mismatch++;}
++ if(x%8===0&&y%8===0){if(saved.attrs&&o.attrs[k]!==saved.attrs[k]&&o.attrs[k]===ref.attrs[k]&&o.tiles[k]===saved.tiles[k]){attributeCells++;if(y===r.y)attributeTop++;}if(map.sets[k].has(o.cellKeys[k]))restoredCells++;else uiCells++;}
++ if(o.actorMask[i])continue;uiSamples++;if([0,1,2].some(c=>p[i*4+c]!==saved.native[i*4+c]))changedUI++;const scene=[0,1,2].map(c=>o.palettes[pal+c]);const differs=scene.some((v,c)=>v!==saved.native[i*4+c]);if(differs){distinct++;if(scene.every((v,c)=>v===p[i*4+c])){changedScene++;if(y<r.y+8)topScene++;}}if(!eq(o,x,y))mismatch++;}
+  // A changed glyph alone cannot trigger this: require a native raster mismatch
+  // and newly displayed verified scenery, or a decoded partial BG restoration.
+  const partial=restoredCells>0&&uiCells>0;
+  const sameRect=o.dialogueRects.some(v=>v.x===r.x&&v.y===r.y&&v.w===r.w&&v.h===r.h);
+- if(changedScene>=8&&mismatch>0&&(partial||sameRect&&topScene>=8||saved.active)&&(!sameRect||topScene>=8||saved.active)){
+- saved.active=true;
+- const progress=Math.min(1,changedScene/Math.max(1,distinct)),cut=r.y+progress*r.h;
++ const attributeClose=sameRect&&attributeTop>=Math.ceil(r.w/16)&&attributeCells>=attributeTop;
++ if((changedScene>=8||attributeClose||saved.active)&&mismatch>0&&(partial||sameRect&&topScene>=8||attributeClose||saved.active)&&(!sameRect||topScene>=8||attributeClose||saved.active)){
++ saved.active=true;saved.attributeClose ||= attributeClose;
++ const progress=Math.min(1,Math.max(changedScene/Math.max(1,distinct),attributeClose||saved.attributeClose?changedUI/Math.max(1,uiSamples):0)),cut=r.y+progress*r.h;
+  const layer=document.createElement('canvas');layer.width=640;layer.height=576;const g=layer.getContext('2d');g.imageSmoothingEnabled=false;
+  const scene=this.faded(map,{...o,...ref,mask:new Uint8Array(23040)});
+  g.drawImage(scene,r.x*4,r.y*4,r.w*4,r.h*4,r.x*4,r.y*4,r.w*4,r.h*4);
+@@ -87,7 +99,7 @@
+  const newContent=o.mask[i]&&!o.actorMask[i]&&![161,162,163,164].includes(o.tiles[k])&&o.cellKeys[k]!==saved.keys[k]&&eq(o,x,y);
+  if(o.actorMask[i]||newContent)for(let yy=0;yy<4;yy++)for(let xx=0;xx<4;xx++)out.data.set(p.subarray(i*4,i*4+4),((y*4+yy)*640+x*4+xx)*4);}
+  g.putImageData(out,0,0);ctx.drawImage(layer,r.x*4,r.y*4,r.w*4,r.h*4,r.x*4,r.y*4,r.w*4,r.h*4);
+- effect={mask,evidence:{kind:'native-ui-close-wipe',rect:r,progress,changedScene,topScene,distinct,restoredCells,uiCells,mismatch,pixels,ticks:o.ticks,certifiedTicks:saved.ticks}};
++ effect={mask,evidence:{kind:'native-ui-close-wipe',rect:r,progress,changedScene,topScene,distinct,changedUI,attributeCells,attributeTop,restoredCells,uiCells,mismatch,pixels,ticks:o.ticks,certifiedTicks:saved.ticks}};
+  }else if(!sameRect&&!partial){this.uiPresentation=null;}
+  }
+  // Only a complete, exact native UI raster over a gap-free HD scene can seed
+@@ -97,7 +109,7 @@
+  if(coherent){const image=document.createElement('canvas');image.width=640;image.height=576;const g=image.getContext('2d');g.imageSmoothingEnabled=false;g.drawImage(ctx.canvas,0,0);const data=g.getImageData(0,0,640,576),native=new Uint8ClampedArray(23040*4);
+  for(let y=r.y;y<r.y+r.h;y++)for(let x=r.x;x<r.x+r.w;x++){const i=y*160+x,j=(y*256+x)*4;native.set(o.bg.subarray(j,j+4),i*4);if(o.actorMask[i])for(let yy=0;yy<4;yy++)for(let xx=0;xx<4;xx++)data.data.set(o.bg.subarray(j,j+4),((y*4+yy)*640+x*4+xx)*4);}
+  g.putImageData(data,0,0);this.drawUI(g,{...o,actorMask:new Uint8Array(23040)},p);
+- this.uiPresentation={map,rect:{...r},image,native,keys:o.cellKeys.slice(),scx:o.scx,scy:o.scy,ticks:o.ticks};}}
++ this.uiPresentation={map,rect:{...r},image,native,keys:o.cellKeys.slice(),attrs:o.attrs.slice(),tiles:o.tiles.slice(),scx:o.scx,scy:o.scy,ticks:o.ticks};}}
+  return effect;
+  }
+ 

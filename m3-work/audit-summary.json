@@ -1,0 +1,17 @@
+{
+  "total": 29160,
+  "states": 2558,
+  "free": {
+    "frame": 29160,
+    "idle": [
+      0,
+      0
+    ],
+    "down": [
+      0,
+      16
+    ],
+    "moved": true
+  },
+  "method": "Fresh boot 3300 frames, Start 2+120; actual New Game A pulses 2/120; every opening frame recorded. Movement branch and idle branch restored from identical full heap checkpoint; no branch frames included."
+}

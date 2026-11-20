@@ -1,0 +1,158 @@
+[
+  {
+    "name": "title",
+    "meta": {
+      "frames": 3,
+      "ticks": 240528288,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "title",
+        "mapResult": null,
+        "titleRedrawn": true,
+        "titleSelection": 0,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        242,
+        0
+      ]
+    }
+  },
+  {
+    "name": "forest",
+    "meta": {
+      "frames": 43,
+      "ticks": 2452964660,
+      "pc": 704,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "forest",
+        "mapResult": {
+          "scene": "forest",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 475,
+          "backgroundPixels": 22565,
+          "unsupportedPixels": 0
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "name": "cliff",
+    "meta": {
+      "frames": 145,
+      "ticks": 679586880,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "cliff",
+        "mapResult": {
+          "scene": "cliff",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 166,
+          "backgroundPixels": 22874,
+          "unsupportedPixels": 0
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "name": "palace",
+    "meta": {
+      "frames": 147,
+      "ticks": 763157052,
+      "pc": 670,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "palace",
+        "mapResult": {
+          "scene": "palace",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 366,
+          "backgroundPixels": 22674,
+          "unsupportedPixels": 0
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "name": "town",
+    "meta": {
+      "frames": 159,
+      "ticks": 258225496,
+      "pc": 670,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "scene": "unsupported",
+        "mapResult": null,
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "WebGL Scale2x",
+        "matching": "whole map RGB tile signatures, read-only VRAM/OAM, validated read-only OAM actor mask"
+      },
+      "scroll": [
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "file": "checkpoints/story17-inn.bin",
+  "sha256": "becce6a4413a47653e572244d7678cfd8945425dcdfcbb21dfca546dfc2aa807",
+  "size": 199608,
+  "map": "00-2c",
+  "entry": 1,
+  "cell": [
+    6,
+    3
+  ],
+  "story": 17,
+  "DAA": "e6 72 00 38",
+  "party": [
+    2,
+    23,
+    36
+  ],
+  "source": "/workspace/shawu/m10-work/native/story16-inn-talk/talk-12.bin"
+}

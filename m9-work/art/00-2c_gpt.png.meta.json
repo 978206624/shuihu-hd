@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "out": "m9-work/art/00-2c_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "960x800",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 408,
+      "elapsed": 105.8,
+      "error": "{'code': 'request_body_timeout', 'message': 'Timed out reading image upload', 'type': 'invalid_request_error'}"
+    },
+    {
+      "attempt": 2,
+      "status": 408,
+      "elapsed": 269.5,
+      "error": "{'code': 'request_body_timeout', 'message': 'Timed out reading image upload', 'type': 'invalid_request_error'}"
+    },
+    {
+      "attempt": 3,
+      "status": 200,
+      "elapsed": 237.9,
+      "error": null
+    }
+  ]
+}

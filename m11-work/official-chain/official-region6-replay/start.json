@@ -1,0 +1,62 @@
+{
+  "sha256": "5457695e1044db32bf695753fef1ce742087a5eb0163a56344dc5c6eb64d8877",
+  "frame": 0,
+  "ticks": 14957670912,
+  "map": "00-2a",
+  "story": 19,
+  "dialogue": 0,
+  "mode": 0,
+  "bank": 4,
+  "player": [
+    144,
+    88,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "camera": [
+    0,
+    0
+  ],
+  "scroll": [
+    0,
+    0
+  ],
+  "entry": 0,
+  "cell": [
+    5,
+    8
+  ],
+  "facing": 1,
+  "script": 0,
+  "banner": 0,
+  "settled": true,
+  "DAA": [
+    "e6",
+    "52",
+    "06",
+    "38"
+  ],
+  "D284": [
+    "04",
+    "01"
+  ],
+  "D2AC": [
+    "00",
+    "00"
+  ],
+  "party": [
+    "02",
+    "17",
+    "24"
+  ],
+  "hp": [
+    5,
+    24,
+    4
+  ],
+  "note": "Official M10 endpoint loaded in the accepted native core."
+}

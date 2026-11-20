@@ -1,0 +1,5 @@
+Reproduced the failure at action 705, frame 83 (cumulative frame 61,811). The native framebuffer was still black while the BG map already held dialogue tiles. Both runtimes drew a textured HD transition plate over the black frame, changing the pixels QA sampled as text. The hardware window was disabled.
+
+The M11 renderer now preserves the full native blackout on that transition. QA still requires exact candidate actor and text hashes on every frame. It counts and lists the known M10 defect only after verifying native parity, the full candidate output, and both coverage totals. All other inherited frames still require exact HD and coverage parity.
+
+The [diagnosis](/workspace/shawu/m11-work/integration/qa-fix-diagnosis.md) records the evidence and fix. The native regression test, syntax checks, jq acceptance fixture, and `verifyFreeze()` passed. Formal browser QA remains pending with a fresh `RUN_ID`. The failed run is preserved. [Updated supervisor handoff](/workspace/shawu/m11-work/REQUEST_READY.md)

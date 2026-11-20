@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "steps": 1982,
+  "draws": 1982,
+  "retainedStallDebt": true,
+  "maximumStepsInStallCallback": 4,
+  "note": "Synthetic timestamp scheduling check, not realtime performance."
+}

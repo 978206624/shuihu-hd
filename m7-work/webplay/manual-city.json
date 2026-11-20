@@ -1,0 +1,518 @@
+{
+  "source": "/workspace/shawu/m7-work/webplay/field-north.bin",
+  "actions": [
+    [
+      "down",
+      48,
+      8,
+      "around1"
+    ],
+    [
+      "right",
+      64,
+      8,
+      "around2"
+    ],
+    [
+      "up",
+      120,
+      8,
+      "north1"
+    ],
+    [
+      "left",
+      32,
+      8,
+      "west"
+    ],
+    [
+      "up",
+      160,
+      30,
+      "north2"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 57,
+      "ticks": 5621051840,
+      "pc": 670,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22898,
+          "gptBackgroundPixels": 22858,
+          "uncoveredBackgroundPixels": 40,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            128,
+            160
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 182,
+          "backgroundPixels": 22858,
+          "eligiblePixels": 22898,
+          "unsupportedPixels": 40,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 40,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        128,
+        160
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          5
+        ]
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        0,
+        0,
+        4,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 129,
+      "ticks": 5626108204,
+      "pc": 670,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22898,
+          "gptBackgroundPixels": 22898,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            192,
+            160
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 142,
+          "backgroundPixels": 22898,
+          "eligiblePixels": 22898,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        192,
+        160
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          5
+        ]
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 257,
+      "ticks": 5635097352,
+      "pc": 953,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22865,
+          "gptBackgroundPixels": 22865,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-08",
+        "mapResult": {
+          "scene": "region1-00-08",
+          "mapId": "00-08",
+          "mapName": "史家庄外野道",
+          "worldCamera": [
+            192,
+            48
+          ],
+          "cameraEvidence": "loader-origin+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 175,
+          "backgroundPixels": 22865,
+          "eligiblePixels": 22865,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 15528,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            384,
+            512
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        192,
+        48
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          11
+        ]
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        1,
+        0,
+        3,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 297,
+      "ticks": 5637906424,
+      "pc": 674,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22865,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 22865,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 22865,
+          "unsupportedPixels": 22865,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        192,
+        48
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          44
+        ]
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        1,
+        0,
+        3,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "frames": 487,
+      "ticks": 5651249484,
+      "pc": 8609,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 23040,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 23040,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 23040,
+          "unsupportedPixels": 23040,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "nativeFields": [
+        [
+          65466,
+          6
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          45
+        ]
+      ],
+      "map": [
+        0,
+        8
+      ],
+      "player": [
+        80,
+        72,
+        1,
+        1,
+        0,
+        3,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        0,
+        12,
+        16
+      ]
+    }
+  ],
+  "errors": []
+}

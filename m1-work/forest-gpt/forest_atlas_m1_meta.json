@@ -1,0 +1,21 @@
+{
+  "ok": false,
+  "status": 408,
+  "elapsed": 61.93848991394043,
+  "body": {
+    "error": {
+      "code": "request_body_timeout",
+      "message": "Timed out reading image upload",
+      "type": "invalid_request_error"
+    }
+  },
+  "nbytes": 115,
+  "params": {
+    "quality": "medium",
+    "use_style": true,
+    "use_fidelity": true,
+    "use_size_auto": true,
+    "tag": "m1",
+    "model": "gpt-image-2"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "candidateMapCount": 8,
+  "maps": [
+    {
+      "id": "00-00",
+      "name": "东溪村",
+      "nativeSize": [
+        480,
+        320
+      ],
+      "geometrySHA256": "d089b29a85ad5f2744f1c9fecab5f5a07a8d73ed2ce975ff438ae908d848abc7",
+      "naturalReplay": "m8-work/play/south-village-settled",
+      "nativeEndSHA256": "231b26c56d4c05362ac35ae0f60ce6463d88085f6aadb95751bdf8e49ce8c83d",
+      "independentDoorSurvey": false,
+      "nameBasis": "任务对白 + 00-08南口自然进入 + 00-05吴用会合；非现场地图标题"
+    },
+    {
+      "id": "00-01",
+      "name": "东溪村室内 00-01",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "f1c78074b74afebc9c761a16fa25de308455a157b3a8b56ff7c2ea0b6a9e1fbd",
+      "naturalReplay": "m8-work/play/survey-00-01",
+      "nativeEndSHA256": "045ad7f635b876220bd5f004e716c66ed6e4310829f922f5a7f2c2612f41508a",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-02",
+      "name": "东溪村室内 00-02",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "a2950ee0cc6c01403caeddccd0232c930f8b4ed2aff4716cac8825251a7b699b",
+      "naturalReplay": "m8-work/play/survey-00-02",
+      "nativeEndSHA256": "b9fa459e9719ea07b4c34f104a6ff43a504e979482e7fe84b92fa67088d806dc",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-03",
+      "name": "东溪村室内 00-03",
+      "nativeSize": [
+        192,
+        288
+      ],
+      "geometrySHA256": "aa4ae979e242427aedeaf6e1f05a93fd2fd5aa4bf07fbc55a7ba87ef829e4788",
+      "naturalReplay": "m8-work/play/survey-00-03",
+      "nativeEndSHA256": "2c86af0b00447b746438c7c0415ca93c874dfbf2bcaf73da250068938948949d",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-04",
+      "name": "东溪村室内 00-04",
+      "nativeSize": [
+        256,
+        320
+      ],
+      "geometrySHA256": "d8c7081373f8cc8391ab210cb62a62469a772057e80951066e6c60b684be7310",
+      "naturalReplay": "m8-work/play/survey-00-04",
+      "nativeEndSHA256": "946871a3d5ce5586ba643876ebca4f6b0052e616caacfd62e0d2d71cf27f0df5",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-05",
+      "name": "东溪村会合屋",
+      "nativeSize": [
+        256,
+        320
+      ],
+      "geometrySHA256": "be284a7190c1cff008df5e3cbe61de1688d0914d47e6a9e664e2588d9ad88dcf",
+      "naturalReplay": "m8-work/play/survey-00-05",
+      "nativeEndSHA256": "a709c230a5968cf8edfd6506c66fa21f6f2e2dc8c713d5d6950e462414d4174d",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-06",
+      "name": "东溪村庙宇",
+      "nativeSize": [
+        192,
+        160
+      ],
+      "geometrySHA256": "62e59dbac23d0a1ba9e43740fbe01a7f0f0b87f09260818a6d2a61cb7370effc",
+      "naturalReplay": "m8-work/play/survey-00-06",
+      "nativeEndSHA256": "1c7fbcdc2f70963d17c216a909a729ff930f9b2b251986de9277b55e1eea9a54",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    },
+    {
+      "id": "00-09",
+      "name": "村东南连通林道",
+      "nativeSize": [
+        384,
+        160
+      ],
+      "geometrySHA256": "2b928f2417ffde29a502646f85d7d439b15eb824154e4b2c53e875606d9d1b7b",
+      "naturalReplay": "m8-work/play/survey-00-09",
+      "nativeEndSHA256": "c030b0da3623a2cf08d63f809dbabae8f64c52e76c5282c0f3a869fae658cec8",
+      "independentDoorSurvey": true,
+      "nameBasis": "自然房门/图像或对白，仅描述已证实用途，无额外专名"
+    }
+  ],
+  "identificationEvidence": [
+    "m6-work/region1/council-mission/page_55.png：吴用要求至东溪村会合",
+    "m8-work/play/south-village-arrival：00-08南门→00-00",
+    "m8-work/play/survey-00-05：自然房门00-00→00-05",
+    "m8-work/play/room05-left-npc-dialogue/page_0003.png：吴用",
+    "m8-work/play/room05-left-npc-pages：吴用会合后story11→12"
+  ],
+  "nextStoryGate": "story12：前往黄泥岗客栈会合，乔装掌柜、小二，埋伏生辰纲队伍；尚未进入该客栈或完成劫取",
+  "exclusions": [
+    "00-08既有M6野道沿用",
+    "黄泥岗00-1f..23及客栈为下一个任务，不属于本次八图",
+    "00-09另一端00-0b及更远外域未自然进入，不声称已探索全部连通世界",
+    "00-35未自然打开/进入，不计为已完成新图",
+    "战斗/系统菜单/未绘地图不计八图分母；最终逐帧计数须另测，不能提前宣称覆盖率"
+  ],
+  "artStatus": "PREPARED_NOT_GENERATED",
+  "notAllConnectedWorldMaps": true
+}

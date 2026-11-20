@@ -1,0 +1,12 @@
+page.evaluate: RuntimeError: Aborted(OOM). Build with -sASSERTIONS for more info.
+    at abort (http://127.0.0.1:8765/vendor/binjgb.js:1:2130)
+    at abortOnCannotGrowMemory (http://127.0.0.1:8765/vendor/binjgb.js:1:4494)
+    at _emscripten_resize_heap (http://127.0.0.1:8765/vendor/binjgb.js:1:4597)
+    at http://127.0.0.1:8765/vendor/binjgb.wasm:wasm-function[48]:0x9192
+    at http://127.0.0.1:8765/vendor/binjgb.wasm:wasm-function[17]:0x3de1
+    at http://127.0.0.1:8765/vendor/binjgb.wasm:wasm-function[26]:0x7397
+    at http://127.0.0.1:8765/vendor/binjgb.wasm:wasm-function[134]:0x13e2f
+    at file (http://127.0.0.1:8765/app.js:12:99)
+    at Object.state (http://127.0.0.1:8765/app.js:30:386)
+    at eval (eval at evaluate (:370:30), <anonymous>:1:12)
+    at /workspace/shawu/web/tools/coverage_m3.cjs:4:213

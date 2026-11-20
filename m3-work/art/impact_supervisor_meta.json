@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "ok": true,
+    "status": 200,
+    "elapsed": 91.01,
+    "nbytes": 1070162,
+    "error": null,
+    "body_keys": [
+      "background",
+      "created",
+      "data",
+      "output_format",
+      "quality",
+      "safety_identifier",
+      "size",
+      "usage"
+    ],
+    "background": "transparent",
+    "output_format": "png",
+    "quality": "medium",
+    "size": "1254x1254",
+    "usage": {
+      "input_tokens": 2172,
+      "input_tokens_details": {
+        "image_tokens": 1952,
+        "text_tokens": 220
+      },
+      "output_tokens": 2058,
+      "output_tokens_details": {
+        "image_tokens": 2058,
+        "text_tokens": 0
+      },
+      "total_tokens": 4230
+    },
+    "item_keys": [
+      "b64_json",
+      "generation_id"
+    ],
+    "has_b64": true
+  },
+  "request": {
+    "model": "gpt-image-2",
+    "endpoint": "/v1/images/edits",
+    "quality": "medium",
+    "references": [
+      "impact_layout.png",
+      "palace_pan_style.jpg"
+    ]
+  },
+  "prompt": "The FIRST image is an original nonfigurative scarlet magical-impact starburst on pure black. Repaint ONLY this effect as a premium hand-painted HD2D Chinese JRPG V4 visual-effect sprite. Retain the center, scale, short ragged eight-point spiked silhouette and simple red color family. Luminous crimson/red energy/ink-pigment burst, subtle rich fiery brushwork within the compact original shape, legible when small. SECOND image is approved V4 painterly material/lighting style ONLY; copy NO architecture or objects from it. Exactly ONE compact centered red impact burst on completely flat pure black background, no stars/specks elsewhere. ZERO people, body parts, faces, creatures, objects, symbols, lettering, UI, watermark. This is abstract energy, NOT realistic blood, no gore. Square output, native shape occupying middle65% so it can be aligned/sliced at runtime. Finished game-effect art, not a pixel upscale.",
+  "sha256": "3709b34764e84b220015f15c9ef9d55d6773ed18f9f633d7d6f30e6b60c692b7",
+  "path": "/workspace/shawu/m3-work/art/impact_hd.png"
+}

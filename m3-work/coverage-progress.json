@@ -1,0 +1,97 @@
+{
+  "totalFrames": 29160,
+  "fullyHDBackgroundFrames": 26404,
+  "fullyHDBackgroundAndUIFrames": 26404,
+  "eligiblePixels": 471854182,
+  "coveredPixels": 468649207,
+  "dialogueFrames": 18472,
+  "fullyCoveredDialogueFrames": 18472,
+  "dialoguePixels": 59746593,
+  "coveredDialoguePixels": 59746593,
+  "classifications": {
+    "scene": {
+      "frames": 26015,
+      "fullyHD": 25881,
+      "eligiblePixels": 409218720,
+      "coveredPixels": 408377194
+    },
+    "blank": {
+      "frames": 125,
+      "fullyHD": 69,
+      "eligiblePixels": 2860213,
+      "coveredPixels": 1592373
+    },
+    "raster-transition": {
+      "frames": 2832,
+      "fullyHD": 422,
+      "eligiblePixels": 55476836,
+      "coveredPixels": 54566987
+    },
+    "palette-change": {
+      "frames": 188,
+      "fullyHD": 32,
+      "eligiblePixels": 4298413,
+      "coveredPixels": 4112653
+    }
+  },
+  "scenes": {
+    "title": {
+      "frames": 2,
+      "fullyHD": 2,
+      "eligiblePixels": 46080,
+      "coveredPixels": 46080
+    },
+    "title-fade": {
+      "frames": 42,
+      "fullyHD": 0,
+      "eligiblePixels": 967680,
+      "coveredPixels": 179680
+    },
+    "unsupported": {
+      "frames": 2,
+      "fullyHD": 0,
+      "eligiblePixels": 46080,
+      "coveredPixels": 0
+    },
+    "intertitle-backdrop": {
+      "frames": 529,
+      "fullyHD": 128,
+      "eligiblePixels": 11935102,
+      "coveredPixels": 10852726
+    },
+    "interior": {
+      "frames": 5067,
+      "fullyHD": 4751,
+      "eligiblePixels": 76856224,
+      "coveredPixels": 76735768
+    },
+    "cliff": {
+      "frames": 1641,
+      "fullyHD": 1380,
+      "eligiblePixels": 24482096,
+      "coveredPixels": 24350749
+    },
+    "palace": {
+      "frames": 4182,
+      "fullyHD": 3709,
+      "eligiblePixels": 72855170,
+      "coveredPixels": 72539494
+    },
+    "disciples": {
+      "frames": 6612,
+      "fullyHD": 6298,
+      "eligiblePixels": 103762762,
+      "coveredPixels": 103426406
+    },
+    "forest": {
+      "frames": 11083,
+      "fullyHD": 10136,
+      "eligiblePixels": 180902988,
+      "coveredPixels": 180518304
+    }
+  },
+  "stateHashComparisons": 243,
+  "pixelHashComparisons": 243,
+  "errors": [],
+  "completedFrames": 29160
+}

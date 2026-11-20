@@ -1,0 +1,104 @@
+{
+  "source": "/workspace/shawu/m7-work/story/bai/latest.bin",
+  "actions": [
+    [
+      "down",
+      112,
+      160,
+      "exit-news"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 273,
+      "ticks": 6272056676,
+      "pc": 668,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22558,
+          "gptBackgroundPixels": 0,
+          "uncoveredBackgroundPixels": 22558,
+          "observerValid": true,
+          "gap": true,
+          "dialogueFrameCovered": true
+        },
+        "scene": "unsupported",
+        "mapResult": {
+          "scene": "unsupported",
+          "matchedCells": 0,
+          "visibleCells": 360,
+          "preservedPixels": 23040,
+          "backgroundPixels": 0,
+          "eligiblePixels": 22558,
+          "unsupportedPixels": 22558,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": null,
+          "rasterRecoveredPixels": 0,
+          "uiTransition": null,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 0,
+        "forestTilesRedrawn": 0,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "nativeFields": [
+        [
+          65466,
+          7
+        ],
+        [
+          65468,
+          0
+        ],
+        [
+          53498,
+          0
+        ],
+        [
+          53487,
+          0
+        ],
+        [
+          53391,
+          5
+        ]
+      ],
+      "map": [
+        0,
+        23
+      ],
+      "player": [
+        80,
+        120,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "camera": [
+        6,
+        2,
+        12,
+        10
+      ]
+    }
+  ],
+  "errors": []
+}

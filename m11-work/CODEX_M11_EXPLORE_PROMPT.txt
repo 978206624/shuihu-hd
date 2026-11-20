@@ -1,0 +1,25 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any earlier session. Read context FROM FILES. Work only under m11-work/ (write). You may READ anything under /workspace/shawu. Do NOT modify m8-work/runtime/, m9-work/runtime/, m10-work/runtime/, any m8/m9/m10 scripts, art, results, checkpoints, ROM bytes, or the binjgb core. Checkpoint progress in m11-work/progress.md (append short timestamped lines, Asia/Shanghai). You may add ONE factual line to m11-work/SUPERVISOR_STATUS.md, do not rewrite it. If the model gateway drops, STOP and report. Your sandbox cannot open host sockets (no Playwright against 127.0.0.1:8765), but you CAN run node/python locally, so you run native exploration yourself. No GPT art, no image API calls, no runtime integration in this session. Never print or copy credentials/tokens from ~/.codex, ~/.cockpit_tools or ~/.config into any file.
+
+# Project
+GBC 水浒神兽 HD remaster. Gameplay identical; HD plates per map. Region 5 (M10) is accepted. You are starting Region 6 (M11) exploration.
+
+# Context files (read first)
+- m10-work/SUPERVISOR_STATUS.md, m10-work/REPORT_region5_zh.md, m10-work/progress.md (tail)
+- m10-work/rom-gate-analysis.md — ESPECIALLY the 00-2a rows (row-4 item gate 08:50f2, DAA2 bits, pocket-2 item), story 20/21/22 continuation (00-25, 00-26, 00-2e maze / fan reward) around lines 55-115.
+- m10-work/scripts/native-play.cjs, m10-work/outer-runs/native-talk.cjs, m10-work/outer-runs/directed-walk.cjs (native tooling), m10-work/scripts/browser-play.cjs (official browser replay script), m10-work/official-chain/ (how the official chain was assembled: rec-* replays, official-region5-actions.json, official-region5-parts.json).
+- m6-work/raw_maps.json (map catalog).
+
+# Starting points (copied into m11-work/checkpoints/, verify SHA-256)
+- Native/exploration start: m11-work/checkpoints/story19-00-2a.bin  e43f73af9425aa7268caedca3c8779ce5f2ea447d892b0f43a0bf27e02501515  (00-2a e0 (5,8), facing up, story 19, DAA e6 52 06 38, D284=04 01, party 02/17/24)
+- OFFICIAL start (end of the accepted official region-5 browser chain): m11-work/checkpoints/story19-00-2a-official.bin  c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1. Confirm it represents the same settled endpoint (map, cell, story, DAA, D284, party, bank/mode/dialogue). The official chain for region 6 MUST start from this file.
+- Region-6 starts with the 00-2a row-4 item-04 gate (walking north from (5,5) to (5,4)). In region 5 we deliberately never stepped onto row 4.
+
+# Tasks
+1. Tooling: create m11-work/scripts/native-play.cjs (adapt m10; WORK=m11-work, ROM/core still read read-only from m8-work/runtime with the same hash checks), and m11-work/outer-runs/native-talk.cjs + directed-walk.cjs adapted to m11-work. Natural joypad input only. No memory pokes, no state edits.
+2. ROM-gate continuation: write m11-work/rom-gate-analysis.md (bank:CPU addresses + evidence) for everything after story 19 at 00-2a: row-4 gate, story writes 20, 21, 22, …, new maps in order (00-25, 00-26, 00-2e, …), item/party/flag gates, battles you must win or can flee, minigames. Do not invent maps without ROM evidence.
+3. Native exploration: play forward naturally from the region-6 start through the next major story gate, analogous in size to regions 4/5 (several new maps, one story arc). Propose the region-6 endpoint as a settled, safe save just before the next major gate (like region 5 stopped before row 4), and justify it in the analysis. Save milestone checkpoints in m11-work/checkpoints/ with .json metadata (sha256, map, entry, story, DAA, D284, party, cell, facing, bank/mode/dialogue, note). Put native runs under m11-work/native/ and searches under m11-work/search/.
+4. Official chain: assemble ONE consolidated action list m11-work/official-chain/official-region6-actions.json (+ official-region6-parts.json) that starts from story19-00-2a-official.bin, and verify it with a full native replay (m11-work/official-chain/official-region6-replay/) ending exactly at the proposed endpoint. Record total actions and frames. Save the native end as m11-work/checkpoints/region6-end-native.bin (+ .json).
+5. Write m11-work/scripts/browser-play.cjs (adapt m10-work/scripts/browser-play.cjs): official start = story19-00-2a-official.bin with SHA check; after loadState do not require post-load state SHA to equal the file SHA; require story 19, map 00-2a, romSHA match. URL http://127.0.0.1:8765/m10-work/runtime/ (accepted M10 runtime, read-only), g.setHD(false). Output m11-work/play/<tag>/. Assert the endpoint fields from step 4. Do NOT run it.
+6. Write m11-work/REQUEST_READY.md: exact command for the supervisor to run the browser replay (NODE_PATH=/home/box/opt/test-tools/node_modules PLAYWRIGHT_BROWSERS_PATH=/home/box/opt/playwright-browsers), expected result fields, plus a list of region-6 maps naturally entered in order (new vs revisited) and the proposed endpoint.
+
+Keep it efficient: prefer directed walks guided by the ROM tables over brute BFS. When done, stop with a short summary (maps, endpoint, actions/frames, files).

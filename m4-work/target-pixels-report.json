@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "frame": 2,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 25,
+      "actor": 0,
+      "text": 0,
+      "fallback": 10240,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 44,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 46,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 266,
+      "actor": 278,
+      "text": 48,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 269,
+      "actor": 278,
+      "text": 3760,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 5300,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 5380,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 7140,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 7240,
+      "actor": 0,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 7342,
+      "actor": 366,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 7346,
+      "actor": 348,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 11632,
+      "actor": 508,
+      "text": 0,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    },
+    {
+      "frame": 11633,
+      "actor": 508,
+      "text": 1744,
+      "fallback": 0,
+      "actorMismatch": 0,
+      "textMismatch": 0,
+      "fallbackMismatch": 0
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+Region 6’s consolidated native replay passed from the accepted Region 5 checkpoint in **717 actions and 63,131 frames**.
+
+- **New maps in order** `00-25 → 00-26 → 00-27 → 00-28 → 00-29 → 00-2e`
+- **Endpoint** `00-2e e3 (25,5)`, facing left, story 22. The party has the 伏魔扇 and is one step east of the story-23 trigger. The endpoint stayed settled through 120 idle frames.
+
+Both starting hashes matched. The saves agreed on position, story, flags, inventory, and party IDs, with different sampled banks and HP. The full route used the official save and included a healing detour to `00-06`.
+
+The browser script passed its syntax check and awaits the supervisor’s run. [Browser command and expected results](/workspace/shawu/m11-work/REQUEST_READY.md) · [ROM analysis](/workspace/shawu/m11-work/rom-gate-analysis.md) · [Actions](/workspace/shawu/m11-work/official-chain/official-region6-actions.json) · [Parts](/workspace/shawu/m11-work/official-chain/official-region6-parts.json) · [Endpoint save](/workspace/shawu/m11-work/checkpoints/region6-end-native.bin)

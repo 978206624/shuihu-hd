@@ -1,0 +1,1977 @@
+[
+  {
+    "scene": "title",
+    "first": 0,
+    "last": 1
+  },
+  {
+    "scene": "unsupported",
+    "first": 2,
+    "last": 205
+  },
+  {
+    "scene": "interior",
+    "first": 206,
+    "last": 265
+  },
+  {
+    "scene": "unsupported",
+    "first": 266,
+    "last": 266
+  },
+  {
+    "scene": "interior",
+    "first": 267,
+    "last": 268
+  },
+  {
+    "scene": "unsupported",
+    "first": 269,
+    "last": 269
+  },
+  {
+    "scene": "interior",
+    "first": 270,
+    "last": 360
+  },
+  {
+    "scene": "unsupported",
+    "first": 361,
+    "last": 361
+  },
+  {
+    "scene": "interior",
+    "first": 362,
+    "last": 377
+  },
+  {
+    "scene": "unsupported",
+    "first": 378,
+    "last": 378
+  },
+  {
+    "scene": "interior",
+    "first": 379,
+    "last": 380
+  },
+  {
+    "scene": "unsupported",
+    "first": 381,
+    "last": 381
+  },
+  {
+    "scene": "interior",
+    "first": 382,
+    "last": 738
+  },
+  {
+    "scene": "unsupported",
+    "first": 739,
+    "last": 739
+  },
+  {
+    "scene": "interior",
+    "first": 740,
+    "last": 741
+  },
+  {
+    "scene": "unsupported",
+    "first": 742,
+    "last": 742
+  },
+  {
+    "scene": "interior",
+    "first": 743,
+    "last": 840
+  },
+  {
+    "scene": "unsupported",
+    "first": 841,
+    "last": 841
+  },
+  {
+    "scene": "interior",
+    "first": 842,
+    "last": 857
+  },
+  {
+    "scene": "unsupported",
+    "first": 858,
+    "last": 858
+  },
+  {
+    "scene": "interior",
+    "first": 859,
+    "last": 860
+  },
+  {
+    "scene": "unsupported",
+    "first": 861,
+    "last": 861
+  },
+  {
+    "scene": "interior",
+    "first": 862,
+    "last": 1320
+  },
+  {
+    "scene": "unsupported",
+    "first": 1321,
+    "last": 1321
+  },
+  {
+    "scene": "interior",
+    "first": 1322,
+    "last": 1492
+  },
+  {
+    "scene": "unsupported",
+    "first": 1493,
+    "last": 1493
+  },
+  {
+    "scene": "interior",
+    "first": 1494,
+    "last": 1495
+  },
+  {
+    "scene": "unsupported",
+    "first": 1496,
+    "last": 1496
+  },
+  {
+    "scene": "interior",
+    "first": 1497,
+    "last": 1680
+  },
+  {
+    "scene": "unsupported",
+    "first": 1681,
+    "last": 1681
+  },
+  {
+    "scene": "interior",
+    "first": 1682,
+    "last": 1723
+  },
+  {
+    "scene": "unsupported",
+    "first": 1724,
+    "last": 1724
+  },
+  {
+    "scene": "interior",
+    "first": 1725,
+    "last": 1725
+  },
+  {
+    "scene": "unsupported",
+    "first": 1726,
+    "last": 1727
+  },
+  {
+    "scene": "interior",
+    "first": 1728,
+    "last": 2040
+  },
+  {
+    "scene": "unsupported",
+    "first": 2041,
+    "last": 2041
+  },
+  {
+    "scene": "interior",
+    "first": 2042,
+    "last": 2201
+  },
+  {
+    "scene": "unsupported",
+    "first": 2202,
+    "last": 2202
+  },
+  {
+    "scene": "interior",
+    "first": 2203,
+    "last": 2203
+  },
+  {
+    "scene": "unsupported",
+    "first": 2204,
+    "last": 2205
+  },
+  {
+    "scene": "interior",
+    "first": 2206,
+    "last": 2520
+  },
+  {
+    "scene": "unsupported",
+    "first": 2521,
+    "last": 2521
+  },
+  {
+    "scene": "interior",
+    "first": 2522,
+    "last": 2539
+  },
+  {
+    "scene": "unsupported",
+    "first": 2540,
+    "last": 2540
+  },
+  {
+    "scene": "interior",
+    "first": 2541,
+    "last": 2541
+  },
+  {
+    "scene": "unsupported",
+    "first": 2542,
+    "last": 2543
+  },
+  {
+    "scene": "interior",
+    "first": 2544,
+    "last": 3000
+  },
+  {
+    "scene": "unsupported",
+    "first": 3001,
+    "last": 3001
+  },
+  {
+    "scene": "interior",
+    "first": 3002,
+    "last": 3017
+  },
+  {
+    "scene": "unsupported",
+    "first": 3018,
+    "last": 3018
+  },
+  {
+    "scene": "interior",
+    "first": 3019,
+    "last": 3019
+  },
+  {
+    "scene": "unsupported",
+    "first": 3020,
+    "last": 3021
+  },
+  {
+    "scene": "interior",
+    "first": 3022,
+    "last": 3240
+  },
+  {
+    "scene": "unsupported",
+    "first": 3241,
+    "last": 3241
+  },
+  {
+    "scene": "interior",
+    "first": 3242,
+    "last": 3257
+  },
+  {
+    "scene": "unsupported",
+    "first": 3258,
+    "last": 3258
+  },
+  {
+    "scene": "interior",
+    "first": 3259,
+    "last": 3259
+  },
+  {
+    "scene": "unsupported",
+    "first": 3260,
+    "last": 3261
+  },
+  {
+    "scene": "interior",
+    "first": 3262,
+    "last": 3480
+  },
+  {
+    "scene": "unsupported",
+    "first": 3481,
+    "last": 3481
+  },
+  {
+    "scene": "interior",
+    "first": 3482,
+    "last": 3520
+  },
+  {
+    "scene": "unsupported",
+    "first": 3521,
+    "last": 3521
+  },
+  {
+    "scene": "interior",
+    "first": 3522,
+    "last": 3522
+  },
+  {
+    "scene": "unsupported",
+    "first": 3523,
+    "last": 3524
+  },
+  {
+    "scene": "interior",
+    "first": 3525,
+    "last": 3600
+  },
+  {
+    "scene": "unsupported",
+    "first": 3601,
+    "last": 3601
+  },
+  {
+    "scene": "interior",
+    "first": 3602,
+    "last": 3620
+  },
+  {
+    "scene": "unsupported",
+    "first": 3621,
+    "last": 3622
+  },
+  {
+    "scene": "interior",
+    "first": 3623,
+    "last": 3720
+  },
+  {
+    "scene": "unsupported",
+    "first": 3721,
+    "last": 3721
+  },
+  {
+    "scene": "interior",
+    "first": 3722,
+    "last": 3983
+  },
+  {
+    "scene": "unsupported",
+    "first": 3984,
+    "last": 3984
+  },
+  {
+    "scene": "interior",
+    "first": 3985,
+    "last": 3985
+  },
+  {
+    "scene": "unsupported",
+    "first": 3986,
+    "last": 3987
+  },
+  {
+    "scene": "interior",
+    "first": 3988,
+    "last": 4320
+  },
+  {
+    "scene": "unsupported",
+    "first": 4321,
+    "last": 4321
+  },
+  {
+    "scene": "interior",
+    "first": 4322,
+    "last": 4468
+  },
+  {
+    "scene": "unsupported",
+    "first": 4469,
+    "last": 4470
+  },
+  {
+    "scene": "interior",
+    "first": 4471,
+    "last": 4560
+  },
+  {
+    "scene": "unsupported",
+    "first": 4561,
+    "last": 4561
+  },
+  {
+    "scene": "interior",
+    "first": 4562,
+    "last": 4580
+  },
+  {
+    "scene": "unsupported",
+    "first": 4581,
+    "last": 4582
+  },
+  {
+    "scene": "interior",
+    "first": 4583,
+    "last": 4920
+  },
+  {
+    "scene": "unsupported",
+    "first": 4921,
+    "last": 4921
+  },
+  {
+    "scene": "interior",
+    "first": 4922,
+    "last": 5269
+  },
+  {
+    "scene": "unsupported",
+    "first": 5270,
+    "last": 5485
+  },
+  {
+    "scene": "cliff",
+    "first": 5486,
+    "last": 5669
+  },
+  {
+    "scene": "unsupported",
+    "first": 5670,
+    "last": 5670
+  },
+  {
+    "scene": "cliff",
+    "first": 5671,
+    "last": 5672
+  },
+  {
+    "scene": "unsupported",
+    "first": 5673,
+    "last": 5674
+  },
+  {
+    "scene": "cliff",
+    "first": 5675,
+    "last": 6121
+  },
+  {
+    "scene": "unsupported",
+    "first": 6122,
+    "last": 6122
+  },
+  {
+    "scene": "cliff",
+    "first": 6123,
+    "last": 6252
+  },
+  {
+    "scene": "unsupported",
+    "first": 6253,
+    "last": 6253
+  },
+  {
+    "scene": "cliff",
+    "first": 6254,
+    "last": 6255
+  },
+  {
+    "scene": "unsupported",
+    "first": 6256,
+    "last": 6257
+  },
+  {
+    "scene": "cliff",
+    "first": 6258,
+    "last": 7081
+  },
+  {
+    "scene": "unsupported",
+    "first": 7082,
+    "last": 7082
+  },
+  {
+    "scene": "cliff",
+    "first": 7083,
+    "last": 7124
+  },
+  {
+    "scene": "unsupported",
+    "first": 7125,
+    "last": 7282
+  },
+  {
+    "scene": "palace",
+    "first": 7283,
+    "last": 7656
+  },
+  {
+    "scene": "unsupported",
+    "first": 7657,
+    "last": 7657
+  },
+  {
+    "scene": "palace",
+    "first": 7658,
+    "last": 7659
+  },
+  {
+    "scene": "unsupported",
+    "first": 7660,
+    "last": 7660
+  },
+  {
+    "scene": "palace",
+    "first": 7661,
+    "last": 7815
+  },
+  {
+    "scene": "unsupported",
+    "first": 7816,
+    "last": 7816
+  },
+  {
+    "scene": "palace",
+    "first": 7817,
+    "last": 7818
+  },
+  {
+    "scene": "unsupported",
+    "first": 7819,
+    "last": 7819
+  },
+  {
+    "scene": "palace",
+    "first": 7820,
+    "last": 8561
+  },
+  {
+    "scene": "unsupported",
+    "first": 8562,
+    "last": 8562
+  },
+  {
+    "scene": "palace",
+    "first": 8563,
+    "last": 8564
+  },
+  {
+    "scene": "unsupported",
+    "first": 8565,
+    "last": 8565
+  },
+  {
+    "scene": "palace",
+    "first": 8566,
+    "last": 9216
+  },
+  {
+    "scene": "unsupported",
+    "first": 9217,
+    "last": 9217
+  },
+  {
+    "scene": "palace",
+    "first": 9218,
+    "last": 9219
+  },
+  {
+    "scene": "unsupported",
+    "first": 9220,
+    "last": 9220
+  },
+  {
+    "scene": "palace",
+    "first": 9221,
+    "last": 10006
+  },
+  {
+    "scene": "unsupported",
+    "first": 10007,
+    "last": 10007
+  },
+  {
+    "scene": "palace",
+    "first": 10008,
+    "last": 10009
+  },
+  {
+    "scene": "unsupported",
+    "first": 10010,
+    "last": 10010
+  },
+  {
+    "scene": "palace",
+    "first": 10011,
+    "last": 10095
+  },
+  {
+    "scene": "unsupported",
+    "first": 10096,
+    "last": 10096
+  },
+  {
+    "scene": "palace",
+    "first": 10097,
+    "last": 10098
+  },
+  {
+    "scene": "unsupported",
+    "first": 10099,
+    "last": 10099
+  },
+  {
+    "scene": "palace",
+    "first": 10100,
+    "last": 10587
+  },
+  {
+    "scene": "unsupported",
+    "first": 10588,
+    "last": 10588
+  },
+  {
+    "scene": "palace",
+    "first": 10589,
+    "last": 10590
+  },
+  {
+    "scene": "unsupported",
+    "first": 10591,
+    "last": 10591
+  },
+  {
+    "scene": "palace",
+    "first": 10592,
+    "last": 10944
+  },
+  {
+    "scene": "unsupported",
+    "first": 10945,
+    "last": 10945
+  },
+  {
+    "scene": "palace",
+    "first": 10946,
+    "last": 10947
+  },
+  {
+    "scene": "unsupported",
+    "first": 10948,
+    "last": 10948
+  },
+  {
+    "scene": "palace",
+    "first": 10949,
+    "last": 11306
+  },
+  {
+    "scene": "unsupported",
+    "first": 11307,
+    "last": 11307
+  },
+  {
+    "scene": "palace",
+    "first": 11308,
+    "last": 11309
+  },
+  {
+    "scene": "unsupported",
+    "first": 11310,
+    "last": 11310
+  },
+  {
+    "scene": "palace",
+    "first": 11311,
+    "last": 11463
+  },
+  {
+    "scene": "unsupported",
+    "first": 11464,
+    "last": 11464
+  },
+  {
+    "scene": "disciples",
+    "first": 11465,
+    "last": 11631
+  },
+  {
+    "scene": "unsupported",
+    "first": 11632,
+    "last": 11632
+  },
+  {
+    "scene": "disciples",
+    "first": 11633,
+    "last": 11634
+  },
+  {
+    "scene": "unsupported",
+    "first": 11635,
+    "last": 11635
+  },
+  {
+    "scene": "disciples",
+    "first": 11636,
+    "last": 11881
+  },
+  {
+    "scene": "unsupported",
+    "first": 11882,
+    "last": 11882
+  },
+  {
+    "scene": "disciples",
+    "first": 11883,
+    "last": 12028
+  },
+  {
+    "scene": "unsupported",
+    "first": 12029,
+    "last": 12029
+  },
+  {
+    "scene": "disciples",
+    "first": 12030,
+    "last": 12031
+  },
+  {
+    "scene": "unsupported",
+    "first": 12032,
+    "last": 12032
+  },
+  {
+    "scene": "disciples",
+    "first": 12033,
+    "last": 12241
+  },
+  {
+    "scene": "unsupported",
+    "first": 12242,
+    "last": 12242
+  },
+  {
+    "scene": "disciples",
+    "first": 12243,
+    "last": 12258
+  },
+  {
+    "scene": "unsupported",
+    "first": 12259,
+    "last": 12259
+  },
+  {
+    "scene": "disciples",
+    "first": 12260,
+    "last": 12261
+  },
+  {
+    "scene": "unsupported",
+    "first": 12262,
+    "last": 12262
+  },
+  {
+    "scene": "disciples",
+    "first": 12263,
+    "last": 12626
+  },
+  {
+    "scene": "unsupported",
+    "first": 12627,
+    "last": 12627
+  },
+  {
+    "scene": "disciples",
+    "first": 12628,
+    "last": 12629
+  },
+  {
+    "scene": "unsupported",
+    "first": 12630,
+    "last": 12630
+  },
+  {
+    "scene": "disciples",
+    "first": 12631,
+    "last": 12737
+  },
+  {
+    "scene": "unsupported",
+    "first": 12738,
+    "last": 12738
+  },
+  {
+    "scene": "disciples",
+    "first": 12739,
+    "last": 12740
+  },
+  {
+    "scene": "unsupported",
+    "first": 12741,
+    "last": 12741
+  },
+  {
+    "scene": "disciples",
+    "first": 12742,
+    "last": 13339
+  },
+  {
+    "scene": "unsupported",
+    "first": 13340,
+    "last": 13340
+  },
+  {
+    "scene": "disciples",
+    "first": 13341,
+    "last": 13342
+  },
+  {
+    "scene": "unsupported",
+    "first": 13343,
+    "last": 13343
+  },
+  {
+    "scene": "disciples",
+    "first": 13344,
+    "last": 13936
+  },
+  {
+    "scene": "unsupported",
+    "first": 13937,
+    "last": 13937
+  },
+  {
+    "scene": "disciples",
+    "first": 13938,
+    "last": 13939
+  },
+  {
+    "scene": "unsupported",
+    "first": 13940,
+    "last": 13940
+  },
+  {
+    "scene": "disciples",
+    "first": 13941,
+    "last": 14057
+  },
+  {
+    "scene": "unsupported",
+    "first": 14058,
+    "last": 14058
+  },
+  {
+    "scene": "disciples",
+    "first": 14059,
+    "last": 14060
+  },
+  {
+    "scene": "unsupported",
+    "first": 14061,
+    "last": 14061
+  },
+  {
+    "scene": "disciples",
+    "first": 14062,
+    "last": 14297
+  },
+  {
+    "scene": "unsupported",
+    "first": 14298,
+    "last": 14298
+  },
+  {
+    "scene": "disciples",
+    "first": 14299,
+    "last": 14300
+  },
+  {
+    "scene": "unsupported",
+    "first": 14301,
+    "last": 14301
+  },
+  {
+    "scene": "disciples",
+    "first": 14302,
+    "last": 15270
+  },
+  {
+    "scene": "unsupported",
+    "first": 15271,
+    "last": 15271
+  },
+  {
+    "scene": "disciples",
+    "first": 15272,
+    "last": 15273
+  },
+  {
+    "scene": "unsupported",
+    "first": 15274,
+    "last": 15274
+  },
+  {
+    "scene": "disciples",
+    "first": 15275,
+    "last": 15627
+  },
+  {
+    "scene": "unsupported",
+    "first": 15628,
+    "last": 15628
+  },
+  {
+    "scene": "disciples",
+    "first": 15629,
+    "last": 15630
+  },
+  {
+    "scene": "unsupported",
+    "first": 15631,
+    "last": 15631
+  },
+  {
+    "scene": "disciples",
+    "first": 15632,
+    "last": 16226
+  },
+  {
+    "scene": "unsupported",
+    "first": 16227,
+    "last": 16227
+  },
+  {
+    "scene": "disciples",
+    "first": 16228,
+    "last": 16229
+  },
+  {
+    "scene": "unsupported",
+    "first": 16230,
+    "last": 16230
+  },
+  {
+    "scene": "disciples",
+    "first": 16231,
+    "last": 16440
+  },
+  {
+    "scene": "unsupported",
+    "first": 16441,
+    "last": 16441
+  },
+  {
+    "scene": "disciples",
+    "first": 16442,
+    "last": 16585
+  },
+  {
+    "scene": "unsupported",
+    "first": 16586,
+    "last": 16586
+  },
+  {
+    "scene": "disciples",
+    "first": 16587,
+    "last": 16588
+  },
+  {
+    "scene": "unsupported",
+    "first": 16589,
+    "last": 16589
+  },
+  {
+    "scene": "disciples",
+    "first": 16590,
+    "last": 16680
+  },
+  {
+    "scene": "unsupported",
+    "first": 16681,
+    "last": 16681
+  },
+  {
+    "scene": "disciples",
+    "first": 16682,
+    "last": 16697
+  },
+  {
+    "scene": "unsupported",
+    "first": 16698,
+    "last": 16698
+  },
+  {
+    "scene": "disciples",
+    "first": 16699,
+    "last": 16700
+  },
+  {
+    "scene": "unsupported",
+    "first": 16701,
+    "last": 16701
+  },
+  {
+    "scene": "disciples",
+    "first": 16702,
+    "last": 17160
+  },
+  {
+    "scene": "unsupported",
+    "first": 17161,
+    "last": 17161
+  },
+  {
+    "scene": "disciples",
+    "first": 17162,
+    "last": 17306
+  },
+  {
+    "scene": "unsupported",
+    "first": 17307,
+    "last": 17307
+  },
+  {
+    "scene": "disciples",
+    "first": 17308,
+    "last": 17309
+  },
+  {
+    "scene": "unsupported",
+    "first": 17310,
+    "last": 17310
+  },
+  {
+    "scene": "disciples",
+    "first": 17311,
+    "last": 17400
+  },
+  {
+    "scene": "unsupported",
+    "first": 17401,
+    "last": 17401
+  },
+  {
+    "scene": "disciples",
+    "first": 17402,
+    "last": 17546
+  },
+  {
+    "scene": "unsupported",
+    "first": 17547,
+    "last": 17547
+  },
+  {
+    "scene": "disciples",
+    "first": 17548,
+    "last": 17549
+  },
+  {
+    "scene": "unsupported",
+    "first": 17550,
+    "last": 17550
+  },
+  {
+    "scene": "disciples",
+    "first": 17551,
+    "last": 17665
+  },
+  {
+    "scene": "unsupported",
+    "first": 17666,
+    "last": 17666
+  },
+  {
+    "scene": "disciples",
+    "first": 17667,
+    "last": 17880
+  },
+  {
+    "scene": "unsupported",
+    "first": 17881,
+    "last": 17881
+  },
+  {
+    "scene": "disciples",
+    "first": 17882,
+    "last": 18068
+  },
+  {
+    "scene": "unsupported",
+    "first": 18069,
+    "last": 18076
+  },
+  {
+    "scene": "forest",
+    "first": 18077,
+    "last": 18300
+  },
+  {
+    "scene": "unsupported",
+    "first": 18301,
+    "last": 18301
+  },
+  {
+    "scene": "forest",
+    "first": 18302,
+    "last": 18303
+  },
+  {
+    "scene": "unsupported",
+    "first": 18304,
+    "last": 18304
+  },
+  {
+    "scene": "forest",
+    "first": 18305,
+    "last": 18360
+  },
+  {
+    "scene": "unsupported",
+    "first": 18361,
+    "last": 18361
+  },
+  {
+    "scene": "forest",
+    "first": 18362,
+    "last": 18389
+  },
+  {
+    "scene": "unsupported",
+    "first": 18390,
+    "last": 18390
+  },
+  {
+    "scene": "forest",
+    "first": 18391,
+    "last": 18392
+  },
+  {
+    "scene": "unsupported",
+    "first": 18393,
+    "last": 18393
+  },
+  {
+    "scene": "forest",
+    "first": 18394,
+    "last": 18703
+  },
+  {
+    "scene": "unsupported",
+    "first": 18704,
+    "last": 18704
+  },
+  {
+    "scene": "forest",
+    "first": 18705,
+    "last": 18706
+  },
+  {
+    "scene": "unsupported",
+    "first": 18707,
+    "last": 18707
+  },
+  {
+    "scene": "forest",
+    "first": 18708,
+    "last": 19080
+  },
+  {
+    "scene": "unsupported",
+    "first": 19081,
+    "last": 19081
+  },
+  {
+    "scene": "forest",
+    "first": 19082,
+    "last": 19241
+  },
+  {
+    "scene": "unsupported",
+    "first": 19242,
+    "last": 19242
+  },
+  {
+    "scene": "forest",
+    "first": 19243,
+    "last": 19244
+  },
+  {
+    "scene": "unsupported",
+    "first": 19245,
+    "last": 19245
+  },
+  {
+    "scene": "forest",
+    "first": 19246,
+    "last": 19320
+  },
+  {
+    "scene": "unsupported",
+    "first": 19321,
+    "last": 19321
+  },
+  {
+    "scene": "forest",
+    "first": 19322,
+    "last": 19360
+  },
+  {
+    "scene": "unsupported",
+    "first": 19361,
+    "last": 19361
+  },
+  {
+    "scene": "forest",
+    "first": 19362,
+    "last": 19363
+  },
+  {
+    "scene": "unsupported",
+    "first": 19364,
+    "last": 19364
+  },
+  {
+    "scene": "forest",
+    "first": 19365,
+    "last": 19800
+  },
+  {
+    "scene": "unsupported",
+    "first": 19801,
+    "last": 19801
+  },
+  {
+    "scene": "forest",
+    "first": 19802,
+    "last": 19950
+  },
+  {
+    "scene": "unsupported",
+    "first": 19951,
+    "last": 19951
+  },
+  {
+    "scene": "forest",
+    "first": 19952,
+    "last": 19953
+  },
+  {
+    "scene": "unsupported",
+    "first": 19954,
+    "last": 19954
+  },
+  {
+    "scene": "forest",
+    "first": 19955,
+    "last": 20040
+  },
+  {
+    "scene": "unsupported",
+    "first": 20041,
+    "last": 20041
+  },
+  {
+    "scene": "forest",
+    "first": 20042,
+    "last": 20057
+  },
+  {
+    "scene": "unsupported",
+    "first": 20058,
+    "last": 20058
+  },
+  {
+    "scene": "forest",
+    "first": 20059,
+    "last": 20060
+  },
+  {
+    "scene": "unsupported",
+    "first": 20061,
+    "last": 20061
+  },
+  {
+    "scene": "forest",
+    "first": 20062,
+    "last": 20520
+  },
+  {
+    "scene": "unsupported",
+    "first": 20521,
+    "last": 20521
+  },
+  {
+    "scene": "forest",
+    "first": 20522,
+    "last": 20584
+  },
+  {
+    "scene": "unsupported",
+    "first": 20585,
+    "last": 20585
+  },
+  {
+    "scene": "forest",
+    "first": 20586,
+    "last": 20587
+  },
+  {
+    "scene": "unsupported",
+    "first": 20588,
+    "last": 20588
+  },
+  {
+    "scene": "forest",
+    "first": 20589,
+    "last": 20640
+  },
+  {
+    "scene": "unsupported",
+    "first": 20641,
+    "last": 20641
+  },
+  {
+    "scene": "forest",
+    "first": 20642,
+    "last": 20987
+  },
+  {
+    "scene": "unsupported",
+    "first": 20988,
+    "last": 20988
+  },
+  {
+    "scene": "forest",
+    "first": 20989,
+    "last": 20990
+  },
+  {
+    "scene": "unsupported",
+    "first": 20991,
+    "last": 20991
+  },
+  {
+    "scene": "forest",
+    "first": 20992,
+    "last": 21120
+  },
+  {
+    "scene": "unsupported",
+    "first": 21121,
+    "last": 21121
+  },
+  {
+    "scene": "forest",
+    "first": 21122,
+    "last": 21261
+  },
+  {
+    "scene": "unsupported",
+    "first": 21262,
+    "last": 21262
+  },
+  {
+    "scene": "forest",
+    "first": 21263,
+    "last": 21264
+  },
+  {
+    "scene": "unsupported",
+    "first": 21265,
+    "last": 21265
+  },
+  {
+    "scene": "forest",
+    "first": 21266,
+    "last": 21564
+  },
+  {
+    "scene": "unsupported",
+    "first": 21565,
+    "last": 21565
+  },
+  {
+    "scene": "forest",
+    "first": 21566,
+    "last": 21567
+  },
+  {
+    "scene": "unsupported",
+    "first": 21568,
+    "last": 21568
+  },
+  {
+    "scene": "forest",
+    "first": 21569,
+    "last": 21720
+  },
+  {
+    "scene": "unsupported",
+    "first": 21721,
+    "last": 21721
+  },
+  {
+    "scene": "forest",
+    "first": 21722,
+    "last": 21738
+  },
+  {
+    "scene": "unsupported",
+    "first": 21739,
+    "last": 21739
+  },
+  {
+    "scene": "forest",
+    "first": 21740,
+    "last": 21741
+  },
+  {
+    "scene": "unsupported",
+    "first": 21742,
+    "last": 21742
+  },
+  {
+    "scene": "forest",
+    "first": 21743,
+    "last": 21960
+  },
+  {
+    "scene": "unsupported",
+    "first": 21961,
+    "last": 21961
+  },
+  {
+    "scene": "forest",
+    "first": 21962,
+    "last": 22082
+  },
+  {
+    "scene": "unsupported",
+    "first": 22083,
+    "last": 22083
+  },
+  {
+    "scene": "forest",
+    "first": 22084,
+    "last": 22084
+  },
+  {
+    "scene": "unsupported",
+    "first": 22085,
+    "last": 22086
+  },
+  {
+    "scene": "forest",
+    "first": 22087,
+    "last": 22440
+  },
+  {
+    "scene": "unsupported",
+    "first": 22441,
+    "last": 22441
+  },
+  {
+    "scene": "forest",
+    "first": 22442,
+    "last": 22536
+  },
+  {
+    "scene": "unsupported",
+    "first": 22537,
+    "last": 22537
+  },
+  {
+    "scene": "forest",
+    "first": 22538,
+    "last": 22538
+  },
+  {
+    "scene": "unsupported",
+    "first": 22539,
+    "last": 22540
+  },
+  {
+    "scene": "forest",
+    "first": 22541,
+    "last": 22680
+  },
+  {
+    "scene": "unsupported",
+    "first": 22681,
+    "last": 22681
+  },
+  {
+    "scene": "forest",
+    "first": 22682,
+    "last": 22859
+  },
+  {
+    "scene": "unsupported",
+    "first": 22860,
+    "last": 22860
+  },
+  {
+    "scene": "forest",
+    "first": 22861,
+    "last": 22861
+  },
+  {
+    "scene": "unsupported",
+    "first": 22862,
+    "last": 22863
+  },
+  {
+    "scene": "forest",
+    "first": 22864,
+    "last": 23040
+  },
+  {
+    "scene": "unsupported",
+    "first": 23041,
+    "last": 23041
+  },
+  {
+    "scene": "forest",
+    "first": 23042,
+    "last": 23139
+  },
+  {
+    "scene": "unsupported",
+    "first": 23140,
+    "last": 23140
+  },
+  {
+    "scene": "forest",
+    "first": 23141,
+    "last": 23141
+  },
+  {
+    "scene": "unsupported",
+    "first": 23142,
+    "last": 23143
+  },
+  {
+    "scene": "forest",
+    "first": 23144,
+    "last": 23401
+  },
+  {
+    "scene": "unsupported",
+    "first": 23402,
+    "last": 23402
+  },
+  {
+    "scene": "forest",
+    "first": 23403,
+    "last": 23883
+  },
+  {
+    "scene": "unsupported",
+    "first": 23884,
+    "last": 23884
+  },
+  {
+    "scene": "forest",
+    "first": 23885,
+    "last": 23885
+  },
+  {
+    "scene": "unsupported",
+    "first": 23886,
+    "last": 23887
+  },
+  {
+    "scene": "forest",
+    "first": 23888,
+    "last": 24601
+  },
+  {
+    "scene": "unsupported",
+    "first": 24602,
+    "last": 24602
+  },
+  {
+    "scene": "forest",
+    "first": 24603,
+    "last": 24643
+  },
+  {
+    "scene": "unsupported",
+    "first": 24644,
+    "last": 24644
+  },
+  {
+    "scene": "forest",
+    "first": 24645,
+    "last": 24646
+  },
+  {
+    "scene": "unsupported",
+    "first": 24647,
+    "last": 24647
+  },
+  {
+    "scene": "forest",
+    "first": 24648,
+    "last": 24721
+  },
+  {
+    "scene": "unsupported",
+    "first": 24722,
+    "last": 24722
+  },
+  {
+    "scene": "forest",
+    "first": 24723,
+    "last": 25053
+  },
+  {
+    "scene": "unsupported",
+    "first": 25054,
+    "last": 25054
+  },
+  {
+    "scene": "forest",
+    "first": 25055,
+    "last": 25056
+  },
+  {
+    "scene": "unsupported",
+    "first": 25057,
+    "last": 25057
+  },
+  {
+    "scene": "forest",
+    "first": 25058,
+    "last": 25201
+  },
+  {
+    "scene": "unsupported",
+    "first": 25202,
+    "last": 25202
+  },
+  {
+    "scene": "forest",
+    "first": 25203,
+    "last": 25299
+  },
+  {
+    "scene": "unsupported",
+    "first": 25300,
+    "last": 25300
+  },
+  {
+    "scene": "forest",
+    "first": 25301,
+    "last": 25302
+  },
+  {
+    "scene": "unsupported",
+    "first": 25303,
+    "last": 25303
+  },
+  {
+    "scene": "forest",
+    "first": 25304,
+    "last": 25681
+  },
+  {
+    "scene": "unsupported",
+    "first": 25682,
+    "last": 25682
+  },
+  {
+    "scene": "forest",
+    "first": 25683,
+    "last": 25721
+  },
+  {
+    "scene": "unsupported",
+    "first": 25722,
+    "last": 25722
+  },
+  {
+    "scene": "forest",
+    "first": 25723,
+    "last": 25724
+  },
+  {
+    "scene": "unsupported",
+    "first": 25725,
+    "last": 25725
+  },
+  {
+    "scene": "forest",
+    "first": 25726,
+    "last": 25801
+  },
+  {
+    "scene": "unsupported",
+    "first": 25802,
+    "last": 25802
+  },
+  {
+    "scene": "forest",
+    "first": 25803,
+    "last": 25941
+  },
+  {
+    "scene": "unsupported",
+    "first": 25942,
+    "last": 25942
+  },
+  {
+    "scene": "forest",
+    "first": 25943,
+    "last": 25944
+  },
+  {
+    "scene": "unsupported",
+    "first": 25945,
+    "last": 25945
+  },
+  {
+    "scene": "forest",
+    "first": 25946,
+    "last": 26161
+  },
+  {
+    "scene": "unsupported",
+    "first": 26162,
+    "last": 26162
+  },
+  {
+    "scene": "forest",
+    "first": 26163,
+    "last": 26299
+  },
+  {
+    "scene": "unsupported",
+    "first": 26300,
+    "last": 26300
+  },
+  {
+    "scene": "forest",
+    "first": 26301,
+    "last": 26302
+  },
+  {
+    "scene": "unsupported",
+    "first": 26303,
+    "last": 26303
+  },
+  {
+    "scene": "forest",
+    "first": 26304,
+    "last": 26881
+  },
+  {
+    "scene": "unsupported",
+    "first": 26882,
+    "last": 26882
+  },
+  {
+    "scene": "forest",
+    "first": 26883,
+    "last": 27056
+  },
+  {
+    "scene": "unsupported",
+    "first": 27057,
+    "last": 27057
+  },
+  {
+    "scene": "forest",
+    "first": 27058,
+    "last": 27058
+  },
+  {
+    "scene": "unsupported",
+    "first": 27059,
+    "last": 27060
+  },
+  {
+    "scene": "forest",
+    "first": 27061,
+    "last": 27241
+  },
+  {
+    "scene": "unsupported",
+    "first": 27242,
+    "last": 27242
+  },
+  {
+    "scene": "forest",
+    "first": 27243,
+    "last": 27488
+  },
+  {
+    "scene": "unsupported",
+    "first": 27489,
+    "last": 27489
+  },
+  {
+    "scene": "forest",
+    "first": 27490,
+    "last": 27490
+  },
+  {
+    "scene": "unsupported",
+    "first": 27491,
+    "last": 27492
+  },
+  {
+    "scene": "forest",
+    "first": 27493,
+    "last": 27842
+  },
+  {
+    "scene": "unsupported",
+    "first": 27843,
+    "last": 27843
+  },
+  {
+    "scene": "forest",
+    "first": 27844,
+    "last": 27883
+  },
+  {
+    "scene": "unsupported",
+    "first": 27884,
+    "last": 27884
+  },
+  {
+    "scene": "forest",
+    "first": 27885,
+    "last": 27886
+  },
+  {
+    "scene": "unsupported",
+    "first": 27887,
+    "last": 27887
+  },
+  {
+    "scene": "forest",
+    "first": 27888,
+    "last": 27961
+  },
+  {
+    "scene": "unsupported",
+    "first": 27962,
+    "last": 27962
+  },
+  {
+    "scene": "forest",
+    "first": 27963,
+    "last": 28039
+  },
+  {
+    "scene": "unsupported",
+    "first": 28040,
+    "last": 28040
+  },
+  {
+    "scene": "forest",
+    "first": 28041,
+    "last": 28042
+  },
+  {
+    "scene": "unsupported",
+    "first": 28043,
+    "last": 28044
+  },
+  {
+    "scene": "forest",
+    "first": 28045,
+    "last": 28441
+  },
+  {
+    "scene": "unsupported",
+    "first": 28442,
+    "last": 28442
+  },
+  {
+    "scene": "forest",
+    "first": 28443,
+    "last": 28621
+  },
+  {
+    "scene": "unsupported",
+    "first": 28622,
+    "last": 28622
+  },
+  {
+    "scene": "forest",
+    "first": 28623,
+    "last": 28624
+  },
+  {
+    "scene": "unsupported",
+    "first": 28625,
+    "last": 28626
+  },
+  {
+    "scene": "forest",
+    "first": 28627,
+    "last": 28801
+  },
+  {
+    "scene": "unsupported",
+    "first": 28802,
+    "last": 28802
+  },
+  {
+    "scene": "forest",
+    "first": 28803,
+    "last": 28858
+  },
+  {
+    "scene": "unsupported",
+    "first": 28859,
+    "last": 28860
+  },
+  {
+    "scene": "forest",
+    "first": 28861,
+    "last": 28861
+  },
+  {
+    "scene": "unsupported",
+    "first": 28862,
+    "last": 28863
+  },
+  {
+    "scene": "forest",
+    "first": 28864,
+    "last": 28921
+  },
+  {
+    "scene": "unsupported",
+    "first": 28922,
+    "last": 28922
+  },
+  {
+    "scene": "forest",
+    "first": 28923,
+    "last": 29070
+  },
+  {
+    "scene": "unsupported",
+    "first": 29071,
+    "last": 29072
+  },
+  {
+    "scene": "forest",
+    "first": 29073,
+    "last": 29073
+  },
+  {
+    "scene": "unsupported",
+    "first": 29074,
+    "last": 29075
+  },
+  {
+    "scene": "forest",
+    "first": 29076,
+    "last": 29159
+  }
+]

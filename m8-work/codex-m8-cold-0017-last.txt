@@ -1,0 +1,7 @@
+The one-round cold/00-17 candidate is ready for supervisor testing. The accepted M8 runtime and saved results remain intact.
+
+Offline replay matched the saved native endpoint hashes and original renderer metadata in both cold and legacy modes. The candidate reduced the failed transition search from 322 agreement checks to one and removed unused map scratch buffers. The cause of the saved 51.6 ms browser spike remains unconfirmed.
+
+[REQUEST_READY.md](/workspace/shawu/m8-work/REQUEST_READY.md) contains the exact commands for locked full QA and 18 focused perf samples. It specifies the 19.0 ms cold mean gate, debt reporting, and how to keep the original runtime selected if the candidate fails. [Progress is checkpointed.](/workspace/shawu/m8-work/progress.md)
+
+Browser QA and performance acceptance are pending the outer run.

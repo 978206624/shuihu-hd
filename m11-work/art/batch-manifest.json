@@ -1,0 +1,205 @@
+[
+  {
+    "id": "00-25",
+    "refs": [
+      "00-25_native_4x.png",
+      "town_style.png"
+    ],
+    "prompt": "00-25_prompt.txt",
+    "output": "00-25_gpt.png",
+    "size": "768x1280",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      320
+    ],
+    "requestedSize": [
+      768,
+      1280
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-26",
+    "refs": [
+      "00-26_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-26_prompt.txt",
+    "output": "00-26_gpt.png",
+    "size": "1536x1536",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      384,
+      384
+    ],
+    "requestedSize": [
+      1536,
+      1536
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-27",
+    "refs": [
+      "00-27_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-27_prompt.txt",
+    "output": "00-27_gpt.png",
+    "size": "1536x1536",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      384,
+      384
+    ],
+    "requestedSize": [
+      1536,
+      1536
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-28",
+    "refs": [
+      "00-28_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-28_prompt.txt",
+    "output": "00-28_gpt.png",
+    "size": "1024x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      256,
+      256
+    ],
+    "requestedSize": [
+      1024,
+      1024
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-29",
+    "refs": [
+      "00-29_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-29_prompt.txt",
+    "output": "00-29_gpt.png",
+    "size": "960x800",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      192,
+      160
+    ],
+    "requestedSize": [
+      960,
+      800
+    ],
+    "reviewRequired": true
+  },
+  {
+    "id": "00-2e-north",
+    "refs": [
+      "00-2e-north_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-2e-north_prompt.txt",
+    "output": "00-2e-north_gpt.png",
+    "size": "1920x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      480,
+      256
+    ],
+    "requestedSize": [
+      1920,
+      1024
+    ],
+    "reviewRequired": true,
+    "tile": {
+      "mapId": "00-2e",
+      "part": "north",
+      "nativeBox": [
+        0,
+        0,
+        480,
+        256
+      ],
+      "boxConvention": "zero-based half-open [left, top, right, bottom]",
+      "nativeOverlapBox": [
+        0,
+        224,
+        480,
+        256
+      ],
+      "nativeOverlapPixels": 32,
+      "outputOverlapPixels": 128,
+      "assemblySize": [
+        1920,
+        1920
+      ],
+      "assemblyOrigin": [
+        0,
+        0
+      ],
+      "seamReview": "Align both strips to the native crops at one common scale. Compare the shared rows against each other and the ROM geometry. Start seam review at native y=240 (assembled y=960). Approve the join only when corridor edges, masonry, fixtures, colors and black voids agree. Return mismatched strips for repaint and review."
+    }
+  },
+  {
+    "id": "00-2e-south",
+    "refs": [
+      "00-2e-south_native_4x.png",
+      "room_style.png"
+    ],
+    "prompt": "00-2e-south_prompt.txt",
+    "output": "00-2e-south_gpt.png",
+    "size": "1920x1024",
+    "quality": "medium",
+    "model": "gpt-image-2",
+    "nativeSize": [
+      480,
+      256
+    ],
+    "requestedSize": [
+      1920,
+      1024
+    ],
+    "reviewRequired": true,
+    "tile": {
+      "mapId": "00-2e",
+      "part": "south",
+      "nativeBox": [
+        0,
+        224,
+        480,
+        480
+      ],
+      "boxConvention": "zero-based half-open [left, top, right, bottom]",
+      "nativeOverlapBox": [
+        0,
+        224,
+        480,
+        256
+      ],
+      "nativeOverlapPixels": 32,
+      "outputOverlapPixels": 128,
+      "assemblySize": [
+        1920,
+        1920
+      ],
+      "assemblyOrigin": [
+        0,
+        896
+      ],
+      "seamReview": "Align both strips to the native crops at one common scale. Compare the shared rows against each other and the ROM geometry. Start seam review at native y=240 (assembled y=960). Approve the join only when corridor edges, masonry, fixtures, colors and black voids agree. Return mismatched strips for repaint and review."
+    }
+  }
+]

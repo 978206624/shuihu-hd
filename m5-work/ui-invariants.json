@@ -1,0 +1,72 @@
+[
+  {
+    "frame": 361,
+    "eligible": 13940,
+    "gpt": 12613,
+    "gaps": 1327,
+    "actors": 278,
+    "changed": 0,
+    "border": 2798,
+    "borderCovered": 2798
+  },
+  {
+    "frame": 362,
+    "eligible": 18211,
+    "gpt": 16781,
+    "gaps": 1430,
+    "actors": 278,
+    "changed": 0,
+    "border": 1085,
+    "borderCovered": 1085
+  },
+  {
+    "frame": 4767,
+    "eligible": 12336,
+    "gpt": 12336,
+    "gaps": 0,
+    "actors": 7456,
+    "changed": 0,
+    "border": 3237,
+    "borderCovered": 3237
+  },
+  {
+    "frame": 7703,
+    "eligible": 12438,
+    "gpt": 12438,
+    "gaps": 0,
+    "actors": 7353,
+    "changed": 0,
+    "border": 3237,
+    "borderCovered": 3237
+  },
+  {
+    "frame": 11530,
+    "eligible": 22686,
+    "gpt": 22686,
+    "gaps": 0,
+    "actors": 352,
+    "changed": 0,
+    "border": 2,
+    "borderCovered": 2
+  },
+  {
+    "frame": 18360,
+    "eligible": 12681,
+    "gpt": 12625,
+    "gaps": 56,
+    "actors": 6458,
+    "changed": 0,
+    "border": 3050,
+    "borderCovered": 3050
+  },
+  {
+    "frame": 18361,
+    "eligible": 16713,
+    "gpt": 14945,
+    "gaps": 1768,
+    "actors": 321,
+    "changed": 0,
+    "border": 1986,
+    "borderCovered": 1986
+  }
+]

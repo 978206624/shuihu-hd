@@ -1,0 +1,7 @@
+Integrated six Region 6 plates into the isolated M11 runtime and verified all five reused plates. The registry append was the only change to an inherited runtime file. `start.bat`, the ROM, and the binjgb core match M10 byte for byte. [Integration manifest](/workspace/shawu/m11-work/integration/provenance.json)
+
+`00-25` was cropped to an exact 840×1400 native-aspect rectangle inside the detected painted area, with no resampling. The other five PNGs were installed byte for byte. All 11 official-route maps have registered plates. Pixel coverage awaits live QA.
+
+Offline checks passed for script syntax, freeze hashes, PNG dimensions and hashes, and watchdog attempt matching. The frozen plan contains 36 QA routes, 324 perf samples, 11 contact pairs, and seven preview excerpts. [Run plan](/workspace/shawu/m11-work/integration/outer-plan.json)
+
+Live QA, performance measurements, contact-sheet publication, and WebM generation are pending supervisor execution. The handoff includes ordered launch commands, acceptance checks, and the same-run watchdog with a 14-resume cap. [Supervisor handoff](/workspace/shawu/m11-work/REQUEST_READY.md)

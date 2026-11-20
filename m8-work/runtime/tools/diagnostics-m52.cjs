@@ -1,0 +1,10 @@
+// Optional diagnostics; adds overhead and is never a substitute for plain gate.
+const fs=require('fs'),zlib=require('zlib');
+exports.start=async(context,page,dir)=>{const trace=process.env.M52_TRACE==='1',cdp=trace?await context.newCDPSession(page):null;
+ if(cdp)await cdp.send('Tracing.start',{categories:'devtools.timeline,v8,blink.user_timing,disabled-by-default-v8.gc',transferMode:'ReturnAsStream'});
+ return {install:async()=>{await page.evaluate(async()=>{window.__phase={totals:{},heap:[]};const R=(await import('./renderer.js')).Renderer,M=(await import('./map-renderer.js')).MapRenderer,O=(await import('./observer.js')).Observer;
+ const methods=[[O,'sample','observer'],[M,'draw','map'],[M,'identify','identify'],[M,'faded','fadedFull'],[M,'fadedStrip','fadedStrip'],[M,'fadedRow','fadedRow'],[M,'paletteBand','paletteBand'],[M,'presentUITransition','uiSnapshot'],[M,'drawUI','ui'],[R,'prepareFlat','flatCheck'],[R,'drawFlat','flat'],[R,'plate','plate'],[R,'makePlate','plateBuild'],[R,'prepareImpact','impactPrepare'],[R,'renderImpact','impactRaster'],[R,'prepareCard','cardPrepare'],[R,'drawCard','card'],[R,'drawTitleFade','titleFade']];
+ for(const [K,key,label]of methods){const fn=K.prototype[key];if(!fn)continue;K.prototype[key]=function(...args){const start=performance.now();try{return fn.apply(this,args);}finally{__phase.totals[label]=(__phase.totals[label]||0)+performance.now()-start;}};}
+ const draw=R.prototype.draw;R.prototype.draw=function(...args){__phase.totals={};return draw.apply(this,args);};
+ });},stop:async()=>{if(!cdp)return null;const completed=new Promise(resolve=>cdp.once('Tracing.tracingComplete',resolve));await cdp.send('Tracing.end');const {stream}=await completed;const chunks=[];try{while(true){const r=await cdp.send('IO.read',{handle:stream});chunks.push(Buffer.from(r.data,r.base64Encoded?'base64':'utf8'));if(r.eof)break;}}finally{await cdp.send('IO.close',{handle:stream});}const file=dir+'/trace.json.gz';fs.writeFileSync(file,zlib.gzipSync(Buffer.concat(chunks)));return file;}};
+};

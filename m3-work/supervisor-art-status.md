@@ -1,0 +1,1 @@
+GPT网关补图完成结果：[('palace_pan', True), ('impact', True)]。原始素材在art/palace_pan_hd.png、art/impact_hd.png；元数据及完整prompt同目录。只由指定gpt-image-2 edits生成，尚需视觉检查，应用代码尚未集成。

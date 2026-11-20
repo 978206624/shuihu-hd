@@ -1,0 +1,109 @@
+// Adapted from M9 native-play.cjs for M11 offline exploration. ROM/core still read from accepted m8 runtime (unmodified).
+// Uses the accepted binjgb WASM and native save/joypad APIs.
+// Branches are explicitly isolated searches. Only replay output can be accepted.
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),zlib=require('zlib');
+const ROOT=path.resolve(__dirname,'../..'),WORK=ROOT+'/m11-work',RUNTIME=ROOT+'/m8-work/runtime';
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const romSHA256='ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95';
+const coreSHA256='52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b';
+const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const keys=['up','down','left','right','A','B','start','select'];
+function png(rgba,w,h){
+ const crc=b=>{let c=0xffffffff;for(const x of b){c^=x;for(let i=0;i<8;i++)c=(c>>>1)^((c&1)?0xedb88320:0);}return (c^0xffffffff)>>>0;};
+ const chunk=(s,b)=>{const t=Buffer.from(s),n=Buffer.alloc(4),c=Buffer.alloc(4);n.writeUInt32BE(b.length);c.writeUInt32BE(crc(Buffer.concat([t,b])));return Buffer.concat([n,t,b,c]);};
+ const hdr=Buffer.alloc(13);hdr.writeUInt32BE(w);hdr.writeUInt32BE(h,4);hdr[8]=8;hdr[9]=6;
+ const raw=Buffer.alloc(h*(w*4+1));for(let y=0;y<h;y++)rgba.copy(raw,y*(w*4+1)+1,y*w*4,(y+1)*w*4);
+ return Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',hdr),chunk('IDAT',zlib.deflateSync(raw)),chunk('IEND',Buffer.alloc(0))]);
+}
+async function core(){
+ const wasm=fs.readFileSync(RUNTIME+'/vendor/binjgb.wasm'),rom=fs.readFileSync(RUNTIME+'/assets/game.gbc');
+ if(sha(wasm)!==coreSHA256||sha(rom)!==romSHA256)throw Error('Accepted WASM or ROM hash differs');
+ const m=await require(RUNTIME+'/vendor/binjgb.js')({wasmBinary:wasm});
+ const p=m._malloc(rom.length);m.HEAPU8.set(rom,p);
+ const e=m._emulator_new_simple(p,rom.length,48000,2048,0),j=m._joypad_new();m._emulator_set_default_joypad_callback(e,j);
+ let frames=0,log,branch=null;
+ const read=a=>m._emulator_read_mem(e,a),fb=()=>Buffer.from(m.HEAPU8.slice(m._get_frame_buffer_ptr(e),m._get_frame_buffer_ptr(e)+160*144*4));
+ const meta=()=>({frame:frames,ticks:m._emulator_get_ticks_f64(e),map:[read(0xff9a),read(0xff9b)].map(x=>x.toString(16).padStart(2,'0')).join('-'),story:read(0xffba),dialogue:read(0xffbc),mode:read(0xd0fa),bank:read(0xd08f),player:Array.from({length:8},(_,i)=>read(0xcd00+i)),camera:[read(0xff96),read(0xff97)],scroll:[read(0xff43),read(0xff42)]});
+ const event=o=>{if(log!==undefined)fs.writeSync(log,JSON.stringify(o)+'\n');};
+ const step=(n,observe)=>{for(let i=0;i<n;i++){const t=m._emulator_get_ticks_f64(e)+70224;let guard=0;while(true){const ev=m._emulator_run_until_f64(e,t);if(ev&4)break;if(++guard>100)throw Error('Native core guard');}frames++;if(log!==undefined||observe){const current=meta();event({type:'frame',branch,...current});if(observe)observe(current);}}};
+ const state=data=>{const f=m._state_file_data_new(e);try{const p=m._get_file_data_ptr(f),n=m._get_file_data_size(f);if(data){if(data.length!==n)throw Error('State length');m.HEAPU8.set(data,p);if(m._emulator_read_state(e,f)!==0)throw Error('Invalid save');}else m._emulator_write_state(e,f);return Buffer.from(m.HEAPU8.slice(p,p+n));}finally{m._file_data_delete(f);m._free(f);}};
+ const input=(k,on)=>{if(!keys.includes(k))throw Error('Invalid natural key');m['_set_joyp_'+k](e,+on);event({type:'input',branch,frame:frames,key:k,on});};
+ const action=(a,observe)=>{const [k,h,w]=a;if(!Number.isInteger(h)||h<0||!Number.isInteger(w)||w<0)throw Error('Frames');if(k)input(k,true);step(h,observe);if(k)input(k,false);step(w,observe);};
+ step(1); // Same native initial frame as app startup; not part of loaded route.
+ return {m,e,read,fb,meta,step,state,input,action,event,setLog:fd=>log=fd,setBranch:b=>branch=b,snap:p=>fs.writeFileSync(p,png(fb(),160,144))};
+}
+async function run(){
+ const [mode,srcArg,tag,arg,limitArg]=process.argv.slice(2),src=path.resolve(srcArg||'');
+ if(!['inspect','replay','search','doors'].includes(mode)||!tag||!/^[a-zA-Z0-9_-]+$/.test(tag))throw Error('Usage: native-play.cjs inspect|replay|search|doors source.bin unique-tag [actions.json|goal] [node-limit]');
+ if(!fs.realpathSync(src).startsWith(WORK+'/'))throw Error('Use a preserved M11 source save');
+ if(mode==='search'&&!/^(?:[\da-f]{2}-[\da-f]{2}|pos:-?\d+,-?\d+)$/.test(arg||''))throw Error('Search goal must be a map ID or pos:x,y');
+ if(limitArg!==undefined&&(!/^\d+$/.test(limitArg)||Number(limitArg)<1))throw Error('Node limit must be positive');
+ const actions=mode==='replay'?readActions(arg):[];
+ const out=WORK+(mode==='search'||mode==='doors'?'/search/':'/native/')+tag;
+ if(fs.existsSync(out))throw Error('Refusing to overwrite attempt '+out);fs.mkdirSync(out,{recursive:true});
+ const source=fs.readFileSync(src),c=await core(),fd=fs.openSync(out+'/frames.jsonl','wx');c.setLog(fd);c.state(source);c.setBranch('root');
+ const provenance={mode,source:src,sourceSHA256:sha(source),sourceBytes:source.length,started:new Date().toISOString(),pid:process.pid,unmodifiedCoreSHA256:sha(fs.readFileSync(RUNTIME+'/vendor/binjgb.wasm')),romSHA256:sha(fs.readFileSync(RUNTIME+'/assets/game.gbc')),naturalControlsOnly:true,accepted:false,searchHint:process.env.M11_SEARCH_HINT||null,positionalKey:process.env.M11_POSITIONAL_KEY==='1',battleRecovery:process.env.M11_BATTLE_RECOVERY==='1',scriptSHA256:sha(fs.readFileSync(__filename)),initial:c.meta()};write(out+'/provenance.json',provenance);fs.writeFileSync(out+'/start.bin',source);
+ try{
+  if(mode==='inspect'){c.step(1);c.snap(out+'/native.png');write(out+'/result.json',c.meta());}
+  if(mode==='replay'){
+   const records=[],executed=[];for(let i=0;i<actions.length;i++){
+    c.action(actions[i]);executed.push(actions[i]);const bytes=c.state(),record={action:i,input:actions[i],stateSHA256:sha(bytes),nativeFramebufferSHA256:sha(c.fb()),...c.meta()};records.push(record);
+    c.snap(out+'/page_'+String(i).padStart(4,'0')+'.png');fs.writeFileSync(out+'/latest.bin',bytes);write(out+'/actions.json',executed);write(out+'/checkpoints.json',records);
+    console.log(i,JSON.stringify(record));
+   }write(out+'/result.json',{isolatedSearch:false,actions:executed,records,end:c.meta(),endSHA256:sha(c.state())});
+  }
+  if(mode==='search'||mode==='doors'){
+   // M7 BFS with the same 16 held / 8 released controls and natural flee menu.
+   // Every node reload and every actual frame is logged; searches are never
+   // described as a continuous accepted route. Found actions need fresh replay.
+   const limit=Number(limitArg||1800),deadline=Date.now()+Number(process.env.M11_SEARCH_MS||1200000),settle=120;c.step(settle);
+   const read=c.read,origin=c.meta().map,storyAtStart=c.meta().story,delta=(u,v)=>((u-v+128)&255)-128;
+   const pos=(cx,cy)=>[cx+read(0xcd01),cy+read(0xcd00)],key=(cx,cy)=>[c.meta().map,...pos(cx,cy),read(0xffba),read(0xd0fa),...(process.env.M11_POSITIONAL_KEY==='1'?[]:[read(0xd08f),read(0xcd03),read(0xcd05),read(0xcd06),read(0xcd07)])].join(',');
+   const cx0=read(0xff96)*32+read(0xff43),cy0=read(0xff97)*32+read(0xff42),q=[{state:c.state(),path:[],cx:cx0,cy:cy0,xy:pos(cx0,cy0)}],seen=new Set([key(cx0,cy0)]),found={},branches=fs.openSync(out+'/branches.jsonl','wx');let idx=0;
+   while(idx<q.length&&seen.size<limit&&Date.now()<deadline){if(process.env.M11_SEARCH_HINT){const hint=process.env.M11_SEARCH_HINT.split(',').map(Number);let best=idx,score=Infinity;for(let k=idx;k<q.length;k++){const n=q[k],xy=n.xy||pos(n.cx,n.cy),v=Math.abs(xy[0]-hint[0])+Math.abs(xy[1]-hint[1])+n.path.length*3;if(v<score){score=v;best=k;}}[q[idx],q[best]]=[q[best],q[idx]];}const a=q[idx++];for(const d of ['up','down','left','right']){
+    c.state(a.state);c.setBranch([idx-1,d]);c.event({type:'branch-load',node:idx-1,stateSHA256:sha(a.state),path:a.path});const sx=read(0xff43),sy=read(0xff42),actions=[[d,16,8]];c.action(actions[0]);
+    if(mode==='search'&&[0x2b,0x2c,0x2d].includes(read(0xd08f))){const flee=[[null,360,0],...(process.env.M11_BATTLE_RECOVERY==='1'?[['B',6,160]]:[]),['right',6,12],['down',6,12],['A',6,240],['B',6,100]];for(const x of flee){c.action(x);actions.push(x);}if(process.env.M11_BATTLE_RECOVERY==='1')for(let n=0;n<7&&[43,44,45].includes(read(0xd08f));n++)for(const x of [['right',6,12],['down',6,12],['A',6,240],['B',6,100]]){c.action(x);actions.push(x);}}
+    const cx=a.cx+delta(read(0xff43),sx),cy=a.cy+delta(read(0xff42),sy),k=key(cx,cy),id=c.meta().map,p=[...a.path,...actions];
+    fs.writeSync(branches,JSON.stringify({node:idx-1,d,actions,stateSHA256:sha(c.state()),...c.meta(),xy:pos(cx,cy)})+'\n');
+    if(seen.has(k))continue;seen.add(k);const xy=pos(cx,cy),yes=mode==='doors'?id!==origin:arg.startsWith('pos:')?arg.slice(4).split(',').map(Number).every((v,i)=>Math.abs(xy[i]-v)<5):id===arg;
+    if(yes&&!found[id]){const name=mode==='doors'?id:'goal';found[id]={actions:[[null,settle,0],...p],id,xy,story:read(0xffba),mode:read(0xd0fa),searchStateSHA256:sha(c.state()),branchNode:idx-1};fs.writeFileSync(out+'/'+name+'.bin',c.state());write(out+'/'+name+'-actions.json',found[id].actions);c.snap(out+'/'+name+'.png');console.log('FOUND',id,xy,'actions',p.length);}
+    if(mode==='search'&&yes)break;
+    if(id===origin&&read(0xffba)===storyAtStart&&read(0xd0fa)===0&&![0x2b,0x2c,0x2d].includes(read(0xd08f)))q.push({state:c.state(),path:p,cx,cy,xy});
+   }
+   if(mode==='search'&&Object.keys(found).length)break;
+   if(idx%100===0){console.log('search',idx,seen.size,q.length-idx,Object.keys(found));write(out+'/progress.json',{idx,seen:seen.size,frontier:q.length-idx,found});}
+   }
+   fs.closeSync(branches);write(out+'/result.json',{isolatedSearch:true,origin,goal:arg,settleFrames:settle,nodes:seen.size,expanded:idx,frontier:q.length-idx,deadlineHit:Date.now()>=deadline,found,positions:[...seen]});
+   // Resumable bounded search checkpoint, including exact pending native states.
+   fs.writeFileSync(out+'/frontier.v8.gz',zlib.gzipSync(require('v8').serialize({idx,q,seen:[...seen],found,sourceSHA256:sha(source)})));
+  }
+  provenance.finished=new Date().toISOString();provenance.status='COMPLETE';
+ }catch(e){provenance.status='FAILED';provenance.error=e.message;throw e;}finally{write(out+'/provenance.json',provenance);fs.closeSync(fd);fs.writeFileSync(out+'/frames.jsonl.gz',zlib.gzipSync(fs.readFileSync(out+'/frames.jsonl')));fs.unlinkSync(out+'/frames.jsonl');}
+ console.log('OUTPUT',out);
+}
+function readActions(file){
+ const actions=JSON.parse(fs.readFileSync(file,'utf8'));
+ if(!Array.isArray(actions)||actions.some(action=>!Array.isArray(action)||action.length!==3||
+   (action[0]!==null&&!keys.includes(action[0]))||
+   action.slice(1).some(n=>!Number.isInteger(n)||n<0||n>60000)))throw Error('Expected [key|null, heldFrames, releasedFrames] actions');
+ return actions;
+}
+function fieldDetails(read, meta) {
+ const hex = value => value.toString(16).padStart(2, '0');
+ const bytes = (address, size) => Array.from({ length: size }, (_, i) => hex(read(address + i)));
+ const signed = address => (read(address) | (read(address + 1) << 8)) << 16 >> 16;
+ const x = 2 * read(0xff96) + (signed(0xffae) + read(0xcd01) - 8) / 16;
+ const y = 2 * read(0xff97) + (signed(0xffb0) + read(0xcd00) - 16) / 16;
+ const script = read(0xffd6);
+ const banner = read(0xffc1);
+ const settled = [3, 4, 5].includes(meta.bank) && !meta.mode && !meta.dialogue && !script &&
+  !banner && Number.isInteger(x) && Number.isInteger(y);
+ return {
+  entry: read(0xff9c), cell: [x, y], facing: read(0xcd03), script, banner, settled,
+  DAA: bytes(0xdaa0, 4), D284: bytes(0xd284, 2), D2AC: bytes(0xd2ac, 2),
+  party: [0xd200, 0xd216, 0xd22c].map(address => hex(read(address))),
+  hp: [0xd202, 0xd218, 0xd22e].map(address => read(address) | (read(address + 1) << 8)),
+ };
+}
+if(require.main===module)run().catch(e=>{console.error(e);process.exitCode=1;});
+module.exports={core,png,sha,readActions,fieldDetails,romSHA256};

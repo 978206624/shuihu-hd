@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 0,
+    "bank": 4,
+    "direction_table": "4786",
+    "first_frame": "4818",
+    "palette_pointer": "04:42f1",
+    "first_frame_sha256": "5cd820be2e8d4e3c6d1197e224e698e3adab2083fc5521899f5a63b259b5bf4e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_000.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 1,
+    "bank": 4,
+    "direction_table": "4f98",
+    "first_frame": "4fbe",
+    "palette_pointer": "04:42f9",
+    "first_frame_sha256": "5656c65782265c3c4bbd24db822a784ee40fdba0a476c52cc7d81913bfa93d50",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_001.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 2,
+    "bank": 4,
+    "direction_table": "51fe",
+    "first_frame": "5230",
+    "palette_pointer": "04:4301",
+    "first_frame_sha256": "2839591743ffe9be5bec5518090f781d7c3e0ba6256587dfcffa6356dabd02c8",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_002.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 3,
+    "bank": 4,
+    "direction_table": "5470",
+    "first_frame": "54b8",
+    "palette_pointer": "04:4309",
+    "first_frame_sha256": "dd3034c3a3498e21eede4b8b25e747c32871884734c358e8449fa451bd02ac2e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_003.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 4,
+    "bank": 4,
+    "direction_table": "57b8",
+    "first_frame": "57f8",
+    "palette_pointer": "04:4311",
+    "first_frame_sha256": "3f0a70b4b06a139312e9751cf9f07e029b1041bcc4f4212e51a0241d84939251",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_004.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 5,
+    "bank": 4,
+    "direction_table": "5a78",
+    "first_frame": "5ab8",
+    "palette_pointer": "04:4319",
+    "first_frame_sha256": "b93e34c5305cbe80c9c7bd105186c28b7cd6437e49e5fe3b4568d522a5a3180f",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_005.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 6,
+    "bank": 4,
+    "direction_table": "5d78",
+    "first_frame": "5dbe",
+    "palette_pointer": "04:4321",
+    "first_frame_sha256": "0224a16ee3a373f737847ca34f3a7a1d2992d4b8f37400ad1abfb4dfa75539d4",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_006.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 7,
+    "bank": 4,
+    "direction_table": "60be",
+    "first_frame": "60fe",
+    "palette_pointer": "04:4329",
+    "first_frame_sha256": "580828af6b01f1ecb764ab204f0079c1662be29c736e93a5425bc6da503132d7",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_007.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 8,
+    "bank": 4,
+    "direction_table": "63be",
+    "first_frame": "63fe",
+    "palette_pointer": "04:4331",
+    "first_frame_sha256": "aa2309758b564ba2db270988d407fb9041308c1bff7fe0b03f8fab08601d94b1",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_008.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 9,
+    "bank": 4,
+    "direction_table": "66be",
+    "first_frame": "6706",
+    "palette_pointer": "04:4339",
+    "first_frame_sha256": "71d4db441aa0ae6fddc27698430e65a6dc85f9225b30a325f84bfb7788d1b195",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_009.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 10,
+    "bank": 4,
+    "direction_table": "6a06",
+    "first_frame": "6a4e",
+    "palette_pointer": "04:4341",
+    "first_frame_sha256": "b6032d2725cfa6aa59b9262c39376deeadb32862051eb43e24d1db9382b1ca84",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_010.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 11,
+    "bank": 4,
+    "direction_table": "6d0e",
+    "first_frame": "6d34",
+    "palette_pointer": "04:4349",
+    "first_frame_sha256": "eec8c11d806c9ebe2692ba8666dd95e8db057b402a52c7b4e5f3cb2f52640b72",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_011.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 12,
+    "bank": 4,
+    "direction_table": "6f74",
+    "first_frame": "6f9a",
+    "palette_pointer": "04:4351",
+    "first_frame_sha256": "2c9f34ea3d39b8b0e7f5ce1099bf5a9a40f03ba4212937a1134c895071857d17",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_012.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 13,
+    "bank": 4,
+    "direction_table": "71da",
+    "first_frame": "721a",
+    "palette_pointer": "04:4359",
+    "first_frame_sha256": "3b113084fe137a99b1161d4acdce3504b6c3d578aa2242e46d86b4e5b49d189e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_013.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 14,
+    "bank": 4,
+    "direction_table": "74da",
+    "first_frame": "7500",
+    "palette_pointer": "04:4361",
+    "first_frame_sha256": "e7ca6cdeab9358c776c3ebf43a5a7c72b843612082df6ce6f6f7d392b6234a21",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_014.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 15,
+    "bank": 4,
+    "direction_table": "7740",
+    "first_frame": "7766",
+    "palette_pointer": "04:4369",
+    "first_frame_sha256": "fca6702fe685ff296585281351d7122b9ee0364146d1de485193d683aed90822",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_015.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 16,
+    "bank": 4,
+    "direction_table": "79a6",
+    "first_frame": "79e8",
+    "palette_pointer": "04:4371",
+    "first_frame_sha256": "acc91005a52d0ae769aa1d313c358d8f3e46a5e033730da66300b8d37aeed4ed",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_016.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 17,
+    "bank": 4,
+    "direction_table": "7ca8",
+    "first_frame": "7cce",
+    "palette_pointer": "04:4379",
+    "first_frame_sha256": "3a41352439139118c45f1574d1b52df6ea214bef219849f4e2193709fd375c55",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_017.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 18,
+    "bank": 34,
+    "direction_table": "4042",
+    "first_frame": "4068",
+    "palette_pointer": "04:4381",
+    "first_frame_sha256": "3df1cb854353ac0a592622f28a214179fba5e93c2210c6af19c8f4a201170bbe",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_018.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 19,
+    "bank": 34,
+    "direction_table": "42a8",
+    "first_frame": "42ba",
+    "palette_pointer": "04:4389",
+    "first_frame_sha256": "07e2d17736db5e176eb58468a15fff1c87da082a2ae66cbeed534726a98f32f8",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_019.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 20,
+    "bank": 34,
+    "direction_table": "433a",
+    "first_frame": "434e",
+    "palette_pointer": "04:4391",
+    "first_frame_sha256": "6e7036b50a6529f614f4df0aadf3adee705d3068111e6a416c36158c12ea09ee",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_020.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 21,
+    "bank": 34,
+    "direction_table": "43ce",
+    "first_frame": "434e",
+    "palette_pointer": "04:4399",
+    "first_frame_sha256": "6e7036b50a6529f614f4df0aadf3adee705d3068111e6a416c36158c12ea09ee",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_021.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 22,
+    "bank": 34,
+    "direction_table": "44a0",
+    "first_frame": "44f0",
+    "palette_pointer": "04:42f1",
+    "first_frame_sha256": "99598a53c5153608602a0bddd25e323500785e42690e688391944ae166ac4217",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_022.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 23,
+    "bank": 34,
+    "direction_table": "4770",
+    "first_frame": "0406",
+    "palette_pointer": "04:4399",
+    "first_frame_sha256": "8de5d2673ca6e51cb967d3628e64d5f84b9c815f71f59914bbc4d69c74e295b3",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_023.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 24,
+    "bank": 34,
+    "direction_table": "4804",
+    "first_frame": "4814",
+    "palette_pointer": "04:4399",
+    "first_frame_sha256": "67885885b7879d590a65ae1e5ba349c2e05ed07a880764445cfe49f15727bfdb",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_024.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 25,
+    "bank": 34,
+    "direction_table": "4854",
+    "first_frame": "48d0",
+    "palette_pointer": "04:43a1",
+    "first_frame_sha256": "92c273140a19e60599178ebbc234b462c329f14f08e7d9809d8997f0aac47e99",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_025.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 26,
+    "bank": 34,
+    "direction_table": "4bd0",
+    "first_frame": "4bf6",
+    "palette_pointer": "04:43a9",
+    "first_frame_sha256": "565d718f11c9290f0ed5acd333dc208c0e0d67a91b1126565f29201f7ca49b6f",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_026.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 27,
+    "bank": 34,
+    "direction_table": "4e36",
+    "first_frame": "4e5c",
+    "palette_pointer": "04:43b1",
+    "first_frame_sha256": "17ee22fd624991f89c3adb99356b701f11d4707eac39a8cb8981ca80b4769209",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_027.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 28,
+    "bank": 34,
+    "direction_table": "509c",
+    "first_frame": "50c2",
+    "palette_pointer": "04:43b9",
+    "first_frame_sha256": "1f179f2c323178052314a1e03bf547108da237113a15d0c24934d8a3b0b3857c",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_028.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 29,
+    "bank": 34,
+    "direction_table": "5302",
+    "first_frame": "5330",
+    "palette_pointer": "04:43c1",
+    "first_frame_sha256": "9a1c846f8198923cd5c2c29f57f6cbe24ff38d897a36b0705ca9345c77532430",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_029.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 30,
+    "bank": 34,
+    "direction_table": "5570",
+    "first_frame": "5596",
+    "palette_pointer": "04:43c9",
+    "first_frame_sha256": "ef40b645a4bcc1cfb987ecadfe1b7729d9554a694066d49fde19b6fcad522a82",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_030.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 31,
+    "bank": 34,
+    "direction_table": "57d6",
+    "first_frame": "57fc",
+    "palette_pointer": "04:43d1",
+    "first_frame_sha256": "9253086b077b904492d6583d4201022b7544bece22e76f34b4db055168bcb5b7",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_031.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 32,
+    "bank": 34,
+    "direction_table": "5a3c",
+    "first_frame": "5a62",
+    "palette_pointer": "04:43d9",
+    "first_frame_sha256": "bbec4af36bf33c97994ea2baf1ffd006d2d77349c52fb91b2b7893add288b6bf",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_032.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 33,
+    "bank": 34,
+    "direction_table": "5ca2",
+    "first_frame": "5cc8",
+    "palette_pointer": "04:43e1",
+    "first_frame_sha256": "368a66416f4d002cdbf15d8c6146c94e52003416a89bdac4f8d9843655d96bdb",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_033.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 34,
+    "bank": 34,
+    "direction_table": "5f08",
+    "first_frame": "5f2e",
+    "palette_pointer": "04:43e9",
+    "first_frame_sha256": "518519273c6e09e2b69c22aef30b865357a7bbbccbe47454ebc24fa4600e95d0",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_034.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 35,
+    "bank": 34,
+    "direction_table": "616e",
+    "first_frame": "6194",
+    "palette_pointer": "04:43f1",
+    "first_frame_sha256": "7c7615af34394e7500ff2fd84275859012d4f71826bdc8efb8072e78ec41fb85",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_035.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 36,
+    "bank": 34,
+    "direction_table": "63d4",
+    "first_frame": "6402",
+    "palette_pointer": "04:43f9",
+    "first_frame_sha256": "4e6ea2098ed11246aadca55e27489570144eb7f2d9a61d3104a7f38de49cb18b",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_036.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 37,
+    "bank": 34,
+    "direction_table": "6642",
+    "first_frame": "6670",
+    "palette_pointer": "04:4401",
+    "first_frame_sha256": "b9646dfff27552cca434c025b7af7e47a718fc41c6d85e50033d5d79d3612c68",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_037.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 38,
+    "bank": 34,
+    "direction_table": "68b0",
+    "first_frame": "68d6",
+    "palette_pointer": "04:4409",
+    "first_frame_sha256": "6a7327b984d893b7d737c7a3bd65b0256ef98aa1af830557a73aa783e153e7a3",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_038.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 39,
+    "bank": 34,
+    "direction_table": "6b16",
+    "first_frame": "6b3c",
+    "palette_pointer": "04:4411",
+    "first_frame_sha256": "acbc6c38f6c20c41ae6b215bdd2cad312ef1c4e2a61ca54aad885ff369435dd6",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_039.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 40,
+    "bank": 34,
+    "direction_table": "6d7c",
+    "first_frame": "6da2",
+    "palette_pointer": "04:4419",
+    "first_frame_sha256": "0c76db35c6b61f8213018fa692b60c3170ac844a135b3bc86018105dbe5a7394",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_040.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 41,
+    "bank": 34,
+    "direction_table": "6fe2",
+    "first_frame": "7008",
+    "palette_pointer": "04:4421",
+    "first_frame_sha256": "f18ceafc813381e20ea439308cf3b3a1502d4f864bd0915b26f3939fe18b4dc1",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_041.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 42,
+    "bank": 34,
+    "direction_table": "7248",
+    "first_frame": "7256",
+    "palette_pointer": "04:4429",
+    "first_frame_sha256": "52794c265d870c549b101d6ebbc8c1be94c93fcf73147bdaef66ef154165851f",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_042.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 43,
+    "bank": 34,
+    "direction_table": "72d6",
+    "first_frame": "72e4",
+    "palette_pointer": "04:4431",
+    "first_frame_sha256": "81903cacb917a0aeaa4b20c6813c9e05ca93634ae55d7064280311d563f781e0",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_043.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 44,
+    "bank": 34,
+    "direction_table": "7324",
+    "first_frame": "7358",
+    "palette_pointer": "04:4341",
+    "first_frame_sha256": "044e5d4e0508ca7116bd9c296ae3b91384bc1e69142cfd01841ca6498dc1741f",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_044.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 45,
+    "bank": 34,
+    "direction_table": "7498",
+    "first_frame": "74a8",
+    "palette_pointer": "04:4439",
+    "first_frame_sha256": "c86c1da40b3f0d9e56b0a86490dc84ee33004e757ad2312b0a79146a7525b8e4",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_045.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 46,
+    "bank": 34,
+    "direction_table": "7528",
+    "first_frame": "754e",
+    "palette_pointer": "04:4441",
+    "first_frame_sha256": "781db9e2bc8b7e82f0f70f7883958070f9994d917addc718b614dbf005ff6a7e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_046.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 47,
+    "bank": 34,
+    "direction_table": "778e",
+    "first_frame": "77b4",
+    "palette_pointer": "04:4449",
+    "first_frame_sha256": "7626887c0236068d18ee039c095a3e427d3e7981eae5e4721ee87e6b381ef408",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_047.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 48,
+    "bank": 34,
+    "direction_table": "79f4",
+    "first_frame": "79fe",
+    "palette_pointer": "04:4451",
+    "first_frame_sha256": "081a29507448f732e8f8650f53a29b4486dc422346f5d911a2a651c9f7695758",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_048.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 49,
+    "bank": 34,
+    "direction_table": "7a7e",
+    "first_frame": "7aa4",
+    "palette_pointer": "04:4459",
+    "first_frame_sha256": "71a50365c94b9cce422166b82ce8bb4807047b8d0523fb5677a7b0466af2471a",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_049.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 50,
+    "bank": 34,
+    "direction_table": "7ce4",
+    "first_frame": "7d0a",
+    "palette_pointer": "04:4461",
+    "first_frame_sha256": "2153146bb98cbad7de9ee27192527be600b8255d00d32cc7f6afb17c3d9ed179",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_050.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 51,
+    "bank": 20,
+    "direction_table": "406a",
+    "first_frame": "40a0",
+    "palette_pointer": "04:4469",
+    "first_frame_sha256": "88cc191e117c55276c0e68edcb8148f629a0c663dd8deed21cb96641ebb6e07e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_051.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 52,
+    "bank": 20,
+    "direction_table": "4360",
+    "first_frame": "4466",
+    "palette_pointer": "04:4471",
+    "first_frame_sha256": "6cb74f673fc6c8b9b4afbc071bce947fc4ab571c3e534a4a883ccdb0aa2de776",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_052.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 53,
+    "bank": 20,
+    "direction_table": "4726",
+    "first_frame": "474c",
+    "palette_pointer": "04:4479",
+    "first_frame_sha256": "7626887c0236068d18ee039c095a3e427d3e7981eae5e4721ee87e6b381ef408",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_053.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 54,
+    "bank": 20,
+    "direction_table": "498c",
+    "first_frame": "49b2",
+    "palette_pointer": "04:4481",
+    "first_frame_sha256": "855513298960ca684e7a4a4ecef48260de8f6f5e83a09b3da489df77cd2a4f24",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_054.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 55,
+    "bank": 20,
+    "direction_table": "4bf2",
+    "first_frame": "4c18",
+    "palette_pointer": "04:4489",
+    "first_frame_sha256": "592f3c43cb4d31371db940ef1f9ce140d10822f4d5f4ddb128ef6c28f3686532",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_055.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 56,
+    "bank": 20,
+    "direction_table": "4e58",
+    "first_frame": "4e86",
+    "palette_pointer": "04:4491",
+    "first_frame_sha256": "731782e554fbdfa67bddb8f306cf00862b373f7eb05d7d8db6c409a07ae89032",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_056.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 57,
+    "bank": 20,
+    "direction_table": "4e58",
+    "first_frame": "4e86",
+    "palette_pointer": "04:4499",
+    "first_frame_sha256": "731782e554fbdfa67bddb8f306cf00862b373f7eb05d7d8db6c409a07ae89032",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_057.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 58,
+    "bank": 20,
+    "direction_table": "4e58",
+    "first_frame": "4e86",
+    "palette_pointer": "04:44a1",
+    "first_frame_sha256": "731782e554fbdfa67bddb8f306cf00862b373f7eb05d7d8db6c409a07ae89032",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_058.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 59,
+    "bank": 20,
+    "direction_table": "5106",
+    "first_frame": "512c",
+    "palette_pointer": "04:44a9",
+    "first_frame_sha256": "03d6cc94c6f893a5f0fe9cc3a86504848c50083ea13dfcecf3640bb430b3865b",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_059.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 60,
+    "bank": 20,
+    "direction_table": "536c",
+    "first_frame": "5392",
+    "palette_pointer": "04:44b1",
+    "first_frame_sha256": "d72ff74bc0f671eadf2ab52271c41dfaf91dd9871aa9b8ca8b19ed50151503df",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_060.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 61,
+    "bank": 20,
+    "direction_table": "55d2",
+    "first_frame": "55f8",
+    "palette_pointer": "04:44b9",
+    "first_frame_sha256": "0c418377f3dddf1ae09bdefd40178e1faf9766d0ec146b04ed51a1f946c6a11b",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_061.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 62,
+    "bank": 20,
+    "direction_table": "5838",
+    "first_frame": "585e",
+    "palette_pointer": "04:44c1",
+    "first_frame_sha256": "e6c31222b3ccf1b5e15c3aa05bf514a5d0d425651831f3ee8bd79d764ee732b9",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_062.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 63,
+    "bank": 20,
+    "direction_table": "5a9e",
+    "first_frame": "5aa6",
+    "palette_pointer": "04:44c9",
+    "first_frame_sha256": "c0c2a4e73f1d1b454baa18393b92b83e29290921ab85cb296355379bda09fe8e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_063.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 64,
+    "bank": 20,
+    "direction_table": "5b26",
+    "first_frame": "5b2e",
+    "palette_pointer": "04:44d1",
+    "first_frame_sha256": "9603b80c938ff4b8688c4c13e6096ee72d420a55c72238446fb8a370fb6a462b",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_064.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 65,
+    "bank": 20,
+    "direction_table": "5bae",
+    "first_frame": "5bc0",
+    "palette_pointer": "04:44d9",
+    "first_frame_sha256": "f6d8514df0a3f460fe844dcb16b9c1c58b35555e2752aff0ef5506bbc5116698",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_065.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 66,
+    "bank": 20,
+    "direction_table": "5c40",
+    "first_frame": "5c48",
+    "palette_pointer": "04:44e1",
+    "first_frame_sha256": "8373566e5187d2448ed1ba051f3414cbf5b55c0e95105c0d902b5da07de9b6e7",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_066.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 67,
+    "bank": 20,
+    "direction_table": "5cc8",
+    "first_frame": "5ce2",
+    "palette_pointer": "04:44e9",
+    "first_frame_sha256": "44d8ab7c4d6b62e1d5b575846e8621a0195b3f65823241e99bcc5748760fe20b",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_067.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 68,
+    "bank": 20,
+    "direction_table": "5d62",
+    "first_frame": "5d8a",
+    "palette_pointer": "04:44f1",
+    "first_frame_sha256": "cad3c05eebeff80330fdf39ae7e5ca6b361bd2e94ea8b5752d7b6732488240e9",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_068.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 69,
+    "bank": 20,
+    "direction_table": "5e8a",
+    "first_frame": "5e98",
+    "palette_pointer": "04:44f9",
+    "first_frame_sha256": "1d5de93b752a2cd0d1562054d24f7132f5192befe974430ef7334e3dda3affb8",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_069.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 70,
+    "bank": 20,
+    "direction_table": "5f18",
+    "first_frame": "5f26",
+    "palette_pointer": "04:4501",
+    "first_frame_sha256": "14181e33ac0b55cf83ee7ab50c4d2c758ae2d106a0509ec967b4daae70e2c8c4",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_070.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 71,
+    "bank": 20,
+    "direction_table": "5fa6",
+    "first_frame": "5fbe",
+    "palette_pointer": "04:4509",
+    "first_frame_sha256": "c5194dc9b99073c89fbb594016d5ddcc2edad58fd3c4c017375314566efe2557",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_071.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 72,
+    "bank": 20,
+    "direction_table": "603e",
+    "first_frame": "604e",
+    "palette_pointer": "04:4511",
+    "first_frame_sha256": "284fef1c841130a8c573aa4cb0a08fefbaaea8e62d919c00bbb2199c989044a5",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_072.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 73,
+    "bank": 20,
+    "direction_table": "60ce",
+    "first_frame": "60e6",
+    "palette_pointer": "04:4519",
+    "first_frame_sha256": "2b20a7fd6fe47ad7f72d2c32cfad408d7f10283db34f4b22a83ba13507466ce7",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_073.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 74,
+    "bank": 20,
+    "direction_table": "6166",
+    "first_frame": "6174",
+    "palette_pointer": "04:4521",
+    "first_frame_sha256": "8d67fcc3013b9bb71ccc6e41e799528be9280421eb7e9929a0a9ca6e3bf47fca",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_074.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 75,
+    "bank": 20,
+    "direction_table": "61f4",
+    "first_frame": "620c",
+    "palette_pointer": "04:4529",
+    "first_frame_sha256": "85ee3f69c4bdcb6042f60fa0c69c4f0aea1bdd277c36d6f9b564639e4296f9b2",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_075.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 76,
+    "bank": 20,
+    "direction_table": "628c",
+    "first_frame": "62a4",
+    "palette_pointer": "04:4531",
+    "first_frame_sha256": "70593e96976098daa8e6987cc17600f04e05ac9f4e675ee1c8f25e99be1196c3",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_076.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 77,
+    "bank": 20,
+    "direction_table": "6324",
+    "first_frame": "633c",
+    "palette_pointer": "04:4539",
+    "first_frame_sha256": "8d1772bfea40e46b09eaaf52cbf40e4356a2d7b87bef9caa9b214c57a9927482",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_077.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 78,
+    "bank": 20,
+    "direction_table": "63bc",
+    "first_frame": "63d4",
+    "palette_pointer": "04:4541",
+    "first_frame_sha256": "5d53d8dc8a833bf69cd33afc2f9fe669f3ee41ee554a1ab75821277a8d5342ec",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_078.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 79,
+    "bank": 20,
+    "direction_table": "6454",
+    "first_frame": "646c",
+    "palette_pointer": "04:4549",
+    "first_frame_sha256": "369d584edf4b449b9287182cab3b656999b3a24973693620c28f2acb6b148fa5",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_079.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 80,
+    "bank": 20,
+    "direction_table": "64ec",
+    "first_frame": "64fa",
+    "palette_pointer": "04:4551",
+    "first_frame_sha256": "2378dafde7055e987cef40eec135daf3fe496a6d5f4afa72296e1c2fee71917a",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_080.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 81,
+    "bank": 20,
+    "direction_table": "657a",
+    "first_frame": "6626",
+    "palette_pointer": "04:4559",
+    "first_frame_sha256": "3a41352439139118c45f1574d1b52df6ea214bef219849f4e2193709fd375c55",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_081.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 82,
+    "bank": 20,
+    "direction_table": "66e6",
+    "first_frame": "66f4",
+    "palette_pointer": "04:4561",
+    "first_frame_sha256": "cf1acf574c57d414830ed34b65913ecc9597974d9c140640637d4c1e27960db0",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_082.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 83,
+    "bank": 20,
+    "direction_table": "6774",
+    "first_frame": "6782",
+    "palette_pointer": "04:4569",
+    "first_frame_sha256": "0da44749ebcdda9816fb3462e45e38cb61800bedb80fb975bf8ed65d77266591",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_083.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 84,
+    "bank": 20,
+    "direction_table": "6802",
+    "first_frame": "6810",
+    "palette_pointer": "04:4571",
+    "first_frame_sha256": "102d1b5ebdfe380fc508cabfe79174530f9e330db93beb307dffe3c9b588ba8d",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_084.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 85,
+    "bank": 20,
+    "direction_table": "6890",
+    "first_frame": "68be",
+    "palette_pointer": "04:4579",
+    "first_frame_sha256": "467278ea10b08f3624d5ada249e967da6699d4e8ada77993df7492e4e57ee77f",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_085.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 86,
+    "bank": 20,
+    "direction_table": "6afe",
+    "first_frame": "43a6",
+    "palette_pointer": "04:4579",
+    "first_frame_sha256": "6e7036b50a6529f614f4df0aadf3adee705d3068111e6a416c36158c12ea09ee",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_086.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 87,
+    "bank": 20,
+    "direction_table": "6b00",
+    "first_frame": "6b0e",
+    "palette_pointer": "04:4581",
+    "first_frame_sha256": "827045fc79892ecb3ee866595b3ef89e0a1b26fdf65e110a2571872b37b9b25e",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_087.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 88,
+    "bank": 20,
+    "direction_table": "6b8e",
+    "first_frame": "6bb0",
+    "palette_pointer": "04:4569",
+    "first_frame_sha256": "a6de49ddbc93f2edd87594c1f7cf41f08d5f5e69a00add8c18ea4ae472d7cffd",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_088.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 89,
+    "bank": 20,
+    "direction_table": "6d70",
+    "first_frame": "6d84",
+    "palette_pointer": "04:4589",
+    "first_frame_sha256": "12a41c55d978aad2940fadc1f4e2460004587895b1c82fe2319fc5a35ded9afb",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_089.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 90,
+    "bank": 20,
+    "direction_table": "6e04",
+    "first_frame": "6e3a",
+    "palette_pointer": "04:4591",
+    "first_frame_sha256": "1a673b6bc63b15f2278ea2e336617fef9e92c0b65b2854139e3355057359a4b4",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_090.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 91,
+    "bank": 20,
+    "direction_table": "70ba",
+    "first_frame": "70e8",
+    "palette_pointer": "04:4599",
+    "first_frame_sha256": "d0c7ebb49e28634b89f4d7d7bd187ab011111dfaf318fb9228de2bdcacccee17",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_091.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 92,
+    "bank": 20,
+    "direction_table": "7368",
+    "first_frame": "7384",
+    "palette_pointer": "04:45a1",
+    "first_frame_sha256": "6e6922051ba81e4b65d33c54741edd0c3d12e5aee791f650a9f1d7b3f015a3ab",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_092.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 93,
+    "bank": 20,
+    "direction_table": "7404",
+    "first_frame": "742a",
+    "palette_pointer": "04:45a9",
+    "first_frame_sha256": "c1c02764abe8c976a1d27881d0baa5931fc8ef36a104f8bd88263e7c67629c87",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_093.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 94,
+    "bank": 20,
+    "direction_table": "766a",
+    "first_frame": "769a",
+    "palette_pointer": "04:45b1",
+    "first_frame_sha256": "7e507a72ec8cfb9adba0ac51a1aeee46717fe70cde87c30a784a14b2f6490731",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_094.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 95,
+    "bank": 20,
+    "direction_table": "771a",
+    "first_frame": "7740",
+    "palette_pointer": "04:45b9",
+    "first_frame_sha256": "bc5743c309404c1faa1744738f45660f470e0355b518be3210a6ea4c954aaf03",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_095.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 96,
+    "bank": 20,
+    "direction_table": "77c0",
+    "first_frame": "77e6",
+    "palette_pointer": "04:45c1",
+    "first_frame_sha256": "72d7042509fb1928e8662ed92492ac9a908bae143cab7a16e5a5932641e5cf64",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_096.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 97,
+    "bank": 20,
+    "direction_table": "78e6",
+    "first_frame": "7914",
+    "palette_pointer": "04:45c9",
+    "first_frame_sha256": "716961cb74b603810393e94d23e0b2f8eddd41dc504a5bc7a2c6ab617a0ecf34",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_097.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 98,
+    "bank": 20,
+    "direction_table": "79d4",
+    "first_frame": "7a02",
+    "palette_pointer": "04:45d1",
+    "first_frame_sha256": "cc099faa7c78ffde7e7ec61da15d110019aeed5b1e2d3070c03ebfe7474f5e31",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_098.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 99,
+    "bank": 20,
+    "direction_table": "7ac2",
+    "first_frame": "7ae8",
+    "palette_pointer": "04:45d9",
+    "first_frame_sha256": "2a7fd5e2135e48d62937e851b88307315b134ea29da54f3f0e9b3c5d1864d96c",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_099.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 100,
+    "bank": 20,
+    "direction_table": "7be8",
+    "first_frame": "7bfa",
+    "palette_pointer": "04:45e1",
+    "first_frame_sha256": "0660adc30403b5929b67e98f70eb66098f45c7f3cffcdb352ba8d891fb924bb6",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_100.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 101,
+    "bank": 20,
+    "direction_table": "7c7a",
+    "first_frame": "7c8c",
+    "palette_pointer": "04:45e9",
+    "first_frame_sha256": "3d60b0d3ba34a1b8a75b46635bc2b50c03f6ee8a5370e3539e5f9b1897e3651d",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_101.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 102,
+    "bank": 20,
+    "direction_table": "7d0c",
+    "first_frame": "7d22",
+    "palette_pointer": "04:45a1",
+    "first_frame_sha256": "d60909c1ea5aa28ef3cfae670dee9b1813c5517cebd3887c0214b40f9c97fb0d",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_102.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 103,
+    "bank": 20,
+    "direction_table": "7de2",
+    "first_frame": "7df0",
+    "palette_pointer": "04:45f1",
+    "first_frame_sha256": "17e65e749fd56ae9abaa161af2e886e06567ae4ff78a62335cdcbd27c1a3ca97",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_103.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  },
+  {
+    "id": 104,
+    "bank": 12,
+    "direction_table": "51b0",
+    "first_frame": "51de",
+    "palette_pointer": "04:45f9",
+    "first_frame_sha256": "924408a2cac8b4929acd7db179530f1ded49fb47d41b3ec5d1d9e4e0a88af5c3",
+    "screenshot": "/workspace/shawu/m6-work/screens/actor_104.png",
+    "note": "animation resource ID, not necessarily one human identity"
+  }
+]

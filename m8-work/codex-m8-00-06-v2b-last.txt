@@ -1,0 +1,3 @@
+Installed the reviewed 00-06 v2 plate in the live runtime and confirmed its SHA-256 is `91125e14a469c162db6454acd0d573b812d9908ae8c1c45a90a26fb39676316a`. The provenance retains the full v1 record, and all 329 active freeze entries passed offline verification.
+
+[REQUEST_READY.md](/workspace/shawu/m8-work/REQUEST_READY.md) contains the locked outer-host commands for the 1,092-frame official temple doorway replay. [progress.md](/workspace/shawu/m8-work/progress.md) records each checkpoint. Browser verification remains pending with the supervisor.

@@ -1,0 +1,53 @@
+{
+  "baselineWeightedFPS": 59.731441837680336,
+  "candidateWeightedFPS": 59.74169717093578,
+  "allStateSHAEqual": true,
+  "results": [
+    {
+      "id": "00-12",
+      "baselineFPS": 59.73592188995747,
+      "candidateFPS": 59.76022543477899,
+      "baselineRenderP95Ms": 8.699999995529652,
+      "candidateRenderP95Ms": 10.599999994039536,
+      "baselineMaxDebtMs": 33.21278686523419,
+      "candidateMaxDebtMs": 164.08071899414062,
+      "stateSHAEqual": true,
+      "framebufferSHAEqual": true
+    },
+    {
+      "id": "00-17",
+      "baselineFPS": 59.73552363586961,
+      "candidateFPS": 59.74289219607877,
+      "baselineRenderP95Ms": 9.399999998509884,
+      "candidateRenderP95Ms": 9.900000005960464,
+      "baselineMaxDebtMs": 17.958740234375,
+      "candidateMaxDebtMs": 217.81603393554542,
+      "stateSHAEqual": true,
+      "framebufferSHAEqual": true
+    },
+    {
+      "id": "00-1b",
+      "baselineFPS": 59.722782308464765,
+      "candidateFPS": 59.73114319141335,
+      "baselineRenderP95Ms": 8.899999998509884,
+      "candidateRenderP95Ms": 4.200000002980232,
+      "baselineMaxDebtMs": 16.732733154291054,
+      "candidateMaxDebtMs": 16.74090576171875,
+      "stateSHAEqual": true,
+      "framebufferSHAEqual": true
+    },
+    {
+      "id": "00-0c",
+      "baselineFPS": 59.73154138709469,
+      "candidateFPS": 59.732536899510976,
+      "baselineRenderP95Ms": 10,
+      "candidateRenderP95Ms": 5.800000004470348,
+      "baselineMaxDebtMs": 16.722760009753983,
+      "candidateMaxDebtMs": 16.732733154291054,
+      "stateSHAEqual": true,
+      "framebufferSHAEqual": true
+    }
+  ],
+  "method": "exclusive true requestAnimationFrame; audit off; 60 warm-up native frames then 1792 measured native frames per map; identical input schedule based on native frame count; no video capture",
+  "WindowsTested": false
+}

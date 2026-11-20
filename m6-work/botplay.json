@@ -1,0 +1,578 @@
+[
+  {
+    "tag": "00_up",
+    "frame": 28,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "01_a",
+    "frame": 136,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "02_a",
+    "frame": 244,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "03_a",
+    "frame": 352,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "04_a",
+    "frame": 460,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "05_a",
+    "frame": 568,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "06_a",
+    "frame": 676,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "07_a",
+    "frame": 784,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "08_a",
+    "frame": 892,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "09_a",
+    "frame": 1000,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "10_a",
+    "frame": 1108,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "11_a",
+    "frame": 1216,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "12_a",
+    "frame": 1324,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "13_a",
+    "frame": 1432,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "14_a",
+    "frame": 1540,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "15_a",
+    "frame": 1648,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "16_a",
+    "frame": 1756,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "17_a",
+    "frame": 1864,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "18_a",
+    "frame": 1972,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "19_a",
+    "frame": 2080,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "20_a",
+    "frame": 2188,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "21_a",
+    "frame": 2296,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "22_a",
+    "frame": 2404,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "23_a",
+    "frame": 2512,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "24_a",
+    "frame": 2620,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "25_a",
+    "frame": 2728,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "26_a",
+    "frame": 2836,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "27_a",
+    "frame": 2944,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "28_a",
+    "frame": 3052,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "29_a",
+    "frame": 3160,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "30_a",
+    "frame": 3268,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "31_a",
+    "frame": 3376,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "32_a",
+    "frame": 3484,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "33_a",
+    "frame": 3592,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "34_a",
+    "frame": 3700,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "35_a",
+    "frame": 3808,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "36_a",
+    "frame": 3916,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "37_a",
+    "frame": 4024,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "38_a",
+    "frame": 4132,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "39_a",
+    "frame": 4240,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "40_a",
+    "frame": 4348,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "41_a",
+    "frame": 4456,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "42_a",
+    "frame": 4564,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "43_a",
+    "frame": 4672,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "44_a",
+    "frame": 4780,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "45_a",
+    "frame": 4888,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "46_a",
+    "frame": 4996,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "47_a",
+    "frame": 5104,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "48_a",
+    "frame": 5212,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "49_a",
+    "frame": 5320,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "50_a",
+    "frame": 5428,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "51_a",
+    "frame": 5536,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "52_a",
+    "frame": 5644,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "53_a",
+    "frame": 5752,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "54_a",
+    "frame": 5860,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "55_a",
+    "frame": 5968,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "56_a",
+    "frame": 6076,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "57_a",
+    "frame": 6184,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "58_a",
+    "frame": 6292,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "59_a",
+    "frame": 6400,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "60_a",
+    "frame": 6508,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "start",
+    "frame": 6606,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "select",
+    "frame": 6704,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  },
+  {
+    "tag": "b",
+    "frame": 6802,
+    "map": [
+      0,
+      7
+    ],
+    "worldstate": 0
+  }
+]

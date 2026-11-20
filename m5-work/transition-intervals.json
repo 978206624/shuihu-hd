@@ -1,0 +1,912 @@
+[
+  {
+    "start": 360,
+    "end": 362,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 720,
+    "end": 722,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 840,
+    "end": 842,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 1320,
+    "end": 1322,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 1680,
+    "end": 1682,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 2040,
+    "end": 2042,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 2520,
+    "end": 2522,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 3000,
+    "end": 3002,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 3240,
+    "end": 3242,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 3480,
+    "end": 3482,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 3600,
+    "end": 3602,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 3720,
+    "end": 3722,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 4320,
+    "end": 4322,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 4560,
+    "end": 4562,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 4920,
+    "end": 4922,
+    "scene": "interior",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 7801,
+    "end": 7802,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 7921,
+    "end": 7922,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 9001,
+    "end": 9003,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 9720,
+    "end": 9722,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 10080,
+    "end": 10083,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 10440,
+    "end": 10443,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 10800,
+    "end": 10803,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 11160,
+    "end": 11163,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 11400,
+    "end": 11402,
+    "scene": "palace",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 11881,
+    "end": 11882,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 12241,
+    "end": 12242,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 12481,
+    "end": 12482,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 12721,
+    "end": 12722,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 12841,
+    "end": 12842,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 13920,
+    "end": 13922,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 14040,
+    "end": 14042,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 14280,
+    "end": 14282,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 15120,
+    "end": 15122,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 15480,
+    "end": 15482,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 16080,
+    "end": 16082,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 16440,
+    "end": 16442,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 16680,
+    "end": 16682,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 17160,
+    "end": 17162,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 17400,
+    "end": 17402,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 17640,
+    "end": 17642,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 17880,
+    "end": 17882,
+    "scene": "disciples",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 18360,
+    "end": 18362,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 18480,
+    "end": 18483,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 19080,
+    "end": 19082,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 19320,
+    "end": 19322,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 19800,
+    "end": 19803,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 20040,
+    "end": 20042,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 20520,
+    "end": 20522,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 20640,
+    "end": 20643,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 21120,
+    "end": 21123,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 21360,
+    "end": 21363,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 21720,
+    "end": 21723,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 21960,
+    "end": 21962,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 22440,
+    "end": 22442,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 22680,
+    "end": 22683,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 4
+  },
+  {
+    "start": 23040,
+    "end": 23042,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 23401,
+    "end": 23402,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 24601,
+    "end": 24603,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 24721,
+    "end": 24723,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 25201,
+    "end": 25203,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 25681,
+    "end": 25683,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 25801,
+    "end": 25803,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 26161,
+    "end": 26163,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 26881,
+    "end": 26883,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 27241,
+    "end": 27242,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 27842,
+    "end": 27844,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 27961,
+    "end": 27962,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  },
+  {
+    "start": 28441,
+    "end": 28443,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 28801,
+    "end": 28803,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 3
+  },
+  {
+    "start": 28921,
+    "end": 28922,
+    "scene": "forest",
+    "kind": "native-ui-close-wipe",
+    "rect": {
+      "x": 0,
+      "y": 80,
+      "w": 160,
+      "h": 64
+    },
+    "frames": 2
+  }
+]

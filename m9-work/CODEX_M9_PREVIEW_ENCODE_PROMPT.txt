@@ -1,0 +1,27 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Work only under m9-work/scripts/ (and a short progress.md note). Do not modify m8-work/runtime/, frozen M8 trees, the ROM, the core, accepted plates, or the already-verified preview capture. If 38811 drops, STOP and report. Do not launch Playwright, the outer runner, QA, perf, contact, or a recapture.
+
+# Task
+Fix encode() in m9-work/scripts/region4-preview.cjs so the supervisor can encode the existing hash-verified raw capture. Do not recapture. Do not delete, rename, or rewrite any file under m9-work/results/m9-region4-20261118T161629954602087Z/preview/ (region4-raw.webm, capture.json, marker-frames.log, progress.json).
+
+# Failure
+Supervisor preview capture completed. All 7 official-start excerpts were recorded and official evidence hashes matched. encode() then exited 1:
+
+  AssertionError [ERR_ASSERTION]: Recording lacks final inactive marker
+  120.04 !== null
+  at encode (m9-work/scripts/region4-preview.cjs:146)
+
+Facts already measured from the existing marker-frames.log and capture.json (do not regenerate them):
+
+- raw SHA-256 082d8eb262abf828bede57007fc04a4df812dda3d3d501515042bd296371c730, duration 140.280s, 23616623 bytes
+- 7 clips, elapsedMs: 7668.1, 6842.5, 10055.7, 11083.6, 8764.6, 7755.4, 18914.1
+- White-marker parser found 6 closed cuts plus an open 7th starting at 120.04 still active at EOF (last pts_time 140.24, mean 235)
+- Even the 6 closed white intervals last 1.2–3.0s longer than clip.elapsedMs, so the current ±250ms check would fail after closing the last cut. Those tails are post-pause frozen frames from Playwright/WebM flush, not extra gameplay.
+
+# Required encode behavior
+- If the last marker interval is still active at EOF, close it at the last parsed pts_time.
+- Require exactly 7 cuts, one per official clip.
+- Published trim for each excerpt must keep native real-time timing: use the white-marker start and end at start + elapsedMs/1000, provided that window lies inside the white interval (allow a small timestamp-quantization slack). Do not include the frozen white tails. Do not speed up. Do not loosen 640×576, no-audio, or <25MB checks. Do not change capture().
+- Do not invent additional excerpts or rewrite official evidence.
+
+# Stop
+When the encode() fix is in region4-preview.cjs, append a short note to m9-work/progress.md and FINISH. The supervisor will re-run the same RUN_ID preview command so capture.json is reused at the encode/publish step.

@@ -1,0 +1,30 @@
+{
+  "file": "checkpoints/story19-00-2a.bin",
+  "sha256": "e43f73af9425aa7268caedca3c8779ce5f2ea447d892b0f43a0bf27e02501515",
+  "size": 199608,
+  "map": "00-2a",
+  "entry": 0,
+  "story": 19,
+  "DAA0": "0xe6",
+  "DAA1": "0x52",
+  "DAA2": "0x6",
+  "DAA3": "0x38",
+  "D284": 4,
+  "D285": 1,
+  "party": [
+    2,
+    23,
+    36
+  ],
+  "bank": 5,
+  "mode": 0,
+  "dialogue": 0,
+  "script": 0,
+  "facing": 1,
+  "cell": [
+    5.0,
+    8.0
+  ],
+  "note": "Region-5 native endpoint. Settled 00-2a e0 (5,8), facing up. STOP before row 4 (item 04 use is the next region). Mid-state exploration only until one official-start browser replay.",
+  "source": "m10-work/native/story19-to-00-2a/end.bin"
+}

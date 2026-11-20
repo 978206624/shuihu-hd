@@ -1,0 +1,5 @@
+[REQUEST_READY.md](/workspace/shawu/m8-work/REQUEST_READY.md) contains the exact supervisor command. It reuses `outer-20261118T062207Z`, skips completed QA, preserves all 20 validated performance samples, and measures only the 124 missing samples before recording, contact assembly, preview encoding, and summary. A simulated interruption verified that completed samples remain skippable after restart.
+
+The `undefined` label came from legacy renderer records with no `reason` field. The saved QA dumps confirm that the 80,982,729 pixels were already counted as uncertified native background. The offline recount corrected the label while preserving coverage at **69.72544680% for 00-05** and **81.22136888% for Region 3**.
+
+I updated [progress.md](/workspace/shawu/m8-work/progress.md) and archived the QA-era freeze before resealing the outer harness. The saved QA evidence, runtime, and art were preserved. Performance acceptance, contact, and preview remain pending the supervisor’s outer run.

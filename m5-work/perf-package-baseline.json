@@ -1,0 +1,133 @@
+{
+  "zipBytes": 13900694,
+  "members": 49,
+  "launcher": {
+    "bytes": 411,
+    "text": "@echo off\r\ncd /d \"%~dp0\"\r\necho 正在启动水浒神兽高清版...\r\nwhere py >nul 2>nul && (start \"\" http://127.0.0.1:8765 & py -3 -m http.server 8765 --bind 127.0.0.1 & goto :eof)\r\nwhere python >nul 2>nul && (start \"\" http://127.0.0.1:8765 & python -m http.server 8765 --bind 127.0.0.1 & goto :eof)\r\necho 没有找到 Python，请先从 https://www.python.org/downloads/ 安装 Python 3（安装时勾选 Add Python to PATH）。\r\npause\r\n"
+  },
+  "invariants": {
+    "assets/game.gbc": {
+      "bytes": 2097152,
+      "sha256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95"
+    },
+    "start.bat": {
+      "bytes": 411,
+      "sha256": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0"
+    },
+    "vendor/binjgb.js": {
+      "bytes": 13640,
+      "sha256": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09"
+    },
+    "vendor/binjgb.wasm": {
+      "bytes": 88269,
+      "sha256": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b"
+    }
+  },
+  "largestImages": [
+    {
+      "path": "assets/maps/dialogue_hd.png",
+      "width": 1983,
+      "height": 793,
+      "decodedMB": 6.0,
+      "compressedBytes": 1092208
+    },
+    {
+      "path": "assets/maps/impact_hd.png",
+      "width": 1254,
+      "height": 1254,
+      "decodedMB": 6.0,
+      "compressedBytes": 802314
+    },
+    {
+      "path": "assets/maps/impact_late_hd.png",
+      "width": 1322,
+      "height": 1190,
+      "decodedMB": 6.0,
+      "compressedBytes": 594042
+    },
+    {
+      "path": "assets/maps/intertitle_hd.png",
+      "width": 1322,
+      "height": 1190,
+      "decodedMB": 6.0,
+      "compressedBytes": 299830
+    },
+    {
+      "path": "assets/title_clear_hd.png",
+      "width": 1322,
+      "height": 1190,
+      "decodedMB": 6.0,
+      "compressedBytes": 2360295
+    },
+    {
+      "path": "assets/title_hd.png",
+      "width": 1322,
+      "height": 1190,
+      "decodedMB": 6.0,
+      "compressedBytes": 3077557
+    },
+    {
+      "path": "assets/maps/cliff_hd.png",
+      "width": 1024,
+      "height": 1024,
+      "decodedMB": 4.0,
+      "compressedBytes": 669746
+    },
+    {
+      "path": "assets/maps/palace_hd.png",
+      "width": 1024,
+      "height": 1024,
+      "decodedMB": 4.0,
+      "compressedBytes": 793941
+    },
+    {
+      "path": "assets/maps/card_heaven.png",
+      "width": 640,
+      "height": 576,
+      "decodedMB": 1.41,
+      "compressedBytes": 9886
+    },
+    {
+      "path": "assets/maps/card_year.png",
+      "width": 640,
+      "height": 576,
+      "decodedMB": 1.41,
+      "compressedBytes": 14614
+    },
+    {
+      "path": "assets/maps/cliff_reference.png",
+      "width": 512,
+      "height": 512,
+      "decodedMB": 1.0,
+      "compressedBytes": 8116
+    },
+    {
+      "path": "assets/maps/forest_reference.png",
+      "width": 512,
+      "height": 512,
+      "decodedMB": 1.0,
+      "compressedBytes": 12080
+    },
+    {
+      "path": "assets/maps/palace_reference.png",
+      "width": 512,
+      "height": 512,
+      "decodedMB": 1.0,
+      "compressedBytes": 9129
+    },
+    {
+      "path": "assets/maps/town_reference.png",
+      "width": 512,
+      "height": 512,
+      "decodedMB": 1.0,
+      "compressedBytes": 11230
+    },
+    {
+      "path": "assets/forest/atlas_hd.png",
+      "width": 512,
+      "height": 192,
+      "decodedMB": 0.38,
+      "compressedBytes": 219444
+    }
+  ]
+}

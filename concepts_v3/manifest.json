@@ -1,0 +1,35 @@
+[
+  {
+    "scene": "title",
+    "original": "/workspace/shawu/shots/menu.png",
+    "concept": "/workspace/shawu/concepts_v3/title_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v3_title.png",
+    "verified_count": "1 unnamed golden beast; 0 humans"
+  },
+  {
+    "scene": "cliff",
+    "original": "/workspace/shawu/shots/advance_48.png",
+    "concept": "/workspace/shawu/concepts_v3/cliff_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v3_cliff.png",
+    "verified_count": "1 unnamed adult pregnant wife"
+  },
+  {
+    "scene": "palace",
+    "original": "/workspace/shawu/shots/advance_64.png",
+    "concept": "/workspace/shawu/concepts_v3/palace_hd.jpg",
+    "concept_pixels": [
+      1072,
+      960
+    ],
+    "comparison": "/workspace/shawu/shots/compare_v3_palace.png",
+    "verified_count": "2 people: Jade Emperor + Heavenly Soldier"
+  }
+]

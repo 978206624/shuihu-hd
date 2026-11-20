@@ -1,0 +1,92 @@
+{
+  "source": "/workspace/shawu/m7-work/play/start-region2.bin",
+  "actions": [
+    [
+      null,
+      1,
+      0,
+      "start"
+    ]
+  ],
+  "snaps": [
+    {
+      "frames": 2,
+      "ticks": 5403699080,
+      "pc": 672,
+      "paused": true,
+      "hd": true,
+      "held": [],
+      "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+      "renderer": {
+        "coverage": {
+          "eligibleBackgroundPixels": 22716,
+          "gptBackgroundPixels": 22716,
+          "uncoveredBackgroundPixels": 0,
+          "observerValid": true,
+          "gap": false,
+          "dialogueFrameCovered": true
+        },
+        "scene": "region1-00-0f",
+        "mapResult": {
+          "scene": "region1-00-0f",
+          "mapId": "00-0f",
+          "mapName": "史进家",
+          "worldCamera": [
+            32,
+            32
+          ],
+          "cameraEvidence": "continuous-camera+native-geometry",
+          "matchedCells": 360,
+          "visibleCells": 360,
+          "preservedPixels": 324,
+          "backgroundPixels": 22716,
+          "eligiblePixels": 22716,
+          "unsupportedPixels": 0,
+          "uncoveredTiles": [],
+          "rasterMismatchPixels": 0,
+          "rasterRecoveredPixels": 0,
+          "dialogueRects": [],
+          "dialogueBorderPixels": 0,
+          "dialogueBorderCoveredPixels": 0,
+          "dialogueFrameCovered": true,
+          "fullMapDimensions": [
+            192,
+            192
+          ]
+        },
+        "titleRedrawn": false,
+        "titleSelection": null,
+        "knownBackgroundCells": 360,
+        "forestTilesRedrawn": 360,
+        "forestAtlasAvailable": true,
+        "fallback": "nearest-original-gap",
+        "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+      },
+      "scroll": [
+        32,
+        0
+      ],
+      "map": [
+        0,
+        15
+      ],
+      "player": [
+        96,
+        40,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ],
+      "camera": [
+        0,
+        1,
+        6,
+        6
+      ]
+    }
+  ],
+  "errors": []
+}

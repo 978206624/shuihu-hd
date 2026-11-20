@@ -1,0 +1,40 @@
+{
+  "naturalStoryGateReached": true,
+  "officialBrowserInvariantAcceptance": false,
+  "frames": 26711,
+  "actions": 281,
+  "endSHA256": "2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2",
+  "endNativeFramebufferSHA256": "ce06261c1ba705d38c82bab68c7e22f2ee1b3a465d841ae40c150c9e14efc410",
+  "sameStateAsSegmentedEnd": false,
+  "checkpointMatches": {
+    "stateSHA256": 101,
+    "nativeFramebufferSHA256": 281,
+    "ticks": 281,
+    "map": 281,
+    "story": 281,
+    "bank": 281,
+    "player": 281,
+    "scroll": 281
+  },
+  "finalSerializationByteDifferences": [
+    {
+      "offset": 181192,
+      "segmented": 40,
+      "continuous": 36
+    },
+    {
+      "offset": 181193,
+      "segmented": 76,
+      "continuous": 232
+    },
+    {
+      "offset": 198376,
+      "segmented": 48,
+      "continuous": 102
+    }
+  ],
+  "note": "载档分段链与不载档复走有序列化差异，原因未归因；不改save/core以消除差异。正式候选/基线必须使用相同字节起点与相同输入重新比较，不以本项替代。",
+  "source": "frozen-starts/story11-letter-delivered.bin",
+  "output": "play/continuous-region3-story11-to12-v1/latest.bin",
+  "story": 12
+}

@@ -1,0 +1,11 @@
+Create the north strip of one painted HD 2D JRPG background plate for map 00-2e in the approved V4 style.
+
+Image 1 is the character-free ROM crop at x [0, 480) and y [0, 256) within the 480×480 native map at exact 4× nearest-neighbor. Its native size is 480×256. Paint the entire rectangle at 1920×1024. Retain its exact aspect ratio, extent, axes, framing and aligned overhead orthographic view. Keep every edge flush with the provided rectangle.
+
+Image 2 supplies V4 brushwork, lighting and material texture only. Use crisp, deliberate painted detail and retain the original map's palette identities. Take the layout, fixtures and marks exclusively from image 1. Paint the complete rectangle with original brushwork.
+
+Lock the original count, positions, sizes and exact footprints of all walls, doors, paths, openings, furnishings, plants, floor features and terrain edges in image 1. Keep walkable routes and obstacles where they are. Keep pure black voids and their exact boundaries. Keep the upper east–west passage, its west bend, the pair of upper-right bays divided by wood, the long railing below them and the narrow middle branches around the black recesses. Keep the rough gray corridor floors, blue-gray masonry, torches and woodwork within the crop at their exact footprints. Continue the exact material scale and colors through the shared 32 native rows (map y [224, 256)). Keep the full-width overlap and match corridor edges, masonry and black voids up to the crop boundary.
+
+BACKGROUND GLYPHS ARE LOCKED. Copy every visible background glyph or glyph-like mark from image 1, including its strokes, colors, scale, spacing, count, order and position. Keep the small marks in the masonry, railings and floor as drawn. Add no text.
+
+ZERO characters, people, monsters, animals, portraits, sprites, silhouettes, character shadows, UI, dialogue, speech bubbles, watermarks or overlay text. Fixed fixtures and statues drawn into the native background stay in place. Layout and background glyph fidelity take priority over decoration.

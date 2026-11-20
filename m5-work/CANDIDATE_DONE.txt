@@ -1,0 +1,38 @@
+CANDIDATE COMPLETE — CONSERVATIVE UI-ONLY FIX
+
+Sole runtime source to apply after coordinator review:
+  m5-work/candidate-runtime/map-renderer.js
+SHA256: 83fd3cac8d1dbda6877189642f0e309e5f915d6a90eac119773eb0384dd94326
+Production web and frozen-sha256.json were not modified during candidate work.
+Candidate app.js, observer.js and renderer.js are byte-identical to frozen web.
+
+Kept change:
+Cache certified UI attrs/tiles. Recognize an actual close when unchanged native UI tile IDs receive the underlying native map attributes across at least half the top border. Existing native mismatch/lifecycle gates still apply. Measure wipe progress from displayed native UI changes and scene restoration. The same top-to-bottom HD wipe remains restricted to its certified UI rectangle, preserves current native OAM afterward, and ends at coherent native UI/no-UI conditions. No replay frame IDs or timers. Obsolete UI text/portrait may participate in the approved lifecycle wipe; exact RGB is claimed only for current actors everywhere and text outside transitions.
+
+Removed/rejected:
+Entire current-decoded-row palette recovery block (failed current-native preservation at 2082). No eq predicate change. No runtime diagnostic hooks. No actorMask or denominator changes. No ROM/core/vendor/state/art edits. No sprite synthesis/redraw or smoothing.
+
+Validation:
+  node --check m5-work/candidate-runtime/map-renderer.js — PASS
+  node --check m5-work/candidate-ui-test.cjs — PASS
+  node m5-work/candidate-ui-test.cjs — PASS
+Original UI transition test adapted only to load candidate-runtime, add 721/4920 lifecycle windows, and accept the observed lifecycle at 360. Assertions remain strict: every 4x4 current actorMask block equals native RGB everywhere; native text outside approved UI transition rectangles remains exact; all changed transition pixels come from certified HD UI/scene or current native foreground; outside-UI output remains unchanged; skip/backward-reset/repeated-frame resync checks pass. No historic-object scalar color coincidence is used as proof of an actor regression or to relax these invariants.
+Evidence: candidate-ui-results.json and candidate-ui-test.log.
+
+Targeted results (frame: eligible / GPT / gaps; changed actor/nontransition-text channels):
+361: 13940 / 13940 / 0; changed=0; wipe=0.103809
+362: 18211 / 18211 / 0; changed=0; wipe=0.374902
+720: 12522 / 12522 / 0; changed=0; wipe=0.000000
+721: 13441 / 13441 / 0; changed=0; wipe=0.050586
+722: 16501 / 16501 / 0; changed=0; wipe=0.252539
+4920: 12439 / 12439 / 0; changed=0; wipe=0.032227
+4921: 13145 / 13145 / 0; changed=0; wipe=0.073340
+4922: 16535 / 16535 / 0; changed=0; wipe=0.288086
+18360: 12681 / 12681 / 0; changed=0; wipe=0.020591
+18361: 16730 / 16730 / 0; changed=0; wipe=0.414355
+18362: 21751 / 21751 / 0; changed=0; wipe=0.888770
+
+Limitations / intentionally retained:
+Cliff 5486=3360, 5489=26, 5495=56 frozen-baseline gaps remain; rejected row recovery is not delivered. Tiny gameplay/OAM temporal residuals (e.g. 2076=4, 2085=1, 2159=2, 2181=3, 5000=26, 5220=6 in baseline) remain conservatively counted; no expanded masks or changed denominators. No claim of solving all 516 gap frames. Additional historic-object diagnostics are unclaimed and are not a basis for widening native masks.
+
+Coordinator-supplied completed frozen baseline: 29160/29160 frames; 28644 fully HD (98.2304527%); 471659836/471723583 pixels (99.9864864%); 243 state/pixel/actor comparisons passed; 516 conservative gap frames. Those are baseline metrics, not candidate-wide metrics. No candidate full replay, browser launch or packaging performed. Coordinator handles reviewed application and formal Chromium validation.

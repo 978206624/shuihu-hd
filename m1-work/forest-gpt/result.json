@@ -1,0 +1,21 @@
+{
+  "scene": "forest_atlas",
+  "ok": false,
+  "summary": {
+    "ok": false,
+    "status": 408,
+    "elapsed": 61.94,
+    "nbytes": 115,
+    "error": null,
+    "body_keys": [
+      "error"
+    ],
+    "error_body": {
+      "code": "request_body_timeout",
+      "message": "Timed out reading image upload",
+      "type": "invalid_request_error"
+    }
+  },
+  "tag": "m1",
+  "error": "{\"code\": \"request_body_timeout\", \"message\": \"Timed out reading image upload\", \"type\": \"invalid_request_error\"}"
+}

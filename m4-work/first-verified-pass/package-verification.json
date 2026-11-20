@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "environment": "Linux headless Chromium; not real Windows execution",
+  "source": "clean extraction of shuihu-hd-m4-windows.zip",
+  "network": "all non-localhost requests blocked; no external requests attempted",
+  "requests": 27,
+  "originalStateAtFrame360Matches": true,
+  "loadedScene": "interior",
+  "gptBackgroundPixels": 12522,
+  "errors": [],
+  "outbound": [],
+  "failed": []
+}

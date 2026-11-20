@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "out": "m8-work/art/00-04_gpt.png",
+  "model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1280",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": 200,
+      "elapsed": 194.9,
+      "error": null
+    }
+  ]
+}

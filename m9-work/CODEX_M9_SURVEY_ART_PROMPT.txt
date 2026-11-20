@@ -1,0 +1,35 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any prior session. Read context FROM FILES. Keep this session compact and checkpoint often.
+
+# Task
+Region 3 (M8 / 东溪村) is accepted and closed. Live accepted runtime is m8-work/runtime/ (includes the reviewed 00-06 v2 plate). Do NOT modify m8-work/runtime/, m8-work/scripts/, m8-work/freeze-sha256.json, m8-work/art/ (except reading), or any completed m8 result directories.
+
+Start Stage C / M9 / region 4 in game order: from story12 吴用会合, proceed to 黄泥岗客栈设伏 (disguise as 掌柜/小二 and ambush the 生辰纲 convoy) and stop at the next major story gate after that episode. Do not begin later chapters.
+
+HTTP 8765 already serves /workspace/shawu; keep it. If 38811 drops, STOP and report; do not repair auth/routes or read credentials. Sandbox EPERM for host sockets/network is known: do not retry network inside the sandbox; write exact outer commands and REQUEST_READY.md instead.
+
+# This session only: natural scope + character-free art inputs
+1. Work only under m9-work/. Put helper/launch scripts in m9-work/outer-runs/ or m9-work/scripts/, never in m8-work/scripts/ or any other frozen inventory. Append m9-work/progress.md after each step with America/New_York (or zoned ISO) timestamps.
+
+2. Establish actual map scope from original dialogue and natural doorway/story evidence, starting at the frozen official save m8-work/frozen-starts/story12-meeting-end.bin. No RAM/map/story/PC edits, teleport, or fabricated progression. Observation of read-only game RAM is allowed. Reuse patterns from m8-work/scripts/native-play*.cjs and survey-village.py, but copy/adapt into m9-work rather than editing the frozen m8 copies. Preserve starting saves, action/frame logs, isolated search attempts, accepted natural chain, and story/dialogue screenshots under m9-work/.
+
+   Prior notes (hints only, not a claim): M7 called 00-1f..23 the 黄泥岗 forest maze; M8 exclusions said the next task is 黄泥岗 00-1f..23 and the inn (客栈), which was not entered. Confirm or correct this only with natural evidence. Do not include maps that were not naturally entered (M8 already excluded 00-0b and 00-35 from region 3). End the scope at the next major story gate after the inn ambush episode; disclose what was not entered.
+
+   If the browser cannot run in the sandbox, write exact supervisor outer-play commands in REQUEST_READY.md, checkpoint, and FINISH this turn. Do not hang on reconnects or socket retries.
+
+3. After the scope is evidenced, write m9-work/region4-scope.json (maps, native sizes, geometry hashes, natural-replay paths, exclusions, nextStoryGate, identificationEvidence). Prepare ROM-only character-free full-map native references and 4x nearest-neighbor geometry inputs (input only; never an HD background or gap fill), plus per-map prompts and a batch manifest. Follow the method in m8-work/scripts/prepare-art.py (ROM SHA must remain ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95) but implement a NEW script under m9-work/. Reuse existing V4 style refs (copy bytes into m9-work/art/): town_style.png, room_style.png, forest_style.png from m8-work/art/.
+
+4. Prompt rules for every plate (critical, from the 00-06 lesson):
+   - Full-map GPT style-transfer plates in approved V4 brushwork, not tilesets, not an upscaled/smoothed fallback.
+   - Lock original aligned overhead geometry; exact identity, count, and footprints of buildings, doors, roads, furniture, trees, walls, floors.
+   - ZERO characters, monsters, portraits, sprites, silhouettes, UI, dialogue, watermarks.
+   - ANY original background writing must be preserved faithfully: shop/inn signboards, plaques, banners, notices, stone inscriptions, labels. Same characters, stroke shapes, count, color and positions as the native reference. Do NOT turn writing into floral ornaments or blank decorative panels. If a glyph is slightly ambiguous in the 8-bit source, keep the visible stroke structure; do not invent a different character and do not erase it.
+   - Quality medium, model gpt-image-2. Requested size should follow the M8 prepare-art scale rule (native 4x, or 5x only when the 4x area is below the historical threshold).
+
+5. Do NOT generate images and do NOT integrate into a runtime in this session. The supervisor will run GPT via:
+     GPT_IMAGE_ENV=/home/box/.config/gpt-image/api.env \
+     /home/box/opt/gpt-image/gpt_image.py edit --prompt-file <prompt> -i <native_4x> -i <style> -o m9-work/art/<id>_gpt.png --quality medium --size <requested> --model gpt-image-2 --retries 5 --deadline 620
+   Never read or print the API key. Write exact nohup/outer commands (independent plates may be batched; skip any already-successful output; redacted logs only) into m9-work/REQUEST_READY.md.
+
+6. Write REQUEST_READY.md and FINISH so the supervisor can run GPT (or, if scope play is still blocked, so the supervisor can run the play commands first). Do not label art or QA passed. Do not start the outer browser or GPT yourself.
+
+ROM/core/JS gameplay stay untouched. No smoothing/upscale fallback. No denominator/mask changes.

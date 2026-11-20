@@ -1,0 +1,16 @@
+{
+  "map": "00-2b",
+  "entry": 0,
+  "story": 12,
+  "dialogue": 1,
+  "mode": 0,
+  "bank": 33,
+  "cell": null,
+  "facing": null,
+  "arrivalBanner": 0,
+  "scriptRunning": 1,
+  "DAA1": "b2",
+  "DAA2": "0",
+  "nextActionIndex": 212,
+  "image": "m9-work/play/m9-huangnigang-s01-front-p02/action-0211.png"
+}

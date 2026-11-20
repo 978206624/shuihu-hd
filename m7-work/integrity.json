@@ -1,0 +1,451 @@
+{
+  "allExistingRuntimeFilesUnchanged": true,
+  "protected": [
+    {
+      "file": "README_zh.md",
+      "exists": true,
+      "same": true,
+      "sha256": "99ed20d86edbfaa33bc46426d07de1e6fa26a92f02d67091eac5ff3f5bcd29ed"
+    },
+    {
+      "file": "app.js",
+      "exists": true,
+      "same": true,
+      "sha256": "76496b161b1d857a4caaff2b46851a0104b469304a6f55f7315263ea3bbcfcbe"
+    },
+    {
+      "file": "asset-loader.js",
+      "exists": true,
+      "same": true,
+      "sha256": "f0c6c11a9055145a21430e82100f9abd2566729ed71958c3f41b90dc8b9bd84f"
+    },
+    {
+      "file": "assets/forest/atlas_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "d88561d83696923c821f6ae056e946b21853698920d19fc12308a4c0007c45b6"
+    },
+    {
+      "file": "assets/forest/mapping.json",
+      "exists": true,
+      "same": true,
+      "sha256": "8d4e1267d534f0537cf11b45af65809fb4a90eb5f6301923e98eff02c5445e13"
+    },
+    {
+      "file": "assets/forest/provenance.json",
+      "exists": true,
+      "same": true,
+      "sha256": "9894ebe787a849d8f983b314f42e89908e30aadb8e9403a545fe98c58f3dda0e"
+    },
+    {
+      "file": "assets/game.gbc",
+      "exists": true,
+      "same": true,
+      "sha256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95"
+    },
+    {
+      "file": "assets/maps/card_heaven.png",
+      "exists": true,
+      "same": true,
+      "sha256": "a9918e03a875dacba4acfc2f3324829ecbf4ea5084304154311bb4afa747303a"
+    },
+    {
+      "file": "assets/maps/card_year.png",
+      "exists": true,
+      "same": true,
+      "sha256": "c407b31c889f8c2c49a9d8d0260a52d6dc3d72f4cb59692b55d92ad83c58ae70"
+    },
+    {
+      "file": "assets/maps/cards_m4.json",
+      "exists": true,
+      "same": true,
+      "sha256": "88e4a915779be359ca12726e4b50b9fd936afdad24b847623b16cb574df2a1cd"
+    },
+    {
+      "file": "assets/maps/cliff_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "87ffa4729663f7fa86a6cf0e7c83a37e2495885111929fbd991142645c7afdd7"
+    },
+    {
+      "file": "assets/maps/cliff_reference.png",
+      "exists": true,
+      "same": true,
+      "sha256": "31af8c1bd4000e259892704b60553eca649872df006ae44fe9c68f8652f25a41"
+    },
+    {
+      "file": "assets/maps/dialogue_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "45f8baa496551ac2853d6ce92e7feb139cac51e471992234dd6065736539be08"
+    },
+    {
+      "file": "assets/maps/disciples_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "47f2072c39b09146316165688a07ff2201a57daa1371915c2d59a5527bf219ce"
+    },
+    {
+      "file": "assets/maps/forest_animation.json",
+      "exists": true,
+      "same": true,
+      "sha256": "554fdc23004722c0b860a38d8cf393e8ca9a668e04a67436e8de47b43b39fecc"
+    },
+    {
+      "file": "assets/maps/forest_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "344fcbc34a85b75d620baf81e480a1801af92a53b84fc2fbf1278aff7a067149"
+    },
+    {
+      "file": "assets/maps/forest_reference.png",
+      "exists": true,
+      "same": true,
+      "sha256": "8cc70e246495ac7810f10699e3bb4cc65cf8283018236357fb1094f5a4b10e83"
+    },
+    {
+      "file": "assets/maps/forest_structure.json",
+      "exists": true,
+      "same": true,
+      "sha256": "6eee102125bcffc704b3da7fe300fe2cb7a903bed52723609814d55e9fe9bd0c"
+    },
+    {
+      "file": "assets/maps/impact_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "3709b34764e84b220015f15c9ef9d55d6773ed18f9f633d7d6f30e6b60c692b7"
+    },
+    {
+      "file": "assets/maps/impact_keys.json",
+      "exists": true,
+      "same": true,
+      "sha256": "afd3b3b664efc27e1a0ab185c8e3851a73279dc2a7bd4b69c083bf51f30e5521"
+    },
+    {
+      "file": "assets/maps/impact_late_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "4468ea3a85ba76b2fe1dac45780642e51ad6a85fb60a4bf782fedc7a143f4bb9"
+    },
+    {
+      "file": "assets/maps/interior_structure.json",
+      "exists": true,
+      "same": true,
+      "sha256": "77afdf0aa2fc70e274ab71e1d2d3b2f7fdd6d07eae4e3d0a0aadc6f3eec898d9"
+    },
+    {
+      "file": "assets/maps/intertitle_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "1a8fdd4433fd98aacd62647a5ba9ae6fa1944b33b42f72f583cb4121516ebbd3"
+    },
+    {
+      "file": "assets/maps/m3_signatures.json",
+      "exists": true,
+      "same": true,
+      "sha256": "521d991624c2dfd3607a0a5b535caff9b3753ec983544089c7dde86b44f1e2f3"
+    },
+    {
+      "file": "assets/maps/palace_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "bcc108e073bf41fd35d6083742ba7cfb0d02739b26d03e73373b91cb45105393"
+    },
+    {
+      "file": "assets/maps/palace_pan_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "6007005168b9e8a4cf61b723309a660201e4ae3ad9128aca84c52753f560b890"
+    },
+    {
+      "file": "assets/maps/palace_reference.png",
+      "exists": true,
+      "same": true,
+      "sha256": "7a38a6635bc0c04f5fcf0e958dac471f25d70cca02b39a2ccaf7b30226a89976"
+    },
+    {
+      "file": "assets/maps/provenance.json",
+      "exists": true,
+      "same": true,
+      "sha256": "a2ec59e3ff214ffe91f6a5bedbc80336ad5e33af5d83deaf14bee4aeed09462c"
+    },
+    {
+      "file": "assets/maps/provenance_m3.json",
+      "exists": true,
+      "same": true,
+      "sha256": "39366612dcb5f78175c8e78823681740c478b1ebefe524d2449feae4d4d99c89"
+    },
+    {
+      "file": "assets/maps/provenance_m4.json",
+      "exists": true,
+      "same": true,
+      "sha256": "ba80e431b827fe078380d65b36c539ba37d391cea93db9083a0673628fb79682"
+    },
+    {
+      "file": "assets/maps/provenance_m5.json",
+      "exists": true,
+      "same": true,
+      "sha256": "7421a0bdad8b95dc2dfee289475c329b19b1dfaefaad05e2fc20bf4170fb53e7"
+    },
+    {
+      "file": "assets/maps/town_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "f165111e28c559309a6d012e8b5520b0fe08a9257a237631b3229982388feb47"
+    },
+    {
+      "file": "assets/maps/town_reference.png",
+      "exists": true,
+      "same": true,
+      "sha256": "0f0a6b1f16545993fb508e49e4e28b90cbb729830bc8e5b34dee85da89c1b9d7"
+    },
+    {
+      "file": "assets/provenance.json",
+      "exists": true,
+      "same": true,
+      "sha256": "a33004155cb99114f8a1c513db614dd56983ab1a733bcb813552351f507ce318"
+    },
+    {
+      "file": "assets/region1/00-07_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "41501732ba9a604d205aa719fc12043b77b6d2ad15763bd5a8762cebd3681738"
+    },
+    {
+      "file": "assets/region1/00-08_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "b397901c71a18fa13bb5fc490f066da7dd03ab9208c8e9ed88c9567adc5982c4"
+    },
+    {
+      "file": "assets/region1/00-0c_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "9b38e3f401b9585cb985b03b09221541cb02ea11f6053172f8e522ff42da7fc0"
+    },
+    {
+      "file": "assets/region1/00-0d_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "6ebb7d0c6343ddb4f3de973ee38d5dc6a0f7400714db3a6d85465a2abbd5c029"
+    },
+    {
+      "file": "assets/region1/00-0e_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "2ca6044a96bf8ee4037ebb48baf1f572cd4f86d1c3f9b111205dccacf5da7594"
+    },
+    {
+      "file": "assets/region1/00-0f_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "f9a54008e427e76f621d4d200e057bc5709a00407e25dba7b014ca98385c1ae1"
+    },
+    {
+      "file": "assets/region1/00-10_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "da6c4b709363f66fffae3863225adbe41a538b9444bff1b4406d391c94c25a9b"
+    },
+    {
+      "file": "assets/region1/00-11_hd.webp",
+      "exists": true,
+      "same": true,
+      "sha256": "582890f9f0019d5cbfb63ceafd7016b2c743db53ed285cdb2a5dfa94f328ea76"
+    },
+    {
+      "file": "assets/signatures.json",
+      "exists": true,
+      "same": true,
+      "sha256": "87f060bb212ee65d3e3434aed65bfde66c566fcc4e354bcaef00da182892cb13"
+    },
+    {
+      "file": "assets/title_clear_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "3598a2bd6c1dd36e33b196e4caadac40f7d193bb9ec54eda3855af7179c59327"
+    },
+    {
+      "file": "assets/title_hd.png",
+      "exists": true,
+      "same": true,
+      "sha256": "232606e233e9cb0b3bd763b5ac61c58f00126cef6f43a6c781f371fc63cbf3ed"
+    },
+    {
+      "file": "assets/title_native.json",
+      "exists": true,
+      "same": true,
+      "sha256": "8b8d5201ae4f87434907522be06049190a6fe0866cd5d5da2b3b2b7cc7df3330"
+    },
+    {
+      "file": "index.html",
+      "exists": true,
+      "same": true,
+      "sha256": "83a93df79b2bd337244b7c1ad0df514bb2c0a3760b7496a0c5e6055fe09ab4a9"
+    },
+    {
+      "file": "invariants-spike.json",
+      "exists": true,
+      "same": true,
+      "sha256": "62af0692b5f23b72979ba1fa8b37bbd2ebca6f6940949da0805dfbb634babe5a"
+    },
+    {
+      "file": "map-renderer.js",
+      "exists": true,
+      "same": true,
+      "sha256": "13341d51abee9a50d564687ab031587d75ebbfeb9f5e318c998d554194113210"
+    },
+    {
+      "file": "native-contract-spike.json",
+      "exists": true,
+      "same": true,
+      "sha256": "43c2343d3690e4d039af69fd22f168303be6bcf5da3963e77084fe113a2c589a"
+    },
+    {
+      "file": "observer.js",
+      "exists": true,
+      "same": true,
+      "sha256": "498166e4520bc8d3c8fb98773ca9ce903c8a210a8cd99421f35a6805b0780585"
+    },
+    {
+      "file": "region-renderer.js",
+      "exists": true,
+      "same": true,
+      "sha256": "88f4f3722e9eff3306698afbd592a800be2cdd5a62aa287c94bc5abe38c76cde"
+    },
+    {
+      "file": "renderer.js",
+      "exists": true,
+      "same": true,
+      "sha256": "66d208e8c6bdc421389e44e090086ecf1a6694f3b2f9534b8adb065f53b33583"
+    },
+    {
+      "file": "start.bat",
+      "exists": true,
+      "same": true,
+      "sha256": "4fbb4ebc12ef02f300698e451fac229637b0f4b9cf3692779d3046551a7c1bf0"
+    },
+    {
+      "file": "start.sh",
+      "exists": true,
+      "same": true,
+      "sha256": "5db1e4558b1440c3e20b8dd3b2f5bd960ea59ce06979e0a9036d9e84ac92a095"
+    },
+    {
+      "file": "style.css",
+      "exists": true,
+      "same": true,
+      "sha256": "2ff884e6ad41014fab3ff3e2ea99e0a9827b4f60ed8fd62167d61f4178cb8542"
+    },
+    {
+      "file": "tools/browser-server.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "9d7bb3be611c73150d27e50823f34cbe02d94b5e90669f272ca56b6d73a4aef7"
+    },
+    {
+      "file": "tools/coverage-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "8e875d532cab63f08d52c6281ababbd317664d8dc42f7df7a717d40e54a2aad5"
+    },
+    {
+      "file": "tools/diagnostics-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "0ddbcd2b54b1ca6ca09cec1c1ec9fa63c51317903846c2ba6001d74ba1848ec3"
+    },
+    {
+      "file": "tools/dialogue-spike-unit.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "ceebb39a8b6b3b6b8cc808dad02dd0d7ccb5308713e6c3d55daaa9b73f58317e"
+    },
+    {
+      "file": "tools/invariants-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "6e489d2097e430f8438f7665fc5e1ce9a24522926f95fce7bfcd2ed3efa353fa"
+    },
+    {
+      "file": "tools/m52-unit.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "db1543c2115dff60b49d13fe1b61c4131f3a3ee672c8814f8a22d5de470fc059"
+    },
+    {
+      "file": "tools/native-contract-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "3c5c19cc9acf2f8d0f09982acca1a63a1a2db532680aa4bcc2d3a11a301e0d57"
+    },
+    {
+      "file": "tools/peak-profile-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "7359b6f0fcd9a2b87ffae208b467ee53822edee9d5fe5fda03d826fffc25b0c7"
+    },
+    {
+      "file": "tools/pixel-source-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "88d730e2e1287c66a7601171bcb21c4200e7efc73aa50d55506af40f6c12b0d7"
+    },
+    {
+      "file": "tools/realtime-light-record.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "2c939c04d1981b3dd78de3c14205bbbcd9fdb0f53514c3ee726cc393539d6f9d"
+    },
+    {
+      "file": "tools/realtime-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "d2d481e1950362e1b48db5c1be4cc17cdacf6097ea188fc658b2c4f21e9929ac"
+    },
+    {
+      "file": "tools/summarize-trace-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "f0175ec1e55d869786c85d8ee634b679b948f7d03344aa656d95c176c4f15e18"
+    },
+    {
+      "file": "tools/visual-m52.cjs",
+      "exists": true,
+      "same": true,
+      "sha256": "6c6875a5f1903b890158c088818f0a9a957323a398ea0e3818831dcf32c619aa"
+    },
+    {
+      "file": "vendor/LICENSE.binjgb",
+      "exists": true,
+      "same": true,
+      "sha256": "5a7b61a51a5efb789721b3480b502f324094911aeca46937956c561b52638009"
+    },
+    {
+      "file": "vendor/LICENSE.gbstudio",
+      "exists": true,
+      "same": true,
+      "sha256": "4652a3317c46bfafb64c709b67bb12095f790e81a03ed0b58809a1b590331d86"
+    },
+    {
+      "file": "vendor/README.txt",
+      "exists": true,
+      "same": true,
+      "sha256": "91fe4810eba15913925721b4c2927cb693a95124d39db61bf328f0727f8a0de6"
+    },
+    {
+      "file": "vendor/binjgb.js",
+      "exists": true,
+      "same": true,
+      "sha256": "a68e5854b5d68339a34c0aa0b6dbeacd615ed316657ee17b63dafa5e00561b09"
+    },
+    {
+      "file": "vendor/binjgb.wasm",
+      "exists": true,
+      "same": true,
+      "sha256": "52c165069441a09180b4bd63464318aa7b861b1d36e0d05e8047b48619fd2f0b"
+    }
+  ],
+  "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+  "romUnchanged": true
+}

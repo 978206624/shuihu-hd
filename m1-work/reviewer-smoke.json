@@ -1,0 +1,92 @@
+{
+  "errors": [],
+  "title_original": {
+    "frames": 61,
+    "ticks": 244601488,
+    "pc": 668,
+    "paused": true,
+    "hd": false,
+    "held": [],
+    "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "renderer": {
+      "scene": "title",
+      "titleRedrawn": false,
+      "forestTilesRedrawn": 0,
+      "forestAtlasAvailable": true,
+      "fallback": "original",
+      "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+    },
+    "scroll": [
+      126,
+      0
+    ]
+  },
+  "title_hd": {
+    "frames": 61,
+    "ticks": 244601488,
+    "pc": 668,
+    "paused": true,
+    "hd": true,
+    "held": [],
+    "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "renderer": {
+      "scene": "title",
+      "titleRedrawn": true,
+      "forestTilesRedrawn": 0,
+      "forestAtlasAvailable": true,
+      "fallback": "WebGL Scale2x",
+      "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+    },
+    "scroll": [
+      126,
+      0
+    ]
+  },
+  "forest_original": {
+    "frames": 121,
+    "ticks": 2452683328,
+    "pc": 668,
+    "paused": true,
+    "hd": false,
+    "held": [],
+    "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "renderer": {
+      "scene": "unsupported",
+      "titleRedrawn": false,
+      "forestTilesRedrawn": 0,
+      "forestAtlasAvailable": true,
+      "fallback": "original",
+      "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+    },
+    "scroll": [
+      0,
+      0
+    ]
+  },
+  "forest_hd": {
+    "frames": 121,
+    "ticks": 2452683328,
+    "pc": 668,
+    "paused": true,
+    "hd": true,
+    "held": [],
+    "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+    "renderer": {
+      "scene": "forest-matched",
+      "titleRedrawn": false,
+      "forestTilesRedrawn": 348,
+      "forestAtlasAvailable": true,
+      "fallback": "WebGL Scale2x",
+      "matching": "exact RGB 8x8, SCX/SCY aligned; unmatched cells retained"
+    },
+    "scroll": [
+      0,
+      0
+    ]
+  },
+  "stateHashes": [
+    "7b9af32aec8da91bea58d0b03b855e5a86e498d89cfa659d62d8296e94398d57",
+    "7b9af32aec8da91bea58d0b03b855e5a86e498d89cfa659d62d8296e94398d57"
+  ],
+  "renderModeStateIdentical": true
+}

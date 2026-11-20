@@ -1,0 +1,30 @@
+FRESH codex exec, NOT a session resume. Do NOT resume any earlier session. Read context FROM FILES. Work only under m10-work/. You may READ m6-work/raw_maps.json, m8-work/art style PNGs, m8-work/runtime/assets/game.gbc, m9-work/scripts/prepare-art.py, m9-work/region4-scope.json, and official evidence. Do not modify m8-work/runtime/, m9-work/runtime/, m8-work/scripts/, m9-work/scripts/, frozen M8/M9 art/results, ROM bytes, or the binjgb core. If 38811 drops, STOP and report. No host sockets needed.
+
+TASK: Prepare Region 5 art inputs and write m10-work/region5-scope.json. Do NOT call any image-generation API and do NOT integrate a runtime.
+
+Official accepted evidence (already verified by the supervisor):
+- Start: m10-work/checkpoints/story14-inn-end.bin file SHA-256 f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0
+- Actions: m10-work/official-chain/official-region5-actions.json (1669 actions, 55206 frames)
+- Official browser replay: m10-work/play/m10-region5-official-evidence/ status COMPLETE, end frame 55206, map 00-2a, story 19, bank 4, mode 0, dialogue 0, cell (5,8), facing 1, party 02/17/24, DAA e6 52 06 38, D284=04 01
+- Native end checkpoint: m10-work/checkpoints/story19-00-2a-official.bin file SHA-256 c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1
+- Naturally entered maps in official order include revisits of 00-2c, 00-2b, 00-24, 00-21 and NEW maps 00-23, 00-0a, 00-0b, 00-2a. Fruit minigame is on 00-2b (mode 1); treat it as the same inn map unless the catalog/geometry proves a distinct background. Exclude battles, system menus, 00-2d, and anything after 00-2a row 4.
+
+Write and run m10-work/scripts/prepare-art.py, adapted from m9-work/scripts/prepare-art.py:
+- ROM from m8-work/runtime/assets/game.gbc (SHA-256 ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95)
+- Catalog m6-work/raw_maps.json
+- Copy style refs town_style.png, room_style.png, forest_style.png from m8-work/art into m10-work/art/
+- For EVERY naturally entered map, render character-free native PNG + 4x nearest PNG + a prompt if a new plate is required
+- Compare geometry SHA (and native size) of 00-21, 00-24, 00-2b, 00-2c to m9-work/region4-scope.json. If identical, REUSE the accepted M9 plates — do not invent new prompts/GPT outputs for them. Still document them in the scope with a clear reuse/m9 pointer.
+- NEW plates required: 00-23, 00-0a, 00-0b, 00-2a. Write layout/glyph notes from the native renders (glyph-faithful; invent no text; no characters). Suggested names you may refine from the native image: 00-23 黄泥岗东林, 00-0a 出岗小径, 00-0b 密林山道, 00-2a 石阶密林.
+- Output m10-work/art/batch-manifest.json only for maps that need NEW GPT plates (model gpt-image-2, quality medium, requested size rule same as M9: scale 4 if 4x area >= 655360 else 5).
+- Do not write *_gpt.png (supervisor will generate those through the GPT gateway after acceptance of natives/prompts).
+
+Write m10-work/region5-scope.json in the same schema as m9-work/region4-scope.json:
+- maps list includes both reused and new maps, with id, name, nativeSize, geometrySHA256, naturalReplay (point at official-evidence snapshots or end.bin), nameBasis, and a reuse note where applicable
+- identificationEvidence citing official start, official-region5-actions.json, official browser evidence, native end checkpoint, key story beats (story 16 capture, fruit 63, story 18/19, endpoint)
+- nextStoryGate: stop at settled 00-2a e0 (5,8) story 19, 52/06, D284=04 01, before row 4 item-04 use
+- exclusions: battles/menus, 00-2d / 伏魔扇, later chapters, 00-2a row 4
+- artStatus: PREPARED_NOT_GENERATED for new maps; reused M9 maps should be marked clearly
+- notAllConnectedWorldMaps as appropriate
+
+Short checkpoint in m10-work/progress.md. Do not clobber SUPERVISOR_STATUS.md beyond one factual line. No GPT art. No runtime integration.

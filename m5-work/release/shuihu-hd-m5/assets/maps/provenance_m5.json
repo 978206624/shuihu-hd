@@ -1,0 +1,22 @@
+{
+  "title_clear_hd.png": {
+    "source": "m4-work/art/title_clear_compact_hd.png",
+    "model": "gpt-image-2",
+    "gateway": "owner-authorized",
+    "status": "successful existing generation reused"
+  },
+  "maps/impact_late_hd.png": {
+    "source": "m5-work/art/impact_late_hd.png",
+    "model": "gpt-image-2",
+    "gateway": "owner-authorized",
+    "quality": "low",
+    "attempts": 1,
+    "elapsed_seconds": 62.8
+  },
+  "constraints": {
+    "native_sprites_redrawn": false,
+    "native_smoothing": false,
+    "ROM_core_changed": false
+  },
+  "transitions": "render-layer only; actual native event evidence and time unchanged"
+}

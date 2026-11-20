@@ -1,0 +1,1395 @@
+{
+  "source": "/workspace/shawu/m7-work/webplay/bai-talk.bin",
+  "actions": [
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ],
+    [
+      "B",
+      6,
+      160
+    ]
+  ],
+  "records": [
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 167,
+        "ticks": 6008143620,
+        "pc": 7012,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 333,
+        "ticks": 6019801316,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 499,
+        "ticks": 6031459000,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 665,
+        "ticks": 6043116648,
+        "pc": 7012,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 831,
+        "ticks": 6054774332,
+        "pc": 670,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3328,
+            "dialogueBorderCoveredPixels": 3328,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 997,
+        "ticks": 6066431980,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 1163,
+        "ticks": 6078089644,
+        "pc": 7012,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 10,
+      "meta": {
+        "frames": 1329,
+        "ticks": 6089747344,
+        "pc": 814,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 17085,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 17085,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 272,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 17085,
+            "unsupportedPixels": 17085,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 2144,
+            "dialogueBorderCoveredPixels": 2144,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 1495,
+        "ticks": 6101404972,
+        "pc": 7017,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 1661,
+        "ticks": 6113062560,
+        "pc": 7012,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 1827,
+        "ticks": 6124720200,
+        "pc": 7016,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 1993,
+        "ticks": 6136377864,
+        "pc": 7017,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3237,
+            "dialogueBorderCoveredPixels": 3237,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 2159,
+        "ticks": 6148035520,
+        "pc": 7012,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 2325,
+        "ticks": 6159693272,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 2491,
+        "ticks": 6171350840,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12477,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12477,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12477,
+            "unsupportedPixels": 12477,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3252,
+            "dialogueBorderCoveredPixels": 3252,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 2657,
+        "ticks": 6183008608,
+        "pc": 672,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22709,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22709,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22709,
+            "unsupportedPixels": 22709,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 2823,
+        "ticks": 6194666272,
+        "pc": 670,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22827,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22827,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22827,
+            "unsupportedPixels": 22827,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 6,
+      "dialogue": 1,
+      "bank": 8,
+      "meta": {
+        "frames": 2989,
+        "ticks": 6206323924,
+        "pc": 7008,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 12625,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 12625,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 200,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 12625,
+            "unsupportedPixels": 12625,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 64
+              }
+            ],
+            "dialogueBorderPixels": 3253,
+            "dialogueBorderCoveredPixels": 3253,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 7,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 3155,
+        "ticks": 6217981724,
+        "pc": 671,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22865,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22865,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22865,
+            "unsupportedPixels": 22865,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 7,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 3321,
+        "ticks": 6229639496,
+        "pc": 671,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22865,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22865,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22865,
+            "unsupportedPixels": 22865,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 7,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 3487,
+        "ticks": 6241297240,
+        "pc": 675,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22865,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22865,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22865,
+            "unsupportedPixels": 22865,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "story": 7,
+      "dialogue": 0,
+      "bank": 5,
+      "meta": {
+        "frames": 3653,
+        "ticks": 6252955016,
+        "pc": 672,
+        "paused": true,
+        "hd": true,
+        "held": [],
+        "romSHA256": "ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95",
+        "renderer": {
+          "coverage": {
+            "eligibleBackgroundPixels": 22865,
+            "gptBackgroundPixels": 0,
+            "uncoveredBackgroundPixels": 22865,
+            "observerValid": true,
+            "gap": true,
+            "dialogueFrameCovered": true
+          },
+          "scene": "unsupported",
+          "mapResult": {
+            "scene": "unsupported",
+            "matchedCells": 0,
+            "visibleCells": 360,
+            "preservedPixels": 23040,
+            "backgroundPixels": 0,
+            "eligiblePixels": 22865,
+            "unsupportedPixels": 22865,
+            "uncoveredTiles": [],
+            "rasterMismatchPixels": null,
+            "rasterRecoveredPixels": 0,
+            "uiTransition": null,
+            "dialogueRects": [],
+            "dialogueBorderPixels": 0,
+            "dialogueBorderCoveredPixels": 0,
+            "dialogueFrameCovered": true
+          },
+          "titleRedrawn": false,
+          "titleSelection": null,
+          "knownBackgroundCells": 0,
+          "forestTilesRedrawn": 0,
+          "forestAtlasAvailable": true,
+          "fallback": "nearest-original-gap",
+          "matching": "palette-independent decoded tile geometry; native CGB palettes; validated read-only VRAM/OAM; exact original gap pixels"
+        },
+        "scroll": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

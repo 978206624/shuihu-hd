@@ -1,0 +1,7 @@
+Phase 2 可测候选已准备，仍在 `/tmp/shawu-perf-fixed`，未接入 web、未打包发布。
+
+已优化 UI 回读/快照、扫描线调色、title/card 全幅写回、默认审计开销及 pacing；保留逐帧核心、观察和渲染。局部等价与时钟检查通过，ROM/core/启动器及素材校验不变。
+
+性能脚本已补齐六段，包含 title、card、正常走路；另有逐像素及 audit 开关对照脚本。候选实际收益、覆盖率和 p95 仍待外层验收。
+
+交接见 [PERF_PHASE2_DONE.txt](/workspace/shawu/m5-work/PERF_PHASE2_DONE.txt)，详细变更见[候选报告](/workspace/shawu/m5-work/perf-candidate/CHANGE_REPORT_zh.md)。
