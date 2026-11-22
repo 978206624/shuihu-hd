@@ -658,3 +658,18 @@
 - 2026-11-18T15:18:10-05:00 M9 outer m9-region4-20261118T161629954602087Z preview. Exit 0. Attempt /workspace/shawu/m9-work/results/m9-region4-20261118T161629954602087Z/attempts/preview-20261118T201712645100764Z-533594
 
 - 2026-11-18T15:20:14-05:00 Preview published EXIT 0: m9-work/region4_preview.webm 5687067 bytes, 71.2s, 7 excerpts, 640x576, no audio, sha 05d263c4.... Contact already published. Wrote m9-work/REPORT_region4_zh.md. Region 4 deliverables complete.
+
+Stage 2e 2026-11-21T08:56:35.277800+00:00 Prepared plan and started perf m9-region4-20261121T085635276998948Z. Resume from per-sample files in this directory.
+
+M9 run m9-region4-20261121T085635276998948Z checkpointed 97/276 validated samples.
+- 2026-11-21T19:42:56+08:00 Stage 2g resuming m9-region4-20261121T085635276998948Z at 177/276 under all three locks.
+- 2026-11-21T11:50:14.078879+00:00 m9-region4-20261121T085635276998948Z checkpoint 187/276, 89 remaining.
+- 2026-11-21T11:57:44.129836+00:00 m9-region4-20261121T085635276998948Z checkpoint 199/276, 77 remaining.
+- 2026-11-21T12:05:44.267113+00:00 m9-region4-20261121T085635276998948Z checkpoint 211/276, 65 remaining.
+- 2026-11-21T12:13:44.319510+00:00 m9-region4-20261121T085635276998948Z checkpoint 223/276, 53 remaining.
+- 2026-11-21T12:21:14.418691+00:00 m9-region4-20261121T085635276998948Z checkpoint 235/276, 41 remaining.
+- 2026-11-21T12:29:14.493664+00:00 m9-region4-20261121T085635276998948Z checkpoint 247/276, 29 remaining.
+- 2026-11-21T12:36:44.562212+00:00 m9-region4-20261121T085635276998948Z checkpoint 259/276, 17 remaining.
+- 2026-11-21T12:44:14.796854+00:00 m9-region4-20261121T085635276998948Z checkpoint 271/276, 5 remaining.
+
+- 2026-11-21T12:47:54.973132+00:00 m9-region4-20261121T085635276998948Z verified 276/276 and comparison published.

@@ -288,3 +288,45 @@ Outer resume EXIT_2: /workspace/shawu/m8-work/results/outer-20261118T062207Z; in
 - In-game native evidence PNG is byte-identical to the accepted run. All 35 endpointChecks native/actor/text hashes match accepted and cold-0017. startState and final action-34 state match history.
 - REQUEST_READY wrapper CHECK exited 1: `deepEqual(qa.routes, historical)` failed on 23 intermediate `endpointChecks.state` hashes and `startNativeSHA256`. This is cross-run absolute-hash instability, not a failed pairwise invariant (candidate still matched adopted v3 on every frame). Did not treat that as a correctness regression. Did not overwrite official `qa-check.json`. Notes in `supervisor-acceptance.json`.
 - In-game plaque crop written to `m8-work/art/00-06_glyphs_ingame_before_after.png` (native | HD v1 | HD v2). Did not overwrite frozen plate crop `m8-work/art/00-06_glyphs_before_after.png`. Live runtime plate remains v2 SHA `91125e14a469c162…`. No next-region work. Item 1 revert unchanged.
+
+2026-11-21T04:10:41.828260+00:00 Stage 2 blocked in M8 offline preflight before run allocation. Missing 97 frozen files and 9,334 required protected-history paths. No samples started. See /tmp/codex-stage2-report.md.
+
+## Freeze amendment — 8 art CLI logs removed (owner decision) — 2026-11-21 05:04 UTC
+- Owner confirmed the 8 GPT art generation CLI logs are unrecoverable (not in the repo, not on the desktop workspace). They were CLI stdout from the 2026-11-11 `gpt_image.py edit` runs; no sample or template exists, so the exact bytes cannot be reconstructed, and re-running generation would produce different images and break the frozen PNGs.
+- Owner decision (2026-11-21): remove the 8 log entries from the active `freeze-sha256.json` (329 → 321 entries) so M8 QA/perf can run. Pre-amendment manifest archived at `m8-work/offline/freeze-sha256-20261121T050407Z.json` (SHA-256 `bbae184e21cc075817b08dddc3862d79d7127e039b75c749b1a6c5dbb8d7e3c1`). Amended manifest SHA-256 `772bdf6e2bc046b97f5a1e382b582435161af76014f703d2af68b6b3259baeb3`. Removed entries and their recorded hashes:
+  - `m8-work/art/cli-generation/20261111T112050Z/00-00.log` ce054df8dcf230de757af45b3f4388c1f3e8f02f807450e73f8bfbe25dc10f05
+  - `m8-work/art/cli-generation/20261111T112050Z/00-01.log` a56664e47e3d96048dd42b21f61a7e5a69abff603bcfc393fb4f61aa2ee5d87d
+  - `m8-work/art/cli-generation/20261111T112050Z/00-02.log` 364043198fb6c042564f35c9a08b6d8247ed2b02a3d29663eb8a0afa58f2e2d7
+  - `m8-work/art/cli-generation/20261111T112050Z/00-03.log` 677aec1feddf14d74673978e6898c2b2d567769d7eba0ebcb8df2ed4825361e5
+  - `m8-work/art/cli-generation/20261111T112050Z/00-04.log` 3427a27f99d1863ca45259ffb2cc6c0d64ab2e5f46524fd194007278177b2931
+  - `m8-work/art/cli-generation/20261111T112050Z/00-05.log` c96af3e339c236ac697263ba2a49bafc844935deba1de1b067af4e6610881668
+  - `m8-work/art/cli-generation/20261111T112050Z/00-06.log` 2a935fc6521cac552765801a218f2fec329f04f529978d1cf47682d8d7dfdff8
+  - `m8-work/art/cli-generation/20261111T112050Z/00-09.log` 1f5b4270901025dd8deef0cdfcbd9968bb9eba46f0f1f5b1f2a6137527b68b06
+- What survives frozen: the 8 GPT PNGs, their `.png.meta.json` CLI metadata, `jobs.tsv`, `input-sha256.txt`, `output-sha256.txt`, `output-dimensions.txt`, and the supervisor visual review. No script reads the log contents; only `verifyFreeze()` checked their hashes.
+- Verification after amendment: hash audit 321/321 present and matching, `verifyFreeze()` passes, `offline-check.py` freeze portion clean (frozenFiles 321, runtimeChanges only `assets/region1/maps.json`, codeROMCoreUnchanged true, protectedChanged 0). The check still reports the 9,245 desktop-only protected-history paths as missing — that part is bypassed per the owner-approved plan (run `qa.cjs`/`perf.cjs` directly; their own `verifyFreeze()` gate still applies).
+- No other manifest entry was changed. The git diff of the amendment is exactly the 8 removed lines.
+Stage 2b /home/hatch/workspace/shawu/m8-work/results/outer-20261121T050659Z. Owner approved direct QA/perf because the wrapper additionally requires desktop-only protected history. Freeze 321/321, both exclusive locks held, live Tailscale CONNECT verified.
+
+2026-11-21T05:08:20.940178+00:00 outer-20261121T050659Z stopped on confirmed cold-0017 manifest pin conflict in check.cjs:32. Last QA checkpoint 600 frames. Partial evidence retained, zero perf samples. See /tmp/codex-stage2-report.md.
+
+Stage 2c /home/hatch/workspace/shawu/m8-work/results/outer-20261121T051507Z. M8 freeze 321/321 and verifyFreeze passed. M11 673/674, only historical M10 comparison missing. Direct QA and perf under both runner locks and SUPERVISOR_CONFIRMED_EXCLUSIVE=1 with Tailscale-forwarded gate. Owner approved bypassing run-outer.sh because its offline-check additionally requires 9,245 desktop protected-history files absent from the clone. Measurement freeze gates retained.
+
+# Stage 2c stopped before M8 QA completion
+
+Fresh M8 run `outer-20261121T051507Z`. Its last published QA progress was 31 actions and 2040 frames. QA did not pass or produce a completion marker. The partial run is preserved. M8 perf 0/144, M9 perf 0/276, M10 perf 0/252. No downstream RUN_IDs, fresh cold-0017 decision, or measured gate outcome. The approved cold method would compare fresh adopted and retained M8 samples, with original and candidate sharing the retained runtime.
+
+M8 matched 321/321 and verifyFreeze() passed. M11 matched 673/674 with only the historical M10 comparison missing. All three play evidence directories existed. Neither inventory changed. Direct M8 QA used both runner locks and the Tailscale-forwarded gate. The owner approved running QA and perf directly because run-outer.sh requires an additional 9,245 desktop-only protected-history files.
+
+The stock M9 prepare script cannot re-point the plan in the required symlinked environment. Its line 89 calls relative(Path(r["source"])) on the frozen perf routes. Its first input starts with /workspace/shawu/m8-work/inputs/05e9bb670eff6994-05e9bb670eff6994-00-12.bin. At line 40, Path.relative_to(ROOT) raises ValueError because ROOT resolves to /home/hatch/workspace/shawu. Reproduced directly with the unmodified function and frozen input. This happens before either approved path constant is consumed. No M9, M10 or M11 prepare was run and no plan was edited. To unblock, provide /workspace/shawu as the physical checkout path for prepare, or authorize resolving the input before relative_to.
+
+M9 also lacks m9-work/runtime/assets/game.gbc, required by prepare's runtime hash check. Its pinned SHA-256 exactly matches the verified local M8 ROM (ab42ec7ab339125dc685f4aa56eedfafaa2a8ecf46a4659e3c0f05eedd57ff95). Restore that existing inventory entry or authorize its restoration under the frozen runtime tree. No ROM was staged. No commit or push.
+
+Elapsed wall time 240 seconds through measurement shutdown.
+
+Stage 2d /workspace/shawu/m8-work/results/outer-20261121T052144Z. Direct QA and perf under both runner locks with verifyFreeze. The desktop audit in run-outer.sh needs 9,245 protected-history files outside the checkout.
+
+Stage 2e launched /workspace/shawu/m8-work/results/outer-20261121T055349Z under both exclusive locks. Using direct QA and perf with verifyFreeze because the desktop-only offline audit requires 9,245 protected-history files. M8 321/321 and M11 673/674 verified.
+QA passed /workspace/shawu/m8-work/results/outer-20261121T055349Z
+Perf verified 144 samples /workspace/shawu/m8-work/results/outer-20261121T055349Z
+
+Stage 2e 2026-11-21T08:56:33.064014+00:00 outer-cold-0017-20261121T085632Z used 12 fresh paired 00-17 samples. savedV3 uses adopted. original and candidate share measurements of the retained original M8 runtime after the fix was reverted. No savedM8 reference or historical certification. Gate False at 19 ms, cold means {'frame.max': 67.30000000043462, 'switchAggregate.frame.max': 67.30000000043462, 'firstSwitch.frame.max': 67.30000000043462}, native mismatches [].

@@ -15,7 +15,7 @@ START_SHA = "f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0"
 CHAIN = WORK / "official-chain"
 ACTIONS = CHAIN / "official-region5-actions.json"
 M9_PLAN = M9 / "integration/outer-plan.json"
-M9_PERF = M9 / "results/m9-region4-20261118T161629954602087Z/perf/comparison.json"
+M9_PERF = M9 / "results/m9-region4-20261121T085635276998948Z/perf/comparison.json"
 
 # Action numbers in the accepted one-based browser log.
 CONTACTS = {"00-2c": 344, "00-2b": 8, "00-24": 22, "00-21": 37,

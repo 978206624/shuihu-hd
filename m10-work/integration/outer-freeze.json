@@ -223,7 +223,7 @@
   "m10-work/art/REGION5_PLATE_SHEET.md": "0d86d140279237089eb9ef42d4755f252a8541a53445bb4cf9fb980706df8d2c",
   "m10-work/art/batch-manifest.json": "4cf2e17c4bc535cc60dd32cbf4f6e58dd0b0a97dd7fadf0065fada2d1f7a0a25",
   "m10-work/checkpoints/story14-inn-end.bin": "f389cebc3fc59a310571c66538d38808c32483c7632164f35d207f0738e8d6c0",
-  "m10-work/integration/outer-plan.json": "e5bbbb0d3f215362fc083f6f0215973ce4a9dfafc8551559d13cca9d9810e130",
+  "m10-work/integration/outer-plan.json": "4f1264be81802857015e8b98d9d73c02a151153537d160749ec436d2ee6e0536",
   "m10-work/integration/provenance.json": "d2cc1d2f40f643274b33cf1c303ed6187a8dfaea9a6e029a6f34d24f99c1fe10",
   "m10-work/official-chain/official-region5-actions.json": "3b9ce7b77c5da3777ba0b5584be4092c512d14cbcf18b23cb69cea4a10508ea0",
   "m10-work/official-chain/official-region5-replay/a-0072.bin": "dbcc1338c9320c3ee23fde35c7277798f5237cce0e0f13360fb5bbb1fc4315e2",
@@ -290,7 +290,7 @@
   "m10-work/scripts/coverage-attribution.cjs": "17857e99454fa19d3275ea82bbb8b00348b662a66ba8bf7ae31d1638cca7c75c",
   "m10-work/scripts/integrate.py": "73ce6edb5f496a6bac6b7f57c7c01c02167e3a62508988498e53792811c9badf",
   "m10-work/scripts/outer-common.cjs": "08622b63e7ca90d8df97287fadfb04295dfec493e51986be6368ea05da95c43d",
-  "m10-work/scripts/prepare-outer.py": "c604638e90131bd2f36cce89a42452c799897f127b497ea27ca9095fd2136965",
+  "m10-work/scripts/prepare-outer.py": "5f56cf31686598f1a6fb48685d6332dc3e5c7a412d04e0aa1fa27a257bb8f8cb",
   "m10-work/scripts/prepare_art_ref.py": "94118214ec120cf156b5fc501b45f92e2c297b54b60f402df4d552b718c4439c",
   "m10-work/scripts/region5-contact.py": "13ee43ede948d554fd960c6f22b4a3d15e9d1f9b800cb0a7032cf849e6d7a00b",
   "m10-work/scripts/region5-perf-summary.py": "14a70c5d16c5b66f13181497cfcad22ae3cde015a4170eb15677b4caf79c0c54",
@@ -319,7 +319,7 @@
   "m8-work/inputs/f3ae3180fa63ade2-f3ae3180fa63ade2-inner-to-00-19.bin": "f3ae3180fa63ade225f91a65cdef20cb296e97925df6001f94cb42215c8ead43",
   "m8-work/inputs/qa-routes.json": "ed05d20a05fc81ca67e66966d6c4faa03a9b5a5375f3b54618fc5bfbef5ff735",
   "m9-work/checkpoints/story12-meeting-end.bin": "2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2",
-  "m9-work/integration/outer-plan.json": "9bba2e9dd9df122cc7f15b9b41df84f5b2087d68f28ed9ca0ae0f8c49ac1fba3",
+  "m9-work/integration/outer-plan.json": "0315d9b323813581ebe5e4b01eeee1cd1a55326bf0732bedd97c6f3cda78f776",
   "m9-work/outer-runs/huangnigang-inn-actions.json": "35d2034ac65c67a420e9346c95c8ddfc192a88a8c12142bf358524079f04c06e",
   "m9-work/play/m9-huangnigang-official-evidence/action-0000.bin": "0a900eaa3dbce9ff36e886a1d84b54e7531e19561c220c18cb63b388e11eb02a",
   "m9-work/play/m9-huangnigang-official-evidence/action-0001.bin": "a8c636eb2ce718478a086178dce7e3f8ef64d929a94f56c99ff1d2a9eed75579",
@@ -589,5 +589,5 @@
   "m9-work/play/m9-huangnigang-official-evidence/planned-actions.json": "35d2034ac65c67a420e9346c95c8ddfc192a88a8c12142bf358524079f04c06e",
   "m9-work/play/m9-huangnigang-official-evidence/result.json": "53a96dbece41183bee973e1df7663942bca5b47078c7823468916a4ca158b255",
   "m9-work/play/m9-huangnigang-official-evidence/start.bin": "2a3551ad5082236ce2b3223323d6fff983a984a3839ff2e6fa2359c1321edea2",
-  "m9-work/results/m9-region4-20261118T161629954602087Z/perf/comparison.json": "c16eab29a6afabc13433d83404adf0179c5e90d55aa1a2f2fa046d06fc2e16f7"
+  "m9-work/results/m9-region4-20261121T085635276998948Z/perf/comparison.json": "5e0f47723c6aebff326409bd83e6b8d680fe765033dea32eadae33153763264a"
 }

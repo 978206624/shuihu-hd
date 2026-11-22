@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-21T02:01:13+08:00",
-  "runId": "m11-region6-20261120T155549527334400Z",
-  "phase": "watch-current-perf",
-  "note": "watching initial perf attempt",
+  "updated": "2026-11-22T21:01:18+08:00",
+  "runId": "m11-region6-20261122T033051767758133Z",
+  "phase": "blocked",
+  "note": "Preview failed with exit 1.",
   "resumesUsed": 0,
   "maxResumes": 14,
-  "runnerPid": 11061,
-  "runnerAttempt": "/workspace/shawu/m11-work/results/m11-region6-20261120T155549527334400Z/attempts/perf-20261120T175134166861711Z-11061",
-  "runnerAlive": true,
+  "runnerPid": 29181,
+  "runnerAttempt": "/workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/preview-20261122T125011076759782Z-29181",
+  "runnerAlive": false,
   "inventory": {
     "expected": 324,
-    "complete": 15,
-    "remaining": 309,
-    "reusedAtStart": 0
+    "complete": 324,
+    "remaining": 0,
+    "reusedAtStart": 248
   },
   "qaDone": true,
-  "perfDone": false,
-  "contactDone": false,
+  "perfDone": true,
+  "contactDone": true,
   "previewDone": false,
   "portStop": false
 }

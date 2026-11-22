@@ -15,7 +15,7 @@ START_SHA = "c41b4188203bc45d2d0c5eeb24f8b307040be0644ce861ffbcc6281d4060c8f1"
 ACTIONS = WORK / "official-chain/official-region6-actions.json"
 M10_PLAN = M10 / "integration/outer-plan.json"
 M10_FREEZE = M10 / "integration/outer-freeze.json"
-M10_PERF = M10 / "results/m10-region5-20261119T021341364667010Z/perf/comparison.json"
+M10_PERF = M10 / "results/m10-region5-20261121T124822102526040Z/perf/comparison.json"
 M10_HANDOVER = M10 / "official-chain/official-region5-replay/end.bin"
 FRAMES_PER_SAMPLE = 1792
 

@@ -44,3 +44,94 @@
 - 2026-11-21T01:51:34+08:00 M11 outer m11-region6-20261120T155549527334400Z perf. Preflight
 
 - 2026-11-21T02:01:14+08:00 M11 outer m11-region6-20261120T155549527334400Z perf. Exit 143. Attempt /workspace/shawu/m11-work/results/m11-region6-20261120T155549527334400Z/attempts/perf-20261120T175134166861711Z-11061
+
+- 2026-11-22T08:36:06+08:00 M11 outer prepare (direct supervisor run). M10_PERF re-pointed to the new M10 comparison; prepare exit 0; freeze 674/674.
+
+- 2026-11-22T11:30:51+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22T12:49:46+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22T12:49:46+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Exit 69. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/qa-20261122T044946728062154Z-2222
+
+- 2026-11-22T12:53:16+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Supervisor acknowledged prior listener stop and authorized this resume
+
+- 2026-11-22T12:53:50+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22 05:01 UTC QA replay has 0/36 completed routes, 41/3744 actions and 3490/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22 05:16 UTC QA replay has 0/36 completed routes, 231/3744 actions and 17348/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22 05:31 UTC QA replay has 0/36 completed routes, 421/3744 actions and 32584/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22 05:46 UTC QA replay has 0/36 completed routes, 521/3744 actions and 42116/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22 06:01 UTC QA replay has 0/36 completed routes, 621/3744 actions and 52746/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22 06:16 UTC QA replay has 1/36 completed routes, 758/3744 actions and 64421/217044 frames. Run m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22T14:18:34+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22T14:18:36+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Exit 1. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/qa-20261122T061834119109290Z-2088
+
+- 2026-11-22T14:19:07+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22T16:17:06+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Preflight
+
+- 2026-11-22T17:02:45+08:00 M11 outer m11-region6-20261122T033051767758133Z qa. Exit 0. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/qa-20261122T081705995277315Z-2132
+
+- 2026-11-22T17:02:45+08:00 M11 outer m11-region6-20261122T033051767758133Z perf. Preflight
+
+- 2026-11-22T17:56:48+08:00 M11 outer m11-region6-20261122T033051767758133Z perf. Preflight
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:03:21+00:00 perf 84/324, 240 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:11:21+00:00 perf 96/324, 228 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:19:21+00:00 perf 108/324, 216 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:27:21+00:00 perf 120/324, 204 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:35:51+00:00 perf 132/324, 192 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:43:52+00:00 perf 144/324, 180 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T10:52:22+00:00 perf 156/324, 168 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:00:22+00:00 perf 168/324, 156 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:08:52+00:00 perf 180/324, 144 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:16:52+00:00 perf 192/324, 132 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:24:52+00:00 perf 204/324, 120 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:32:53+00:00 perf 216/324, 108 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:41:23+00:00 perf 228/324, 96 remaining.
+
+- m11-region6-20261122T033051767758133Z 2026-11-22T11:49:53+00:00 perf 240/324, 84 remaining.
+
+- 2026-11-22 19:56 CST — Resume 6 verified QA 36/36, freeze 674/674 and perf inventory 248/324 in m11-region6-20261122T033051767758133Z.
+
+- 2026-11-22T19:57:23+08:00 M11 outer m11-region6-20261122T033051767758133Z perf. Preflight
+
+- 2026-11-22T19:58:10+08:00 M11 outer m11-region6-20261122T033051767758133Z perf. Preflight
+
+- 2026-11-22T20:19:16+08:00 — Resume 6 perf checkpoint 278/324; same run, QA complete.
+
+- 2026-11-22T20:50:04+08:00 M11 outer m11-region6-20261122T033051767758133Z perf. Exit 0. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/perf-20261122T115810966689773Z-2443
+
+- 2026-11-22T20:50:05+08:00 M11 outer m11-region6-20261122T033051767758133Z contact. Preflight
+
+- 2026-11-22T20:50:09+08:00 M11 outer m11-region6-20261122T033051767758133Z contact. Exit 0. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/contact-20261122T125005414800600Z-28839
+
+- 2026-11-22T20:50:11+08:00 M11 outer m11-region6-20261122T033051767758133Z preview. Preflight
+
+- 2026-11-22T21:01:13+08:00 M11 outer m11-region6-20261122T033051767758133Z preview. Exit 1. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/preview-20261122T125011076759782Z-29181
+
+- 2026-11-22 21:02 CST — Resume 6 finished perf (324/324, 54 comparisons, 0 native mismatches) and published the 11-pair contact sheet. Preview exited 1 at the Row-4 marker assertion. Verified raw SHA-256; first detected marker lasted 0.280 s for 7.9431 s of playback. Capture and marker log retained; final publication and Chinese report pending.
+
+- 2026-11-22T21:06:35+08:00 M11 outer m11-region6-20261122T033051767758133Z preview. Preflight
+
+- 2026-11-22T21:20:03+08:00 M11 outer m11-region6-20261122T033051767758133Z preview. Exit 0. Attempt /workspace/shawu/m11-work/results/m11-region6-20261122T033051767758133Z/attempts/preview-20261122T130635734645272Z-34746
+- 2026-11-22T21:24:22+08:00 M11 resume 7 verified preview publication and completed m11-work/REPORT_region6_zh.md. Seven segments, 8146186 bytes, frame 63131, 00-2e, story 22.
